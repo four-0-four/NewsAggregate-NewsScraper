@@ -37,7 +37,7 @@ async def get_news_given_url_and_save(conn_params, url, corporationId):
     reponse = None
     count = 0
     while True:
-        response = api.news_api(page = page, domainurl=url, timeframe=12)
+        response = api.news_api(page = page, domainurl=url, timeframe=8)
         
         if response.get('status') != 'success':
             print("Failed to fetch news: ", response.get('message'))
