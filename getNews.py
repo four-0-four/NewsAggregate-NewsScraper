@@ -37,7 +37,7 @@ async def get_news_given_url_and_save(conn_params, url, corporationId):
     reponse = None
     count = 0
     while True:
-        response = api.news_api(page = page, domainurl=url, timeframe=12)
+        response = api.news_api(page = page, domainurl=url, timeframe=8)
         
         if response.get('status') != 'success':
             print("Failed to fetch news: ", response.get('message'))
@@ -75,6 +75,12 @@ if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     environment = os.getenv("ENV","stage")
     if environment == "stage" or environment == "dev":
+        print("############################################")
+        print("Running in stage environment")
+        print("############################################")
         loop.run_until_complete(news_for_all_urls(conn_params_stage))
     else:
+        print("############################################")
+        print("Running in production environment")
+        print("############################################")
         loop.run_until_complete(news_for_all_urls(conn_params_production))
