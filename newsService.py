@@ -41,24 +41,29 @@ async def add_news_to_database(conn_params, corporationId, title, description, c
         print(f"Failed to insert news, {title}")
         return "Failed to insert news"
     
+    
     # Insert news affiliate with try-except block
     try:
         await insert_news_affiliate(conn_params, news_entry.get('id'), corporationId, url)
     except Exception as e:
         print(f"Failed to insert affiliate: {e}, {title}")
     
-    # Insert media with try-except block
-    try:
-        inserted_media = await insert_media(conn_params, image_url)
-    except Exception as e:
-        print(f"Failed to insert media: {e}")
     
-    
-    # Insert news media with try-except block
-    try:
-        await insert_news_media(conn_params, news_entry.get('id'), inserted_media.get('id'))
-    except Exception as e:
-        print(f"Failed to insert news media: {e}, {title}")
+    # some news may not have images at all
+    if(image_url):
+        try:
+            inserted_media = await insert_media(conn_params, image_url)
+        except Exception as e:
+            print(f"Failed to insert media: {e}")
+        
+        
+        # Insert news media with try-except block
+        try:
+            await insert_news_media(conn_params, news_entry.get('id'), inserted_media.get('id'))
+        except Exception as e:
+            print(f"Failed to insert news media: {e}, {title}")
+    else:
+        print(f"NOTE: No image for {title}")
     
     
     # Insert news category with try-except block
@@ -66,4 +71,5 @@ async def add_news_to_database(conn_params, corporationId, title, description, c
         await insert_news_category(conn_params, news_entry.get('id'), category)
     except Exception as e:
         print(f"Failed to insert news category: {e}, {title}") 
+    
             
