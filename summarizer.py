@@ -45,7 +45,7 @@ async def summarize_news_claude(title, content):
 
 async def short_summarize_news_claude(title, content):
     message = claude_client.messages.create(
-        model="claude-2.1",
+        model="claude-3-sonnet-20240229",
         max_tokens=1000,
         temperature=0,
         system="summarize the news article",
