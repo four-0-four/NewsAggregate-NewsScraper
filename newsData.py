@@ -21,11 +21,11 @@ async def get_news_source_urls(conn_params) -> Optional[dict]:
                 return await cur.fetchall()
 
 
-async def insert_news(conn_params, title: str, content: str, shortSummary: str, longSummary: str,  publishedDate: datetime) -> None:
+async def insert_news(conn_params, title: str, content: str, longSummary: str,  publishedDate: datetime) -> None:
     # Default values for language_id, isInternal, and isPublished are set directly in the SQL query
     insert_query = """
-    INSERT INTO news (title, content, shortSummary, longSummary, publishedDate, language_id, isInternal, ProcessedForIdentity, summarized, updatedAt)
-    VALUES (%s, %s, %s, %s, %s, 16, 0, 1, 1, null);
+    INSERT INTO news (title, content, longSummary, publishedDate, language_id, isInternal, ProcessedForIdentity, summarized, updatedAt)
+    VALUES (%s, %s, %s, %s, 16, 0, 1, 1, null);
     """
     if(not publishedDate):
         print(f"ERROR: published date is null. not adding the news. title is: {title}, published date is: {publishedDate}")
@@ -36,7 +36,7 @@ async def insert_news(conn_params, title: str, content: str, shortSummary: str, 
             async with aiomysql.create_pool(**conn_params) as pool:
                 async with pool.acquire() as conn:
                     async with conn.cursor(aiomysql.DictCursor) as cur:
-                        await cur.execute(insert_query, (title, content, shortSummary, longSummary, publishedDate))
+                        await cur.execute(insert_query, (title, content, longSummary, publishedDate))
                         await conn.commit()
                         inserted_id = cur.lastrowid  # Get the ID of the last inserted row
 
