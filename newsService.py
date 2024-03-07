@@ -16,14 +16,14 @@ async def categorize_news(text):
                 return {"error": "Failed to categorize news"}
             
             
-async def add_news_to_database(conn_params, corporationId, title, description, content, pubDate, url,image_url):
+async def add_news_to_database(conn_params, corporationId, title, content, shortSummary, longSummary, pubDate, url,image_url):
 
     if await check_news_title_exists(conn_params, title):
         print(f"news already exists in the database, {title}")
         news_entry = await fetch_news_by_title(conn_params, title)
     else:
         try:
-            news_entry = await insert_news(conn_params, title, description, content, pubDate)
+            news_entry = await insert_news(conn_params, title, content, shortSummary, longSummary, pubDate)
         except Exception as e:
             print(f"Failed to insert news to database: {e}, {title}")
             return "Failed to insert news"

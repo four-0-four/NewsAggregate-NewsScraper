@@ -4,6 +4,7 @@ import asyncio
 from newsData import get_news_source_urls, insert_news_affiliate
 from newsService import add_news_to_database
 from newsdataapi import NewsDataApiClient
+from summarizer import summarize_news_claude, short_summarize_news_claude
 from dotenv import load_dotenv
 import os
 
@@ -42,11 +43,16 @@ async def get_news_given_url_and_save(conn_params, url, corporationId):
         if response.get('status') != 'success':
             print("Failed to fetch news: ", response.get('message'))
             break
+        
         # Save the news data to the database
         for news in response.get('results'):
             count += 1
             try:
-                await add_news_to_database(conn_params, corporationId, news.get('title'), news.get('description'), news.get('content'), news.get('pubDate'), news.get('link'), news.get('image_url'))
+                #summarize the news 
+                shortSummary = await short_summarize_news_claude(news.get('title'), news.get('content'))
+                longSummary = await summarize_news_claude(news.get('title'), news.get('content'))
+                
+                await add_news_to_database(conn_params, corporationId, news.get('title'), news.get('content'), shortSummary, longSummary, news.get('pubDate'), news.get('link'), news.get('image_url'))
             except Exception as e:
                 print(f"Failed to save news: {e}, {news.get('title')}")
         
