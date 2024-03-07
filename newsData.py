@@ -24,8 +24,8 @@ async def get_news_source_urls(conn_params) -> Optional[dict]:
 async def insert_news(conn_params, title: str, content: str, shortSummary: str, longSummary: str,  publishedDate: datetime) -> None:
     # Default values for language_id, isInternal, and isPublished are set directly in the SQL query
     insert_query = """
-    INSERT INTO news (title, content, shortSummary, longSummary, publishedDate, language_id, isInternal, ProcessedForIdentity, updatedAt)
-    VALUES (%s, %s, %s, %s, %s, 16, 0, 1, null);
+    INSERT INTO news (title, content, shortSummary, longSummary, publishedDate, language_id, isInternal, ProcessedForIdentity, summarized, updatedAt)
+    VALUES (%s, %s, %s, %s, %s, 16, 0, 1, 1, null);
     """
     if(not publishedDate):
         print(f"ERROR: published date is null. not adding the news. title is: {title}, published date is: {publishedDate}")
