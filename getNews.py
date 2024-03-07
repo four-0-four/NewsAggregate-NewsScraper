@@ -48,11 +48,7 @@ async def get_news_given_url_and_save(conn_params, url, corporationId):
         for news in response.get('results'):
             count += 1
             try:
-                #summarize the news 
-                shortSummary = await short_summarize_news_claude(news.get('title'), news.get('content'))
-                longSummary = await summarize_news_claude(news.get('title'), news.get('content'))
-                
-                await add_news_to_database(conn_params, corporationId, news.get('title'), news.get('content'), shortSummary, longSummary, news.get('pubDate'), news.get('link'), news.get('image_url'))
+                await add_news_to_database(conn_params, corporationId, news.get('title'), news.get('content'), news.get('pubDate'), news.get('link'), news.get('image_url'))
             except Exception as e:
                 print(f"Failed to save news: {e}, {news.get('title')}")
         

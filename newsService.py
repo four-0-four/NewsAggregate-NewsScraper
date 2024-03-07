@@ -1,7 +1,9 @@
 # Import necessary modules
 from newsData import fetch_news_by_title, insert_news_affiliate, insert_news_category
 from newsData import insert_media, insert_news, check_news_title_exists, insert_news_media
-import aiohttp  # Import aiohttp for making async HTTP requests
+import aiohttp
+
+from summarizer import summarize_news_claude  # Import aiohttp for making async HTTP requests
 
 # New function to make an API call to categorize news
 async def categorize_news(text):
@@ -16,14 +18,17 @@ async def categorize_news(text):
                 return {"error": "Failed to categorize news"}
             
             
-async def add_news_to_database(conn_params, corporationId, title, content, shortSummary, longSummary, pubDate, url,image_url):
+async def add_news_to_database(conn_params, corporationId, title, content, pubDate, url,image_url):
 
     if await check_news_title_exists(conn_params, title):
         print(f"news already exists in the database, {title}")
         news_entry = await fetch_news_by_title(conn_params, title)
     else:
         try:
-            news_entry = await insert_news(conn_params, title, content, shortSummary, longSummary, pubDate)
+            #summarize the news 
+            #shortSummary = await short_summarize_news_claude(news.get('title'), news.get('content'))
+            longSummary = await summarize_news_claude(title, content)
+            news_entry = await insert_news(conn_params, title, content, longSummary, pubDate)
         except Exception as e:
             print(f"Failed to insert news to database: {e}, {title}")
             return "Failed to insert news"
