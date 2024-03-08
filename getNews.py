@@ -28,6 +28,31 @@ conn_params_production = {
     "db": os.getenv("DATABASE_NAME_PRODUCTION", "newsdb"),
 }
 
+async def get_news_for_one_corporation_from_newsdataio(url):
+    # API key authorization, Initialize the client with your API key
+    api = NewsDataApiClient(apikey="pub_38741469a1fcf444f2b92bb3d3d178a0951e8")
+    print("about to get news")
+
+    page=None
+    reponse = None
+    count = 0
+    while True:
+        response = api.news_api(page = page, domainurl=url, timeframe=8)
+        
+        if response.get('status') != 'success':
+            print("Failed to fetch news: ", response.get('message'))
+            break
+        
+        # Save the news data to the database
+        for news in response.get('results'):
+            count += 1
+            print(news.get('title'))
+        
+        page = response.get('nextPage',None)
+        if not page:    
+            break
+    print(f"**********Saved {count} news articles from {url}")
+
 # Define an async main function to call get_news_sources
 async def get_news_given_url_and_save(conn_params, url, corporationId):
     # API key authorization, Initialize the client with your API key
@@ -75,6 +100,8 @@ async def news_for_all_urls(conn_params):
 # Run the main function using asyncio.run() if your Python version is 3.7+
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
+    #loop.run_until_complete(get_news_for_one_corporation_from_newsdataio("newshub.co.nz"))
+    
     environment = os.getenv("ENV","stage")
     if environment == "stage" or environment == "dev":
         print("############################################")
