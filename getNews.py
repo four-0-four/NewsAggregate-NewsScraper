@@ -100,8 +100,8 @@ async def news_for_all_urls(conn_params):
 # Run the main function using asyncio.run() if your Python version is 3.7+
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(get_news_for_one_corporation_from_newsdataio("newshub.co.nz"))
-    '''
+    #loop.run_until_complete(get_news_for_one_corporation_from_newsdataio("newshub.co.nz"))
+    
     environment = os.getenv("ENV","stage")
     if environment == "stage" or environment == "dev":
         print("############################################")
@@ -113,4 +113,3 @@ if __name__ == "__main__":
         print("Running in production environment")
         print("############################################")
         loop.run_until_complete(news_for_all_urls(conn_params_production))
-    '''
