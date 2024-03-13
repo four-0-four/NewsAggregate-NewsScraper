@@ -1,43 +1,31 @@
 # Import necessary modules
+from Categorizer import predict_category
 from newsData import fetch_news_by_title, insert_news_affiliate, insert_news_category
 from newsData import insert_media, insert_news, check_news_title_exists, insert_news_media
 import aiohttp
 
-from summarizer import summarize_news_claude  # Import aiohttp for making async HTTP requests
-
-# New function to make an API call to categorize news
-async def categorize_news(text):
-    url = "http://159.223.199.115:8000/categorize"
-    body = {"text": text}
-    async with aiohttp.ClientSession() as session:
-        async with session.post(url, json=body) as response:
-            if response.status == 200:
-                response_data = await response.json()
-                return response_data
-            else:
-                return {"error": "Failed to categorize news"}
+from stablediffusion import get_news_summary
             
             
-async def add_news_to_database(conn_params, corporationId, title, content, pubDate, url,image_url):
+async def add_news_to_database(conn_params, corporationId, title, content, pubDate, url,image_url, nlp):
 
     if await check_news_title_exists(conn_params, title):
         print(f"news already exists in the database, {title}")
         news_entry = await fetch_news_by_title(conn_params, title)
     else:
         try:
-            #summarize the news 
-            #shortSummary = await short_summarize_news_claude(news.get('title'), news.get('content'))
-            longSummary = await summarize_news_claude(title, content)
+            longSummary = await get_news_summary(title, content)
             news_entry = await insert_news(conn_params, title, content, longSummary, pubDate)
         except Exception as e:
             print(f"Failed to insert news to database: {e}, {title}")
             return "Failed to insert news"
         
 
-    category_response = await categorize_news(title+" . "+content)
     
+    category = -1
     try:
-        category = category_response["predicted_category"].replace("label_", "")
+        category_response = await predict_category(nlp, title+" . "+content)
+        category = int(category_response)
     except ValueError:
             # Handle the error (e.g., log it, return an error message, etc.)
             print("Failed to get and convert category")
@@ -76,5 +64,4 @@ async def add_news_to_database(conn_params, corporationId, title, content, pubDa
         await insert_news_category(conn_params, news_entry.get('id'), category)
     except Exception as e:
         print(f"Failed to insert news category: {e}, {title}") 
-    
             
