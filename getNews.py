@@ -1,4 +1,5 @@
 import asyncio
+import datetime
 from logging import exception
 
 # Now, import your modules after adding their directories to sys.path
@@ -91,7 +92,7 @@ async def get_news_for_one_corporation_from_newsdataio(url, nlp):
     print(f"**********Saved {count} news articles from {url}")
 
 # Define an async main function to call get_news_sources
-async def get_news_given_url_and_save(conn_params, url, corporationId, nlp):
+async def get_news_given_url_and_save(conn_params, url, corporationId, nlp, logging=False):
     # API key authorization, Initialize the client with your API key
     api = NewsDataApiClient(apikey="pub_38741469a1fcf444f2b92bb3d3d178a0951e8")
     print("about to get news")
@@ -110,17 +111,24 @@ async def get_news_given_url_and_save(conn_params, url, corporationId, nlp):
         for news in response.get('results'):
             count += 1
             try:
-                await add_news_to_database(conn_params, corporationId, news.get('title'), news.get('content'), news.get('pubDate'), news.get('link'), news.get('image_url'), nlp)
+                if logging:
+                    start_time = datetime.datetime.now()  # Start timing
+                await add_news_to_database(conn_params, corporationId, news.get('title'), news.get('content'), news.get('pubDate'), news.get('link'), news.get('image_url'), nlp, logging)
+                if logging:
+                    end_time = datetime.datetime.now()  # End timing
+                    duration = end_time - start_time
+                    print(f"Time taken to save news: {duration}")
             except Exception as e:
                 print(f"Failed to save news: {e}, {news.get('title')}")
         
         page = response.get('nextPage',None)
         if not page:    
             break
-    print(f"**********Saved {count} news articles from {url}")
+    if logging:
+        print(f"**********Saved {count} news articles from {url}")
 
 
-async def news_for_all_urls(conn_params,nlp):
+async def news_for_all_urls(conn_params,nlp, logging=False):
     corporationUrls = await get_news_source_urls(conn_params)
 
     for corporationUrl in corporationUrls:
@@ -130,7 +138,7 @@ async def news_for_all_urls(conn_params,nlp):
         clean_url = corporationUrl["url"].replace("https://www.", "")
         corporationId = corporationUrl["CorporationID"]
         try:
-            await get_news_given_url_and_save(conn_params, clean_url, corporationId, nlp)
+            await get_news_given_url_and_save(conn_params, clean_url, corporationId, nlp, logging)
         except Exception as e:
             print(f"Failed to get news for {clean_url}: {e}")
 
@@ -147,11 +155,11 @@ if __name__ == "__main__":
         print("############################################")
         print("Running in stage environment")
         print("############################################")
-        loop.run_until_complete(news_for_all_urls(conn_params_stage,nlp))
+        loop.run_until_complete(news_for_all_urls(conn_params_stage,nlp, True))
     else:
         print("############################################")
         print("Running in production environment")
         print("############################################")
-        loop.run_until_complete(news_for_all_urls(conn_params_production,nlp))
+        loop.run_until_complete(news_for_all_urls(conn_params_production,nlp, True))
 
     
