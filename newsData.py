@@ -1,5 +1,6 @@
 import asyncio
 from datetime import datetime, timedelta
+import os
 from typing import List, Optional
 import aiomysql
 
@@ -14,10 +15,12 @@ async def get_news_sources(conn_params) -> Optional[dict]:
             
 
 async def get_news_source_urls(conn_params) -> Optional[dict]:
+    POD = os.getenv("POD", 3)
+    print(f"POD is {POD}")
     async with aiomysql.create_pool(**conn_params) as pool:
         async with pool.acquire() as conn:
             async with conn.cursor(aiomysql.DictCursor) as cur:
-                await cur.execute("SELECT * FROM newsCorporationsURLs")
+                await cur.execute("SELECT * FROM newsCorporationsURLs where `api-newsdata.io-pod` = %s", (POD,))
                 return await cur.fetchall()
 
 
@@ -261,5 +264,16 @@ async def check_news_category_exists(conn_params, news_id: int, category_id: int
         async with pool.acquire() as conn:
             async with conn.cursor() as cur:
                 await cur.execute(query, (news_id, category_id))
+                result = await cur.fetchone()
+                return result[0] > 0
+            
+            
+async def does_news_has_already_category(conn_params, news_id: int) -> bool:
+    query = "SELECT COUNT(*) FROM newsCategories WHERE news_id = %s;"
+
+    async with aiomysql.create_pool(**conn_params) as pool:
+        async with pool.acquire() as conn:
+            async with conn.cursor() as cur:
+                await cur.execute(query, (news_id,))
                 result = await cur.fetchone()
                 return result[0] > 0
