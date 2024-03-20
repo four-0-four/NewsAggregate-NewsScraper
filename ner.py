@@ -1,54 +1,99 @@
-import asyncio
-import requests
+import spacy
+from spacy.pipeline import EntityRuler
+from collections import Counter
+from nerd import nerd_client
+from collections import Counter
+import io
+import sys
+import re
+from wikidata.client import Client
 
-news = "Toronto FC\u2019s home-opening 1-0 win Saturday over Charlotte FC was filled with milestones for captain Jonathan Osorio. The game marked Osorio\u2019s 300th in MLS regular-season and playoff action. And it came 11 years to the day from his debut for his hometown club, replacing Terry Dunfield \u2014 now a TFC assistant coach under John Herdman \u2014 in the 82nd minute of a 2-1 win over Sporting Kansas City at Rogers Centre. Osorio was not dwelling on the past, however. \u201cI was in the moment,\u201d he said when asked about the milestones, which he said he didn\u2019t know until he was apprised of them after the game. \u201cThat\u2019s all great, but honestly all that I really care about is that we won our home opener and we keep in a good way,\u201d he added. Story continues below advertisement The Charlotte win, TFC\u2019s third straight clean sheet, moved Toronto (2-0-1, seven points) into sixth place overall in Major League Soccer. Quite the turnaround for the league\u2019s worst team last season (4-20-10, 22 points). Osorio comes from a city replete with sporting leadership. Leafs captains include the likes of Hap Day, Syl Apps, Ted (Teeder) Kennedy, George Armstrong, Dave Keon, Darryl Sittler, Rick Vaive, Wendel Clark, Doug Gilmour, Mats Sundin and John Tavares, TFC\u2019s captains\u2019 tree is far shorter: Jim Brennan, Dwayne De Rosario, Maicon Santos, Torsten Frings, Darren O\u2019Dea, Steven Caldwell and Michel Bradley. More on Sports Blue Jays roll to spring training win over Philly Votto agrees to non-roster invite with Jays Lukes\u2019 two-run triple leads Blue Jays over Yankees Blue Jays top Tigers 5-4 in pre-season action But Herdman, who coached Osorio with Canada, says the midfielder was key to his decision to leaving the national team to take over TFC on Oct. 1. The email you need for the day's top news stories from Canada and around the world. \u201cI\u2019ve worked with (Christine) Sinclair, I\u2019ve worked with Atiba Hutchinson. Just some great people, some great humans. And they\u2019re right in the core of your leadership group,\u201d Herdman said. \u201cAnd if you\u2019ve got a player with that character, that high-level character, like highest-standard character, you want to work with these people. \u201cSo for me, the conversation coming to TFC (was) \u201dAre you going to be there? Are you committed? Will you wear the armband? Are you committed to taking this club back \u2014 and beyond where it was at?\u2019 And he was.\u201d Herdman calls his captain, known simply as Oso, \u201cthe hardest-working player on the team.\u201d Story continues below advertisement \u201cYou see his quality as well. He\u2019s going to do all that selfless running. But he can bring the quality in those moments as well.\u201d Herdman also approvingly repeated Osorio\u2019s words Saturday. \u201cWhat he said at the end of this (game) sort of summarizes him \u2014 \u2018It\u2019s just another step, guys. Just one more step to bringing this club to where it needs to be.'\u201d \u201cAnd that\u2019s his mentality,\u201d Herdman added. \u201cHe\u2019s always on. Next step, next step, next step. He\u2019s never thinking about the last step and he\u2019s never willing to stand and wait to be pushed. He\u2019s pushing everyone.\u201d Today, Osorio leads the club in appearances at 344 in all competitions, ranks third in goals at 62 (behind Sebastian Giovinco\u2019s 83 and Jozy Altidore\u2019s 79) and second in assists at 50 (behind Giovinco\u2019s 52). Trending Now Kate Middleton appears in first photo since surgery amid wild speculation of whereabouts The rock star who defected to North Korea \u2014 and now regrets it Credit former coach Ryan Nelsen for identifying Osorio as a player to watch early in camp prior to the 2013 season and then gave him his chance to show it. \u201cNothing fazes him. Not even bad moments in games,\u201d Nelsen said in August 2013. \u201cHe always tries to do things positively. Instead of going into his shell, he tries to keep doing stuff. And I love that because the game and life in general rewards those people.\u201d Story continues below advertisement Osorio took the long road to his hometown club, spending two years as a teenager \u2014 along with longtime friend and fellow Canadian international Lucas Cavallini \u2014 at Club Nacional in Montevideo, Uruguay. He played in the under-19 ranks and reserves before coming home at the end of 2011. While both he and Cavallini spoke the language \u2014 Osorio\u2019s parents were born in Colombia while Cavallini\u2019s father is originally from Argentina \u2014 they were not welcome at first. They lived in dormitory-style accommodations with Uruguayan juniors initially seeing them as foreign intruders looking to take their jobs. \u201cIt was so crucial to me becoming the person and the player that I am now. I owe Uruguay so much, I\u2019ll never forget my time there,\u201d Osorio said in a 2022 interview. He joined TFC\u2019s academy in September 2012 after impressing in the Canadian Soccer League. In February 2013 he was at Toronto\u2019s camp in Florida and was included in Nelsen\u2019s first starting 11. He has never left, signing his existing contract in December 2022, a three-year deal with a club option for 2026. His salary of US$1.4 million last season ranked him third on the club behind Italians Lorenzo Insigne (US$15.4 million) and Federico Bernardeschi (US$6.295 million). Fluent in Spanish, Osorio is equally adept at connecting off the pitch as he is on it. Advertisement"
-
-
-api = "7rTSZ5vBbK16GjuSbWMmQhmvYaw5NJQmCpNzPpac52FumYbjbJw0hc2rMD0G"
-url = "https://modelslab.com/api/v5/uncensored_chat"
-
-async def get_news_summary(title,content):
-    news = title + " - " + content
-    headers = {"Content-Type": "application/json"}
-    data = {
-        "key": api,
-        "messages": [
-            {
-                "role": "user",
-                "content": """summarize the news below. at most 300 words and break into paragraphs if necessary. 
-                make sure the summary is understandable, contains most of the details and has a good flow <NEWS>"""+news+"""</NEWS>"""
-            }
-        ],
-        "max_tokens": 1000
-    }
-
-    response = requests.post(url, json=data, headers=headers)
-    data = response.json()
-    if response.status_code == 200 and data["status"] == "success":
-        return data["message"]
-    return None
-
-
-async def get_news_ner(text):
-    news = text
-    headers = {"Content-Type": "application/json"}
-    data = {
-        "key": api,
-        "messages": [
-            {
-                "role": "user",
-                "content": """"Extract all key entities from the following news article, focusing on people, organizations, events, and any other notable entities. Provide the full names of these entities for clarity. please provide the category of each entity in one or two words for better classification. please provide the answer in this format for each entity: [entity - category]. no explanation is required. put each entity in its row. Here's the news article for analysis:  <NEWS>"""+news+"""</NEWS>"""
-            }
-        ],
-        "max_tokens": 1000
-    }
-
-    response = requests.post(url, json=data, headers=headers)
-    data = response.json()
-    if response.status_code == 200 and data["status"] == "success":
-        return data["message"]
-    return None
 
 text = "Dan Brown\u2019s \u201cThe Da Vinci Code\u201d came out just after I finished my PhD. As a post-doctoral fellow teaching courses in San Diego on the Bible and early Judaism and Christianity, I was invited to give a public lecture discussing the book from a historian\u2019s perspective. I had been giving public lectures for a few years \u2014 graduate students are known to jump at the opportunity to share their knowledge for pennies \u2014 and I was experienced enough to know how to navigate the religious sensibilities of audience members and anticipate certain types of questions. But when I launched into a discussion of what I thought was wrong with Brown\u2019s sensationalist positioning of his fictional account as authentic history, I was utterly unprepared for the backlash and heckling I got from several members of the audience. How did I know that his claims about Jesus, Mary, da Vinci and the Templars weren\u2019t true? Maybe, they said, I was just jealous that he had used his understanding of history to write a bestselling novel, and here I was giving public lectures in community centres for peanuts. What makes my \u201copinion\u201d about what happened 2,000 years ago better than Brown\u2019s? Last week, my union, the Carleton University Academic Staff Association, released a series of \u201c Guidelines on Academic Freedom ,\u201d ostensibly to help members better understand what we can say in the classroom. The \u201cguidelines\u201d state that, \u201cMembers should interpret academic freedom to mean that speech about topics such as the decades-long conflict in Israel/Palestine can be appropriate in a broad range of settings because debates about justice and identity shape the contexts in which we teach and in which students learn.\u201d Furthermore, \u201cMembers should be aware that what is relevant to their pedagogy, educational objectives and course themes can be interpreted broadly, and that censorship in this regard would violate academic freedom.\u201d The document\u2019s introduction explains that it was necessary to develop such guidelines in light of the blow-back that some faculty members were receiving for speaking about \u201ccolonialism and racism in their classrooms; instructors voicing their concerns about genocide have been accused by students of creating a hostile learning environment.\u201d In addition to blithely using terms like \u201ccolonialism\u201d and \u201capartheid\u201d to describe the situation in Israel, and referring to the war against Hamas as a \u201cgenocide,\u201d one of the many shocking examples contained in the \u201cnon-exhaustive list\u201d of items the union considers \u201cto be acceptable speech and of public interest\u201d is \u201ccontextualizing the 10/7 attacks as a part of an ongoing history of violent conflict.\u201d The complete distortion, misinformation and baldly biased premises on which these guidelines are based shouldn\u2019t surprise me after everything I\u2019ve witnessed over the past five months, but somehow, they still do. Under what guise can the union empower professors to teach about issues they have no expertise in? It\u2019s clear that the authors of these guidelines don\u2019t have specific expertise in this subject area, and don\u2019t properly understand terms such as \u201cgenocide,\u201d \u201capartheid\u201d and \u201ccolonialism,\u201d or the ways in which they might accurately be applied to international affairs. How would these zealous defenders of academic freedom feel if I took my PhD in history to entitle myself to speak with authority in a classroom about subjects in which they are experts and I am not? Should I pontificate on media production and design, global social inequality or post-colonial film studies? All this time, I thought I was supposed to teach students the subjects I am an expert in, and leave other topics to those who studied them. But heck, why should I limit myself to only speak to students in my classroom about what I actually know? The union\u2019s mandate is \u201cto promote the well-being of the academic community, to defend academic freedom and to promote the individual interests of its members, as well as to maintain the quality and integrity of the university as an academic institution.\u201d The only aspect of this statement that is served by its new \u201cguidelines\u201d is that of promoting the individual interests of some of its members \u2014 interests that are patently political. This is not what a union is for. There is no universe in which my union dues should support directives that authorize physicists or psychologists to teach students that Israel is an illegitimate country or that savage rapes and massacres committed against citizens of a sovereign state need to be contextualized. Twenty years ago at that community centre in San Diego, I responded to the hecklers by telling them that seven years of work toward a PhD had given me not only deep knowledge of the ancient world, but also an understanding of how to conduct proper research and distinguish fact from fiction, actual events from conspiracy theories and truth from propaganda. And I freely admitted that I was a starving post-doc who would love to have the luxury of time to write historical fiction. Was I jealous that Brown spun some bad historiography into a multi-million dollar enterprise? Sure. But it wasn\u2019t jealousy that drove my critique. Rather, it was a sense of moral responsibility to be as accurate as possible in the information I convey to an audience, and to be as transparent as possible about how I know what I know. Abdicating that moral responsibility is not \u201cacademic freedom,\u201d any more than Israel is a colonial enterprise or an apartheid state committing genocide. Purveying misinformation under the guise of academic freedom is an abuse of academic authority that does nothing to promote the well-being of the academic community or defend academic freedom, and completely undermines the quality and integrity of the university as an academic institution. National Post Shawna Dolansky is an associate professor in the College of the Humanities at Carleton University in Ottawa."
 summary = "Following the release of Dan Brown's 'The Da Vinci Code,' a post-doctoral fellow with expertise in the Bible, early Judaism, and Christianity faced backlash during a public lecture critiquing the novel's historical accuracy. This event, occurring shortly after the completion of their PhD, highlights the tension between popular fiction and academic scrutiny, particularly concerning historical claims about figures like Jesus, Mary, and the Templars. The reaction from the audience, ranging from accusations of jealousy to outright heckling, underscored the challenges academics face when confronting widely accepted narratives with scholarly evidence.\n\nFurther complicating matters, the Carleton University Academic Staff Association issued guidelines on academic freedom, advocating for broad interpretive latitude in classroom discussions, including sensitive topics like the Israel/Palestine conflict, colonialism, and racism. These guidelines, however, sparked controversy, suggesting a disconnect between the intent to promote academic freedom and the practical implications of discussing contentious topics without sufficient expertise. Critics argue that such guidelines may inadvertently legitimize misinformation or bias, especially on complex issues requiring specialized knowledge.\n\nThe narrative encapsulates a broader debate within academia and society about the boundaries of academic freedom, the responsibilities of educators, and the impact of literature on historical perceptions. It raises important questions about the role of academic institutions in safeguarding rigorous scholarly standards while fostering open dialogue. Ultimately, the experience shared in the National Post by Shawna Dolansky, an associate professor at Carleton University, underscores the delicate balance between defending academic freedom and ensuring the accuracy and integrity of educational content."
+# Load Spacy model
+client = Client()
+nlp = spacy.load("en_core_web_lg")
 
+# Assuming 'entityLinker' is added here with appropriate setup
+if "entityLinker" not in nlp.pipe_names:
+    # Setup for entityLinker if needed, adjust based on actual use
+    nlp.add_pipe("entityLinker", last=True)
+
+def get_unprocessed_entities(text):
+    # Process the text and summary
+    doc_text = nlp(text)
+    
+    # Example to iterate over sentences if your entityLinker supports pretty_print or similar functionality
+    entities_info = []
+    for sent in doc_text.sents:
+        if hasattr(sent._, 'linkedEntities'):
+            for ent in sent._.linkedEntities:
+                # Temporarily redirect stdout to capture the pretty_print output
+                old_stdout = sys.stdout  # Save the current stdout to restore later
+                result = io.StringIO()  # Create a string buffer to capture the output
+                sys.stdout = result
+                ent.pretty_print()  # This will print to the 'result' buffer instead of the console
+                sys.stdout = old_stdout  # Restore the original stdout
+                
+                # Store the captured output in a variable
+                entity_info = result.getvalue()
+                entities_info.append(entity_info)
+                
+                # Close the StringIO buffer
+                result.close()
+    return entities_info
+
+def get_entity_codes(entities):
+    code = []
+    pattern = r"https://www.wikidata.org/wiki/(Q\d+)"
+    for entity in entities:
+        match = re.search(pattern, entity)
+
+        # Extract the matched group if a match is found
+        if match:
+            wikidata_code = match.group(1)
+            code.append(wikidata_code)
+        else:
+            print("No match found")
+    return code
+
+def get_wikidata_entity(wikidata_codes):
+    for wikidata_code in wikidata_codes:
+        entity = client.get(wikidata_code, load=True)
+        #print(entity.data)
+        entity_nlp = nlp(str(entity.label))
+        if len(entity_nlp.ents):
+            print(wikidata_code, ": ",entity.label, " - ", wikidata_codes[wikidata_code], " type:", entity_nlp.ents[0].label_)
+        
+possible_entities_codes = []
+#get all the entities codes of general text
+unprocessed_entries = get_unprocessed_entities(text)
+entities_codes = get_entity_codes(unprocessed_entries)
+possible_entities_codes.extend(entities_codes)
+
+#get all the entities codes of different section
+#first 1/3 get 3x value
+#second 1/3 get 2x value
+#last 1/3 get 1x value(nothing needs to be changed)
+length_text = len(text)
+unprocessed_entries_1st3 = get_unprocessed_entities(text[:length_text//3])
+entities_codes_1st3 = get_entity_codes(unprocessed_entries_1st3)
+possible_entities_codes.extend(entities_codes_1st3)
+possible_entities_codes.extend(entities_codes_1st3)
+
+# get the summary entities 
+# summary is 3x value as well
+unprocessed_entries_summary = get_unprocessed_entities(summary)
+entities_codes_summary = get_entity_codes(unprocessed_entries_summary)
+possible_entities_codes.extend(entities_codes_summary)
+possible_entities_codes.extend(entities_codes_summary)
+possible_entities_codes.extend(entities_codes_summary)
+
+#count all the enntities in the list
+# Count the occurrences of each code
+code_counts = Counter(possible_entities_codes)
+codes_more_than_5 = {code: count for code, count in code_counts.items() if count > 5}
+
+get_wikidata_entity(codes_more_than_5)
+ 
