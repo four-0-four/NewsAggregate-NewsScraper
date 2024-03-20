@@ -24,11 +24,11 @@ async def get_news_source_urls(conn_params) -> Optional[dict]:
                 return await cur.fetchall()
 
 
-async def insert_news(conn_params, title: str, content: str, longSummary: str,  publishedDate: datetime) -> None:
+async def insert_news(conn_params, title: str, content: str, publishedDate: datetime) -> None:
     # Default values for language_id, isInternal, and isPublished are set directly in the SQL query
     insert_query = """
-    INSERT INTO news (title, content, longSummary, publishedDate, language_id, isInternal, ProcessedForIdentity, summarized, updatedAt)
-    VALUES (%s, %s, %s, %s, 16, 0, 1, 1, null);
+    INSERT INTO news (title, content, publishedDate, language_id, isInternal, ProcessedForIdentity, summarized)
+    VALUES (%s, %s, %s, 16, 0, 0, 0);
     """
     if(not publishedDate):
         print(f"ERROR: published date is null. not adding the news. title is: {title}, published date is: {publishedDate}")
@@ -39,7 +39,7 @@ async def insert_news(conn_params, title: str, content: str, longSummary: str,  
             async with aiomysql.create_pool(**conn_params) as pool:
                 async with pool.acquire() as conn:
                     async with conn.cursor(aiomysql.DictCursor) as cur:
-                        await cur.execute(insert_query, (title, content, longSummary, publishedDate))
+                        await cur.execute(insert_query, (title, content, publishedDate))
                         await conn.commit()
                         inserted_id = cur.lastrowid  # Get the ID of the last inserted row
 
@@ -51,6 +51,56 @@ async def insert_news(conn_params, title: str, content: str, longSummary: str,  
             return {}
     else:
         return await fetch_news_by_id(conn_params, title)
+    
+    
+async def insert_summary_for_news(conn_params, news_id: int, summary: str) -> None:
+    """
+    Updates the news item with the given news_id, setting its summary and marking it as summarized.
+    
+    :param conn_params: Database connection parameters.
+    :param news_id: The ID of the news item to update.
+    :param summary: The summary to insert for the news item.
+    """
+    update_query = """
+    UPDATE news
+    SET longSummary = %s, summarized = 1
+    WHERE id = %s;
+    """
+
+    try:
+        async with aiomysql.create_pool(**conn_params) as pool:
+            async with pool.acquire() as conn:
+                async with conn.cursor() as cur:
+                    await cur.execute(update_query, (summary, news_id))
+                    await conn.commit()
+
+    except Exception as e:
+        print(f"An error occurred while updating news summary: {e}")
+        
+        
+async def check_that_news_is_categorized(conn_params, news_id: int) -> None:
+    """
+    Updates the news item with the given news_id, setting its summary and marking it as summarized.
+    
+    :param conn_params: Database connection parameters.
+    :param news_id: The ID of the news item to update.
+    :param summary: The summary to insert for the news item.
+    """
+    update_query = """
+    UPDATE news
+    SET ProcessedForIdentity = 1
+    WHERE id = %s;
+    """
+
+    try:
+        async with aiomysql.create_pool(**conn_params) as pool:
+            async with pool.acquire() as conn:
+                async with conn.cursor() as cur:
+                    await cur.execute(update_query, (news_id, ))
+                    await conn.commit()
+
+    except Exception as e:
+        print(f"An error occurred while updating news summary: {e}")
                 
                 
 async def check_news_title_exists(conn_params, title: str) -> bool:
