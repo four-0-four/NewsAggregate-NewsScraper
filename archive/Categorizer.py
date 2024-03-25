@@ -86,7 +86,8 @@ async def predict_category_stable_diffusion_model(text):
 
 async def predict_category_nlp_cloude(text):
     nlp_cloud_endpoint = "https://api.nlpcloud.io/v1/bart-large-mnli-yahoo-answers/classification"
-    nlp_cloud_api_key = "d5c437840586f3e10af9e9b9eea290531b21f028"
+    nlp_cloud_api_key = ""
+    #nlp_cloud_api_key = "d5c437840586f3e10af9e9b9eea290531b21f028"
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Token {nlp_cloud_api_key}"
