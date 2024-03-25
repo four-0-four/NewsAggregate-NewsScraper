@@ -4,6 +4,7 @@ from logging import exception
 
 # Now, import your modules after adding their directories to sys.path
 from Categorizer import predict_category
+from anyscale import summarize_anyscale
 from newsData import check_that_news_is_categorized, does_news_has_already_category, fetch_news_by_id, get_news_source_urls, insert_news_affiliate, insert_news_category, insert_summary_for_news
 from newsService import add_news_to_database
 from newsdataapi import NewsDataApiClient
@@ -110,10 +111,10 @@ async def news_for_all_urls(conn_params,nlp, logging=False):
             print("getting the news summary")
             start_time = datetime.datetime.now()
             
-        longSummary = await get_news_summary(title, content)
+        longSummary = await summarize_anyscale(title + " - " + content)
         while len(longSummary) < 100:
             print("WARNING: news summary is too short, trying again")
-            longSummary = await get_news_summary(title, content)
+            longSummary = await summarize_anyscale(title + " - " + content)
         
         if logging:
             end_time = datetime.datetime.now()
