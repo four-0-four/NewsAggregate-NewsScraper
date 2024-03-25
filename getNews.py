@@ -3,8 +3,7 @@ import datetime
 from logging import exception
 
 # Now, import your modules after adding their directories to sys.path
-from Categorizer import predict_category
-from anyscale import summarize_anyscale
+from anyscale import predict_category, summarize_anyscale
 from newsData import check_that_news_is_categorized, does_news_has_already_category, fetch_news_by_id, get_news_source_urls, insert_news_affiliate, insert_news_category, insert_summary_for_news
 from newsService import add_news_to_database
 from newsdataapi import NewsDataApiClient
@@ -13,7 +12,7 @@ import spacy
 import os
 import json
 
-from stablediffusion import get_news_summary
+from archive.stablediffusion import get_news_summary
 
 # Load environment variables from .env file
 load_dotenv()
@@ -131,7 +130,7 @@ async def news_for_all_urls(conn_params,nlp, logging=False):
         if not await does_news_has_already_category(conn_params, news_entry.get('id')):
             category = -1
             try:
-                category_response = await predict_category(nlp, title+" . "+content)
+                category_response = predict_category(nlp, title+" . "+content)
                 category = int(category_response)
             except ValueError:
                     # Handle the error (e.g., log it, return an error message, etc.)
