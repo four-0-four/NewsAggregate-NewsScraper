@@ -3,7 +3,7 @@ import datetime
 from logging import exception
 
 # Now, import your modules after adding their directories to sys.path
-from Categorizer import predict_category
+from anyscale import predict_category, summarize_anyscale
 from newsData import check_that_news_is_categorized, does_news_has_already_category, fetch_news_by_id, get_news_source_urls, insert_news_affiliate, insert_news_category, insert_summary_for_news
 from newsService import add_news_to_database
 from newsdataapi import NewsDataApiClient
@@ -12,7 +12,7 @@ import spacy
 import os
 import json
 
-from stablediffusion import get_news_summary
+from archive.stablediffusion import get_news_summary
 
 # Load environment variables from .env file
 load_dotenv()
@@ -34,7 +34,7 @@ conn_params_production = {
     "db": os.getenv("DATABASE_NAME_PRODUCTION", "newsdb"),
 }       
         
-async def get_news_given_url_and_save(conn_params, url, corporationId, nlp, logging=False):
+async def get_news_given_url_and_save(conn_params, url, corporationId, logging=False):
     # API key authorization, Initialize the client with your API key
     api = NewsDataApiClient(apikey="pub_38741469a1fcf444f2b92bb3d3d178a0951e8")
     news_id_added = []
@@ -80,7 +80,7 @@ async def get_news_given_url_and_save(conn_params, url, corporationId, nlp, logg
     return news_id_added
             
 
-async def news_for_all_urls(conn_params,nlp, logging=False):
+async def news_for_all_urls(conn_params, logging=False):
     corporationUrls = await get_news_source_urls(conn_params)
     news_ids_saved = []
     
@@ -93,7 +93,7 @@ async def news_for_all_urls(conn_params,nlp, logging=False):
         clean_url = corporationUrl["url"].replace("https://www.", "")
         corporationId = corporationUrl["CorporationID"]
         try:
-            news_ids_saved_for_one_organization = await get_news_given_url_and_save(conn_params, clean_url, corporationId, nlp, logging)
+            news_ids_saved_for_one_organization = await get_news_given_url_and_save(conn_params, clean_url, corporationId, logging)
             news_ids_saved.extend(news_ids_saved_for_one_organization)
         except Exception as e:
             print(f"Failed to get news for {clean_url}: {e}")
@@ -110,10 +110,10 @@ async def news_for_all_urls(conn_params,nlp, logging=False):
             print("getting the news summary")
             start_time = datetime.datetime.now()
             
-        longSummary = await get_news_summary(title, content)
+        longSummary = summarize_anyscale(title + " - " + content)
         while len(longSummary) < 100:
             print("WARNING: news summary is too short, trying again")
-            longSummary = await get_news_summary(title, content)
+            longSummary = summarize_anyscale(title + " - " + content)
         
         if logging:
             end_time = datetime.datetime.now()
@@ -130,7 +130,7 @@ async def news_for_all_urls(conn_params,nlp, logging=False):
         if not await does_news_has_already_category(conn_params, news_entry.get('id')):
             category = -1
             try:
-                category_response = await predict_category(nlp, title+" . "+content)
+                category_response = predict_category(title+" . "+content)
                 category = int(category_response)
             except ValueError:
                     # Handle the error (e.g., log it, return an error message, etc.)
@@ -150,19 +150,18 @@ async def news_for_all_urls(conn_params,nlp, logging=False):
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     print("loading custom spacy model")
-    nlp = spacy.load("custom_model_artifacts")
     
     environment = os.getenv("ENV","stage")
     if environment == "stage" or environment == "dev":
         print("############################################")
         print("Running in stage environment")
         print("############################################")
-        loop.run_until_complete(news_for_all_urls(conn_params_stage,nlp, True))
+        loop.run_until_complete(news_for_all_urls(conn_params_stage, True))
     else:
         print("############################################")
         print("Running in production environment")
         print("############################################")
-        loop.run_until_complete(news_for_all_urls(conn_params_production,nlp, True))
+        loop.run_until_complete(news_for_all_urls(conn_params_production, True))
 
 
     
