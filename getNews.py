@@ -4,7 +4,7 @@ from logging import exception
 
 # Now, import your modules after adding their directories to sys.path
 from anyscale import predict_category, summarize_anyscale
-from newsData import check_that_news_is_categorized, does_news_has_already_category, fetch_news_by_id, get_news_source_urls, insert_news_affiliate, insert_news_category, insert_summary_for_news
+from newsData import check_that_news_is_categorized, does_news_has_already_category, fetch_news_by_id, get_news_source_urls, insert_news_category, insert_summary_for_news
 from newsService import add_news_to_database
 from newsdataapi import NewsDataApiClient
 from dotenv import load_dotenv
@@ -18,11 +18,11 @@ from archive.stablediffusion import get_news_summary
 load_dotenv()
 
 conn_params_stage = {
-    "host": os.getenv("DATABASE_HOST_STAGE", "localhost"),
-    "port": int(os.getenv("DATABASE_PORT_STAGE", "3306")),  # Convert port to integer
-    "user": os.getenv("DATABASE_USERNAME_STAGE", "root"),
-    "password": os.getenv("DATABASE_PASSWORD_STAGE", "password"),
-    "db": os.getenv("DATABASE_NAME_STAGE", "newsdb"),
+    "host": os.getenv("DATABASE_HOST_PRODUCTION", "localhost"),
+    "port": int(os.getenv("DATABASE_PORT_PRODUCTION", "3306")),  # Convert port to integer
+    "user": os.getenv("DATABASE_USERNAME_PRODUCTION", "root"),
+    "password": os.getenv("DATABASE_PASSWORD_PRODUCTION", "password"),
+    "db": os.getenv("DATABASE_NAME_PRODUCTION", "newsdb"),
 }
 
 
@@ -109,18 +109,21 @@ async def news_for_all_urls(conn_params, logging=False):
         if logging:
             print("getting the news summary")
             start_time = datetime.datetime.now()
-            
-        longSummary = summarize_anyscale(title + " - " + content)
-        while len(longSummary) < 100:
-            print("WARNING: news summary is too short, trying again")
+        
+        if not news_entry.get('summarized'):    
             longSummary = summarize_anyscale(title + " - " + content)
-        
-        if logging:
-            end_time = datetime.datetime.now()
-            duration = end_time - start_time
-            print("got news summary",len(longSummary),"characters long and it took",duration)
-        
-        await insert_summary_for_news(conn_params, news_id, longSummary)
+            while len(longSummary) < 100:
+                print("WARNING: news summary is too short, trying again")
+                longSummary = summarize_anyscale(title + " - " + content)
+            
+            if logging:
+                end_time = datetime.datetime.now()
+                duration = end_time - start_time
+                print("got news summary",len(longSummary),"characters long and it took",duration)
+            
+            await insert_summary_for_news(conn_params, news_id, longSummary)
+        else:
+            print("WARNING: news ", news_id, " already has summary")
         
         #step3: categorized the news and save it in the database
         if logging:
