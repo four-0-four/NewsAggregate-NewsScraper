@@ -75,6 +75,7 @@ def parse_category_until_ok(text, model_number):
     category_response = categorize_anyscale(text, model_number)
     potential_category_index = find_category_in_text(category_response, CATEGORIES_TABLE)
     while not isinstance(potential_category_index, int):
+        print(potential_category_index)
         print("WARNING: The model did not provide a valid category. Please try again.")
         category_response = categorize_anyscale(text, model_number)
         potential_category_index = find_category_in_text(category_response, CATEGORIES_TABLE)

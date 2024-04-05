@@ -24,11 +24,11 @@ async def get_news_source_urls(conn_params) -> Optional[dict]:
                 return await cur.fetchall()
 
 
-async def insert_news(conn_params, title: str, content: str, publishedDate: datetime) -> None:
+async def insert_news(conn_params, title: str, content: str, publishedDate: datetime, externalNewsURL: str, imageURL: str, corporationID: int, corporationName: str, corporationLogo: str) -> None:
     # Default values for language_id, isInternal, and isPublished are set directly in the SQL query
     insert_query = """
-    INSERT INTO news (title, content, publishedDate, language_id, isInternal, ProcessedForIdentity, summarized)
-    VALUES (%s, %s, %s, 16, 0, 0, 0);
+    INSERT INTO news (title, content, publishedDate, language_id, isInternal, ProcessedForIdentity, summarized, mainImage, corporationName, corporationLogo, newsExternalLink, corporationID)
+    VALUES (%s, %s, %s, 16, 0, 0, 0, %s, %s, %s, %s, %s);
     """
     if(not publishedDate):
         print(f"ERROR: published date is null. not adding the news. title is: {title}, published date is: {publishedDate}")
@@ -39,7 +39,7 @@ async def insert_news(conn_params, title: str, content: str, publishedDate: date
             async with aiomysql.create_pool(**conn_params) as pool:
                 async with pool.acquire() as conn:
                     async with conn.cursor(aiomysql.DictCursor) as cur:
-                        await cur.execute(insert_query, (title, content, publishedDate))
+                        await cur.execute(insert_query, (title, content, publishedDate, imageURL, corporationName, corporationLogo, externalNewsURL, corporationID))
                         await conn.commit()
                         inserted_id = cur.lastrowid  # Get the ID of the last inserted row
 
@@ -138,55 +138,20 @@ async def fetch_news_by_id(conn_params, news_id: int) -> dict:
     except Exception as e:
         print(f"Failed to fetch news by ID: {e}")
         return {}            
-    
-    
-async def insert_news_affiliate(conn_params, news_id: int, newsCorporation_id: int, externalLink: str) -> dict:
-    insert_query = """
-    INSERT INTO newsAffiliates (news_id, newsCorporation_id, externalLink, createdAt, updatedAt)
-    VALUES (%s, %s, %s, NOW(), NOW());
-    """
-    if(not await check_news_affiliate_exists(conn_params, news_id, newsCorporation_id)):
-        try:
-            async with aiomysql.create_pool(**conn_params) as pool:
-                async with pool.acquire() as conn:
-                    async with conn.cursor(aiomysql.DictCursor) as cur:
-                        await cur.execute(insert_query, (news_id, newsCorporation_id, externalLink))
-                        await conn.commit()
-                        inserted_id = cur.lastrowid  # Assuming an auto-increment ID is present
-
-            # Return the inserted news affiliate item by ID
-            return await fetch_news_affiliate(conn_params, news_id, newsCorporation_id)
-
-        except Exception as e:
-            print(f"An error occurred: {e}")
-            return {}
-    else:
-        return "news affiliate already exists"
 
 
-async def fetch_news_affiliate(conn_params, news_id: int, newsCorporation_id: int) -> dict:
-    fetch_query = "SELECT * FROM newsAffiliates WHERE news_id = %s AND newsCorporation_id = %s;"
+async def fetch_corporation(conn_params, newsCorporation_id: int) -> dict:
+    fetch_query = "SELECT * FROM newsCorporations WHERE id = %s;"
     try:
         async with aiomysql.create_pool(**conn_params) as pool:
             async with pool.acquire() as conn:
                 async with conn.cursor(aiomysql.DictCursor) as cur:
-                    await cur.execute(fetch_query, (news_id, newsCorporation_id))
+                    await cur.execute(fetch_query, (newsCorporation_id))
                     affiliate_item = await cur.fetchone()
                     return affiliate_item if affiliate_item else {}
     except Exception as e:
-        print(f"Failed to fetch news affiliate by ID: {e}")
+        print(f"Failed to fetch corporation by ID: {e}")
         return {}
-    
- 
-async def check_news_affiliate_exists(conn_params, news_id: int, newsCorporation_id: int) -> bool:
-    query = "SELECT COUNT(*) FROM newsAffiliates WHERE news_id = %s AND newsCorporation_id = %s;"
-
-    async with aiomysql.create_pool(**conn_params) as pool:
-        async with pool.acquire() as conn:
-            async with conn.cursor() as cur:
-                await cur.execute(query, (news_id, newsCorporation_id))
-                result = await cur.fetchone()
-                return result[0] > 0
 
 
 async def fetch_media_by_id(conn_params, media_id: int) -> dict:
@@ -287,8 +252,8 @@ async def check_news_media_exists(conn_params, news_id: int, media_id: int) -> b
             
 async def insert_news_category(conn_params, news_id: int, category_id: int) -> dict:
     insert_query = """
-    INSERT INTO newsCategories (news_id, category_id, createdAt, updatedAt)
-    VALUES (%s, %s, NOW(), NOW());
+    INSERT INTO newsTopic (newsID, topicID, topicType)
+    VALUES (%s, %s, 'CATEGORY');
     """
     if(not await check_news_category_exists(conn_params, news_id, category_id)):
         try:
@@ -308,18 +273,18 @@ async def insert_news_category(conn_params, news_id: int, category_id: int) -> d
             
             
 async def check_news_category_exists(conn_params, news_id: int, category_id: int) -> bool:
-    query = "SELECT COUNT(*) FROM newsCategories WHERE news_id = %s AND category_id = %s;"
+    query = "SELECT COUNT(*) FROM newsTopic WHERE newsID = %s AND topicID = %s and topicType = 'CATEGORY';"
 
     async with aiomysql.create_pool(**conn_params) as pool:
         async with pool.acquire() as conn:
             async with conn.cursor() as cur:
-                await cur.execute(query, (news_id, category_id))
+                await cur.execute(query, (news_id, category_id,))
                 result = await cur.fetchone()
                 return result[0] > 0
             
             
 async def does_news_has_already_category(conn_params, news_id: int) -> bool:
-    query = "SELECT COUNT(*) FROM newsCategories WHERE news_id = %s;"
+    query = "SELECT COUNT(*) FROM newsTopic WHERE newsID = %s and topicType = 'CATEGORY';"
 
     async with aiomysql.create_pool(**conn_params) as pool:
         async with pool.acquire() as conn:
