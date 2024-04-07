@@ -9,11 +9,9 @@ client = openai.OpenAI(
 )
 
 models = {
-    1: "mistralai/Mistral-7B-Instruct-v0.1",
+    1: "meta-llama/Llama-2-13b-chat-hf",
     2: "mlabonne/NeuralHermes-2.5-Mistral-7B",
-    3: "Open-Orca/Mistral-7B-OpenOrca",
-    4: "HuggingFaceH4/zephyr-7b-beta",
-    5: "google/gemma-7b-it"
+    3: "mistralai/Mixtral-8x7B-Instruct-v0.1",
 }
 
 CATEGORIES_TABLE = {
@@ -46,8 +44,8 @@ def summarize_anyscale(text):
 
 def categorize_anyscale(text, model_number):
     # Note: not all arguments are currently supported and will be ignored by the backend.
-    query = f"""between the categories provided {CATEGORIES_STR} which category the following news belong to? please provide the index of category for answer and do not provide explanation for why you chose the category.just respond with the index of category. Here's the news article for analysis: <NEWS>{text}</NEWS>"""
-    system_prompt = "classify the category of the news. please provide the index of category for answer and do not provide explanation for why you chose the category. "
+    query = f"""between the categories provided {CATEGORIES_STR} what is the category of news? please provide the category only for answer and do not provide explanation.just respond with the index of category. Here's the news article for analysis: <NEWS>{text}</NEWS>"""
+    system_prompt = f"classify the category of the news. please provide the category for answer and do not provide explanation for why you chose the category. between the categories provided {CATEGORIES_STR}"
     chat_completion = client.chat.completions.create(
         model=models[model_number],
         messages=[{"role": "system", "content": system_prompt}, 
@@ -60,39 +58,39 @@ def categorize_anyscale(text, model_number):
 ############################################################  helper functions
 
 def find_category_in_text(text, categories):
-    # Use a regular expression to find all occurrences of integers in the text
-    numbers = re.findall(r'\d+', text)
+    # Iterate over each category in the categories dictionary
+    for index, category in CATEGORIES_TABLE.items():
+        # Use a case-insensitive search to find the category in the text
+        if re.search(re.escape(category), text, re.IGNORECASE):
+            return index  # Return the index of the first matching category
     
-    # Convert the found strings into integers
-    integers = [int(number) for number in numbers]
-    
-    # Return the first integer if the list is not empty; otherwise, return None
-    return integers[0] if integers else None
-    
+    return None  # Return None if no category is found in the text
     
 
 def parse_category_until_ok(text, model_number):
-    category_response = categorize_anyscale(text, model_number)
-    potential_category_index = find_category_in_text(category_response, CATEGORIES_TABLE)
-    while not isinstance(potential_category_index, int):
-        print(potential_category_index)
-        print("WARNING: The model did not provide a valid category. Please try again.")
+    attempts = 0
+    while attempts < 5:
         category_response = categorize_anyscale(text, model_number)
         potential_category_index = find_category_in_text(category_response, CATEGORIES_TABLE)
-    return potential_category_index
+        if isinstance(potential_category_index, int):
+            return potential_category_index  # Return the index if it's valid
+        else:
+            print("WARNING: The model did not provide a valid category. Attempting again.")
+            attempts += 1  # Increment the attempt counter
+    return -1
 
 
 
 def predict_category(text: str):
-    predicted_category_1 = parse_category_until_ok(text, 3)
+    predicted_category_1 = parse_category_until_ok(text, 1)
     
-    predicted_category_2 = parse_category_until_ok(text, 5)
+    predicted_category_2 = parse_category_until_ok(text, 2)
 
     if predicted_category_1 == predicted_category_2:
         return predicted_category_1
 
 
-    predicted_category_3 = parse_category_until_ok(text, 4)
+    predicted_category_3 = parse_category_until_ok(text, 3)
     
     # Aggregate the results and decide the final category
     categories = [predicted_category_1, predicted_category_2, predicted_category_3]
