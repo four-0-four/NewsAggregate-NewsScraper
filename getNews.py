@@ -78,7 +78,17 @@ async def get_news_given_url_and_save(conn_params, url, corporationId, logging=F
         print(f"**********Saved {count} news articles from {url}")
     
     return news_id_added
-            
+
+async def news_for_one_url(conn_params, corporationURL, corporationID, logging=False):
+    news_ids_saved = []
+    try:
+        news_ids_saved_for_one_organization = await get_news_given_url_and_save(conn_params, corporationURL, corporationID, logging)
+        news_ids_saved.extend(news_ids_saved_for_one_organization)
+    except Exception as e:
+        print(f"Failed to get news for {corporationURL}: {e}")
+        
+    await get_news_summary_and_category(conn_params, news_ids_saved, logging)
+                
 
 async def news_for_all_urls(conn_params, logging=False):
     corporationUrls = await get_news_source_urls(conn_params)
@@ -97,8 +107,10 @@ async def news_for_all_urls(conn_params, logging=False):
             news_ids_saved.extend(news_ids_saved_for_one_organization)
         except Exception as e:
             print(f"Failed to get news for {clean_url}: {e}")
+            
+    await get_news_summary_and_category(conn_params, news_ids_saved, logging)
       
-    
+async def get_news_summary_and_category(conn_params, news_ids_saved, logging=False):    
     for news_id in news_ids_saved:
         news_entry = await fetch_news_by_id(conn_params, news_id)
         title = news_entry.get('title')
@@ -129,18 +141,22 @@ async def news_for_all_urls(conn_params, logging=False):
         if logging:
             print("inserting category")
         # Insert news category with try-except block
-        
+        print("news id: ", news_entry.get('id'))
         if not await does_news_has_already_category(conn_params, news_entry.get('id')):
+            print("news does not have category and aboiut to predict category")
             category = -1
             try:
                 category_response = predict_category(title+" . "+content)
+                print("category_response: ", category_response)
                 category = int(category_response)
             except ValueError:
                     # Handle the error (e.g., log it, return an error message, etc.)
                     print("Failed to get and convert category")
             
             try:
+                print("insert cat to database")
                 await insert_news_category(conn_params, news_entry.get('id'), category)
+                print("check that news is categorized")
                 await check_that_news_is_categorized(conn_params, news_entry.get('id'))
             except Exception as e:
                 print(f"Failed to insert news category: {e}, {title}") 
@@ -152,9 +168,10 @@ async def news_for_all_urls(conn_params, logging=False):
 # Run the main function using asyncio.run() if your Python version is 3.7+
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
-    print("loading custom spacy model")
     
     environment = os.getenv("ENV","stage")
+    loop.run_until_complete(news_for_one_url(conn_params_stage, "cbc.ca", 19, True))
+    '''
     if environment == "stage" or environment == "dev":
         print("############################################")
         print("Running in stage environment")
@@ -165,6 +182,7 @@ if __name__ == "__main__":
         print("Running in production environment")
         print("############################################")
         loop.run_until_complete(news_for_all_urls(conn_params_production, True))
+    '''
 
 
     
