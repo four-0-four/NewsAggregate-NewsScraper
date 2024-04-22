@@ -1,0 +1,19 @@
+{
+    "ABCNews": {
+        "class": "ABCNewsScraper",
+        "module": "_abc",
+        "base_url": "https://abcnews.go.com",
+        "category_path": {
+            "/Health":2, 
+            "/Technology":4, 
+            "/Alerts/Weather":8, 
+            "/Entertainment":3, 
+            "/Lifestyle":6, 
+            "/Sports":7, 
+            "/Business":1,
+            "/US":-1,
+            "/International":-1,
+            "/Politics":0
+        }
+    }
+}

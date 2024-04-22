@@ -42,6 +42,8 @@ def scrape_article(article_url, TITLE_SELECTOR, DATE_SELECTOR, DATE_FORMAT, IMAG
     response = requests.get(article_url)
     soup = BeautifulSoup(response.text, 'html.parser')
     
+    print("about to scrape article")
+    
     #getting the title of the article
     h1_tag = soup.find(TITLE_SELECTOR[0], class_=TITLE_SELECTOR[1])
     if(h1_tag):
@@ -49,12 +51,16 @@ def scrape_article(article_url, TITLE_SELECTOR, DATE_SELECTOR, DATE_FORMAT, IMAG
     else:
         return None
     
+    print("Title:", title)
+    
     #getting the date of the article
     date_tag = soup.find(DATE_SELECTOR[0], class_=DATE_SELECTOR[1])
     if(date_tag):
         date = date_tag.get_text(separator=' ', strip=True)
     else:
         return None
+    
+    print("Date:", date)
     
     try:
         date_object = datetime.strptime(date, DATE_FORMAT)
@@ -68,7 +74,7 @@ def scrape_article(article_url, TITLE_SELECTOR, DATE_SELECTOR, DATE_FORMAT, IMAG
         content = content_tag.get_text(separator=' ', strip=True)
     else:
         return None
-    
+    print("Content:", content)
     #check the content has certain length
     if len(content) < 100:
         return None
@@ -78,8 +84,8 @@ def scrape_article(article_url, TITLE_SELECTOR, DATE_SELECTOR, DATE_FORMAT, IMAG
     if image_tag and IMAGE_SELECTOR[2] in image_tag.attrs:
         image_url = image_tag[IMAGE_SELECTOR[2]]
     else:
-        return None
-    
+        image_url = None
+    print("Image URL:", image_url)
     #check if image_url starts with http
     if not image_url.startswith('http'):
         image_url = None
@@ -107,13 +113,13 @@ if __name__ == '__main__':
     #ARTICLE_CSS_SELECTOR = '.ContentRoll__Item, .ContentList__Item, .AnchorLink.News, .AnchorLink.News, .CarouselSlide, .block, .band__common'
     #main(BASE_URL, CATEGORIES, ARTICLE_CSS_SELECTOR)
     
-    ARTICLE_URL = 'https://abcnews.go.com/Entertainment/wireStory/musicians-pay-tribute-allman-brothers-guitarist-dickey-betts-109396191'
+    ARTICLE_URL = 'https://abcnews.go.com/US/usc-cancels-commencement-speakers-after-canceled-valedictorian-speech/story?id=109444698'
     
-    TITLE_SELECTOR = ('h1','vMjAx UdOCY WaKtx eHrJ mTgUP WimTs')
-    DATE_SELECTOR = ('div','VZTD mLASH')
+    TITLE_SELECTOR = ('h1',['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs']) #list of classes to choose
+    DATE_SELECTOR = ('div',['VZTD mLASH']) #list of classes to choose
     DATE_FORMAT = '%B %d, %Y, %I:%M %p'
-    IMAGE_SELECTOR = ('div','MediaPlaceholder', 'src')
-    CONTENT_SELECTOR = ('div','xvlfx ZRifP TKoO eaKKC bOdfO')
+    IMAGE_SELECTOR = ('div',['MediaPlaceholder', 'InlineImage GpQCA lZur asrEW'], 'src') #list of classes to choose
+    CONTENT_SELECTOR = ('div',['xvlfx ZRifP TKoO eaKKC bOdfO']) #list of classes to choose
     
     article = scrape_article(ARTICLE_URL, TITLE_SELECTOR, DATE_SELECTOR, DATE_FORMAT, IMAGE_SELECTOR, CONTENT_SELECTOR)
     print(article)
