@@ -50,7 +50,7 @@ async def insert_news(conn_params, title: str, content: str, publishedDate: date
             print(f"An error occurred: {e}")
             return {}
     else:
-        return await fetch_news_by_id(conn_params, title)
+        return await fetch_news_by_title(conn_params, title)
     
     
 async def insert_summary_for_news(conn_params, news_id: int, summary: str) -> None:
@@ -270,7 +270,33 @@ async def insert_news_category(conn_params, news_id: int, category_id: int) -> d
             return {}
     else:
         return "news category already exists"
-            
+ 
+
+async def get_recent_news_by_corporation(conn_params, corporation_id: int):
+    # SQL query to select news from the last 36 hours for a given corporation_id
+    fetch_query = """
+    SELECT newsExternalLink
+    FROM news
+    WHERE corporationID = %s AND publishedDate > %s;
+    """
+
+    # Calculate the time 36 hours ago from the current time
+    thirty_six_hours_ago = datetime.now() - timedelta(hours=36)
+
+    try:
+        async with aiomysql.create_pool(**conn_params) as pool:
+            async with pool.acquire() as conn:
+                async with conn.cursor(aiomysql.DictCursor) as cur:
+                    # Execute the SQL query with parameters
+                    await cur.execute(fetch_query, (corporation_id, thirty_six_hours_ago))
+                    # Fetch all records that match the query
+                    news_records = await cur.fetchall()
+                    # Extract URLs from each record
+                    url_list = [record['newsExternalLink'] for record in news_records]
+                    return url_list
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return []           
             
 async def check_news_category_exists(conn_params, news_id: int, category_id: int) -> bool:
     query = "SELECT COUNT(*) FROM newsTopic WHERE newsID = %s AND topicID = %s and topicType = 'CATEGORY';"

@@ -1,5 +1,8 @@
 {
     "ABCNews": {
+        "corporation_id": 30,
+        "corporation_name": "ABC News",
+        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/abc%20news.jpg",
         "class": "ABCNewsScraper",
         "module": "_abc",
         "base_url": "https://abcnews.go.com",
@@ -14,6 +17,7 @@
             "/US":-1,
             "/International":-1,
             "/Politics":0
-        }
+        },
+        "urls_blacklist": ["/video/"]
     }
 }

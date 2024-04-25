@@ -1,15 +1,25 @@
 from scraper.news_scraper import NewsScraper
 
 class ABCNewsScraper(NewsScraper):
-    def __init__(self, base_url):
-        article_url_css_selector = '.ContentRoll__Item, .ContentList__Item, .AnchorLink.News, .AnchorLink.News, .CarouselSlide, .block, .band__common'
+    def __init__(self, base_url, urls_blacklist):
+        
+        #(css_to_url, css_to_title)
+        article_url_css_selector = [
+            ('.ContentRoll__Item', '.ContentRoll__Item > h2'), 
+            ('.ContentList__Item', '.ContentList__Item > h2'), 
+            ('.AnchorLink.News', 'a.AnchorLink.News'),
+            ('.CarouselSlide', '.CarouselSlide > h3'),
+            ('.block', '.block > h4, .block > .content > a'),
+            ('.band__common', '.band__common > a'),
+            ('.LatestHeadlines__item', '.LatestHeadlines__item > h4')
+        ]
         
         title_selector = ('h1',['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs'])
         date_selector = ('div',['VZTD mLASH'])
         date_format = '%B %d, %Y, %I:%M %p'
         image_selector = ('div',['MediaPlaceholder', 'InlineImage GpQCA lZur asrEW'], 'src')
         content_selector = ('div',['xvlfx ZRifP TKoO eaKKC bOdfO'])
-        super().__init__(base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector)
+        super().__init__(base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist)
         
     def scrape_title(self, soup):
         # Locate the <div> with the specified data-testid attribute

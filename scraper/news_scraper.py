@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 class NewsScraper:
-    def __init__(self, base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector):
+    def __init__(self, base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist):
         self.base_url = base_url
         self.article_url_css_selector = article_url_css_selector
         self.title_selector = title_selector
@@ -11,6 +11,9 @@ class NewsScraper:
         self.date_format = date_format
         self.image_selector = image_selector
         self.content_selector = content_selector
+        
+        self.urls_blacklist = urls_blacklist
+        self.added_urls = []
 
     def fetch_article_urls_all_categories(self, category_list):
         urls_all_categories = {}
@@ -23,22 +26,60 @@ class NewsScraper:
         url = f"{self.base_url}{category_path}"
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
-        elements = soup.select(self.article_url_css_selector)
         article_links = []
-        for element in elements:
-            link_tag = element.find('a')  # find <a> tags within the selected elements
-            if link_tag and 'href' in link_tag.attrs:
-                href = link_tag['href']
-                # Ensure the link is absolute
-                if(href.startswith('http')):
-                    full_link = href
-                else:
-                    continue
-                article_links.append(full_link)
+        #print(len(self.article_url_css_selector))
+        for potential_article in self.article_url_css_selector:
+            article_info = {"title":"", "url":""}
+            elements = soup.select(potential_article[0])
+            #print("****************************")
+            #print(potential_article[0])
+            for element in elements:
+                link_tags = element.find_all('a')  # find <a> tags within the selected elements
+                for link_tag in link_tags:
+                    if link_tag and 'href' in link_tag.attrs:
+                        href = link_tag['href']
+                        #print(href)
+                        # Ensure the link is absolute
+                        if(href.startswith(self.base_url)):
+                            full_link = href
+                        else:
+                            continue
+                        
+                        
+                        is_url_blacklisted = False
+                        #check that the href not in urls_blacklist
+                        for url_blacklist in self.urls_blacklist:
+                            if url_blacklist in full_link:
+                                is_url_blacklisted = True
+                                break
+                        
+                        if is_url_blacklisted:
+                            continue
+                        
+                        #get text
+                        title_tag = element.select_one(potential_article[1])
+                        text = title_tag.get_text(strip=True) if title_tag else link_tag.get_text(strip=True)
+                        
+                        
+                        #check that we have already added it so we don't add twice
+                        if (full_link in self.added_urls):
+                            # Check if the URL exists in article_links and has an empty title
+                            for article in article_links:
+                                if article['url'] == href and not article['title']:
+                                    article_links.remove(article)  # Remove if title is empty
+                                    break
+                            else:
+                                continue
+                        
+                        
+                        self.added_urls.append(full_link)
+                        article_info = {"title": text, "url": full_link, "title select": potential_article[1], "link select": potential_article[0]}
+                        article_links.append(article_info)
 
         return article_links
 
     def scrape_article(self, article_url):
+        #print(article_url)
         response = requests.get(article_url)
         soup = BeautifulSoup(response.text, 'html.parser')
         
@@ -54,7 +95,7 @@ class NewsScraper:
         
         image_url = self.scrape_image(soup)
 
-        return {"title": title, "date": date, "content": content, "image_url": image_url}
+        return {"title": title, "date": date, "content": content, "image_url": image_url, "url": article_url}
 
     def scrape_title(self, soup):
         #getting the title of the article
