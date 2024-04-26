@@ -15,6 +15,10 @@ class NewsScraper:
         self.urls_blacklist = urls_blacklist
         self.added_urls = []
 
+    def read_html_file(self, file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            return file.read()
+
     def fetch_article_urls_all_categories(self, category_list):
         urls_all_categories = {}
         for category, category_id in category_list.items():
@@ -26,6 +30,9 @@ class NewsScraper:
         url = f"{self.base_url}{category_path}"
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
+        #custom_html = self.read_html_file("tests/abc/abc_homepage.html")
+        #soup = BeautifulSoup(custom_html, 'html.parser')
+        
         article_links = []
         #print(len(self.article_url_css_selector))
         for potential_article in self.article_url_css_selector:
