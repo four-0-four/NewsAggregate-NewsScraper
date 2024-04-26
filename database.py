@@ -24,6 +24,32 @@ async def get_news_source_urls(conn_params) -> Optional[dict]:
                 return await cur.fetchall()
 
 
+async def insert_into_scraper_history(conn_params, data):
+    query = """
+    INSERT INTO scraper_history (
+        corporation_ID, corporation_category, scraper_time, 
+        num_of_links, num_of_news_scraped, num_of_news_in_db, 
+        num_of_news_with_all_attributes, num_of_news_invalidated, 
+        homepage_test, topicpage_test, newspage_test
+    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
+    """
+    
+    async with aiomysql.create_pool(**conn_params) as pool:
+        try:
+            async with pool.acquire() as conn:
+                async with conn.cursor() as cur:
+                    result = await cur.execute(query, (
+                        data['corporation_ID'], data['corporation_category'], data['scraper_time'],
+                        data['num_of_links'], data['num_of_news_scraped'], data['num_of_news_in_db'],
+                        data['num_of_news_with_all_attributes'], data['num_of_news_invalidated'],
+                        data['homepage_test'], data['topicpage_test'], data['newspage_test']
+                    ))
+                    await conn.commit()
+                    #print(f"Rows affected: {result}")  # This will print the number of rows affected by the insert statement
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+
 async def insert_news(conn_params, title: str, content: str, publishedDate: datetime, externalNewsURL: str, imageURL: str, corporationID: int, corporationName: str, corporationLogo: str) -> None:
     # Default values for language_id, isInternal, and isPublished are set directly in the SQL query
     insert_query = """
@@ -34,7 +60,7 @@ async def insert_news(conn_params, title: str, content: str, publishedDate: date
         print(f"ERROR: published date is null. not adding the news. title is: {title}, published date is: {publishedDate}")
         return -1
     
-    if(not await check_news_title_exists(conn_params, title)):
+    if(not await check_news_exists(conn_params, title, externalNewsURL)):
         try:
             async with aiomysql.create_pool(**conn_params) as pool:
                 async with pool.acquire() as conn:
@@ -103,15 +129,15 @@ async def check_that_news_is_categorized(conn_params, news_id: int) -> None:
         print(f"An error occurred while updating news summary: {e}")
                 
                 
-async def check_news_title_exists(conn_params, title: str) -> bool:
-    query = "SELECT COUNT(*) FROM news WHERE title = %s;"
+async def check_news_exists(conn_params, title: str, externalLink: str) -> bool:
+    query = "SELECT COUNT(*) AS count FROM news WHERE title = %s OR newsExternalLink = %s;"
 
     async with aiomysql.create_pool(**conn_params) as pool:
         async with pool.acquire() as conn:
-            async with conn.cursor() as cur:
-                await cur.execute(query, (title,))
+            async with conn.cursor(aiomysql.DictCursor) as cur:
+                await cur.execute(query, (title, externalLink))
                 result = await cur.fetchone()
-                return result[0] > 0
+                return result['count'] > 0
   
 async def fetch_news_by_title(conn_params, title: int) -> dict:
     fetch_query = "SELECT * FROM news WHERE title = %s;"
@@ -281,7 +307,7 @@ async def get_recent_news_by_corporation(conn_params, corporation_id: int):
     """
 
     # Calculate the time 36 hours ago from the current time
-    thirty_six_hours_ago = datetime.now() - timedelta(hours=36)
+    thirty_six_hours_ago = datetime.utcnow() - timedelta(hours=36)
 
     try:
         async with aiomysql.create_pool(**conn_params) as pool:

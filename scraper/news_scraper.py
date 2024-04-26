@@ -34,7 +34,10 @@ class NewsScraper:
             #print("****************************")
             #print(potential_article[0])
             for element in elements:
-                link_tags = element.find_all('a')  # find <a> tags within the selected elements
+                if element.name == 'a':
+                    link_tags = [element]
+                else:
+                    link_tags = element.find_all('a')  # find <a> tags within the selected elements
                 for link_tag in link_tags:
                     if link_tag and 'href' in link_tag.attrs:
                         href = link_tag['href']
@@ -90,10 +93,11 @@ class NewsScraper:
         content = self.scrape_description(soup)
         #print("Content:", content)
         
-        if not title or not date or not content:
+        if not title or not date or not content or len(content) < 100:
             return None
         
         image_url = self.scrape_image(soup)
+        #print("Image:", image_url)
 
         return {"title": title, "date": date, "content": content, "image_url": image_url, "url": article_url}
 
@@ -110,10 +114,12 @@ class NewsScraper:
         #getting the date of the article
         for date_class in self.date_selector[1]:
             date_tag = soup.find(self.date_selector[0], class_=date_class)
+            #print("date_tag:",date_tag)
             if(date_tag):
                 date = date_tag.get_text(separator=' ', strip=True)
             
                 try:
+                    #print("date: ", date)
                     date_object = datetime.strptime(date, self.date_format)
                     return date_object
                 except ValueError as e:
@@ -127,6 +133,7 @@ class NewsScraper:
         image_url = None
         for image_class in self.image_selector[1]:
             image_tag = soup.find(self.image_selector[0], class_=image_class)
+            
             if image_tag and image_tag.find('img') and self.image_selector[2] in image_tag.find('img').attrs:
                 image_url = image_tag.find('img')[self.image_selector[2]]
             

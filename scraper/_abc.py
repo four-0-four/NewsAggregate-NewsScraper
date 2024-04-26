@@ -11,7 +11,7 @@ class ABCNewsScraper(NewsScraper):
             ('.CarouselSlide', '.CarouselSlide > h3'),
             ('.block', '.block > h4, .block > .content > a'),
             ('.band__common', '.band__common > a'),
-            ('.LatestHeadlines__item', '.LatestHeadlines__item > h4')
+            ('[class^="LatestHeadlines__item"] > a', '[class^="LatestHeadlines__item"] > h4')
         ]
         
         title_selector = ('h1',['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs'])

@@ -18,6 +18,29 @@
             "/International":-1,
             "/Politics":0
         },
-        "urls_blacklist": ["/video/"]
+        "urls_blacklist": ["/video/"],
+        "NOTES": "for abc, there is alway something to scrape for some of the categories :( very strange"
+    },
+    "NBCNews": {
+        "corporation_id": 29,
+        "corporation_name": "NBC News",
+        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/nbc.png",
+        "class": "NBCNewsScraper",
+        "module": "_nbc",
+        "base_url": "https://www.nbcnews.com/",
+        "category_path": {
+            "/us-news": -1,
+            "/politics": 0,
+            "/world": -1,
+            "/business": 1,
+            "/sports": 7,
+            "/culture-matters": 3,
+            "/science": 5,
+            "/tech-media": 4,
+            "/news/weather": 8,
+            "/investigations": -1
+        },
+        "urls_blacklist": ["/video/"],
+        "NOTES": ""
     }
 }
