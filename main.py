@@ -180,12 +180,12 @@ async def scrape_article_given_url():
     article_url = 'https://abcnews.go.com/International/wireStory/russian-journalist-detained-posts-criticizing-military-lawyer-109687612'
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["ABCNews"])
+        scraper = load_scraper(config["NBCNews"])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 
 if __name__ == '__main__':
     #asyncio.run(parallel_main())
     #asyncio.run(parallel_one_news_source("NBCNews"))
-    #asyncio.run(scrape_article_given_url())
-    scrape_urls_one_category_given_news_source()
+    asyncio.run(scrape_article_given_url())
+    #scrape_urls_one_category_given_news_source()
