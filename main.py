@@ -165,8 +165,8 @@ async def parallel_one_news_source(newsSource):
 def scrape_urls_one_category_given_news_source():
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["ABCNews"])
-        result = scraper.fetch_article_urls_one_category("/")
+        scraper = load_scraper(config["CNNNews"])
+        result = scraper.fetch_article_urls_one_category("/health/life-but-better/relationships")
         #print(article_data)
         
         try:
@@ -177,10 +177,10 @@ def scrape_urls_one_category_given_news_source():
 
 
 async def scrape_article_given_url():
-    article_url = 'https://abcnews.go.com/International/wireStory/russian-journalist-detained-posts-criticizing-military-lawyer-109687612'
+    article_url = 'https://www.cnn.com/travel/kalaupapa-national-historical-park-hawaii/index.html'
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["NBCNews"])
+        scraper = load_scraper(config["CNNNews"])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 

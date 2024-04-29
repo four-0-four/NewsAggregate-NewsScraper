@@ -27,7 +27,7 @@
         "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/nbc.png",
         "class": "NBCNewsScraper",
         "module": "_nbc",
-        "base_url": "https://www.nbcnews.com/",
+        "base_url": "https://www.nbcnews.com",
         "category_path": {
             "/us-news": -1,
             "/politics": 0,
@@ -41,6 +41,19 @@
             "/investigations": -1
         },
         "urls_blacklist": ["/video/"],
+        "NOTES": ""
+    },
+    "CNNNews": {
+        "corporation_id": 44,
+        "corporation_name": "CNN",
+        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/cnn.png",
+        "class": "CNNNewsScraper",
+        "module": "_cnn",
+        "base_url": "https://www.cnn.com",
+        "category_path": {
+            "/us-news": -1
+        },
+        "urls_blacklist": ["/videos/","/account/","/follow?"],
         "NOTES": ""
     }
 }

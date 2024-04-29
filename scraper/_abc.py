@@ -32,3 +32,18 @@ class ABCNewsScraper(NewsScraper):
                 title = h1_tag.get_text(separator=' ', strip=True)
                 return title
         return None
+    
+    def scrape_description(self, soup):
+        #getting the content of the article
+        for content_class in self.content_selector[1]:
+            content_tag = soup.find(self.content_selector[0], class_=content_class)
+            if(content_tag):
+                content = content_tag.get_text(separator=' ', strip=True)
+            
+                #check the content has certain length
+                if content and len(content) < 100:
+                    return None
+                
+                return content
+            
+        return None

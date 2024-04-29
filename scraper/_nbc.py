@@ -54,20 +54,3 @@ class NBCNewsScraper(NewsScraper):
                     content += " " + content_section
             
         return content
-    
-    def scrape_image(self, soup):
-        #getting the image of the article
-        image_url = None
-        for image_class in self.image_selector[1]:
-            image_tags = soup.find_all(self.image_selector[0], class_=image_class)
-            for image_tag in image_tags:
-                if image_tag and image_tag.find('img') and self.image_selector[2] in image_tag.find('img').attrs:
-                    image_url = image_tag.find('img')[self.image_selector[2]]
-                
-                #check if image_url starts with http
-                if image_url and not image_url.startswith('http'):
-                    image_url = None
-                
-                if image_url and image_url.startswith('http'):
-                    return image_url
-        return image_url
