@@ -1,0 +1,650 @@
+[
+    {
+        "title": "MapWhere university protesters have been arrested across the US",
+        "url": "https://www.cnn.com/2024/04/29/us/pro-palestinian-university-protests-arrests-dg/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Examining the long history of the \u2018outside agitator\u2019 narrative",
+        "url": "https://www.cnn.com/2024/04/27/us/campus-protests-palestine-outside-agitator-cec/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Columbia student protesters are demanding divestment. Here\u2019s what the university has divested from in the past",
+        "url": "https://www.cnn.com/2024/04/27/business/columbia-history-divestment-student-protests/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "What conservatives don\u2019t get about the protests roiling college campuses",
+        "url": "https://www.cnn.com/2024/04/29/opinions/campus-protests-university-of-texas-israel-gaza-suri/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How CEOs are preparing for possible employee protests",
+        "url": "https://www.cnn.com/2024/04/29/investing/premarket-stocks-trading/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Breaking News3 officers killed and 5 wounded in shooting in Charlotte, North Carolina",
+        "url": "https://www.cnn.com/2024/04/29/us/officers-shot-charlotte-north-carolina/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Hamas presented with \u2018extraordinarily generous\u2019 ceasefire proposal, Blinken says",
+        "url": "https://www.cnn.com/2024/04/29/middleeast/hamas-israel-ceasefire-proposal-cairo-talks-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "CNN ExclusiveFive hours with one of the FBI\u2019s \u2018Ten Most Wanted\u2019 fugitives. Here\u2019s what he had to say",
+        "url": "https://www.cnn.com/2024/04/29/americas/haiti-gang-vitelhomme-innocent-kraze-barye-intl-latam/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "An El Ni\u00f1o-less summer is coming. What that could mean for the US",
+        "url": "https://www.cnn.com/2024/04/29/weather/la-nina-summer-forecast-us-el-nino-climate/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Climate breakthrough. Mall dining. Sexsomnia. Here\u2019s what you might have missed today",
+        "url": "https://www.cnn.com/2024/04/29/us/5-things-pm-april-29-trnd/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The Buffalo Bills drafted someone who has never played football before",
+        "url": "https://www.cnn.com/2024/04/29/sport/travis-clayton-buffalo-bills-2024-nfl-draft-spt-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Anne Hathaway: Now five years sober",
+        "url": "https://www.cnn.com/2024/04/29/entertainment/anne-hathaway-sobriety/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "\u2018Great enigma\u2019: Amateur archaeologists unearth mysterious Roman object",
+        "url": "https://www.cnn.com/2024/04/29/style/dodecahedron-roman-object-mystery-scn-scli-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Nebraska brothers sucked out of their home by a tornado survive to tell the tale",
+        "url": "https://www.cnn.com/2024/04/29/weather/elkhorn-nebraska-tornado-brothers-climate/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "OpinionWith this serious misstep, prosecutors might be handing Trump a get-out-of-jail-free card",
+        "url": "https://www.cnn.com/2024/04/29/opinions/harvey-weinstein-conviction-overturned-trump-trial-walden-paul/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "GNC is struggling. It hopes Ozempic can give it a boost",
+        "url": "https://www.cnn.com/2024/04/29/business/gnc-ozempic-wegovy-novo-nordisk-strategy/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Former NSA employee sentenced to almost 22 years for trying to sell secrets to Russia",
+        "url": "https://www.cnn.com/2024/04/29/politics/jareh-dalke-former-nsa-employee-sentenced-russia/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Paramount Global ousts CEO as future of media conglomerate hangs in the balance",
+        "url": "https://www.cnn.com/2024/04/29/media/paramount-global-bob-bakish-out/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Vaping linked with higher risk of exposure to toxic metals, study finds",
+        "url": "https://www.cnn.com/2024/04/29/health/teen-vaping-toxic-lead-uranium-exposure-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "OpinionKristi Noem shot her \u2018untrainable\u2019 dog. If she thought we\u2019d be impressed by her toughness, she was wrong",
+        "url": "https://www.cnn.com/2024/04/28/opinions/kristi-noem-shot-cricket-dog-obeidallah/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Prosecutors got access to Chesebro messages after CNN revealed his secret social media accounts",
+        "url": "https://www.cnn.com/2024/04/29/politics/michigan-search-warrants-google-twitter-2020-fake-electors/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Former Trump adviser\u2019s get-out-of-jail request is again rejected by the Supreme Court",
+        "url": "https://www.cnn.com/2024/04/29/politics/supreme-court-rejects-peter-navarros-get-of-jail-request-again/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How Justice Amy Coney Barrett drove the Supreme Court\u2019s debate on abortion and Trump immunity",
+        "url": "https://www.cnn.com/2024/04/27/politics/amy-coney-barrett-supreme-court-immunity-idaho-abortion/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Text messages suggested tensions between Karen Read and her police officer boyfriend, prosecutor says at her murder trial",
+        "url": "https://www.cnn.com/2024/04/29/us/karen-read-trial-boston-cec/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "We tested 6 grill brushes to see which was best. 1 came out on top, and it\u2019s only $17",
+        "url": "https://www.cnn.com/cnn-underscored/reviews/best-grill-brush",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "This meat thermometer is worth every penny at full price, but today it\u2019s on sale",
+        "url": "https://www.cnn.com/cnn-underscored/reviews/best-meat-thermometer",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "New contract makes Chiefs\u2019 Travis Kelce highest paid tight end in the NFL, reps say",
+        "url": "https://www.cnn.com/2024/04/29/sport/travis-kelce-contract-spt-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "MLB plans to modify uniforms ahead of 2025 season following complaints, per report",
+        "url": "https://www.cnn.com/2024/04/29/sport/mlb-plans-to-modify-uniforms-ahead-of-2025-season-spt-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The tiny Scottish soccer club where investors in 49 US states have bought in",
+        "url": "https://www.cnn.com/2024/04/29/sport/caledonian-braves-american-investors-scotland-spt-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Mike Tyson details regime of abstinence as bout with Jake Paul is sanctioned as professional fight",
+        "url": "https://www.cnn.com/2024/04/29/sport/mike-tyson-jake-paul-fight-sex-marijuana-spt-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Aerial photos before and after tornadoes show how much was destroyed",
+        "url": "https://www.cnn.com/2024/04/29/weather/tornado-images-nebraska-iowa-oklahoma-climate/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Say goodbye to Ruby Tuesday and Chili\u2019s. These are the hot new restaurants at the mall",
+        "url": "https://www.cnn.com/2024/04/28/business/mall-restaurants-ruby-tuesday-chilis/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Walgreens limits purchases of new cult candy because it can\u2019t meet demand",
+        "url": "https://www.cnn.com/2024/04/27/business/gummy-mango-peelable-candy-walgreens/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Rolls-Royce is growing its factory so it can build its \u2018bespoke\u2019 cars more slowly",
+        "url": "https://www.cnn.com/2024/04/28/cars/rolls-royce-doubling-factory-luxury-cars/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Far-right network OAN retracts false story about Michael Cohen affair with Stormy Daniels",
+        "url": "https://www.cnn.com/2024/04/29/business/oan-retracts-michael-cohen-stormy-daniels/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "20 spring dresses that are so flattering you\u2019ll never want to take them off",
+        "url": "https://www.cnn.com/cnn-underscored/fashion/best-spring-dresses-2024",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Allbirds\u2019 iconic shoes are on sale today",
+        "url": "https://www.cnn.com/cnn-underscored/deals/allbirds-sale-deals-fest-2024-04-29",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The 35 best Mother\u2019s Day gifts from daughters (you might want to keep for yourself)",
+        "url": "https://www.cnn.com/cnn-underscored/gifts/best-mothers-day-gifts-from-daughters",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "CNN readers love these products, and today they\u2019re seriously discounted",
+        "url": "https://www.cnn.com/cnn-underscored/deals/deals-fest-2024",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The cult-favorite Windmill AC is $50 off today",
+        "url": "https://www.cnn.com/cnn-underscored/deals/windmill-air-conditioner-sale-2023-04-11",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Everything we\u2019re adding to our carts from Alo\u2019s big Aloversary sale",
+        "url": "https://www.cnn.com/cnn-underscored/deals/alo-yoga-aloversary-sale-2024-04-29",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Your mom deserves more than a card this Mother\u2019s Day. Here are 50 thoughtful gifts",
+        "url": "https://www.cnn.com/cnn-underscored/gifts/mothers-day-gifts",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "This tool will change the way you use the toilet",
+        "url": "https://www.cnn.com/cnn-underscored/reviews/the-unwipe",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "This Hydro Flask kids water bottle is easy to hold and perfect for travel",
+        "url": "https://www.cnn.com/cnn-underscored/reviews/kids-hydro-flask-water-bottle",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "35 of the best eco-friendly travel products to take on your next trip",
+        "url": "https://www.cnn.com/cnn-underscored/travel/eco-friendly-travel-products",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "This mosquito repeller actually works \u2014 and it\u2019s on sale now",
+        "url": "https://www.cnn.com/cnn-underscored/deals/thermacell-mosquito-repellent-sale-2024-04-02",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Wired earbuds are having a comeback. We tested a bunch to find the best ones",
+        "url": "https://www.cnn.com/cnn-underscored/reviews/best-wired-earbuds",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Give your linens a spring refresh for less during Brooklinen\u2019s 10th Anniversary Sale",
+        "url": "https://www.cnn.com/cnn-underscored/deals/brooklinen-anniversary-sale-2024-04-23",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Easy steak dinners you can make any night of the week",
+        "url": "https://www.cnn.com/wbd/easy-steak-dinners-you-can-make-any-night-of-the-week/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "6 mint julep-inspired desserts for Derby day and beyond",
+        "url": "https://www.cnn.com/wbd/6-mint-julep-inspired-desserts-youll-want-to-make-year-round/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Canning veggies at home requires minimal investment and just a bit of know-how",
+        "url": "https://www.cnn.com/wbd/home-canning-for-beginners-tools-and-tips-for-success/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "My family lost the Civil War. Last year they finally gave up this symbol of power",
+        "url": "https://www.cnn.com/2024/04/29/opinions/civil-war-confederate-military-base-name-change-rucker/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "I\u2019m a Jewish student at Yale. Here\u2019s what everyone is getting wrong about the protests",
+        "url": "https://www.cnn.com/2024/04/27/opinions/yale-student-palestinian-protests-berlin/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Split-screen moment shapes Trump\u2019s fate",
+        "url": "https://www.cnn.com/2024/04/28/opinions/trump-faces-the-wind-opinion-galant/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Trump attorney\u2019s\u00a0embarrassing courtroom\u00a0apology",
+        "url": "https://www.cnn.com/2024/04/27/opinions/trump-trial-david-pecker-court-eisen/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "America\u2019s small-town water systems are global cyber targets. Is your city next?",
+        "url": "https://www.cnn.com/2024/04/28/opinions/small-town-water-systems-global-hacking-cyber-targets-lee/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Ryan Gosling isn\u2019t just Ken and his surprise appearance at Universal Studios proved that",
+        "url": "https://www.cnn.com/2024/04/29/entertainment/ryan-gosling-surprise-universal-appearance/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Meryl Streep jokes that Nicole Kidman is so good at acting it\u2019s \u2018traumatizing\u2019",
+        "url": "https://www.cnn.com/2024/04/29/entertainment/nicole-kidman-meryl-streep-afi-award/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Chris Pine\u2019s latest red carpet look puts a new spin on \u2018method dressing\u2019",
+        "url": "https://www.cnn.com/2024/04/26/style/chris-pine-fashion-red-carpet-shorts-poolman/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Britney Spears settles with estranged father more than 2 years after conservatorship was terminated",
+        "url": "https://www.cnn.com/2024/04/27/entertainment/britney-spears-settles-conservatorship-legal-dispute/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Review\u2018Challengers\u2019 serves up Zendaya in a triangle where love means nothing",
+        "url": "https://www.cnn.com/2024/04/25/entertainment/challengers-review-zendaya/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "He visited Italy for the first time and bought a house within 24 hours",
+        "url": "https://www.cnn.com/travel/italy-house-bought-24-hours-latronico/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Book at these times to save money on summer flights for 2024",
+        "url": "https://www.cnn.com/travel/when-to-book-summer-flights-2024/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "This stunning national park hasn\u2019t reopened since the pandemic \u2013 and has a surprisingly dark history",
+        "url": "https://www.cnn.com/travel/kalaupapa-national-historical-park-hawaii/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Why your next vacation might be all about sexual wellness",
+        "url": "https://www.cnn.com/travel/sexual-wellness-resorts-retreats-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Pilot proposes to flight attendant girlfriend in front of delighted passengers",
+        "url": "https://www.cnn.com/2024/04/24/travel/pilot-proposes-to-flight-attendant-scli-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "This classic British candy could soon vanish. Here\u2019s why",
+        "url": "https://www.cnn.com/travel/uk-rock-candy-cheap-imports/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "One man\u2019s artistic wonderland, created secretly in rented apartment, given protected status",
+        "url": "https://www.cnn.com/2024/04/07/style/rental-apartment-artwork-listed-gbr-scli-intl-gbr/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Baring it all: Breasts take center stage at this major exhibition",
+        "url": "https://www.cnn.com/2024/04/22/style/breasts-exhibition-venice-biennale/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Photos shine a light on Taiwan\u2019s \u2018betel nut beauties\u2019",
+        "url": "https://www.cnn.com/style/taiwan-betel-nut-beauties-constanze-han/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Who wore it worst: China\u2019s youth are staging a rebellion with \u2018gross\u2019 work outfits",
+        "url": "https://www.cnn.com/2024/04/21/style/china-youth-gross-work-outfit-trend-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The climate crisis is underway. Here are 5 things you can do to help",
+        "url": "https://www.cnn.com/2024/04/29/health/climate-crisis-how-to-help-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Last letters of pioneering climber who died on Everest reveal dark side of mountaineering",
+        "url": "https://www.cnn.com/2024/04/26/asia/george-mallory-digitized-letters-mount-everest-scn/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Move better and sidestep injury with the side lunge",
+        "url": "https://www.cnn.com/2024/04/25/health/side-lateral-lunge-exercise-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Boeing and NASA decide to move forward with historic crewed launch of new spacecraft",
+        "url": "https://www.cnn.com/2024/04/25/world/boeing-starliner-launch-spacex-delays-scn/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Sex and marriage patterns in an ancient empire revealed by DNA",
+        "url": "https://www.cnn.com/2024/04/24/europe/ancient-dna-avars-empire-scn/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Australia\u2019s problem with male violence is getting worse. So, what\u2019s the solution?",
+        "url": "https://www.cnn.com/2024/04/29/australia/australia-women-gendered-violence-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Spain\u2019s PM Pedro Sanchez refuses to quit, vowing to fight \u2018unfounded\u2019 attack on his wife",
+        "url": "https://www.cnn.com/2024/04/29/europe/spain-politics-pedro-sanchez-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "\u2018My whole family has perished:\u2019 22 killed in Israeli airstrike on Rafah, hospital staff say",
+        "url": "https://www.cnn.com/2024/04/29/middleeast/israeli-airstrike-rafah-gaza-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "G7 agrees to shut down coal plants by 2035, UK minister says, in climate breakthrough",
+        "url": "https://www.cnn.com/2024/04/29/climate/g7-end-coal-fossil-fuels-climate-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Scotland\u2019s leader Humza Yousaf resigns after a year in power",
+        "url": "https://www.cnn.com/2024/04/29/europe/humza-yousaf-resigns-scotland-snp-gbr-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "CNN InvestigatesIf Trump is reelected, he plans to dismantle entire federal government departments",
+        "url": "https://www.cnn.com/2024/04/27/politics/trump-federal-workers-2nd-term-invs/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "House Speaker Johnson will face the fallout from his foreign aid package today",
+        "url": "https://www.cnn.com/2024/04/29/politics/johnson-marjorie-taylor-greene-ouster-vote/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "AnalysisMisinformation has created an alternative world for some Americans",
+        "url": "https://www.cnn.com/2024/04/28/politics/election-misinformation-conspiracy-theories-what-matters/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Hunter Biden demands that Fox News remove \u2018intimate\u2019 images from its platforms",
+        "url": "https://www.cnn.com/2024/04/29/politics/hunter-biden-fox-letter/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "South Dakota Gov. Kristi Noem defends book excerpt where she describes killing dog and goat",
+        "url": "https://www.cnn.com/2024/04/26/politics/kristi-noem-south-dakota-book-killing-dog/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Family of Black teen shot in head after ringing doorbell of wrong home sues gunman and HOA",
+        "url": "https://www.cnn.com/2024/04/29/us/ralph-yarl-wrong-address-shooting-lawsuit/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "What flyers should know about the bipartisan FAA reauthorization bill",
+        "url": "https://www.cnn.com/2024/04/29/politics/faa-reauthorization-congress/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Train derailment shuts down a historic bridge that carries cars and trains in Portland, Oregon",
+        "url": "https://www.cnn.com/2024/04/29/us/train-derailment-steel-bridge-portland/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "USDA says it is testing beef for H5N1 bird flu virus",
+        "url": "https://www.cnn.com/2024/04/29/health/usda-beef-bird-flu/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "A devastating tornado tore through a Nebraska town the day before this couple\u2019s wedding. They celebrated in the dark anyway",
+        "url": "https://www.cnn.com/2024/04/29/weather/waterloo-nebraska-tornado-wedding-climate/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "A plant that\u2019s everywhere is fueling a growing risk of wildfire disaster",
+        "url": "https://www.cnn.com/2024/03/21/climate/wildfire-grass-risk-west-us/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Biden administration finalizes new rules for power plants in one of its most significant climate actions to-date",
+        "url": "https://www.cnn.com/2024/04/25/climate/biden-epa-power-plant-rule-climate/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The world\u2019s 100 worst polluted cities are in Asia \u2014\u00a0and 83 of them are in just one country",
+        "url": "https://www.cnn.com/2024/03/18/climate/air-pollution-report-2023-asia-climate-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Biden just signed a potential TikTok ban into law. Here\u2019s what happens next",
+        "url": "https://www.cnn.com/2024/04/23/tech/congress-tiktok-ban-what-next/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "AnalysisBanning TikTok would hit China\u2019s tech ambitions and deepen the global digital divide",
+        "url": "https://www.cnn.com/2024/04/24/tech/tiktok-ban-bytedance-split-the-world-further-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Google has fired 50 employees after protests over Israel cloud deal, organizers say",
+        "url": "https://www.cnn.com/2024/04/23/tech/google-fires-employees-protest-israel/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Streaming and texting on the Moon: Nokia and NASA are taking 4G into space",
+        "url": "https://www.cnn.com/2024/04/24/tech/nokia-moon-4g-network-nasa-spc/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How Beyonc\u00e9 has helped shine a light on this organization",
+        "url": "https://www.cnn.com/2024/04/26/entertainment/black-opry-country-music/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "\u2022OpinionOpinionMichael Buckner/Billboard/Getty Images",
+        "url": "https://www.cnn.com/2024/04/26/opinions/beyonce-cowboy-carter-call-me-country-blackwell/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Hawaii is arresting and fining tourists who continue to visit off-limits attraction",
+        "url": "https://www.cnn.com/travel/haiku-stairs-hawaii-visits-continue-arrests/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "\u2018The Sympathizer\u2019 star on how he \u2018never felt rooted\u2019 to his Vietnamese heritage until landing lead role",
+        "url": "https://www.cnn.com/2024/04/28/entertainment/sympathizer-vietnamese-heritage-hoa-xuande/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "England rugby player Billy Vunipola fined for resisting arrest at Mallorca nightclub, court says",
+        "url": "https://www.cnn.com/2024/04/29/sport/billy-vunipola-mallorca-arrest-rugby-spt-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Rural, older Americans could get hurt as affordable internet program runs out of cash",
+        "url": "https://www.cnn.com/2024/04/29/tech/broadband-affordability-acp-rural-older-americans/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The longest commercial passenger flight from China will take you to Mexico City",
+        "url": "https://www.cnn.com/travel/china-southern-longest-flight-mexico-city-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Lionel Messi makes MLS history in front of record crowd",
+        "url": "https://www.cnn.com/2024/04/28/sport/lionel-messi-mls-record-spt-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Arizona state senator indicted in fake electors scheme is tapped for RNC position",
+        "url": "https://www.cnn.com/2024/04/29/politics/jake-hoffman-indicted-fake-elector-arizona-gop-rnc/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "A high school principal was framed making offensive comments in a deepfake recording, police say. A school staffer has been arrested",
+        "url": "https://www.cnn.com/2024/04/26/us/pikesville-principal-maryland-deepfake-cec/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    }
+]
