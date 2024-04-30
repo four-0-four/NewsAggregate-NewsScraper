@@ -1,0 +1,332 @@
+[
+    {
+        "title": "US safety regulations will require better automatic braking",
+        "url": "https://www.cnn.com/2024/04/29/cars/nhtsa-auto-safety-regulations-automatic-braking/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "GNC is struggling. It hopes Ozempic can give it a boost",
+        "url": "https://www.cnn.com/2024/04/29/business/gnc-ozempic-wegovy-novo-nordisk-strategy/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Paramount Global ousts chief Bob Bakish as future of media conglomerate hangs in the balance",
+        "url": "https://www.cnn.com/2024/04/29/media/paramount-global-bob-bakish-out/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Columbia student protesters are demanding divestment. Here\u2019s what the university has divested from in the past",
+        "url": "https://www.cnn.com/2024/04/27/business/columbia-history-divestment-student-protests/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Far-right network OAN retracts false story about Michael Cohen affair with Stormy Daniels",
+        "url": "https://www.cnn.com/2024/04/29/business/oan-retracts-michael-cohen-stormy-daniels/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Rolls-Royce is growing its factory so it can build its \u2018bespoke\u2019 cars more slowly",
+        "url": "https://www.cnn.com/2024/04/28/cars/rolls-royce-doubling-factory-luxury-cars/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "FCC fines wireless carriers millions for sharing user locations without consent",
+        "url": "https://www.cnn.com/2024/04/29/tech/fcc-fines-att-verizon-200-million/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "EU investigates Meta over fears of election interference and foreign disinformation",
+        "url": "https://www.cnn.com/2024/04/29/tech/eu-investigates-meta-election-interference-foreign-disinformation/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "\u2018Should have been done yesterday\u2019: Rural, older Americans could get hurt as affordable internet program runs out of cash",
+        "url": "https://www.cnn.com/2024/04/29/tech/broadband-affordability-acp-rural-older-americans/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How CEOs are preparing for possible employee protests",
+        "url": "https://www.cnn.com/2024/04/29/investing/premarket-stocks-trading/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Elon Musk wins official praise for Tesla during surprise visit to China",
+        "url": "https://www.cnn.com/2024/04/29/cars/elon-musk-surprise-visit-china-premier-li-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Manufacturing in Mexico is having its moment. The US is buying in\u00a0\u2014 and so is China",
+        "url": "https://www.cnn.com/2024/04/28/business/us-china-mexico-manufacturing-nearshoring-hnk-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Biden praises UAW-Daimler Truck agreement as a\u00a0\u2018testament to the power of collective bargaining\u2019",
+        "url": "https://www.cnn.com/2024/04/28/business/uaw-daimler-strike-deal-biden/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Say goodbye to Ruby Tuesday and Chili\u2019s. These are the hot new restaurants at the mall",
+        "url": "https://www.cnn.com/2024/04/28/business/mall-restaurants-ruby-tuesday-chilis/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "What is divestment? And does it work?",
+        "url": "https://www.cnn.com/2024/04/28/investing/stocks-lookahead-divestment-college-protests/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Walgreens has a cult \u2018peelable\u2019 candy, courtesy of a TikTok craze",
+        "url": "https://www.cnn.com/2024/04/27/business/gummy-mango-peelable-candy-walgreens/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "FDIC says Republic First Bank is closed by Pennsylvania regulators",
+        "url": "https://www.cnn.com/2024/04/26/business/regulators-seize-republic-first-bancorp/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "A coal billionaire is building the world\u2019s biggest clean energy plant and it\u2019s five times the size of Paris",
+        "url": "https://www.cnn.com/2024/03/19/business/india-adani-green-energy-plant-climate-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The home insurance market is crumbling. These owners are paying the price",
+        "url": "https://www.cnn.com/2024/03/29/economy/home-insurance-prices-climate-change/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Poppy Harlow announces she will exit CNN after nearly two decades",
+        "url": "https://www.cnn.com/2024/04/26/media/poppy-harlow-exit-cnn/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "CEOs of OpenAI, Google and Microsoft to join other tech leaders on federal AI safety panel",
+        "url": "https://www.cnn.com/2024/04/26/tech/openai-altman-government-ai-safety-panel/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "As pro-Palestinian protests sweep campus, student journalists are rushing to the big story and exams",
+        "url": "https://www.cnn.com/2024/04/26/business/as-pro-palestinian-protests-sweepcollegecampuses-student-journalistsarerushing-to-the-bigstoryandexams/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "What the pro-Palestinian protesters on college campuses actually want",
+        "url": "https://www.cnn.com/2024/04/26/investing/what-pro-palestinian-protesters-want/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Judge approves multimillion-dollar Realtor settlement, upending the way Americans buy and sell homes",
+        "url": "https://www.cnn.com/2024/04/24/homes/nar-settlement-broker-commissions-approval/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "\u2018Cabs to get into space\u2019: How this Indian startup wants to revolutionize satellite space travel",
+        "url": "https://www.cnn.com/2024/04/23/business/india-space-startups-skyroot-aerospace-hnk-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Boeing to pay $443 million to airlines for Max 9 grounding as losses and problems mount",
+        "url": "https://www.cnn.com/2024/04/24/business/boeing-losses/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Switzerland says UBS may need more cash. The bank is fuming",
+        "url": "https://www.cnn.com/2024/04/24/investing/ubs-switzerland-too-big-to-fail/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Former National Enquirer boss reveals sleazy tactics the tabloid used to protect Donald Trump and smear his rivals",
+        "url": "https://www.cnn.com/2024/04/24/media/national-enquirer-trump-protect-smear/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Labor complaint reveals allegations of Boeing retaliation against two workers",
+        "url": "https://www.cnn.com/2024/04/23/business/boeing-investigation-labor-complaint-allegations-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Tesla\u2019s earnings plunge, but the company promises cheaper car model",
+        "url": "https://www.cnn.com/2024/04/23/business/tesla-report-earnings-result/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "FTC votes to ban most employers from using noncompete clauses. But legal challenge is expected",
+        "url": "https://www.cnn.com/2024/04/23/success/ftc-bans-non-compete-clauses/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How to make high interest rates work for your hard-earned savings",
+        "url": "https://www.cnn.com/2024/03/20/success/interest-rates-savings-cash/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The average Wall Street bonus dipped 2% last year, to $176,500",
+        "url": "https://www.cnn.com/2024/03/19/success/wall-street-bonuses/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The average tax refund is over $3,000. Here are 7 ways to put it to good use",
+        "url": "https://www.cnn.com/2024/03/15/success/best-ways-to-use-your-tax-refund/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "FS Productions/Tetra images RF/Getty Images",
+        "url": "https://www.cnn.com/2024/03/12/success/equal-pay-day-2024/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "FTC investigating TikTok over privacy and security",
+        "url": "https://www.cnn.com/2024/03/26/tech/ftc-tiktok-probe-privacy-and-security/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Apple announces its annual developers conference is set for June 10",
+        "url": "https://www.cnn.com/2024/03/26/tech/apple-annual-developers-conference-june-10/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Judge\u2019s stern rebuke of Elon Musk\u2019s X gives researchers fresh hope",
+        "url": "https://www.cnn.com/2024/03/26/tech/judges-stern-rebuke-of-elon-musks-x-gives-researchers-fresh-hope/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "3 ways Apple\u2019s monopoly lawsuit could change the iPhone experience for fans",
+        "url": "https://www.cnn.com/2024/03/26/tech/apples-iphone-changes-lawsuit/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "NBC cut ties with Ronna McDaniel after extraordinary pressure, but its problems aren\u2019t over",
+        "url": "https://www.cnn.com/2024/03/27/media/nbc-ronna-mcdaniel-problems-are-not-over/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "NBC News ousts Ronna McDaniel after network\u2019s anchors launch unprecedented on-air rebellion",
+        "url": "https://www.cnn.com/2024/03/26/media/nbc-news-ousts-ronna-mcdaniel/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "NBC News boss Cesar Conde faces backlash from his network\u2019s anchors over \u2018inexplicable\u2019 decision to hire ex-RNC chair Ronna McDaniel",
+        "url": "https://www.cnn.com/2024/03/26/media/nbc-news-cesar-conde-ronna-mcdaniel-backlash/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "NBC hires former RNC chair Ronna McDaniel, who has demonized the press\u00a0and refused to acknowledge Biden was fairly elected",
+        "url": "https://www.cnn.com/2024/03/22/media/ronna-mcdaniel-nbc/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Bilt\u2019s May Rent Day promotion: Redeem points toward rent, get free home decor",
+        "url": "https://www.cnn.com/cnn-underscored/travel/bilt-rent-day-promotion",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Your ultimate guide to the American Express Membership Rewards program",
+        "url": "https://www.cnn.com/cnn-underscored/travel/american-express-membership-rewards-guide",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "It\u2019s back: Targeted Amex card holders can get up to 30% off at Amazon",
+        "url": "https://www.cnn.com/cnn-underscored/deals/amazon-amex-discount-promotion",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Your complete guide to earning and redeeming points in the Citi ThankYou Rewards program",
+        "url": "https://www.cnn.com/cnn-underscored/travel/citi-thankyou-points-rewards",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Digital humans: the relatable face of artificial intelligence?",
+        "url": "https://www.cnn.com/business/digital-humans-ai-dj-dex-spc/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Top soccer clubs are using an AI-powered app to scout future stars",
+        "url": "https://www.cnn.com/2024/03/01/tech/aiscout-app-soccer-scouting-spc-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Why lab-grown diamond sales are surging",
+        "url": "https://www.cnn.com/2022/04/27/business/diamonds-manmade-demand/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The Chevrolet Corvette is officially going electric",
+        "url": "https://www.cnn.com/2022/04/25/business/electric-hybrid-corvette/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "OpenAI\u2019s wild week. How the Sam Altman story unfolded",
+        "url": "https://www.cnn.com/2023/11/22/tech/openai-sam-altman-chaos-explained-intl-hnk/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Sam Altman returns to OpenAI in a bizarre reversal of fortunes",
+        "url": "https://www.cnn.com/2023/11/22/tech/openai-altman-returns-hnk-intl/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Opinion: The drama around Sam Altman is an urgent warning",
+        "url": "https://www.cnn.com/2023/11/21/opinions/sam-altman-openai-ouster-danger-filipovic/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Microsoft stock hits all-time high after hiring former OpenAI CEO Sam Altman",
+        "url": "https://www.cnn.com/2023/11/20/investing/microsoft-stock-record-high-altman-openai/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    }
+]

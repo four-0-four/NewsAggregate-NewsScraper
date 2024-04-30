@@ -30,7 +30,7 @@ class NewsScraper:
         url = f"{self.base_url}{category_path}"
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
-        #custom_html = self.read_html_file("tests/nbc/nbc_homepage.html")
+        #custom_html = self.read_html_file("tests/cnn/cnn_category_1.html")
         #soup = BeautifulSoup(custom_html, 'html.parser')
         
         article_links = []
@@ -92,7 +92,7 @@ class NewsScraper:
         #print(article_url)
         response = requests.get(article_url)
         soup = BeautifulSoup(response.text, 'html.parser')
-        #custom_html = self.read_html_file("tests/nbc/nbc_article.html")
+        #custom_html = self.read_html_file("tests/cnn/cnn_article.html")
         #soup = BeautifulSoup(custom_html, 'html.parser')
         
         title = self.scrape_title(soup)

@@ -12,7 +12,6 @@ class CNNNewsScraper(NewsScraper):
         article_url_css_selector = [
             ('[data-link-type^="article"]', '[data-link-type^="article"] [class$="headline"]'),
             ('[data-link-type^="card"]', '[data-link-type^="card"] [class$="headline"]'),
-            ('a', 'a'),
         ]
         
         title_selector = ('h1',['headline__text'])

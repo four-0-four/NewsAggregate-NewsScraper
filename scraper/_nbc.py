@@ -1,6 +1,7 @@
 from datetime import datetime
 from scraper.news_scraper import NewsScraper
 import requests
+import re
 from bs4 import BeautifulSoup
 
 class NBCNewsScraper(NewsScraper):

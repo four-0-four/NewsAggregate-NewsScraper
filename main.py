@@ -67,7 +67,7 @@ async def insert_article_and_category(conn_params, article, corporation_id, corp
         corporationName=corporation_name,
         corporationLogo=corporation_logo
     )
-    print(f"inserted {news.get("id")}")
+    #print(f"inserted {news.get("id")}")
     if category_id != -1 and news.get("id"):
         await insert_news_category(conn_params, news.get("id"), category_id)
 
@@ -185,7 +185,7 @@ async def scrape_article_given_url():
         print(article_data)
 
 if __name__ == '__main__':
-    #asyncio.run(parallel_main())
+    asyncio.run(parallel_main())
     #asyncio.run(parallel_one_news_source("NBCNews"))
-    asyncio.run(scrape_article_given_url())
+    #asyncio.run(scrape_article_given_url())
     #scrape_urls_one_category_given_news_source()
