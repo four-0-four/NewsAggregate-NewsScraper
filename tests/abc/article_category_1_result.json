@@ -1,0 +1,374 @@
+[
+    {
+        "title": "Severe weather, including tornado threat, expected to impact the Heartland",
+        "url": "https://abcnews.go.com/US/severe-weather-including-tornado-threat-expected-impact-heartland/story?id=109692800",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Dad charged under state's gun storage law after son shoots himself",
+        "url": "https://abcnews.go.com/US/michigan-father-1st-charged-new-safe-gun-storage/story?id=109585645",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Here are all the gag order violations Trump is accused of making",
+        "url": "https://abcnews.go.com/US/gag-order-violations-trump-accused-making/story?id=109627332",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Paramedic convicted in Elijah McClain death to be sentenced",
+        "url": "https://abcnews.go.com/US/final-responder-convicted-elijah-mcclains-death-sentenced/story?id=109687374",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Cross-examination of David Pecker continues",
+        "url": "https://abcnews.go.com/US/video/cross-examination-david-pecker-continues-109691451",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "National headlines from ABC News",
+        "url": "https://abcnews.go.com/US/video/national-headlines-abc-news-71045364",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Supreme Court considers Trump\u2019s claim of absolute immunity",
+        "url": "https://abcnews.go.com/US/video/supreme-court-considers-trumps-claim-absolute-immunity-109689504",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Hidden world of 'catch-and-kill' tabloids spotlighted in Trump's hush money trial",
+        "url": "https://abcnews.go.com/US/hidden-world-catch-kill-tabloids-spotlighted-trumps-hush/story?id=109528512",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "How researchers are experimenting with curbing human-shark interactions",
+        "url": "https://abcnews.go.com/US/shark-conservation-successful-researchers-finding-ways-curb-human/story?id=109326071",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Controversial methods to cool the earth gain traction as global temps skyrocket",
+        "url": "https://abcnews.go.com/US/controversial-methods-cool-earth-gain-traction-global-temperatures/story?id=109349797",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Arbor Day 2024: How to plant the best tree to combat climate change",
+        "url": "https://abcnews.go.com/US/arbor-day-2024-plant-best-tree-combat-climate/story?id=108760717",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Secretary of State Antony Blinken meets with President Xi of China",
+        "url": "https://abcnews.go.com/US/secretary-state-antony-blinken-set-meet-president-xi/story?id=109675693",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "ABC News Live Prime: Thursday, April 25, 2024",
+        "url": "https://abcnews.go.com/US/video/abc-news-live-prime-thursday-april-25-2024-109657605",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "ABC News Live Rundown: Thursday, April 25, 2024",
+        "url": "https://abcnews.go.com/US/video/abc-news-live-rundown-thursday-april-25-2024-109653902",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Attorney of Harvey Weinstein on New York conviction being overturned",
+        "url": "https://abcnews.go.com/US/video/attorney-harvey-weinstein-new-york-conviction-overturned-109654126",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "SCOTUS hears Trump immunity case in historic first",
+        "url": "https://abcnews.go.com/US/video/scotus-hears-trump-immunity-case-historic-109654129",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "The Power of Us: People, Climate and Our Future",
+        "url": "https://abcnews.go.com/US/video/power-us-people-climate-future-109652555",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Ex-official told investigators Trump had 'no standing declassification order'",
+        "url": "https://abcnews.go.com/US/former-official-told-investigators-trump-standing-declassification-order/story?id=109528425",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Fewer companies requiring new employees to have a degree",
+        "url": "https://abcnews.go.com/US/video/fewer-companies-requiring-new-employees-degree-109647605",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Harvey Weinstein's 2020 felony sex crime conviction overturned",
+        "url": "https://abcnews.go.com/US/video/harvey-weinsteins-2020-felony-sex-crime-conviction-overturned-109647532",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "High school athletic director used AI to create fake racist rant of principal: Police",
+        "url": "https://abcnews.go.com/US/baltimore-high-school-athletic-director-ai-create-fake/story?id=109638535",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "5 big takeaways from Day 7 of Trump's hush money trial",
+        "url": "https://abcnews.go.com/US/5-big-takeaways-day-7-trumps-hush-money/story?id=109649596",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Giuliani, Meadows indicted in Arizona fake elector scheme",
+        "url": "https://abcnews.go.com/US/11-indicted-arizona-2020-election-probe/story?id=109509462",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Chicago's famous 'rat hole' removed from neighborhood sidewalk",
+        "url": "https://abcnews.go.com/US/video/chicagos-famous-rat-hole-removed-neighborhood-sidewalk-109651130",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "High school athletic director used AI to create racist audio of principal: Police",
+        "url": "https://abcnews.go.com/US/video/baltimore-high-school-athletic-director-ai-create-racist-109649855",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Chicago's famous 'rat hole' removed and preserved from neighborhood sidewalk",
+        "url": "https://abcnews.go.com/US/chicagos-famous-rat-hole-removed-preserved-neighborhood-sidewalk/story?id=109638877",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Harvey Weinstein's rape conviction overturned in New York; DA will attempt to retry",
+        "url": "https://abcnews.go.com/US/harvey-weinstein-conviction-overturned-new-york/story?id=109621776",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Boeing crash victims' families urge DOJ to criminally prosecute company",
+        "url": "https://abcnews.go.com/US/boeing-crash-victims-families-urge-doj-criminally-prosecute/story?id=109597636",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "How researchers are experimenting with curbing human-shark interactions",
+        "url": "https://abcnews.go.com/US/video/researchers-experimenting-curbing-human-shark-interactions-109647540",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Sheriff conducting criminal investigation into National Guard helicopter crash",
+        "url": "https://abcnews.go.com/US/texas-sheriff-conducting-criminal-investigation-deadly-national-guard/story?id=109501475",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Pro-Palestine college protests escalate nationwide",
+        "url": "https://abcnews.go.com/US/video/pro-palestine-college-protests-escalate-nationwide-109636375",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Sister of slain Chicago police Officer Luis Huesca speaks out",
+        "url": "https://abcnews.go.com/US/video/sister-slain-chicago-police-officer-luis-huesca-speaks-109641439",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "David Pecker details his interactions with Michael Cohen discussing Stormy Daniels",
+        "url": "https://abcnews.go.com/US/video/david-pecker-details-interactions-michael-cohen-discussing-stormy-109636322",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Planting trees to combat climate change on Arbor Day",
+        "url": "https://abcnews.go.com/US/video/planting-trees-combat-climate-change-arbor-day-109625091",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "'It's not fair': Sister of slain cop makes emotional plea to Chicago residents",
+        "url": "https://abcnews.go.com/US/slain-chicago-police-officer-luis-huesca-sister-pleads-public-help/story?id=109619417",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Trump speaks ahead of hush money trial hearing",
+        "url": "https://abcnews.go.com/US/video/trump-speaks-ahead-hush-money-trial-hearing-109622641",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "How citizen science is being used for whale conservation efforts",
+        "url": "https://abcnews.go.com/US/gotham-whale-new-york-city-based-nonprofit-allows/story?id=109325939",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Donald Trump facing 4 concurrent legal battles",
+        "url": "https://abcnews.go.com/US/video/donald-trump-facing-4-concurrent-legal-battles-109620934",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "New search underway tied to Gilgo Beach murder investigation: Sources",
+        "url": "https://abcnews.go.com/US/video/new-search-underway-tied-gilgo-beach-murder-investigation-109616733",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "David Pecker testified he was Trump's 'eyes and ears.' We'll hear more today.",
+        "url": "https://abcnews.go.com/US/trump-hush-money-trial-day-7-national-enquirers/story?id=109595927",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Teen births fall to record low, as overall total drops by 2%, CDC report finds",
+        "url": "https://abcnews.go.com/US/teen-births-us-fall-record-low-total-drops/story?id=109572998",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "ABC News Live Prime: Wednesday, April 24, 2024",
+        "url": "https://abcnews.go.com/US/video/abc-news-live-prime-wednesday-april-24-2024-109598889",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "ABC News Live Rundown: Wednesday, April 24, 2024",
+        "url": "https://abcnews.go.com/US/video/abc-news-live-rundown-wednesday-april-24-2024-109597891",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "President of Planned Parenthood on Arizonas vote to repeal Civil War-era abortion ban",
+        "url": "https://abcnews.go.com/US/video/president-planned-parenthood-arizonas-vote-repeal-civil-war-109597991",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Visiting Columbia University, Speaker Johnson considers need for National Guard",
+        "url": "https://abcnews.go.com/US/video/visiting-columbia-university-speaker-johnson-considers-national-guard-109598081",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "US Census to add Middle Eastern and North African category",
+        "url": "https://abcnews.go.com/US/video/us-census-add-middle-eastern-north-african-category-109595630",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "President Joe Biden signs foreign aid bill that includes proposed TikTok ban",
+        "url": "https://abcnews.go.com/US/video/president-joe-biden-signs-foreign-aid-bill-includes-109595390",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Major victory for Arizona abortion rights supporters",
+        "url": "https://abcnews.go.com/US/video/major-victory-arizona-abortion-rights-supporters-109595311",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "President Joe Biden signs $95B foreign aid package that includes possible TikTok ban",
+        "url": "https://abcnews.go.com/US/video/president-joe-biden-signs-95b-foreign-aid-package-109595219",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Full 'pink moon' revealed in timelapse footage",
+        "url": "https://abcnews.go.com/US/video/full-pink-moon-revealed-timelapse-footage-109594961",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "What witnesses said about Trump, classified docs",
+        "url": "https://abcnews.go.com/US/appalled-witnesses-told-special-counsel-trumps-handling-classified/story?id=109362691",
+        "title select": ".ContentList__Item > h2",
+        "link select": ".ContentList__Item"
+    },
+    {
+        "title": "Your recycled plastic bags may end up here",
+        "url": "https://abcnews.go.com/US/plastic-bags-walmart-us-recycling-bins-tracked-controversial/story?id=109491232",
+        "title select": ".ContentList__Item > h2",
+        "link select": ".ContentList__Item"
+    },
+    {
+        "title": "Tennessee House kills bill that would have banned local officials from studying, funding reparations",
+        "url": "https://abcnews.go.com/US/wireStory/tennessee-house-kills-bill-banned-local-officials-studying-109596646",
+        "title select": ".ContentList__Item > h2",
+        "link select": ".ContentList__Item"
+    },
+    {
+        "title": "Wild horses to remain in national park: Lawmaker",
+        "url": "https://abcnews.go.com/US/wireStory/wild-horses-remain-north-dakotas-theodore-roosevelt-national-109639913",
+        "title select": ".ContentList__Item > h2",
+        "link select": ".ContentList__Item"
+    },
+    {
+        "title": "Luxury bag designer jailed for wildlife smuggling, making bags from protected speciesThe smuggled bags were made of protected caiman and python species.April 23, 2024",
+        "url": "https://abcnews.go.com/US/luxury-handbag-designer-jailed-wildlife-smuggling-making-merchandise/story?id=109524079",
+        "title select": "a.AnchorLink.News",
+        "link select": ".AnchorLink.News"
+    },
+    {
+        "title": "Brittney Griner opens up about Russian detention in exclusive '20/20' specialThe WNBA star shared her story in an exclusive interview with Robin Roberts.April 23, 2024",
+        "url": "https://abcnews.go.com/US/wnba-star-brittney-griner-opens-harrowing-russian-detention/story?id=109495984",
+        "title select": "a.AnchorLink.News",
+        "link select": ".AnchorLink.News"
+    },
+    {
+        "title": "Slideshow: Worst hurricanes in US history",
+        "url": "https://abcnews.go.com/US/photos/worst-hurricanes-us-history-42629303",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "The civil rights era in photos",
+        "url": "https://abcnews.go.com/US/photos/civil-rights-era-photos-44420050",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "Slideshow: Deadly wildfires destroyed parts of California",
+        "url": "https://abcnews.go.com/US/photos/massive-wildfires-engulf-california-59138729",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "2:03",
+        "url": "https://abcnews.go.com/WNT/video/cancer-survivor-invites-doctors-walk-aisle-101652794",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "Made in America Christmas series highlights small businesses across the country",
+        "url": "https://abcnews.go.com/WNT/video/made-america-christmas-series-highlights-small-businesses-country-94813858",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "U.S. small businesses see sales boost after Made in America features with David Muir",
+        "url": "https://abcnews.go.com/Business/us-small-businesses-sales-boost-after-made-america/story?id=95751001",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    }
+]

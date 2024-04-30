@@ -1,0 +1,212 @@
+[
+    {
+        "title": "Parents are feeling lonely. Here\u2019s why it matters",
+        "url": "https://www.cnn.com/2024/04/23/health/parent-burnout-loneliness-survey-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "What it\u2019s like to be a \u2018glass child\u2019",
+        "url": "https://www.cnn.com/2024/04/23/health/glass-children-invisible-sibling-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Stayed up all night? Here\u2019s how to feel better",
+        "url": "https://www.cnn.com/2024/04/19/health/lost-sleep-taylor-swift-album-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How to be a caregiver and get the support you need",
+        "url": "https://www.cnn.com/2024/04/10/health/caregiving-work-support-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How to know when it\u2019s time to walk away from a sibling",
+        "url": "https://www.cnn.com/2023/01/11/health/sibling-conflict-relationship-estrangement-tips-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Don\u2019t want sex at the same time as your partner? Try this technique instead",
+        "url": "https://www.cnn.com/2024/03/29/health/come-together-emily-nagoski-sex-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How to talk to kids about a cancer diagnosis, according to experts",
+        "url": "https://www.cnn.com/2024/03/22/health/talking-to-kids-cancer-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The bright side of divorce, according to experts",
+        "url": "https://www.cnn.com/2024/03/19/health/divorce-positive-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "The kids really are alright, photographer finds",
+        "url": "https://www.cnn.com/2024/03/16/health/force-of-nature-book-kate-parker-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Jason Kelce shows us what an involved father can do for his children",
+        "url": "https://www.cnn.com/2024/03/05/health/jason-kelce-empathy-retirement-speech-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Why everyone is crying to Taylor\u2019s breakup songs",
+        "url": "https://www.cnn.com/2024/04/19/health/breakup-songs-taylor-swift-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Routine jobs raise the risk of cognitive decline by 66% and dementia by 37%, study says",
+        "url": "https://www.cnn.com/2024/04/17/health/brain-job-dementia-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How cell phones are killing our kids, and what we can do about it",
+        "url": "https://www.cnn.com/2024/04/16/health/cell-phones-jonathan-haidt-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "When it\u2019s time to break up with your therapist",
+        "url": "https://www.cnn.com/2024/04/11/us/how-to-break-up-with-therapist-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Gen Z is less happy than the rest of us. Here is what would make a difference",
+        "url": "https://www.cnn.com/2024/04/09/health/gen-z-happiness-gallup-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Stretching isn\u2019t always the answer for pain and muscle tension",
+        "url": "https://www.cnn.com/2024/04/16/health/flexibility-strength-training-vs-stretching-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Exercise changes the brain in a way that helps heart health, especially for people with depression",
+        "url": "https://www.cnn.com/2024/04/15/health/exercise-stress-heart-disease-study-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Do these exercises for core strength if you can\u2019t stomach doing planks",
+        "url": "https://www.cnn.com/2024/03/28/health/core-strengthening-without-planks-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "6 exercises that address an often overlooked key to longevity",
+        "url": "https://www.cnn.com/2024/04/01/health/grip-strength-key-longevity-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Regular exercise is associated with less insomnia, study shows",
+        "url": "https://www.cnn.com/2024/03/26/health/insomnia-exercise-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "3 in 5 families are short-order cooks for picky kids. Here\u2019s what to do instead",
+        "url": "https://www.cnn.com/2024/04/23/health/picky-eaters-kids-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "3 desserts you should have on your table this Passover",
+        "url": "https://www.cnn.com/2024/04/22/health/passover-dessert-recipes-micah-siva-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Which foods have the most plastics? You may be surprised",
+        "url": "https://www.cnn.com/2024/04/22/health/plastics-food-wellness-scn/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "5 ways to add joy into your meals",
+        "url": "https://www.cnn.com/2024/04/19/health/joy-food-diet-weight-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Fresh and frozen imported strawberries highly contaminated with pesticides, report says",
+        "url": "https://www.cnn.com/2024/04/18/health/imported-produce-pesticides-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Sexsomnia: An embarrassing sleep disorder no one wants to talk about",
+        "url": "https://www.cnn.com/2024/04/28/health/sexsomnia-sleep-sex-explainer-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Should I take supplements to help me sleep? A doctor explains",
+        "url": "https://www.cnn.com/2024/04/25/health/sleep-supplements-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Melatonin industry asked to voluntarily tighten standards after dramatic rise in childhood ER visits",
+        "url": "https://www.cnn.com/2024/04/15/health/melatonin-safety-standards-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Bright indicator lights ruining your sleep? You\u2019re not alone. Here\u2019s why they exist",
+        "url": "https://www.cnn.com/2024/04/13/business/lights-technology-sleep-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "CPAP replacement works well for the overweight, not obese, study finds",
+        "url": "https://www.cnn.com/2024/04/04/health/cpap-alternative-implantable-sleep-apnea-device-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Here\u2019s what marijuana researchers have to say about 420 or \u2018weed day\u2019",
+        "url": "https://www.cnn.com/2024/04/20/health/420-weed-day-expert-caution-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Cancer cases in younger people are rising sharply. Here are some preventive measures to take",
+        "url": "https://www.cnn.com/2024/04/18/health/cancer-colon-breast-screening-young-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Alcohol use sent nearly twice as many women to the hospital during pandemic, study finds",
+        "url": "https://www.cnn.com/2024/04/12/health/alcohol-abuse-women-pandemic-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "How to limit PFAS in your drinking water and food, according to experts",
+        "url": "https://www.cnn.com/2024/04/10/health/pfas-water-filters-food-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    },
+    {
+        "title": "Is your favorite lip balm making your chapped lips worse?",
+        "url": "https://www.cnn.com/2024/04/07/health/lip-balm-chapped-lips-wellness/index.html",
+        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
+        "link select": "[data-link-type^=\"article\"]"
+    }
+]

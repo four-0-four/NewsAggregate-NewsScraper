@@ -1,0 +1,332 @@
+[
+    {
+        "title": "Chicago appeals court rejects R. Kelly 's challenge of 20-year sentence",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/chicago-appeals-court-rejects-kelly-challenge-20-year-109696300",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "John Oates' new album is called 'Reunion.' But don't think Hall & Oates are getting back together",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/john-oates-new-album-called-reunion-hall-oates-109696299",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Top 20 Global Concert Tours from Pollstar",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/top-20-global-concert-tours-pollstar-109695414",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Chasing \u2018Twisters\u2019 and collaborating with \u2018tornado fanatic\u2019 Steven Spielberg",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/chasing-twisters-collaborating-tornado-fanatic-steven-spielberg-109692681",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Jerry Seinfeld's commitment to the bit",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/jerry-seinfelds-commitment-bit-109690309",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Music Review: Anitta welcomes listeners into her 'Funk Generation' on new album",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/music-review-anitta-welcomes-listeners-funk-generation-new-109689426",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Repatriated South African apartheid-era artworks on display to celebrate 30 years of democracy",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/repatriated-south-african-apartheid-era-artworks-display-celebrate-109668685",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "\u2018There\u2019s Still Tomorrow\u2019 director Paola Cortellesi talks success, toxic relationships and hope",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/tomorrow-director-paola-cortellesi-talks-success-toxic-relationships-109668672",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "A look at past and future cases Harvey Weinstein has faced as his New York conviction is thrown out",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/past-future-cases-harvey-weinstein-faced-new-york-109667292",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Journalists critical of their own companies cause headaches for news organizations",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/journalists-critical-companies-cause-headaches-news-organizations-109666099",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "\u2018Movement will persist\u2019: Advocates stress Weinstein reversal doesn\u2019t derail #MeToo",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/movement-persist-advocates-stress-weinstein-reversal-doesnt-derail-109665540",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Moody Blues founding member Mike Pinder dies at 82",
+        "url": "https://abcnews.go.com/Entertainment/moody-blues-founding-member-mike-pinder-dies-82/story?id=109650028",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Ashley Judd, #MeToo founders react to ruling overturning Harvey Weinstein's conviction",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/ashley-judd-metoo-founders-react-ruling-overturning-harvey-109647527",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "With \u2018Alien\u2019 back in theaters, \u2018Alien: Romulus\u2019 director teases how the new film connects",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/alien-back-theaters-alien-romulus-director-teases-new-109645236",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Bernie Williams is back in center - only this time Lincoln Center for New York Philharmonic debut",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/bernie-williams-back-center-time-lincoln-center-new-109637654",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Here's why Harvey Weinstein's New York rape conviction was tossed and what happens next",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/happening-movie-mogul-harvey-weinsteins-new-york-rape-109637668",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Ukrainian duo heads to the Eurovision Song Contest with a message: We're still here",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/ukrainian-duo-heads-eurovision-song-contest-message-109636565",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Mother and son raise autism awareness in new children\u2019s book 'Andrew Does His Dance'",
+        "url": "https://abcnews.go.com/Entertainment/new-childrens-book-discusses-mother-son-experience-caring/story?id=109575523",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Four decades in, the Pet Shop Boys know the secret to staying cool",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/decades-pet-shop-boys-secret-staying-cool-109664180",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Countertenor Anthony Roth Costanzo to become general director of Opera Philadelphia",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/countertenor-anthony-roth-costanzo-become-general-director-opera-109631874",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "'Deadpool & Wolverine' is (almost) ready to shake up the Marvel Cinematic Universe",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/deadpool-wolverine-ready-shake-marvel-cinematic-universe-109629075",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "The National Enquirer was the go-to American tabloid for many years. Donald Trump helped change that",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/8-years-after-national-enquirers-deal-donald-trump-109629084",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "US-Best-Sellers-Books-PW",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/us-best-sellers-books-pw-109627584",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Gay actor's speech back on at Pennsylvania school after cancellation over his 'lifestyle'",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/gay-actors-speech-back-pennsylvania-school-after-cancellation-109648626",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Seattle Kraken move games to over-the-air broadcaster with streaming on Amazon's Prime Video",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/seattle-kraken-move-games-air-broadcaster-streaming-amazons-109626634",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Harvey Weinstein\u2019s rape conviction is overturned by New York's top court",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/new-york-appeals-court-overturns-harvey-weinsteins-2020-109621775",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "New York appeals court overturns Harvey Weinstein\u2019s 2020 rape conviction, ordering new trial in landmark #MeToo case",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/new-york-appeals-court-overturns-harvey-weinsteins-2020-109621589",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Lawyer says Iran rapper famous for songs after Mahsa Amini killing sentenced to death",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/lawyer-iran-rapper-famous-songs-after-2022-killing-109619741",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "The Rolling Stones set to play New Orleans Jazz Fest 2024, opening Thursday",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/rolling-stones-set-play-new-orleans-jazz-fest-109605815",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Judge declines to dismiss lawsuits filed against rapper Travis Scott over deadly Astroworld concert",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/judge-declines-dismiss-lawsuits-filed-rapper-travis-scott-109594957",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Review: 'The Feeling That the Time for Doing Something Has Passed' announces an exciting new voice",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/review-feeling-time-passed-announces-exciting-new-voice-109591277",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Music Review: St. Vincent's art-rock burns bright on seventh album, 'All Born Screaming'",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/music-review-st-vincents-art-rock-burns-bright-109585572",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Cristian M\u0103celaru to become music director of Cincinnati Symphony Orchestra in 2025-26",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/cristian-mcelaru-become-music-director-cincinnati-symphony-orchestra-109584981",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "With lawsuits in rearview mirror, Disney World government gets back to being boring",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/lawsuits-rearview-mirror-disney-world-government-gets-back-109582891",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Italy bans loans of works to the Minneapolis Institute of Art in a dispute over an ancient statue",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/italy-bans-loans-minneapolis-institute-art-long-running-109581123",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Portrait by Gustav Klimt has been sold for $32 million at an auction in Vienna",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/portrait-gustav-klimt-sold-32-million-auction-vienna-109580411",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Summer Movie Guide: Virtually all the movies coming to theaters and streaming from May to Labor Day",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/summer-movie-guide-virtually-movies-coming-theaters-streaming-109579909",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Music Review: Pet Shop Boys have done it yet again with catchy and bittersweet 'Nonetheless'",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/music-review-pet-shop-boys-catchy-bittersweet-nonetheless-109579911",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "John Lithgow takes on the role of the new kid in school for a PBS special celebrating arts education",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/john-lithgow-takes-role-new-kid-school-pbs-109579265",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "The summer after Barbenheimer and the strikes, Hollywood charts a new course",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/summer-after-barbenheimer-strikes-hollywood-charts-new-109577118",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Publishing spinoff of 'Wednesday' has everything from tarot cards to 'Woeful Waffles'",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/publishing-spinoff-wednesday-tarot-cards-woeful-waffles-109572838",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Complex stories of migration are among the finalists for the Women's Prize for Fiction",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/complex-stories-migration-finalists-womens-prize-fiction-109563176",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Olympian Kristi Yamaguchi is 'tickled pink' to inspire a Barbie doll",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/olympian-kristi-yamaguchi-tickled-pink-inspire-barbie-doll-109558098",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Photographer alleges he was forced to watch Megan Thee Stallion have sex and was unfairly fired",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/photographer-alleges-forced-watch-megan-thee-stallion-sex-109551422",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Movie Review: Prepare to get hot and bothered with stylish, synthy tennis drama \u2018Challengers\u2019",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/movie-review-prepare-hot-bothered-stylish-synthy-tennis-109547527",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Crew members injured in crash on Georgia set of Eddie Murphy Amazon MGM movie 'The Pickup'",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/crew-members-injured-crash-georgia-set-eddie-murphy-109546851",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Ashley Judd and Aloe Blacc help the White House unveil its national suicide prevention strategy",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/ashley-judd-aloe-blacc-white-house-unveil-national-109546427",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Rom-com author Emily Henry knows the secret to having a healthy relationship with love",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/rom-author-emily-henry-secret-healthy-relationship-love-109545725",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Zendaya, Josh O'Connor and Mike Faist on the steamy love triangle of 'Challengers'",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/zendaya-josh-oconnor-mike-faist-steamy-love-triangle-109543532",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "Ex-gang leader's account of Tupac Shakur killing is fiction, defense lawyer in Vegas says",
+        "url": "https://abcnews.go.com/Entertainment/wireStory/gang-leaders-account-tupac-shakur-killing-fiction-defense-109543192",
+        "title select": ".ContentRoll__Item > h2",
+        "link select": ".ContentRoll__Item"
+    },
+    {
+        "title": "In Memoriam: Notable people who died in 2024",
+        "url": "https://abcnews.go.com/International/photos/memoriam-notable-people-died-2024-106041772",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "EGOT winners: Stars who have an Emmy, a Grammy, an Oscar and a Tony",
+        "url": "https://abcnews.go.com/Entertainment/photos/celebrity-egot-winners-45173446",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "1:24",
+        "url": "https://abcnews.go.com/Entertainment/video/numbers-oscars-108031610",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "'Oppenheimer' wins big at Oscars",
+        "url": "https://abcnews.go.com/WNT/video/oppenheimer-wins-big-oscars-108027790",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    },
+    {
+        "title": "A look at the 96th annual Oscars most memorable moments",
+        "url": "https://abcnews.go.com/GMA/GMA3/video/96th-annual-oscars-memorable-moments-108017200",
+        "title select": ".block > h4, .block > .content > a",
+        "link select": ".block"
+    }
+]
