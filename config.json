@@ -51,9 +51,33 @@
         "module": "_cnn",
         "base_url": "https://www.cnn.com",
         "category_path": {
-            "/us-news": -1
+            "/us": -1,
+            "/world": -1,
+            "/politics": 0,
+            "/business": 1,
+            "/health": 2,
+            "/entertainment": 3,
+            "/weather": 8,
+            "/world/europe/ukraine": -1,
+            "/world/middleeast/israel":-1,
+            "/business/tech": 4,
+            "/election/2024": -1,
+            "/us/energy-and-environment": -1,
+            "/us/space-science": 5,
+            "/health/life-but-better/fitness": 6,
+            "/health/life-but-better/food": 6,
+            "/travel": 6,
+            "/world/africa": -1,
+            "/world/americas": -1,
+            "/world/asia": -1,
+            "/world/australia": -1,
+            "/world/china": -1,
+            "/world/europe": -1,
+            "/world/india": -1,
+            "/world/middle-east": -1,
+            "/world/united-kingdom": -1
         },
         "urls_blacklist": ["/videos/","/account/","/follow?"],
-        "NOTES": ""
+        "NOTES": "/sports category has a issue in their website"
     }
 }
