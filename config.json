@@ -16,7 +16,8 @@
             "/Business":1,
             "/US":-1,
             "/International":-1,
-            "/Politics":0
+            "/Politics":0,
+            "/": -1
         },
         "urls_blacklist": ["/video/"],
         "NOTES": "for abc, there is alway something to scrape for some of the categories :( very strange"
@@ -38,7 +39,8 @@
             "/science": 5,
             "/tech-media": 4,
             "/news/weather": 8,
-            "/investigations": -1
+            "/investigations": -1,
+            "/": -1
         },
         "urls_blacklist": ["/video/"],
         "NOTES": ""
@@ -75,9 +77,33 @@
             "/world/europe": -1,
             "/world/india": -1,
             "/world/middle-east": -1,
-            "/world/united-kingdom": -1
+            "/world/united-kingdom": -1,
+            "/": -1
         },
         "urls_blacklist": ["/videos/","/account/","/follow?"],
         "NOTES": "/sports category has a issue in their website"
+    },
+    "CBSNews": {
+        "corporation_id": 1,
+        "corporation_name": "CBS News",
+        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/cbs.jpg",
+        "class": "CBSNewsScraper",
+        "module": "_cbs",
+        "base_url": "https://www.cbsnews.com",
+        "category_path": {
+            "/politics": 0,
+            "/entertainment": 3,
+            "/crime": -1,
+            "/us": -1,
+            "/moneywatch": -1,
+            "/world": -1,
+            "/technology":4, 
+            "/science": 5,
+            "/space": 5,
+            "/healthwatch": -1,
+            "/": -1
+        },
+        "urls_blacklist": ["/video/","/pictures/"],
+        "NOTES": ""
     }
 }

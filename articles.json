@@ -1,212 +1,266 @@
 [
     {
-        "title": "Parents are feeling lonely. Here\u2019s why it matters",
-        "url": "https://www.cnn.com/2024/04/23/health/parent-burnout-loneliness-survey-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Alabama Supreme Court declines to revisit controversial frozen embryo ruling",
+        "url": "https://www.cbsnews.com/news/ivf-alabama-supreme-court-declines-to-revisit-frozen-embryo-ruling/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "What it\u2019s like to be a \u2018glass child\u2019",
-        "url": "https://www.cnn.com/2024/04/23/health/glass-children-invisible-sibling-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "CIA director in Egypt for high-stakes Israeli hostage, cease-fire talks",
+        "url": "https://www.cbsnews.com/news/cia-director-william-burns-in-egypt-israeli-hostage-cease-fire-talks/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Stayed up all night? Here\u2019s how to feel better",
-        "url": "https://www.cnn.com/2024/04/19/health/lost-sleep-taylor-swift-album-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Democratic Rep. Henry Cuellar and wife indicted on federal bribery charges",
+        "url": "https://www.cbsnews.com/news/henry-cuellar-innocent-justice-department-indictment/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "How to be a caregiver and get the support you need",
-        "url": "https://www.cnn.com/2024/04/10/health/caregiving-work-support-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Former government employee charged with making false Jan. 6 accusations",
+        "url": "https://www.cbsnews.com/news/former-government-employee-miguel-zapata-falsely-accusing-coworkers-jan-6-capitol-attack/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "How to know when it\u2019s time to walk away from a sibling",
-        "url": "https://www.cnn.com/2023/01/11/health/sibling-conflict-relationship-estrangement-tips-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Some 100,000 \"dreamers\" likely to get Obamacare under new rule, White House says",
+        "url": "https://www.cbsnews.com/news/daca-dreamers-obamacare-hundred-thousand/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Don\u2019t want sex at the same time as your partner? Try this technique instead",
-        "url": "https://www.cnn.com/2024/03/29/health/come-together-emily-nagoski-sex-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Hope Hicks testifies at Trump trial about fallout from \"hush money\" payments",
+        "url": "https://www.cbsnews.com/news/trump-trial-new-york-witness-testimony-week-3/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "How to talk to kids about a cancer diagnosis, according to experts",
-        "url": "https://www.cnn.com/2024/03/22/health/talking-to-kids-cancer-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Biden awards Medal of Freedom to Nancy Pelosi, Al Gore, Katie Ledecky and more",
+        "url": "https://www.cbsnews.com/news/biden-presidential-medal-of-freedom-recipient-list/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "The bright side of divorce, according to experts",
-        "url": "https://www.cnn.com/2024/03/19/health/divorce-positive-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Military documents contradict GOP congressman's military record claims",
+        "url": "https://www.cbsnews.com/news/troy-nehls-bronze-star-combat-infantryman-badge/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "The kids really are alright, photographer finds",
-        "url": "https://www.cnn.com/2024/03/16/health/force-of-nature-book-kate-parker-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Russian military personnel on Niger base where some U.S. troops remain",
+        "url": "https://www.cbsnews.com/news/us-niger-base-russian-military-personnel-niamey-africa-russia/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Jason Kelce shows us what an involved father can do for his children",
-        "url": "https://www.cnn.com/2024/03/05/health/jason-kelce-empathy-retirement-speech-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "N.C. congressional candidate suspends campaign days before primary runoff",
+        "url": "https://www.cbsnews.com/news/north-carolina-congressional-candidate-suspends-campaign-before-runoff/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Why everyone is crying to Taylor\u2019s breakup songs",
-        "url": "https://www.cnn.com/2024/04/19/health/breakup-songs-taylor-swift-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Canadian police made 3 arrests in slaying of Sikh separatist leader",
+        "url": "https://www.cbsnews.com/news/canada-police-3-arrests-slaying-sikh-separatist-leader-hardeep-singh-nijjar-vancouver/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Routine jobs raise the risk of cognitive decline by 66% and dementia by 37%, study says",
-        "url": "https://www.cnn.com/2024/04/17/health/brain-job-dementia-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "At least 14 killed after flood and landslide hit Indonesia's Sulawesi island",
+        "url": "https://www.cbsnews.com/news/indonesia-sulawesi-island-flood-landslide/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "How cell phones are killing our kids, and what we can do about it",
-        "url": "https://www.cnn.com/2024/04/16/health/cell-phones-jonathan-haidt-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "3 bodies found in Mexican region where Australian, American surfers went missing",
+        "url": "https://www.cbsnews.com/news/missing-surfers-mexico-jake-robinson-callum-robinson-jack-carter-search/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "When it\u2019s time to break up with your therapist",
-        "url": "https://www.cnn.com/2024/04/11/us/how-to-break-up-with-therapist-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Tanzania hit by power blackouts as Cyclone Hidaya strengthens",
+        "url": "https://www.cbsnews.com/news/tanzania-hit-by-power-blackouts-as-cyclone-hidaya-strengthens-toward-countrys-coastline/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Gen Z is less happy than the rest of us. Here is what would make a difference",
-        "url": "https://www.cnn.com/2024/04/09/health/gen-z-happiness-gallup-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Drive-thru food pantry feeds thousands in Southern California",
+        "url": "https://www.cbsnews.com/news/drive-thru-food-pantry-provides-food-thousands-southern-california-santa-ana/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Stretching isn\u2019t always the answer for pain and muscle tension",
-        "url": "https://www.cnn.com/2024/04/16/health/flexibility-strength-training-vs-stretching-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "A boy gave away his only dollar. In exchange, he was rewarded for his generosity.",
+        "url": "https://www.cbsnews.com/news/boy-gets-shopping-spree-after-giving-away-one-dollar-kelvin-ellis-matt-busbice-louisiana/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Exercise changes the brain in a way that helps heart health, especially for people with depression",
-        "url": "https://www.cnn.com/2024/04/15/health/exercise-stress-heart-disease-study-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Caitlin Clark, Angel Reese make WNBA preseason debuts",
+        "url": "https://www.cbsnews.com/news/caitlin-clark-angel-reese-to-make-pro-debut-as-wnba-preseason-begins/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Do these exercises for core strength if you can\u2019t stomach doing planks",
-        "url": "https://www.cnn.com/2024/03/28/health/core-strengthening-without-planks-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Walgreens limits Gummy Mango candy sales to one bag per customer",
+        "url": "https://www.cbsnews.com/news/walgreens-candy-gummy-mango/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "6 exercises that address an often overlooked key to longevity",
-        "url": "https://www.cnn.com/2024/04/01/health/grip-strength-key-longevity-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Trump Media's auditor is charged with \"massive fraud\" by the SEC",
+        "url": "https://www.cbsnews.com/news/trump-media-accountant-borgers-charged-with-massive-fraud-sec/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Regular exercise is associated with less insomnia, study shows",
-        "url": "https://www.cnn.com/2024/03/26/health/insomnia-exercise-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Employers added 175,000 jobs last month, marking a hiring slowdown",
+        "url": "https://www.cbsnews.com/news/jobs-report-april-2024/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "3 in 5 families are short-order cooks for picky kids. Here\u2019s what to do instead",
-        "url": "https://www.cnn.com/2024/04/23/health/picky-eaters-kids-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Here are the job candidates that employers are searching for most",
+        "url": "https://www.cbsnews.com/news/most-searched-jobs-resumes/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "3 desserts you should have on your table this Passover",
-        "url": "https://www.cnn.com/2024/04/22/health/passover-dessert-recipes-micah-siva-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Peloton, once hailed as the future of fitness, is now sucking wind",
+        "url": "https://www.cbsnews.com/news/peloton-ceo-barry-mccarthy-exits/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Which foods have the most plastics? You may be surprised",
-        "url": "https://www.cnn.com/2024/04/22/health/plastics-food-wellness-scn/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "CDC says bird flu viruses \"pose pandemic potential,\" cites major knowledge gaps",
+        "url": "https://www.cbsnews.com/news/bird-flu-pandemic-potential-cdc-investigation/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "5 ways to add joy into your meals",
-        "url": "https://www.cnn.com/2024/04/19/health/joy-food-diet-weight-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Want an easy way to relieve stress? Try this doctor-approved method.",
+        "url": "https://www.cbsnews.com/news/relieve-stress-outdoors-mental-physical-health/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Fresh and frozen imported strawberries highly contaminated with pesticides, report says",
-        "url": "https://www.cnn.com/2024/04/18/health/imported-produce-pesticides-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Halle Berry joins senators to announce menopause legislation",
+        "url": "https://www.cbsnews.com/news/halle-berry-joins-senators-to-announce-menopause-legislation/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Sexsomnia: An embarrassing sleep disorder no one wants to talk about",
-        "url": "https://www.cnn.com/2024/04/28/health/sexsomnia-sleep-sex-explainer-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Pregnancy-related deaths fall to pre-pandemic levels, new data shows",
+        "url": "https://www.cbsnews.com/news/pregnancy-related-deaths-decline-2023-cdc-data/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Should I take supplements to help me sleep? A doctor explains",
-        "url": "https://www.cnn.com/2024/04/25/health/sleep-supplements-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Turkey halts all trade with Israel over mounting death toll in Gaza",
+        "url": "https://www.cbsnews.com/news/israel-hamas-war-turkey-halts-trade-over-gaza-civilian-deaths/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Melatonin industry asked to voluntarily tighten standards after dramatic rise in childhood ER visits",
-        "url": "https://www.cnn.com/2024/04/15/health/melatonin-safety-standards-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "\"Incredibly rare\" dye that was once worth more than gold found in U.K.",
+        "url": "https://www.cbsnews.com/news/rare-ancient-purple-dye-united-kingdom-tyrian-purple/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Bright indicator lights ruining your sleep? You\u2019re not alone. Here\u2019s why they exist",
-        "url": "https://www.cnn.com/2024/04/13/business/lights-technology-sleep-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Book excerpt: \"The Year of Living Constitutionally\" by A.J. Jacobs",
+        "url": "https://www.cbsnews.com/news/book-excerpt-the-year-of-living-constitutionally-by-a-j-jacobs/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "CPAP replacement works well for the overweight, not obese, study finds",
-        "url": "https://www.cnn.com/2024/04/04/health/cpap-alternative-implantable-sleep-apnea-device-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "All the past Met Gala themes over the years up to 2024",
+        "url": "https://www.cbsnews.com/news/past-met-gala-themes/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Here\u2019s what marijuana researchers have to say about 420 or \u2018weed day\u2019",
-        "url": "https://www.cnn.com/2024/04/20/health/420-weed-day-expert-caution-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Book excerpt: \"You Never Know\" by Tom Selleck",
+        "url": "https://www.cbsnews.com/news/book-excerpt-you-never-know-by-tom-selleck/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Cancer cases in younger people are rising sharply. Here are some preventive measures to take",
-        "url": "https://www.cnn.com/2024/04/18/health/cancer-colon-breast-screening-young-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "An exclusive look inside the making of singer Randy Travis' new AI-created song",
+        "url": "https://www.cbsnews.com/news/preview-exclusive-look-inside-the-making-of-singer-randy-travis-new-ai-created-song/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Alcohol use sent nearly twice as many women to the hospital during pandemic, study finds",
-        "url": "https://www.cnn.com/2024/04/12/health/alcohol-abuse-women-pandemic-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Marc Summers unveils life story in one-man show",
+        "url": "https://www.cbsnews.com/news/marc-summers-delves-into-career-and-life-struggles-in-new-one-man-play/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "How to limit PFAS in your drinking water and food, according to experts",
-        "url": "https://www.cnn.com/2024/04/10/health/pfas-water-filters-food-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "What is Sidechat? The controversial messaging app, explained",
+        "url": "https://www.cbsnews.com/news/sidechat-app-explained-student-protests/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     },
     {
-        "title": "Is your favorite lip balm making your chapped lips worse?",
-        "url": "https://www.cnn.com/2024/04/07/health/lip-balm-chapped-lips-wellness/index.html",
-        "title select": "[data-link-type^=\"article\"] [class$=\"headline\"]",
-        "link select": "[data-link-type^=\"article\"]"
+        "title": "Bumblebee nests are under attack \u2013\u00a0and it's killing their babies",
+        "url": "https://www.cbsnews.com/news/bumblebee-babies-dying-their-nests-amid-global-warming-climate-change-study/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Summer heat waves already deadly in Asia, and it's still spring",
+        "url": "https://www.cbsnews.com/news/heat-wave-asia-2024-deaths-india-severe-weather-climate-change/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "After striped bass poachers busted, New York alters fishing rules",
+        "url": "https://www.cbsnews.com/news/striped-bass-poachers-regulations-bust-new-york/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Detective searches gunshot residue testing site days before wife killed",
+        "url": "https://www.cbsnews.com/news/brian-fanion-westfield-massachusetts-amy-fanion-detective-searches-gunshot-residue-testing-before-wife-killed/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Dentist accused of poisoning wife tried to plant suicidal letters, cops say",
+        "url": "https://www.cbsnews.com/news/dentist-james-craig-accused-poisoning-wife-tried-to-plant-suicidal-letters-police/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Man arrested 30 years after companion's disappearance in Belgium",
+        "url": "https://www.cbsnews.com/news/belgium-arrest-murder-suspicion-companion-vanished-1994-human-remains-found-garden/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "NYC man pleads guilty to selling exotic animal parts",
+        "url": "https://www.cbsnews.com/news/new-york-city-brooklyn-exotic-animal-parts-environmental-conservation/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "In a first, China launches probe to get samples from far side of moon",
+        "url": "https://www.cbsnews.com/news/china-launches-probe-samples-far-side-of-the-moon-space-race-us/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "New NASA images show iconic Horsehead Nebula in unprecedented detail",
+        "url": "https://www.cbsnews.com/news/nasa-james-webb-telescope-horse-shaped-nebula-detail/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Astronauts confident Boeing's Starliner is finally ready for crew flights",
+        "url": "https://www.cbsnews.com/news/boeing-starliner-spacecraft-astronauts-first-piloted-flight/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
     }
 ]

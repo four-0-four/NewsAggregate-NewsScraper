@@ -27,8 +27,11 @@ class NewsScraper:
         return urls_all_categories
 
     def fetch_article_urls_one_category(self, category_path):
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+        }
         url = f"{self.base_url}{category_path}"
-        response = requests.get(url)
+        response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.text, 'html.parser')
         #custom_html = self.read_html_file("tests/cnn/cnn_category_1.html")
         #soup = BeautifulSoup(custom_html, 'html.parser')
@@ -45,6 +48,7 @@ class NewsScraper:
                     link_tags = [element]
                 else:
                     link_tags = element.find_all('a')  # find <a> tags within the selected elements
+                
                 for link_tag in link_tags:
                     if link_tag and 'href' in link_tag.attrs:
                         href = link_tag['href']
@@ -52,6 +56,8 @@ class NewsScraper:
                         # Ensure the link is absolute
                         if(href.startswith(self.base_url)):
                             full_link = href
+                        elif(href.startswith("/")):
+                            full_link = self.base_url + href
                         else:
                             continue
                         
@@ -106,7 +112,7 @@ class NewsScraper:
             return None
         
         image_url = self.scrape_image(soup)
-        #print("Image:", image_url)
+        print("Image:", image_url)
 
         return {"title": title, "date": date, "content": content, "image_url": image_url, "url": article_url}
 
