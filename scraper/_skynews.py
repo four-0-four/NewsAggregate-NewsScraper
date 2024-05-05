@@ -5,7 +5,7 @@ class SKYNewsScraper(NewsScraper):
         
         #(css_to_url, css_to_title)
         article_url_css_selector = [
-            
+            ('article.item a', 'article.item a h4'), 
         ]
         
         title_selector = ('h1',['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs'])
