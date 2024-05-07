@@ -12,7 +12,7 @@ class CBSNewsScraper(NewsScraper):
         ]
         
         title_selector = ('h1',['content__title'])
-        date_selector = ('time',['relative'])
+        date_selector = ('time',[''])
         date_format = '%B %d, %Y, %I:%M %p'
         image_selector = ('div',['poster'], 'src')
         content_selector = ('section',['content__body'])

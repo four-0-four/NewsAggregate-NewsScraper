@@ -162,6 +162,7 @@ async def parallel_one_news_source(newsSource):
         details = config[source]
         await scrape_source_given_details(source, details)
  
+#TEST: this function is used to test the scraping of a single category 
 def scrape_urls_one_category_given_news_source():
     with open('config.json') as file:
         config = json.load(file)
@@ -175,9 +176,9 @@ def scrape_urls_one_category_given_news_source():
         except TypeError as e:
             print(f"Error writing JSON: {e}")
 
-
+#TEST: this function is used to test the scraping of a single article
 async def scrape_article_given_url():
-    article_url = 'https://abcnews.go.com/Health/wireStory/aetna-agrees-settle-lawsuit-fertility-coverage-lgbtq-customers-109914104'
+    article_url = 'https://www.cbsnews.com/news/u-s-soldier-detained-russia-official-confirms/'
     with open('config.json') as file:
         config = json.load(file)
         scraper = load_scraper(config["CBSNews"])
@@ -189,5 +190,8 @@ if __name__ == '__main__':
     
     
     #asyncio.run(parallel_one_news_source("CNNNews"))
-    #asyncio.run(scrape_article_given_url())
-    scrape_urls_one_category_given_news_source()
+    
+    #TESTS
+    ############################################
+    asyncio.run(scrape_article_given_url())
+    #scrape_urls_one_category_given_news_source()
