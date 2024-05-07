@@ -180,7 +180,7 @@ async def scrape_article_given_url():
     article_url = 'https://abcnews.go.com/Health/wireStory/aetna-agrees-settle-lawsuit-fertility-coverage-lgbtq-customers-109914104'
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["ABCNews"])
+        scraper = load_scraper(config["CBSNews"])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 
