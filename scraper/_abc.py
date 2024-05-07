@@ -15,8 +15,7 @@ class ABCNewsScraper(NewsScraper):
         ]
         
         title_selector = ('h1',['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs'])
-        #date_selector = ('div',['VZTD mLASH'])
-        date_selector = ('div',['sina'])
+        date_selector = ('div',['VZTD mLASH'])
         date_format = '%B %d, %Y, %I:%M %p'
         image_selector = ('div',['MediaPlaceholder', 'InlineImage GpQCA lZur asrEW'], 'src')
         content_selector = ('div',['xvlfx ZRifP TKoO eaKKC bOdfO'])
