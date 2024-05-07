@@ -1,266 +1,140 @@
 [
     {
-        "title": "Alabama Supreme Court declines to revisit controversial frozen embryo ruling",
-        "url": "https://www.cbsnews.com/news/ivf-alabama-supreme-court-declines-to-revisit-frozen-embryo-ruling/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Market Forecast",
+        "url": "https://www.cnbc.com/2023/05/11/market-strategist-survey-forecast.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "CIA director in Egypt for high-stakes Israeli hostage, cease-fire talks",
-        "url": "https://www.cbsnews.com/news/cia-director-william-burns-in-egypt-israeli-hostage-cease-fire-talks/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Renters' hopes of being able to buy a home falls to record low, Fed survey says",
+        "url": "https://www.cnbc.com/2024/05/06/renters-hopes-of-being-able-to-buy-a-home-have-fallen-to-a-record-low-new-york-fed-survey-shows.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Democratic Rep. Henry Cuellar and wife indicted on federal bribery charges",
-        "url": "https://www.cbsnews.com/news/henry-cuellar-innocent-justice-department-indictment/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Here's how much it costs to rent a 1-bedroom apartment across 10 cities in Asia",
+        "url": "https://www.cnbc.com/2024/05/03/heres-how-much-it-costs-to-rent-a-1-bed-apartment-in-10-asian-cities.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Former government employee charged with making false Jan. 6 accusations",
-        "url": "https://www.cbsnews.com/news/former-government-employee-miguel-zapata-falsely-accusing-coworkers-jan-6-capitol-attack/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "The Fed holds rates steady. What that means for your high-interest bills",
+        "url": "https://www.cnbc.com/2024/05/01/federal-reserve-holds-rates-steady-what-that-means-for-your-money.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Some 100,000 \"dreamers\" likely to get Obamacare under new rule, White House says",
-        "url": "https://www.cbsnews.com/news/daca-dreamers-obamacare-hundred-thousand/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "How to make your home hurricane resistant, with active storm season predicted",
+        "url": "https://www.cnbc.com/2024/05/01/how-to-make-your-home-hurricane-resistant-amid-climate-change.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Hope Hicks testifies at Trump trial about fallout from \"hush money\" payments",
-        "url": "https://www.cbsnews.com/news/trump-trial-new-york-witness-testimony-week-3/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Demand for riskier adjustable-rate mortgages hits highest level of the year",
+        "url": "https://www.cnbc.com/2024/05/01/demand-for-riskier-adjustable-rate-mortgages-hits-highest-level-of-the-year.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Biden awards Medal of Freedom to Nancy Pelosi, Al Gore, Katie Ledecky and more",
-        "url": "https://www.cbsnews.com/news/biden-presidential-medal-of-freedom-recipient-list/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Home prices soar even higher in February, despite higher mortgage rates",
+        "url": "https://www.cnbc.com/2024/04/30/sp-corelogic-case-shiller-home-prices-index-february.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Military documents contradict GOP congressman's military record claims",
-        "url": "https://www.cbsnews.com/news/troy-nehls-bronze-star-combat-infantryman-badge/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Apple announces new iPad Pro with M4, new iPad Air tablets",
+        "url": "https://www.cnbc.com/2024/05/07/apple-ipad-pro-and-ipad-air-2024-announced.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Russian military personnel on Niger base where some U.S. troops remain",
-        "url": "https://www.cbsnews.com/news/us-niger-base-russian-military-personnel-niamey-africa-russia/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Trump trial: Stormy Daniels to testify about hush money, alleged sex with ex-president",
+        "url": "https://www.cnbc.com/2024/05/07/trump-trial-ex-president-posts-then-deletes-message-about-witnesses.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "N.C. congressional candidate suspends campaign days before primary runoff",
-        "url": "https://www.cbsnews.com/news/north-carolina-congressional-candidate-suspends-campaign-before-runoff/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "I spent 18 months and $34,000 traveling the world, but was still unhappy\u2014this was my No. 1 mistake",
+        "url": "https://www.cnbc.com/2024/05/07/i-spent-18-months-and-34k-traveling-the-world-my-no-1-mistake.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Canadian police made 3 arrests in slaying of Sikh separatist leader",
-        "url": "https://www.cbsnews.com/news/canada-police-3-arrests-slaying-sikh-separatist-leader-hardeep-singh-nijjar-vancouver/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Americans can't stop 'spaving' \u2014 here\u2019s how to avoid this financial trap",
+        "url": "https://www.cnbc.com/2024/05/06/americans-cant-stop-spaving-heres-how-to-avoid-this-financial-trap.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "At least 14 killed after flood and landslide hit Indonesia's Sulawesi island",
-        "url": "https://www.cbsnews.com/news/indonesia-sulawesi-island-flood-landslide/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Stanley Druckenmiller gives Biden's economic policies an 'F,' blames the Fed for reigniting inflation",
+        "url": "https://www.cnbc.com/2024/05/07/stanley-druckenmiller-gives-bidens-economic-policies-an-f-blames-the-fed-for-reigniting-inflation.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "3 bodies found in Mexican region where Australian, American surfers went missing",
-        "url": "https://www.cbsnews.com/news/missing-surfers-mexico-jake-robinson-callum-robinson-jack-carter-search/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "As sellers, buyers wait on a Fed cut, here's how mortgage rates affect housing",
+        "url": "https://www.cnbc.com/2024/04/29/how-mortgage-rates-have-influenced-the-spring-housing-market.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Tanzania hit by power blackouts as Cyclone Hidaya strengthens",
-        "url": "https://www.cbsnews.com/news/tanzania-hit-by-power-blackouts-as-cyclone-hidaya-strengthens-toward-countrys-coastline/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Saudi Arabia says all NEOM megaprojects will go ahead as planned",
+        "url": "https://www.cnbc.com/2024/04/29/saudi-arabia-says-all-neom-megaprojects-will-go-ahead-as-planned.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Drive-thru food pantry feeds thousands in Southern California",
-        "url": "https://www.cbsnews.com/news/drive-thru-food-pantry-provides-food-thousands-southern-california-santa-ana/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Here's why new home sales inch higher despite 7% mortgage rates",
+        "url": "https://www.cnbc.com/2024/04/26/heres-why-new-home-sales-inch-higher-despite-7percent-mortgage-rates.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "A boy gave away his only dollar. In exchange, he was rewarded for his generosity.",
-        "url": "https://www.cbsnews.com/news/boy-gets-shopping-spree-after-giving-away-one-dollar-kelvin-ellis-matt-busbice-louisiana/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Mortgage demand drops as interest rates soar over 7%",
+        "url": "https://www.cnbc.com/2024/04/24/mortgage-demand-drops-as-interest-rates-soar-over-7percent.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Caitlin Clark, Angel Reese make WNBA preseason debuts",
-        "url": "https://www.cbsnews.com/news/caitlin-clark-angel-reese-to-make-pro-debut-as-wnba-preseason-begins/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Luxury real estate prices just hit an all-time record",
+        "url": "https://www.cnbc.com/2024/04/22/luxury-real-estate-prices-hit-an-all-time-record.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Walgreens limits Gummy Mango candy sales to one bag per customer",
-        "url": "https://www.cbsnews.com/news/walgreens-candy-gummy-mango/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Here's why FEMA has spent about $4 billion to help destroy flood-prone homes",
+        "url": "https://www.cnbc.com/2024/04/22/why-fema-has-spent-4-billion-to-help-destroy-flood-prone-homes.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Trump Media's auditor is charged with \"massive fraud\" by the SEC",
-        "url": "https://www.cbsnews.com/news/trump-media-accountant-borgers-charged-with-massive-fraud-sec/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Homeownership isn't for everyone, money coach says. Here's why",
+        "url": "https://www.cnbc.com/2024/04/20/yo-quiero-dinero-founder-why-homeownership-may-not-be-for-everyone.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Employers added 175,000 jobs last month, marking a hiring slowdown",
-        "url": "https://www.cbsnews.com/news/jobs-report-april-2024/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Mortgage rates are now at the highest level of the year, and could still climb",
+        "url": "https://www.cnbc.com/2024/04/18/mortgage-rates-hit-highest-level-of-the-year-and-could-go-even-higher.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Here are the job candidates that employers are searching for most",
-        "url": "https://www.cbsnews.com/news/most-searched-jobs-resumes/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "S&P 500 gives up its earlier gains \u2014 but Meta bucks the trend as new AI model debuts",
+        "url": "https://www.cnbc.com/2024/04/18/sp-500-gives-up-earlier-gains-but-meta-bucks-trend-as-new-ai-model-debuts.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "Peloton, once hailed as the future of fitness, is now sucking wind",
-        "url": "https://www.cbsnews.com/news/peloton-ceo-barry-mccarthy-exits/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "Here\u2019s how homebuyers can look to save on costs with newly built homes",
+        "url": "https://www.cnbc.com/2024/04/18/heres-how-homebuyers-can-look-to-save-on-costs-with-newly-built-homes.html",
+        "title select": "a",
+        "link select": "a"
     },
     {
-        "title": "CDC says bird flu viruses \"pose pandemic potential,\" cites major knowledge gaps",
-        "url": "https://www.cbsnews.com/news/bird-flu-pandemic-potential-cdc-investigation/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Want an easy way to relieve stress? Try this doctor-approved method.",
-        "url": "https://www.cbsnews.com/news/relieve-stress-outdoors-mental-physical-health/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Halle Berry joins senators to announce menopause legislation",
-        "url": "https://www.cbsnews.com/news/halle-berry-joins-senators-to-announce-menopause-legislation/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Pregnancy-related deaths fall to pre-pandemic levels, new data shows",
-        "url": "https://www.cbsnews.com/news/pregnancy-related-deaths-decline-2023-cdc-data/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Turkey halts all trade with Israel over mounting death toll in Gaza",
-        "url": "https://www.cbsnews.com/news/israel-hamas-war-turkey-halts-trade-over-gaza-civilian-deaths/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "\"Incredibly rare\" dye that was once worth more than gold found in U.K.",
-        "url": "https://www.cbsnews.com/news/rare-ancient-purple-dye-united-kingdom-tyrian-purple/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Book excerpt: \"The Year of Living Constitutionally\" by A.J. Jacobs",
-        "url": "https://www.cbsnews.com/news/book-excerpt-the-year-of-living-constitutionally-by-a-j-jacobs/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "All the past Met Gala themes over the years up to 2024",
-        "url": "https://www.cbsnews.com/news/past-met-gala-themes/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Book excerpt: \"You Never Know\" by Tom Selleck",
-        "url": "https://www.cbsnews.com/news/book-excerpt-you-never-know-by-tom-selleck/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "An exclusive look inside the making of singer Randy Travis' new AI-created song",
-        "url": "https://www.cbsnews.com/news/preview-exclusive-look-inside-the-making-of-singer-randy-travis-new-ai-created-song/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Marc Summers unveils life story in one-man show",
-        "url": "https://www.cbsnews.com/news/marc-summers-delves-into-career-and-life-struggles-in-new-one-man-play/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "What is Sidechat? The controversial messaging app, explained",
-        "url": "https://www.cbsnews.com/news/sidechat-app-explained-student-protests/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Bumblebee nests are under attack \u2013\u00a0and it's killing their babies",
-        "url": "https://www.cbsnews.com/news/bumblebee-babies-dying-their-nests-amid-global-warming-climate-change-study/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Summer heat waves already deadly in Asia, and it's still spring",
-        "url": "https://www.cbsnews.com/news/heat-wave-asia-2024-deaths-india-severe-weather-climate-change/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "After striped bass poachers busted, New York alters fishing rules",
-        "url": "https://www.cbsnews.com/news/striped-bass-poachers-regulations-bust-new-york/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Detective searches gunshot residue testing site days before wife killed",
-        "url": "https://www.cbsnews.com/news/brian-fanion-westfield-massachusetts-amy-fanion-detective-searches-gunshot-residue-testing-before-wife-killed/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Dentist accused of poisoning wife tried to plant suicidal letters, cops say",
-        "url": "https://www.cbsnews.com/news/dentist-james-craig-accused-poisoning-wife-tried-to-plant-suicidal-letters-police/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Man arrested 30 years after companion's disappearance in Belgium",
-        "url": "https://www.cbsnews.com/news/belgium-arrest-murder-suspicion-companion-vanished-1994-human-remains-found-garden/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "NYC man pleads guilty to selling exotic animal parts",
-        "url": "https://www.cbsnews.com/news/new-york-city-brooklyn-exotic-animal-parts-environmental-conservation/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "In a first, China launches probe to get samples from far side of moon",
-        "url": "https://www.cbsnews.com/news/china-launches-probe-samples-far-side-of-the-moon-space-race-us/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "New NASA images show iconic Horsehead Nebula in unprecedented detail",
-        "url": "https://www.cbsnews.com/news/nasa-james-webb-telescope-horse-shaped-nebula-detail/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Astronauts confident Boeing's Starliner is finally ready for crew flights",
-        "url": "https://www.cbsnews.com/news/boeing-starliner-spacecraft-astronauts-first-piloted-flight/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
+        "title": "March homes sales dropped despite a surge in supply. Here's why.",
+        "url": "https://www.cnbc.com/2024/04/18/march-homes-sales-dropped-despite-a-surge-in-supply-heres-why.html",
+        "title select": "a",
+        "link select": "a"
     }
 ]

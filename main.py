@@ -165,8 +165,8 @@ async def parallel_one_news_source(newsSource):
 def scrape_urls_one_category_given_news_source():
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CBSNews"])
-        result = scraper.fetch_article_urls_one_category("/politics")
+        scraper = load_scraper(config["CNBCNews"])
+        result = scraper.fetch_article_urls_one_category("/real-estate")
         #print(article_data)
         
         try:

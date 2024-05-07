@@ -63,66 +63,35 @@ class CNNNewsScraper(NewsScraper):
             
         return content
     
-    def fetch_article_urls_one_category(self, category_path):
-        url = f"{self.base_url}{category_path}"
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        #custom_html = self.read_html_file("tests/nbc/nbc_homepage.html")
-        #soup = BeautifulSoup(custom_html, 'html.parser')
+    def check_article_url(self,href):
+        if(href.startswith("/")):
+            full_link = self.base_url + href
+        else:
+            return None
         
-        article_links = []
-        #print(len(self.article_url_css_selector))
-        for potential_article in self.article_url_css_selector:
-            article_info = {"title":"", "url":""}
-            elements = soup.select(potential_article[0])
-            #print("****************************")
-            #print(potential_article[0])
-            for element in elements:
-                if element.name == 'a':
-                    link_tags = [element]
-                else:
-                    link_tags = element.find_all('a')  # find <a> tags within the selected elements
-                for link_tag in link_tags:
-                    if link_tag and 'href' in link_tag.attrs:
-                        href = link_tag['href']
-                        #print(href)
-                        
-                        # Ensure the link is absolute
-                        if(href.startswith("/")):
-                            full_link = self.base_url + href
-                        else:
-                            continue
-                        
-                        
-                        is_url_blacklisted = False
-                        #check that the href not in urls_blacklist
-                        for url_blacklist in self.urls_blacklist:
-                            if url_blacklist in full_link:
-                                is_url_blacklisted = True
-                                break
-                        
-                        if is_url_blacklisted:
-                            continue
-                        
-                        #get text
-                        title_tag = element.select_one(potential_article[1])
-                        text = title_tag.get_text(strip=True) if title_tag else link_tag.get_text(strip=True)
-                        
-                        
-                        #check that we have already added it so we don't add twice
-                        if (full_link in self.added_urls):
-                            # Check if the URL exists in article_links and has an empty title
-                            # or it has less incomplete title
-                            for article in article_links:
-                                if article['url'] == self.base_url + href and ( not article['title'] or len(article['title']) < len(text) ):
-                                    article_links.remove(article)  # Remove if title is empty
-                                    break
-                            else:
-                                continue
-                        
-                        
-                        self.added_urls.append(full_link)
-                        article_info = {"title": text, "url": full_link, "title select": potential_article[1], "link select": potential_article[0]}
-                        article_links.append(article_info)
         
-        return article_links
+        is_url_blacklisted = False
+        #check that the href not in urls_blacklist
+        for url_blacklist in self.urls_blacklist:
+            if url_blacklist in full_link:
+                is_url_blacklisted = True
+                break
+        
+        if is_url_blacklisted:
+            return None
+        
+        return full_link
+
+    def check_if_article_is_duplicate(self, full_link, href, text):
+        #check that we have already added it so we don't add twice
+        if (full_link in self.added_urls):
+            # Check if the URL exists in article_links and has an empty title
+            # or it has less incomplete title
+            for article in self.article_links:
+                if article['url'] == self.base_url + href and ( not article['title'] or len(article['title']) < len(text) ):
+                    self.article_links.remove(article)  # Remove if title is empty
+                    break
+            else:
+                return False
+        return True
+    
