@@ -134,7 +134,7 @@ class NewsScraper:
             return None
         
         image_url = self.scrape_image(soup)
-        print("Image:", image_url)
+        #print("Image:", image_url)
 
         return {"title": title, "date": date, "content": content, "image_url": image_url, "url": article_url}
 

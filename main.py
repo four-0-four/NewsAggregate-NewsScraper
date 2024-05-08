@@ -177,17 +177,17 @@ def scrape_urls_one_category_given_news_source():
 
 
 async def scrape_article_given_url():
-    article_url = 'https://abcnews.go.com/Health/wireStory/aetna-agrees-settle-lawsuit-fertility-coverage-lgbtq-customers-109914104'
+    article_url = 'https://www.cnbc.com/2024/05/07/reddit-rddt-q1-2024-earnings.html'
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["ABCNews"])
+        scraper = load_scraper(config["CNBCNews"])
         article_data = scraper.scrape_article(article_url)
-        print(article_data)
+        #print(article_data)
 
 if __name__ == '__main__':
     #asyncio.run(parallel_main())
     
     
     #asyncio.run(parallel_one_news_source("CNNNews"))
-    #asyncio.run(scrape_article_given_url())
-    scrape_urls_one_category_given_news_source()
+    asyncio.run(scrape_article_given_url())
+    #scrape_urls_one_category_given_news_source()
