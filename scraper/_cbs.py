@@ -1,3 +1,5 @@
+import datetime
+import re
 from scraper.news_scraper import NewsScraper
 
 class CBSNewsScraper(NewsScraper):
@@ -14,7 +16,30 @@ class CBSNewsScraper(NewsScraper):
         title_selector = ('h1',['content__title'])
         date_selector = ('time',[''])
         date_format = '%B %d, %Y, %I:%M %p'
-        image_selector = ('div',['poster'], 'src')
+        image_selector = ('div',['poster'],'src')
+        #image_selector = ('img',['body--preview-image'], 'src')
         content_selector = ('section',['content__body'])
         super().__init__(base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist)
+    
+    def scrape_date(self, soup):
+        #getting the date of the article
+        datetime_value = soup.find('time')
+        date = datetime_value.string.strip()
+        return date
+    
+    def scrape_date(self, soup):
+        #getting the date of the article
+        datetime_value = soup.find('time')['datetime']
+        return datetime_value
+    
+    #def scrape_image(self, soup):
+        #getting the image of the article
+    #    div_tag = soup.find('div', attrs={'slot': 'poster'}) 
+    #    if div_tag:
+    #        image_tag = div_tag.find('img')
+    #        image = image_tag['src']
+    #        return image 
+    #    else:
+    #        return None   
 
+        

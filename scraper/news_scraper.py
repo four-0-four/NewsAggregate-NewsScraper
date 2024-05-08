@@ -102,17 +102,17 @@ class NewsScraper:
         #soup = BeautifulSoup(custom_html, 'html.parser')
         
         title = self.scrape_title(soup)
-        #print("Title:", title)
+        print("Title:", title)
         date = self.scrape_date(soup)
         print("Date:", date)
         content = self.scrape_description(soup)
-        #print("Content:", content)
+        print("Content:", content)
         
         if not title or not date or not content or len(content) < 100:
             return None
         
         image_url = self.scrape_image(soup)
-        #print("Image:", image_url)
+        print("Image:", image_url)
 
         return {"title": title, "date": date, "content": content, "image_url": image_url, "url": article_url}
 
@@ -134,18 +134,18 @@ class NewsScraper:
                 date = date_tag.get_text(separator=' ', strip=True)
             
                 try:
-                    print("date: ", date)
+                    #print("date: ", date)
                     date_object = datetime.strptime(date, self.date_format)
                     return date_object
                 except ValueError as e:
-                    print("There was an error converting the date:", e)
+                    #print("There was an error converting the date:", e)
                     return None
         
         return None
     
     def scrape_image(self, soup):
         #getting the image of the article
-        image_url = None
+        image_url = 'https://www.cbsnews.com/news/deadly-oklahoma-tornado-trail-of-damage-barnsdall-bartlesville-portage-michigan/'
         for image_class in self.image_selector[1]:
             image_tags = soup.find_all(self.image_selector[0], class_=image_class)
             for image_tag in image_tags:
