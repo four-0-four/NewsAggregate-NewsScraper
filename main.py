@@ -178,7 +178,7 @@ def scrape_urls_one_category_given_news_source():
 
 #TEST: this function is used to test the scraping of a single article
 async def scrape_article_given_url():
-    article_url = 'https://www.cbsnews.com/news/deadly-oklahoma-tornado-trail-of-damage-barnsdall-bartlesville-portage-michigan/'
+    article_url = 'https://www.cbsnews.com/news/severe-geomagnetic-storm-watch-issued-unusual-solar-event'
     with open('config.json') as file:
         config = json.load(file)
         scraper = load_scraper(config["CBSNews"])
