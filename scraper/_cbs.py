@@ -1,6 +1,6 @@
 from datetime import datetime
-import pytz
 from scraper.news_scraper import NewsScraper
+import pytz
 
 class CBSNewsScraper(NewsScraper):
     def __init__(self, base_url, urls_blacklist):
@@ -14,7 +14,7 @@ class CBSNewsScraper(NewsScraper):
         title_selector = ('h1',['content__title'])
         date_selector = ('time',[''])
         date_format = '%B %d, %Y %I:%M %p'
-        image_selector = ('body','figure',['is-video','embed'], 'src')
+        image_selector = ('figure',['embed'], 'src')
         content_selector = ('section',['content__body'])
         super().__init__(base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist)
     
@@ -30,52 +30,52 @@ class CBSNewsScraper(NewsScraper):
         utc_datetime = datetime_object.astimezone(utc_timezone)
         return utc_datetime
 
-    # Get the datetime from the <time> text
-    def scrape_date(self, soup):
-        datetime_text = soup.find('time').string.strip()
+    def scrape_image(self, soup):
+        figure_tag = soup.find(self.image_selector[0], class_=self.image_selector[1])
+        image_tag = figure_tag.find('link', attrs={'as':'image'})
+        if image_tag:
+            image_url = image_tag['href']
+            return image_url   
+        
+        # If no image found, look for images in the article
+#        embed_images = soup.select('figure.embed img')
+#        if embed_images:
+#            return [img['src'] for img in embed_images]
+#        else:
+#            print("No images found.")
+#            return None
+    
+    def scrape_description(self, soup):
+        #getting the content of the article
+        for content__body in self.content_selector[1]:
+            content_tags = soup.find(self.content_selector[0], class_=content__body)
+            p_tags = content_tags.find_all('p')
+            content = ""
+            for p_tag in p_tags:
+                p = p_tag.get_text(separator=' ', strip=True)
+                content += p
+        return content if content else None          
 
-        date_parts = datetime_text.split("/")
-        if len(date_parts) == 2:
-            date_str, time_str = date_parts
-            datetime_text = f"{date_str.strip()} {time_str.strip()}"
-            # Remove "Updated on:","EDT"
-            datetime_str = datetime_text.replace("Updated on:", "").replace("EDT", "").strip()
+
+#    # Get the datetime from the <time> text
+#    def scrape_date(self, soup):
+#        datetime_text = soup.find('time').string.strip()
+
+#        date_parts = datetime_text.split("/")
+#        if len(date_parts) == 2:
+#            date_str, time_str = date_parts
+#            datetime_text = f"{date_str.strip()} {time_str.strip()}"
+#            # Remove "Updated on:","EDT"
+#            datetime_str = datetime_text.replace("Updated on:", "").replace("EDT", "").strip()
               
-            # Convert to a datetime object
-            datetime_object = datetime.strptime(datetime_str, self.date_format)
+#            # Convert to a datetime object
+#            datetime_object = datetime.strptime(datetime_str, self.date_format)
             
             # Convert timezone to UTC    
-            timezone = pytz.timezone('America/New_York')
-            utc_datetime = timezone.localize(datetime_object)
-            utc_date = utc_datetime.astimezone(pytz.utc)
-            return utc_date
-
-
-    def scrape_image(self, soup):
-        img_tags = soup.find_all(self.image_selector[0], class_=self.image_selector[2])
-
-        for img_tag in img_tags:
-            # Look for preview-image
-            preview_image = img_tag.find('img', class_='body--preview-image')
-            if preview_image:
-                img_url = preview_image['src']
-                return img_url
-            else:
-                # If no preview-image, look for the div with slot="poster"
-                div_tag = img_tag.find('div', attrs={'slot': 'poster'})
-                if div_tag:
-                    img_url = div_tag.find('img')['src']
-                    return img_url
-    
-        # If no image found, look for images in the article
-        embed_images = soup.select('figure.embed img')
-        if embed_images:
-            return [img['src'] for img in embed_images]
-        else:
-            print("No images found.")
-            return None
-
-
+#            timezone = pytz.timezone('America/New_York')
+#            utc_datetime = timezone.localize(datetime_object)
+#            utc_date = utc_datetime.astimezone(pytz.utc)
+#            return utc_date
 
 
         
