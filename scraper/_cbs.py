@@ -76,6 +76,3 @@ class CBSNewsScraper(NewsScraper):
 #            utc_datetime = timezone.localize(datetime_object)
 #            utc_date = utc_datetime.astimezone(pytz.utc)
 #            return utc_date
-
-
-        
