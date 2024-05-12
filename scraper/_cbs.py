@@ -16,7 +16,7 @@ class CBSNewsScraper(NewsScraper):
         title_selector = ('h1',['content__title'])
         date_selector = ('time',[''])
         date_format = '%B %d, %Y %I:%M %p'
-        image_selector = ('body','figure',['is-video','embed'], 'src')
+        image_selector = ('div',['avia-container'], 'src')
         content_selector = ('section',['content__body'])
         super().__init__(base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist)
     
@@ -54,11 +54,13 @@ class CBSNewsScraper(NewsScraper):
 
 
     def scrape_image(self, soup):
-        img_tags = soup.find_all(self.image_selector[0], class_=self.image_selector[2])
-
+        img_tags = soup.find_all(self.image_selector[0], class_=self.image_selector[1])
+        print(soup.find('body'))
         for img_tag in img_tags:
+            print("img_tag:", img_tag)
             # Look for preview-image
             preview_image = img_tag.find('img', class_='body--preview-image')
+            print("preview_image:", preview_image)
             if preview_image:
                 img_url = preview_image['src']
                 return img_url
@@ -70,12 +72,14 @@ class CBSNewsScraper(NewsScraper):
                     return img_url
     
         # If no image found, look for images in the article
+        '''
         embed_images = soup.select('figure.embed img')
         if embed_images:
             return [img['src'] for img in embed_images]
         else:
             print("No images found.")
             return None
+        '''
 
 
 

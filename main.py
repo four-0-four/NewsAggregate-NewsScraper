@@ -183,7 +183,7 @@ async def scrape_article_given_url():
         config = json.load(file)
         scraper = load_scraper(config["CBSNews"])
         article_data = scraper.scrape_article(article_url)
-        print(article_data)
+        #print(article_data)
 
 if __name__ == '__main__':
     #asyncio.run(parallel_main())

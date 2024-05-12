@@ -102,11 +102,11 @@ class NewsScraper:
         #soup = BeautifulSoup(custom_html, 'html.parser')
         
         title = self.scrape_title(soup)
-        print("Title:", title)
+        #print("Title:", title)
         date = self.scrape_date(soup)
-        print("Date:", date)
+        #print("Date:", date)
         content = self.scrape_description(soup)
-        print("Content:", content)
+        #print("Content:", content)
         
         if not title or not date or not content or len(content) < 100:
             return None
@@ -129,7 +129,7 @@ class NewsScraper:
         #getting the date of the article
         for date_class in self.date_selector[1]:
             date_tag = soup.find(self.date_selector[0], class_=date_class)
-            print("date_tag:",date_tag)
+            #print("date_tag:",date_tag)
             if(date_tag):
                 date = date_tag.get_text(separator=' ', strip=True)
             
