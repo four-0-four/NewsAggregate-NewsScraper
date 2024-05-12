@@ -1,6 +1,4 @@
 from datetime import datetime
-import re
-import attrs
 import pytz
 from scraper.news_scraper import NewsScraper
 
