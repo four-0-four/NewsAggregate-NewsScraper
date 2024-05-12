@@ -16,7 +16,7 @@ class CBSNewsScraper(NewsScraper):
         title_selector = ('h1',['content__title'])
         date_selector = ('time',[''])
         date_format = '%B %d, %Y %I:%M %p'
-        image_selector = ('img',['body--preview-image'], 'src')
+        image_selector = ('body','figure',['is-video','embed'], 'src')
         content_selector = ('section',['content__body'])
         super().__init__(base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist)
     
@@ -52,17 +52,31 @@ class CBSNewsScraper(NewsScraper):
             utc_date = utc_datetime.astimezone(pytz.utc)
             return utc_date
 
-    
-    def scrape_image(self, soup):
 
-        image_tag = soup.find('img', class_='body--preview-image')
-        if image_tag:
-            image_src = image_tag['src']
-            print(f"Found image source: {image_src}")
-            return image_src
+    def scrape_image(self, soup):
+        img_tags = soup.find_all(self.image_selector[0], class_=self.image_selector[2])
+
+        for img_tag in img_tags:
+            # Look for preview-image
+            preview_image = img_tag.find('img', class_='body--preview-image')
+            if preview_image:
+                img_url = preview_image['src']
+                return img_url
+            else:
+                # If no preview-image, look for the div with slot="poster"
+                div_tag = img_tag.find('div', attrs={'slot': 'poster'})
+                if div_tag:
+                    img_url = div_tag.find('img')['src']
+                    return img_url
+    
+        # If no image found, look for images in the article
+        embed_images = soup.select('figure.embed img')
+        if embed_images:
+            return [img['src'] for img in embed_images]
         else:
-            print("Image tag not found")
+            print("No images found.")
             return None
+
 
 
 

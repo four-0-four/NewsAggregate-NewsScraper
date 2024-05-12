@@ -145,7 +145,7 @@ class NewsScraper:
     
     def scrape_image(self, soup):
         #getting the image of the article
-        image_url = 'https://www.cbsnews.com/news/severe-geomagnetic-storm-watch-issued-unusual-solar-event'
+        image_url = 'https://www.cbsnews.com/news/swiss-singer-nemo-wins-eurovision-song-contest/'
         for image_class in self.image_selector[1]:
             image_tags = soup.find_all(self.image_selector[0], class_=image_class)
             for image_tag in image_tags:
