@@ -29,7 +29,8 @@ class CBSNewsScraper(NewsScraper):
         utc_timezone = pytz.timezone('UTC')
         utc_datetime = datetime_object.astimezone(utc_timezone)
         return utc_datetime
-
+    
+    # Get the image
     def scrape_image(self, soup):
         figure_tag = soup.find(self.image_selector[0], class_=self.image_selector[1])
         image_tag = figure_tag.find('link', attrs={'as':'image'})
@@ -38,12 +39,13 @@ class CBSNewsScraper(NewsScraper):
             return image_url   
         
         # If no image found, look for images in the article
-#        embed_images = soup.select('figure.embed img')
-#        if embed_images:
-#            return [img['src'] for img in embed_images]
-#        else:
-#            print("No images found.")
-#            return None
+        embed_images = soup.select('figure.embed img')
+        if embed_images:
+            return embed_images[0]['src']
+
+        else:
+            print("No images found.")
+            return None
     
     def scrape_description(self, soup):
         #getting the content of the article
@@ -54,7 +56,8 @@ class CBSNewsScraper(NewsScraper):
             for p_tag in p_tags:
                 p = p_tag.get_text(separator=' ', strip=True)
                 content += p
-        return content if content else None          
+                
+        return content if content and len(content) >= 100 else None          
 
 
 #    # Get the datetime from the <time> text

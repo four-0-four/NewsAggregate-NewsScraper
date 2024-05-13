@@ -178,12 +178,12 @@ def scrape_urls_one_category_given_news_source():
 
 #TEST: this function is used to test the scraping of a single article
 async def scrape_article_given_url():
-    article_url = 'https://www.cbsnews.com/live-updates/trump-trial-witnesses-after-stormy-daniels/'
+    article_url = 'https://www.cbsnews.com/news/northern-lights-photos-around-the-world/'
     with open('config.json') as file:
         config = json.load(file)
         scraper = load_scraper(config["CBSNews"])
         article_data = scraper.scrape_article(article_url)
-        #print(article_data)
+        print(article_data)
 
 if __name__ == '__main__':
     #asyncio.run(parallel_main())
