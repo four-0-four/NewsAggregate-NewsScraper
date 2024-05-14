@@ -1,7 +1,7 @@
 from datetime import datetime
 import pytest
 from unittest.mock import patch, Mock
-from scraper._abc import ABCNewsScraper
+from scraper._cbs import CBSNewsScraper
 import json
 
 

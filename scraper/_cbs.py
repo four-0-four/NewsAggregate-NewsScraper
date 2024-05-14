@@ -47,8 +47,8 @@ class CBSNewsScraper(NewsScraper):
             print("No images found.")
             return None
     
+    #get the content of the article
     def scrape_description(self, soup):
-        #getting the content of the article
         for content__body in self.content_selector[1]:
             content_tags = soup.find(self.content_selector[0], class_=content__body)
             p_tags = content_tags.find_all('p')
