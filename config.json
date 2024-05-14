@@ -103,7 +103,7 @@
             "/healthwatch": -1,
             "/": -1
         },
-        "urls_blacklist": ["/video/","/pictures/"],
+        "urls_blacklist": ["/video/","/pictures/","/live-updates/"],
         "NOTES": ""
     }
 }

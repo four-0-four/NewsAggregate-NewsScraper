@@ -1,0 +1,590 @@
+[
+    {
+        "title": "Michael Cohen, key witness against Trump, testifies about \"hush money\" payments",
+        "url": "https://www.cbsnews.com/live-updates/michael-cohen-trump-trial-testimony/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Biden to announce new 100% tariffs on EVs",
+        "url": "https://www.cbsnews.com/news/biden-to-announce-new-100-tariffs-on-chinese-evs/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Massive Key Bridge span demolished from top of Dali container ship",
+        "url": "https://www.cbsnews.com/news/heres-how-mondays-controlled-demolition-of-key-bridge-collapse-on-container-ship-will-work-patapsco-river/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Hundreds of thousands forced to flee again as Israel pushes into Rafah",
+        "url": "https://www.cbsnews.com/news/israel-hamas-war-rafah-gaza-offensive-netanyahu-under-us-pressure/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "FDA said it \"never\" inspected dental lab that made controversial AGGA device",
+        "url": "https://www.cbsnews.com/news/fda-johns-dental-agga-inspection/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "FAFSA glitches affecting college-bound students",
+        "url": "https://www.cbsnews.com/news/fafsa-glitch-financial-aid-college-deadlines/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Missouri man who crashed U-Haul into White House security barrier pleads guilty",
+        "url": "https://www.cbsnews.com/news/missouri-man-sai-kandula-crashed-u-haul-white-house-security-barrier-pleads-guilty/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "More geomagnetic storms likely to continue today",
+        "url": "https://www.cbsnews.com/news/more-geomagnetic-storms-remain-likely-monday-sun-continues-erupt-x-class-flares/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Melinda French Gates resigns from the Gates Foundation. Here's why.",
+        "url": "https://www.cbsnews.com/news/melinda-french-gates-resigns-from-gates-foundation/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "",
+        "url": "https://www.cbsnews.com/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "CBS News Live VideoLive",
+        "url": "https://www.cbsnews.com/live/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Parishioners at Louisiana church stop possible mass shooting",
+        "url": "https://www.cbsnews.com/news/church-shooting-stopped-abbeville-louisiana-first-communion/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Memorial Day weekend 2024 could be busiest for travel in nearly 20 years",
+        "url": "https://www.cbsnews.com/news/memorial-day-2024-travel-records/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Gov. Kristi Noem faces questions about false claim she met Kim Jong Un",
+        "url": "https://www.cbsnews.com/news/gov-kristi-noem-interview-false-claim-in-her-book-kim-jong-un/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Gov. Kristi Noem suggests Biden's dog should be shot too",
+        "url": "https://www.cbsnews.com/news/kristi-noem-dog-killing-cricket-biden-commander/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Solar storms cause GPS in tractors to temporarily break during height of planting season",
+        "url": "https://www.cbsnews.com/news/solar-storms-cause-gps-outage-is-tractors-planting-season/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Thousands of Canadians forced to evacuate as massive wildfire burns",
+        "url": "https://www.cbsnews.com/news/wildfire-canada-forces-evacuate-smoke-dangerous-air-quality/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "8 people killed in mass shooting near resort town in Mexico",
+        "url": "https://www.cbsnews.com/news/8-people-killed-mass-shooting-huitzilac-mexico/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "18 bodies \u2014 9 left with messages \u2014 found in Mexico",
+        "url": "https://www.cbsnews.com/news/mexico-cartel-violence-bodies-found-zacatecas-morelos-fresnillo/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Harris drops \"F-bomb\" while encouraging Asian Americans to break barriers",
+        "url": "https://www.cbsnews.com/news/kamala-harris-f-bomb-asian-americans-jimmy-o-yang/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Harry and Meghan wrap up a very royal looking tour of Nigeria",
+        "url": "https://www.cbsnews.com/news/prince-harry-meghan-nigeria-tour-warm-welcome-invictus-games/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Legendary treasure of 18th-century conman unearthed",
+        "url": "https://www.cbsnews.com/news/legendary-treasure-conman-healing-powers-poland-officials/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Screaming leads workers to tiger footprints, victim's body",
+        "url": "https://www.cbsnews.com/news/sumatran-tiger-attack-man-dies-search-critically-endangered-cat/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Assistant school principal among 4 arrested in cold case triple murder",
+        "url": "https://www.cbsnews.com/news/cold-case-triple-murder-mystery-georgia-alabama-assistant-school-principal-arrested/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "At Trump trial, defense grills Stormy Daniels in her final day on the stand",
+        "url": "https://www.cbsnews.com/live-updates/trump-trial-stormy-daniels-testifying/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Trump's 4 indictments: A guide to charges, trial dates, key players in each case",
+        "url": "https://www.cbsnews.com/news/trump-indictments-details-guide-charges-trial-dates-people-case/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Stormy Daniels testifies at Trump trial about alleged sexual encounter",
+        "url": "https://www.cbsnews.com/live-updates/trump-trial-testimony-bookkeeping-gag-order-contempt/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Biden campaign ramps up outreach to Black voters in Wisconsin",
+        "url": "https://www.cbsnews.com/news/biden-outreach-wisconsin-black-voters/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Trump says he'd leave abortion to states, but if reelected, could he limit it?",
+        "url": "https://www.cbsnews.com/news/trump-federal-abortion-ban-limit-abortion-access/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Barron Trump declines offer to serve as Florida delegate to RNC",
+        "url": "https://www.cbsnews.com/news/barron-trump-delegate-florida-republican-national-convention/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "U.S., Israel \"drifting apart,\" former head of Israeli army intelligence says",
+        "url": "https://www.cbsnews.com/news/israel-facing-multi-front-war-beyond-gaza-60-minutes/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "How veterans helped U.S. service member's mother get out of war-torn Gaza",
+        "url": "https://www.cbsnews.com/news/gaza-zahra-skaik-escape-israel-son-american-army-specialist/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Reporting on the battle with Hezbollah in Metula, Israel",
+        "url": "https://www.cbsnews.com/news/reporting-on-the-battle-with-hezbollah-in-metula-israel-60-minutes/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Will mortgage rates fall after this week's inflation report?",
+        "url": "https://www.cbsnews.com/news/will-mortgage-rates-fall-after-this-weeks-inflation-report/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "What are today's mortgage and mortgage refinance interest rates?",
+        "url": "https://www.cbsnews.com/news/what-are-todays-mortgage-and-mortgage-refinance-interest-rates/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "How to reduce assisted living facility costs, according to experts",
+        "url": "https://www.cbsnews.com/news/how-to-reduce-assisted-living-facility-costs-according-to-experts/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "As a Social Security cut looms, should seniors buy long-term care insurance now?",
+        "url": "https://www.cbsnews.com/news/social-security-cut-looms-should-seniors-buy-long-term-care-insurance/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "3 times to buy long-term care insurance at 65 (and 3 times not to)",
+        "url": "https://www.cbsnews.com/news/times-to-buy-long-term-care-insurance-at-65-and-times-not-to/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Should seniors add gold to their retirement accounts this May?",
+        "url": "https://www.cbsnews.com/news/should-seniors-add-gold-to-their-retirement-accounts-this-may/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Will gold's price rise after this week's inflation report?",
+        "url": "https://www.cbsnews.com/news/will-golds-price-rise-after-this-weeks-inflation-report/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "4 signs to invest in gold right now",
+        "url": "https://www.cbsnews.com/news/signs-to-invest-in-gold-right-now/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Mercedes-Benz workers in Alabama voting on whether to join UAW",
+        "url": "https://www.cbsnews.com/news/union-alabama-mercedes-benz-uaw/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Looking to save money? Try shopping at bin stores.",
+        "url": "https://www.cbsnews.com/news/online-returns-bin-stores-the-little-depot/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "\"Roaring Kitty\" causes GameStop stock price to jump more than 70%",
+        "url": "https://www.cbsnews.com/news/gamestop-stock-share-price-roaring-kitty/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Alabama follows DeSantis' lead in banning lab-grown meat",
+        "url": "https://www.cbsnews.com/news/florida-alabama-lab-grown-mean-ban-2024/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Sleep soundly with up to $800 off a mattress and base combo during the Purple Memorial Day Sale",
+        "url": "https://www.cbsnews.com/essentials/purple-mattress-memorial-day-sale/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "The best prescription sunglasses for 2024",
+        "url": "https://www.cbsnews.com/essentials/best-prescription-sunglasses-2024/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Best strollers for babies and toddlers in 2024",
+        "url": "https://www.cbsnews.com/essentials/best-strollers-for-babies-and-toddlers/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Michael Cohen testifies at Donald Trump's trial",
+        "url": "https://www.cbsnews.com/video/michael-cohen-testifies-about-stormy-daniels-payment-at-donald-trumps-criminal-trial/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Crews conduct demolition of Baltimore bridge",
+        "url": "https://www.cbsnews.com/video/crews-conduct-controlled-demolition-of-baltimores-key-bridge/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "NYC grapples with spate of random attacks",
+        "url": "https://www.cbsnews.com/video/new-york-city-grapples-with-spate-of-random-attacks/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "FAFSA glitches leave high school seniors in limbo",
+        "url": "https://www.cbsnews.com/video/fafsa-glitches-leave-many-high-school-seniors-in-limbo/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Record travel expected for Memorial Day",
+        "url": "https://www.cbsnews.com/video/record-travel-expected-millions-make-plans-memorial-day/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "CBS Village \u2014 Diverse Voices & Communities",
+        "url": "https://www.cbsnews.com/video/how-conductor-xian-zhang-is-breaking-barriers/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "EGOT Winner Jennifer Hudson talks new season of talk show",
+        "url": "https://www.cbsnews.com/news/egot-jennifer-hudson-show-success-hollywood-third-season/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Jennifer Hudson talks renewal of talk show",
+        "url": "https://www.cbsnews.com/video/jennifer-hudson-talks-success-and-renewal-of-her-talk-show/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Innovative wheelchair program receives boost",
+        "url": "https://www.cbsnews.com/video/tulane-universitys-innovative-wheelchair-program-secures-additional-funding/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "The Daily Report with John Dickerson",
+        "url": "https://www.cbsnews.com/video/us-recovering-pandemic-learning-loss-gaps-remain/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "U.S. honey bee population reaches record high",
+        "url": "https://www.cbsnews.com/video/us-honey-bee-population-reaches-record-high/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "CDC to post waste data amid bird flu outbreak",
+        "url": "https://www.cbsnews.com/video/cdc-to-post-wastewater-data-amid-bird-flu-outbreak/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Why are GameStop shares on the rise again?",
+        "url": "https://www.cbsnews.com/video/why-are-gamestop-shares-on-rise-again/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Breaking down the charges facing Bob Menendez",
+        "url": "https://www.cbsnews.com/video/breaking-down-charges-against-bob-menendez/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "The Uplift \u2014 Stories That Inspire",
+        "url": "https://www.cbsnews.com/video/the-uplift-strangers-in-san-antonio/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Drive-thru food pantry feeds thousands in Southern California",
+        "url": "https://www.cbsnews.com/news/drive-thru-food-pantry-provides-food-thousands-southern-california-santa-ana/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Drive-thru food pantry feeds thousands in California food desert",
+        "url": "https://www.cbsnews.com/video/drive-thru-food-pantry-feeds-thousands-in-california-food-desert/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "The Uplift: Finding purpose",
+        "url": "https://www.cbsnews.com/video/the-uplift-finding-purpose/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Officers, good Samaritan rescue couple from burning home",
+        "url": "https://www.cbsnews.com/video/officers-good-samaritan-rescue-couple-from-burning-florida-home/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "CBS Reports",
+        "url": "https://www.cbsnews.com/video/anything-for-love-inside-the-romance-scam-epidemic-cbs-reports/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "No Place Like Home | CBS Reports",
+        "url": "https://www.cbsnews.com/video/no-place-like-home-people-with-disabilities-fight-to-stay-out-of-institutions-cbs-reports/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Raising the Stakes | CBS Reports",
+        "url": "https://www.cbsnews.com/video/raising-the-stakes-americas-growing-sports-gambling-addiction-cbs-reports/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Toxic Fog | CBS Reports",
+        "url": "https://www.cbsnews.com/video/toxic-fog-the-aftermath-in-east-palestine-ohio-cbs-reports/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "The End of Affirmative Action | CBS Reports",
+        "url": "https://www.cbsnews.com/video/the-end-of-affirmative-action-cbs-reports/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Gov. Kristi Noem banned from nearly 20% of South Dakota after tribes vote",
+        "url": "https://www.cbsnews.com/news/gov-kristi-noem-banned-south-dakota-tribes-now-banned-nearly-20-percent-state/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Influencers promote raw milk despite warnings as bird flu raises risk",
+        "url": "https://www.cbsnews.com/news/bird-flu-raw-milk-influencers-fda-warning/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Reducing mental health, substance use stigmas",
+        "url": "https://www.cbsnews.com/video/patrick-j-kennedy-works-to-reduce-stigma-around-mental-health-substance-use-with-new-book/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Lung cancer mystery: Why are healthy, non-smoking, Asian women contracting the disease?",
+        "url": "https://www.cbsnews.com/news/why-do-non-smoking-asian-women-have-high-rates-of-lung-cancer-a-ucsf-study-hopes-to-find-out/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Anti-abortion rights groups push abortion \"reversal.\" States say that's fraud.",
+        "url": "https://www.cbsnews.com/news/abortion-pill-reversal-lawsuit-fraud-new-york-california/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "2 Americans among 20 arrested at protest over nation of Georgia's future",
+        "url": "https://www.cbsnews.com/news/georgia-protests-americans-arrested-eu-russia-foreign-agents-law/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "John Krasinski on how fatherhood inspired latest movie,\"IF\"",
+        "url": "https://www.cbsnews.com/news/how-fatherhood-inspired-john-krasinskis-latest-movie-if/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Harlan Coben on what inspired \"Think Twice\"",
+        "url": "https://www.cbsnews.com/video/author-harlan-coben-on-what-inspired-new-book-think-twice/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Technology",
+        "url": "https://www.cbsnews.com/video/ai-powered-apps-working-to-detect-mental-health-problems/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Why does product design sometimes fail? It's complicated",
+        "url": "https://www.cbsnews.com/news/product-design-too-many-features/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "How AI powered robots are helping small farms",
+        "url": "https://www.cbsnews.com/video/how-ai-powered-robots-are-helping-small-farms-fight-labor-shortages/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "What happened to \"simple\" design?",
+        "url": "https://www.cbsnews.com/video/what-happened-to-simple-design/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Apple apologizes for iPad Pro commercial after backlash",
+        "url": "https://www.cbsnews.com/news/apple-apology-ipad-pro-crush-commercial-online-criticism/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Raging Canadian wildfires threaten thousands",
+        "url": "https://www.cbsnews.com/video/raging-canadian-wildfires-threaten-thousands/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Northern lights set the sky aglow amid powerful geomagnetic storm",
+        "url": "https://www.cbsnews.com/news/northern-lights-aurora-borealis-geomagnetic-storm-united-states-sky/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Geomagnetic storm may disrupt power, but expand aurora viewing",
+        "url": "https://www.cbsnews.com/news/g4-severe-geomagnetic-storm-impacts-power-grid-aurora-borealis/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Maps show where millions in U.S. could see northern lights this weekend",
+        "url": "https://www.cbsnews.com/news/maps-northern-lights-forecast-us-aurora-borealis/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Louisiana church thwarts mass shooting",
+        "url": "https://www.cbsnews.com/video/louisiana-church-thwarts-mass-shooting-at-service-packed-with-kids/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "NYC museum curator allegedly tried to smuggle scorpion, spider samples",
+        "url": "https://www.cbsnews.com/news/spider-scorpion-smuggling-turkey-curator-american-museum-of-natural-history-accused/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "\"Extreme\" G5 geomagnetic storm reaches Earth, NOAA says",
+        "url": "https://www.cbsnews.com/news/severe-geomagnetic-storm-watch-issued-unusual-solar-event/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "\"God's Hand\" revealed in \"ominous\" new image",
+        "url": "https://www.cbsnews.com/news/gods-hand-cg4-gum-nebula-puppis-photo-noirlab/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Notable Deaths in 2024",
+        "url": "https://www.cbsnews.com/pictures/notable-deaths-in-2024/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Roger Corman, \"King of the B Movies\" 1926-2024",
+        "url": "https://www.cbsnews.com/pictures/roger-corman-1926-2024/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "N.J. woman survives a home invasion, brutal stabbing by a young stranger",
+        "url": "https://www.cbsnews.com/pictures/donna-ongsiako-colts-neck-new-jersey-survives-home-invasion-stabbing/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "PHOTOS: Baltimore bridge collapses after cargo ship rams into overpass",
+        "url": "https://www.cbsnews.com/pictures/baltimore-francis-scott-key-bridge-collapses-cargo-ship-overpass/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Could an Alabama woman have shot herself twice?",
+        "url": "https://www.cbsnews.com/pictures/tiffiney-crawford-cullman-alabama-death-investigation-photos/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    }
+]
