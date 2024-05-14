@@ -183,10 +183,10 @@ def scrape_urls_one_category_given_news_source():
 
 
 async def scrape_article_given_url():
-    article_url = 'https://www.cnbc.com/2024/05/14/ai-boom-to-keep-supply-of-high-end-memory-chips-tight-through-2024.html'
+    article_url = 'https://www.nbcnews.com/news/michael-cohen-trump-trial-caitlin-clark-indiana-fever-morning-rundown-rcna152110'
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CNBCNews"])
+        scraper = load_scraper(config["NBCNews"])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 
@@ -194,6 +194,6 @@ if __name__ == '__main__':
     #asyncio.run(parallel_main())
     
     
-    asyncio.run(parallel_one_news_source("CNBCNews"))
-    #asyncio.run(scrape_article_given_url())
+    #asyncio.run(parallel_one_news_source("CNBCNews"))
+    asyncio.run(scrape_article_given_url())
     #scrape_urls_one_category_given_news_source()

@@ -150,18 +150,6 @@
         "link select": ".ContentRoll__Item"
     },
     {
-        "title": "Chicago's famous 'rat hole' removed and preserved from neighborhood sidewalk",
-        "url": "https://abcnews.go.com/US/chicagos-famous-rat-hole-removed-preserved-neighborhood-sidewalk/story?id=109638877",
-        "title select": ".ContentRoll__Item > h2",
-        "link select": ".ContentRoll__Item"
-    },
-    {
-        "title": "Harvey Weinstein's rape conviction overturned in New York; DA will attempt to retry",
-        "url": "https://abcnews.go.com/US/harvey-weinstein-conviction-overturned-new-york/story?id=109621776",
-        "title select": ".ContentRoll__Item > h2",
-        "link select": ".ContentRoll__Item"
-    },
-    {
         "title": "Boeing crash victims' families urge DOJ to criminally prosecute company",
         "url": "https://abcnews.go.com/US/boeing-crash-victims-families-urge-doj-criminally-prosecute/story?id=109597636",
         "title select": ".ContentRoll__Item > h2",
@@ -324,6 +312,12 @@
         "link select": ".ContentList__Item"
     },
     {
+        "title": "Etienne Laurent/APHarvey Weinstein's rape conviction overturned in New York; DA will attempt to retryThe disgraced movie producer was convicted of rape in February 2020.April 25, 2024",
+        "url": "https://abcnews.go.com/US/harvey-weinstein-conviction-overturned-new-york/story?id=109621776",
+        "title select": "a.AnchorLink.News",
+        "link select": ".AnchorLink.News"
+    },
+    {
         "title": "Luxury bag designer jailed for wildlife smuggling, making bags from protected speciesThe smuggled bags were made of protected caiman and python species.April 23, 2024",
         "url": "https://abcnews.go.com/US/luxury-handbag-designer-jailed-wildlife-smuggling-making-merchandise/story?id=109524079",
         "title select": "a.AnchorLink.News",
@@ -332,6 +326,12 @@
     {
         "title": "Brittney Griner opens up about Russian detention in exclusive '20/20' specialThe WNBA star shared her story in an exclusive interview with Robin Roberts.April 23, 2024",
         "url": "https://abcnews.go.com/US/wnba-star-brittney-griner-opens-harrowing-russian-detention/story?id=109495984",
+        "title select": "a.AnchorLink.News",
+        "link select": ".AnchorLink.News"
+    },
+    {
+        "title": "Chicago's famous 'rat hole' removed and preserved from neighborhood sidewalkThe rat-sized imprint in Roscoe Village was removed Wednesday morning.April 25, 2024",
+        "url": "https://abcnews.go.com/US/chicagos-famous-rat-hole-removed-preserved-neighborhood-sidewalk/story?id=109638877",
         "title select": "a.AnchorLink.News",
         "link select": ".AnchorLink.News"
     },
@@ -354,7 +354,7 @@
         "link select": ".block"
     },
     {
-        "title": "2:03",
+        "title": "Cancer survivor invites doctors to walk her down the aisle",
         "url": "https://abcnews.go.com/WNT/video/cancer-survivor-invites-doctors-walk-aisle-101652794",
         "title select": ".block > h4, .block > .content > a",
         "link select": ".block"
