@@ -14,6 +14,7 @@ class NewsScraper:
         
         self.urls_blacklist = urls_blacklist
         self.added_urls = []
+        self.article_links = []
 
     def read_html_file(self, file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -42,12 +43,12 @@ class NewsScraper:
         
         return full_link
     
-    def check_if_article_is_duplicate(self, href, full_link, article_links, text):
+    def check_if_article_is_duplicate(self, href, full_link, text):
         if (full_link in self.added_urls):
             # Check if the URL exists in article_links and has an empty title
-            for article in article_links:
+            for article in self.article_links:
                 if article['url'] == href and ( not article['title'] or len(article['title']) < len(text) ):
-                    article_links.remove(article)  # Remove if title is empty
+                    self.article_links.remove(article)  # Remove if title is empty
                     return False
             return True
         return False
@@ -69,7 +70,7 @@ class NewsScraper:
         #custom_html = self.read_html_file("tests/cnn/cnn_category_1.html")
         #soup = BeautifulSoup(custom_html, 'html.parser')
         
-        article_links = []
+        self.article_links = []
         #print(len(self.article_url_css_selector))
         for potential_article in self.article_url_css_selector:
             article_info = {"title":"", "url":""}
@@ -96,15 +97,15 @@ class NewsScraper:
                         
                         
                         #check that we have already added it so we don't add twice
-                        if self.check_if_article_is_duplicate(href, full_link, article_links, text):
+                        if self.check_if_article_is_duplicate(href, full_link, text):
                             continue
                         
                         
                         self.added_urls.append(full_link)
                         article_info = {"title": text, "url": full_link, "title select": potential_article[1], "link select": potential_article[0]}
-                        article_links.append(article_info)
+                        self.article_links.append(article_info)
 
-        return article_links
+        return self.article_links
 
     def scrape_article(self, article_url):
         #print(article_url)
@@ -156,7 +157,7 @@ class NewsScraper:
     
     def scrape_image(self, soup):
         #getting the image of the article
-        image_url = 'https://www.cbsnews.com/news/northern-lights-photos-around-the-world/'
+        image_url = None
         for image_class in self.image_selector[1]:
             image_tags = soup.find_all(self.image_selector[0], class_=image_class)
             for image_tag in image_tags:
