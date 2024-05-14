@@ -1,5 +1,71 @@
 [
     {
+        "title": "Former N.Y. Giants lineman Korey Cunningham found dead at 28",
+        "url": "https://www.nbcnews.com/news/sports/former-new-york-giants-lineman-korey-cunningham-found-dead-28-rcna149539",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "76ers All-Star Joel Embiid says he was diagnosed with Bell's palsy before the playoffs started",
+        "url": "https://www.nbcnews.com/news/sports/joel-embiid-bells-palsy-rcna149492",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "WNBA star A'ja Wilson weighs in on pro basketball gender pay gap: 'It's going to turn'",
+        "url": "https://www.nbcnews.com/news/sports/wnba-star-ja-wilson-weighs-basketball-gender-pay-gap-s-going-turn-rcna149522",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "USC's Caleb Williams 'ready' to be taken No. 1 in NFL draft, help Chicago Bears regain past glory",
+        "url": "https://www.nbcnews.com/sports/caleb-williams-nfl-draft-rcna148999",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "Top prospects and storylines to watch ahead of the first round of the NFL draft",
+        "url": "https://www.nbcnews.com/news/sports/nfl-draft-2024-prospects-picks-teams-date-time-when-rcna148793",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "Patriots owner says 'Jew hatred' on U.S. college campuses parallels Germany in 1930s and '40s",
+        "url": "https://www.nbcnews.com/business/business-news/college-campus-protests-israel-robert-kraft-comments-rcna149322",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "Chicago Cubs pitcher forced to change glove because American flag patch was considered a distraction",
+        "url": "https://www.nbcnews.com/news/sports/chicago-cubs-pitcher-change-glove-american-flag-patch-rcna149352",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "Upstart Lions solidify future with extensions to star receiver and lineman",
+        "url": "https://www.nbcnews.com/news/sports/lions-stars-wr-amon-ra-st-brown-ot-penei-sewell-agree-extensions-repor-rcna149190",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "Reggie Bush getting Heisman Trophy back after it was stripped from him 14 years ago",
+        "url": "https://www.nbcnews.com/news/sports/reggie-bush-getting-heisman-trophy-back-was-stripped-14-years-ago-rcna149142",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "Pacers star Tyrese Haliburton says rival fan directed racist slur at his brother during playoff game",
+        "url": "https://www.nbcnews.com/news/sports/pacers-tyrese-haliburton-says-fan-racist-slur-rcna149129",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
+        "title": "Hundreds of athletes urge the NCAA not to ban trans athletes from women\u2019s sports",
+        "url": "https://www.nbcnews.com/nbc-out/out-news/hundreds-athletes-urge-ncaa-not-ban-trans-athletes-womens-sports-rcna149033",
+        "title select": ".wide-tease-item__wrapper .wide-tease-item__headline",
+        "link select": ".wide-tease-item__wrapper .wide-tease-item__info-wrapper > a"
+    },
+    {
         "title": "Meet the NASA astronauts who will be first to fly on Boeing's Starliner spaceship",
         "url": "https://www.nbcnews.com/science/space/nasa-astronauts-first-boeing-starliner-crew-rcna149231",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]",
@@ -24,14 +90,14 @@
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
     },
     {
-        "title": "Disillusionment plagues young Latinos who could decide the 2024 race in battleground states",
-        "url": "https://www.nbcnews.com/news/latino/young-latino-voters-candidates-2024-election-rcna147624",
+        "title": "Saved from her dead mother's womb, baby Sabreen was laid to rest in a mournful and sometimes angry funeral",
+        "url": "https://www.nbcnews.com/news/world/saved-dead-mothers-womb-baby-sabreen-was-laid-rest-mournful-sometimes-rcna149649",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]",
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
     },
     {
-        "title": "Paris organizers take delivery of Olympic flame at Greek venue of first modern Games",
-        "url": "https://www.nbcnews.com/news/world/paris-olympic-flame-journey-belem-rcna149648",
+        "title": "Disillusionment plagues young Latinos who could decide the 2024 race in battleground states",
+        "url": "https://www.nbcnews.com/news/latino/young-latino-voters-candidates-2024-election-rcna147624",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]",
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
     },
@@ -264,12 +330,6 @@
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
     },
     {
-        "title": "The Falcons spent $180 million on Kirk Cousins \u2014 then didn't tell him they're drafting a quarterback",
-        "url": "https://www.nbcnews.com/news/sports/falcons-spent-180-million-kirk-cousins-didnt-tell-drafting-quarterback-rcna149548",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
-    },
-    {
         "title": "Fans mourn after 'The Simpsons' kills off original character Larry the Barfly",
         "url": "https://www.nbcnews.com/news/us-news/fans-mourn-simpsons-kills-original-character-larry-barfly-rcna149532",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]",
@@ -294,8 +354,20 @@
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
     },
     {
-        "title": "Meet the Walmart deli employee who's also a track star hoping to make the Olympic team",
-        "url": "https://www.nbcnews.com/sports/olympics/meet-walmart-deli-employee-also-track-star-hoping-make-olympic-team-rcna149523",
+        "title": "The best seed starting trays for jumpstarting your garden",
+        "url": "https://www.nbcnews.com/select/shopping/best-seed-starting-trays-rcna149461",
+        "title select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]",
+        "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
+    },
+    {
+        "title": "Haiti's transitional government weighs future after 'collapse' of institutions",
+        "url": "https://www.nbcnews.com/news/world/haitis-transitional-government-weighs-future-collapse-institutions-rcna149528",
+        "title select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]",
+        "link select": "[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a"
+    },
+    {
+        "title": "Paris organizers take delivery of Olympic flame at Greek venue of first modern Games",
+        "url": "https://www.nbcnews.com/news/world/paris-olympic-flame-journey-belem-rcna149648",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
     },
@@ -306,50 +378,14 @@
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
     },
     {
-        "title": "Quiz: Is this an Olympic sport?",
-        "url": "https://www.nbcnews.com/sports/olympics/sports-paris-2024-quiz-rcna147894",
+        "title": "Stephen Curry and wife Ayesha planned new baby around Paris Olympics",
+        "url": "https://www.nbcnews.com/news/sports/stephen-curry-wife-ayesha-baby-paris-olympics-rcna148314",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
     },
     {
-        "title": "U.S. citizens are languishing in Chinese prisons with little hope of release",
-        "url": "https://www.nbcnews.com/news/world/americans-detained-china-return-home-better-ties-rcna148906",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "U.S. boys at Jamaica school say they were beaten, starved and forced to exercise until they vomited",
-        "url": "https://www.nbcnews.com/news/us-news/jamaica-school-troubled-teens-abuse-starvation-rcna147605",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Mother describes leaving Idaho for an abortion as Supreme Court considers its ban",
-        "url": "https://www.nbcnews.com/health/womens-health/idaho-abortion-ban-supreme-court-mother-lawsuit-rcna148945",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Gisele B\u00fcndchen breaks down in tears during Florida traffic stop while fleeing paparazzi",
-        "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/gisele-bundchen-breaks-tears-florida-traffic-stop-fleeing-paparazzi-rcna149504",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "New concern about bird flu in cows as traces of the virus appear in more milk samples",
-        "url": "https://www.nbcnews.com/nightly-news/video/new-concern-about-bird-flu-in-cows-as-traces-of-the-virus-appear-in-more-milk-samples-209798725938",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Study finds electric vehicles lose value more quickly than gasoline-powered cars",
-        "url": "https://www.nbcnews.com/nightly-news/video/study-finds-electric-vehicles-lose-value-more-quickly-than-gasoline-powered-cars-209800261735",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Small Wisconsin town sees its future in brewery's revival",
-        "url": "https://www.nbcnews.com/nightly-news/video/small-wisconsin-town-sees-its-future-in-brewery-s-revival-209797701901",
+        "title": "LeBron James, Stephen Curry and more NBA stars will represent Team USA in the 2024 Olympics",
+        "url": "https://www.nbcnews.com/sports/olympics/team-usa-basketball-roster-announced-see-mens-team-2024-paris-olympics-rcna148155",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
     },
@@ -360,189 +396,27 @@
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
     },
     {
-        "title": "United Methodists endorse change that could give regions more say on LGBTQ issues",
-        "url": "https://www.nbcnews.com/nbc-out/out-news/united-methodists-endorse-change-give-regions-say-lgbtq-issues-rcna149420",
+        "title": "'I never once cheated,' Reggie Bush says after getting Heisman Trophy back",
+        "url": "https://www.nbcnews.com/video/reggie-bush-gets-heisman-trophy-back-after-it-was-stripped-from-him-209730117778",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
     },
     {
-        "title": "Lily Gladstone and Bowen Yang to star in \u2018The Wedding Banquet\u2019 remake",
-        "url": "https://www.nbcnews.com/nbc-out/out-pop-culture/lily-gladstone-bowen-yang-star-wedding-banquet-remake-rcna149405",
+        "title": "NFL Draft 2024: Here are the expected top picks",
+        "url": "https://www.nbcnews.com/now/video/nfl-draft-2024-here-are-the-expected-top-picks-209688645755",
         "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
         "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
     },
     {
-        "title": "A $1 million wealth gap now divides white families from Black and Hispanic ones, research shows",
-        "url": "https://www.nbcnews.com/news/latino/1-million-wealth-gap-white-black-hispanic-families-rcna149252",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
+        "title": "Meet the Walmart deli employee who's also a track star hoping to make the Olympic team",
+        "url": "https://www.nbcnews.com/sports/olympics/meet-walmart-deli-employee-also-track-star-hoping-make-olympic-team-rcna149523",
+        "title select": "[class^=\"tease-card\"] [class^=\"tease-card__headline\"]",
+        "link select": "[class^=\"tease-card\"] [class^=\"tease-card__headline\"]"
     },
     {
-        "title": "Gay actor's speech back on at Pennsylvania school after cancellation over his 'lifestyle'",
-        "url": "https://www.nbcnews.com/nbc-out/out-news/gay-actors-speech-back-pennsylvania-school-cancellation-lifestyle-rcna149367",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Haiti's transitional government weighs future after 'collapse' of institutions",
-        "url": "https://www.nbcnews.com/news/world/haitis-transitional-government-weighs-future-collapse-institutions-rcna149528",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Black and Latino workers die on the job at disproportionate rates, new report shows",
-        "url": "https://www.nbcnews.com/news/nbcblk/black-latino-workers-die-job-disproportionate-rates-new-report-shows-rcna149225",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Argentine students and professors protest university budget cuts under Milei",
-        "url": "https://www.nbcnews.com/news/latino/argentine-students-professors-protest-university-budget-cuts-milei-rcna149200",
-        "title select": "[class^=\"styles_item__\"] [class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Pulled from her dead mother's womb after an air strike, baby Sabreen is laid to rest in a mournful, sometimes angry funeral",
-        "url": "https://www.nbcnews.com/news/world/saved-dead-mothers-womb-baby-sabreen-was-laid-rest-mournful-sometimes-rcna149649",
-        "title select": "[class^=\"related-content\"] [class^=\"related-content\"][class$=\"__headline\"]",
-        "link select": "[class^=\"related-content\"] [class^=\"related-content\"][class$=\"__headline\"] > a"
-    },
-    {
-        "title": "What Bill Cosby's overturned conviction could signal about Harvey Weinstein's case",
-        "url": "https://www.nbcnews.com/news/us-news/bill-cosbys-overturned-conviction-signal-harvey-weinsteins-case-rcna149413",
-        "title select": "[class^=\"related-content\"] [class^=\"related-content\"][class$=\"__headline\"]",
-        "link select": "[class^=\"related-content\"] [class^=\"related-content\"][class$=\"__headline\"] > a"
-    },
-    {
-        "title": "Severe spring storms put 21 million under threat of possible tornadoes and hail",
-        "url": "https://www.nbcnews.com/news/us-news/severe-spring-storms-put-21-million-threat-possible-tornadoes-hail-rcna149500",
-        "title select": "[class^=\"storyline__headline\"]",
-        "link select": "[class^=\"storyline__headline\"] > a"
-    },
-    {
-        "title": "The best cleansing balms, according to dermatologists",
-        "url": "https://www.nbcnews.com/select/shopping/best-cleansing-balms-rcna123825",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "14 tested and approved vitamin C serums for glowy skin",
-        "url": "https://www.nbcnews.com/select/shopping/best-vitamin-c-serums-ncna1262849",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "As China\u2019s economy falters, so does middle-class confidence",
-        "url": "https://www.nbcnews.com/now/video/china-s-middle-class-sees-decrease-in-confidence-as-economy-faces-slowdown-209368133905",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Orphaned by an airstrike and saved from her dead mother's womb, baby Sabreen has died",
-        "url": "https://www.nbcnews.com/news/world/israel-hamas-war-gaza-baby-saved-womb-mother-killed-airstrike-rafah-rcna148772",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "China warns U.S. of 'downward spiral' as Antony Blinken meets with Xi Jinping",
-        "url": "https://www.nbcnews.com/news/world/antony-blinken-xi-jinping-china-warns-us-downward-spiral-rcna149486",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Meta's big, expensive AI bet hinges on giving its models away for free",
-        "url": "https://www.nbcnews.com/tech/tech-news/metas-big-expensive-ai-bet-hinges-giving-models-away-free-rcna149426",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "FCC votes to bring back Obama-era 'net neutrality' rules that were repealed under Trump",
-        "url": "https://www.nbcnews.com/tech/fcc-votes-bring-back-obama-era-net-neutrality-rules-repealed-trump-rcna149415",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "FDA approves Pfizer's first gene therapy for rare inherited bleeding disorder",
-        "url": "https://www.nbcnews.com/health/health-news/fda-approves-pfizers-first-gene-therapy-rare-inherited-bleeding-disord-rcna149515",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "CDC describes first known cases of HIV transmitted via 'vampire facial' injections",
-        "url": "https://www.nbcnews.com/health/health-news/cdc-first-known-cases-hiv-cosmetic-injections-rcna149357",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Why Idaho\u2019s hospitals are having pregnant patients airlifted out of state",
-        "url": "https://www.nbcnews.com/news/us-news/idahos-abortion-emergency-supreme-court-airlifted-rcna148828",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "How one state is trying to make weight loss drugs cheaper",
-        "url": "https://www.nbcnews.com/health/health-news/one-state-trying-make-weight-loss-drugs-cheaper-rcna148997",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "76ers All-Star Joel Embiid says he was diagnosed with Bell's palsy before the playoffs started",
-        "url": "https://www.nbcnews.com/news/sports/joel-embiid-bells-palsy-rcna149492",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "WNBA star A'ja Wilson weighs in on pro basketball gender pay gap: 'It's going to turn'",
-        "url": "https://www.nbcnews.com/news/sports/wnba-star-ja-wilson-weighs-basketball-gender-pay-gap-s-going-turn-rcna149522",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Man who fatally shot ex-Saints star Will Smith after a car crash gets 25 years in prison",
-        "url": "https://www.nbcnews.com/news/us-news/man-fatally-shot-ex-saints-star-will-smith-car-crash-gets-25-years-pri-rcna149403",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Chicago Cubs pitcher forced to change glove because American flag patch was considered a distraction",
-        "url": "https://www.nbcnews.com/news/sports/chicago-cubs-pitcher-change-glove-american-flag-patch-rcna149352",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Upstart Lions solidify future with extensions to star receiver and lineman",
-        "url": "https://www.nbcnews.com/news/sports/lions-stars-wr-amon-ra-st-brown-ot-penei-sewell-agree-extensions-repor-rcna149190",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "Cicadas are so noisy in a South Carolina county that residents are calling the police",
-        "url": "https://www.nbcnews.com/science/environment/cicadas-noisy-south-carolina-residents-call-police-rcna149132",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "China launches 3-member crew to its space station as it seeks to put astronauts on the moon by 2030",
-        "url": "https://www.nbcnews.com/news/world/china-launches-3-member-crew-space-station-seeks-put-astronauts-moon-2-rcna149487",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "New EPA rules would force coal-fired power plants to capture emissions or shut down",
-        "url": "https://www.nbcnews.com/science/environment/new-epa-rules-force-coal-fired-power-plants-capture-emissions-shut-rcna149312",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "131 million in U.S. live in areas with unhealthy pollution levels, lung association finds",
-        "url": "https://www.nbcnews.com/science/environment/131-million-us-live-areas-unhealthy-pollution-levels-lung-association-rcna148795",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
-    },
-    {
-        "title": "New tools from NOAA and CDC show people their risk from heat as another hot summer looms",
-        "url": "https://www.nbcnews.com/science/science-news/heat-forecast-tools-noaa-cdc-show-risk-rcna147909",
-        "title select": "[class^=\"styles_headline\"]",
-        "link select": "[class^=\"styles_headline__\"] > a"
+        "title": "The Falcons spent $180 million on Kirk Cousins \u2014 then didn't tell him they're drafting a quarterback",
+        "url": "https://www.nbcnews.com/news/sports/falcons-spent-180-million-kirk-cousins-didnt-tell-drafting-quarterback-rcna149548",
+        "title select": "[class^=\"tease-card\"] [class^=\"tease-card__headline\"]",
+        "link select": "[class^=\"tease-card\"] [class^=\"tease-card__headline\"]"
     }
 ]

@@ -82,7 +82,7 @@ class CNNNewsScraper(NewsScraper):
         
         return full_link
 
-    def check_if_article_is_duplicate(self, full_link, href, text):
+    def check_if_article_is_duplicate(self, href, full_link, text):
         #check that we have already added it so we don't add twice
         if (full_link in self.added_urls):
             # Check if the URL exists in article_links and has an empty title

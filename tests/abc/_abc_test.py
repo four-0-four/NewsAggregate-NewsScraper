@@ -60,4 +60,3 @@ def test_fetch_article_urls_category_2(category_path, expected):
     scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)
     path_html = 'tests/abc/abc_category_2.html'
     helper_test_category_url_scraper(scraper, category_path, expected, path_html)
-
