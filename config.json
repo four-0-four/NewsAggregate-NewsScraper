@@ -162,7 +162,7 @@
             "/cnbc-disruptors": -1,
             "/tech-guide": -1
         },
-        "urls_blacklist": ["/video/"],
+        "urls_blacklist": ["/video/","live-updates"],
         "NOTES": ""
     }
 }

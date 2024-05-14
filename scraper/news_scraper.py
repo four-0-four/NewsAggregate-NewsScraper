@@ -14,34 +14,14 @@ class NewsScraper:
         
         self.urls_blacklist = urls_blacklist
         self.added_urls = []
-        
-        self.article_links = []
 
     def read_html_file(self, file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read()
-        
-    def fetch_html(self, category_path):
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
-        }
-        url = f"{self.base_url}{category_path}"
-        response = requests.get(url, headers=headers)
-        return BeautifulSoup(response.text, 'html.parser')
-    
-    def fetch_saved_html(self, path_to_html):
-        custom_html = self.read_html_file(path_to_html)
-        return BeautifulSoup(custom_html, 'html.parser')
 
-    def fetch_article_urls_all_categories(self, category_list):
-        urls_all_categories = {}
-        for category, category_id in category_list.items():
-            urls_one_category = self.fetch_article_urls_one_category(category)
-            urls_all_categories[category] = urls_one_category
-        return urls_all_categories
 
-    def check_article_url(self,href):
-        #print("href:", href)
+    def check_article_url(self, href):
+        # Ensure the link is absolute
         if(href.startswith(self.base_url)):
             full_link = href
         elif(href.startswith("/")):
@@ -61,60 +41,70 @@ class NewsScraper:
             return None
         
         return full_link
-
-    def check_if_article_is_duplicate(self, full_link, href, text):
-        #check that we have already added it so we don't add twice
+    
+    def check_if_article_is_duplicate(self, href, full_link, article_links, text):
         if (full_link in self.added_urls):
             # Check if the URL exists in article_links and has an empty title
-            for article in self.article_links:
-                #sometimes we require to check for text as well
+            for article in article_links:
                 if article['url'] == href and ( not article['title'] or len(article['title']) < len(text) ):
-                    self.article_links.remove(article)  # Remove if title is empty
-                    break
-            else:
-                return False
-        return True
-
-    def add_article_to_list(self, element, potential_article, full_link, href, link_tag):
-        #get text
-        title_tag = element.select_one(potential_article[1])
-        text = title_tag.get_text(strip=True) if title_tag else link_tag.get_text(strip=True)
-        
-        
-        #check that we have already added it so we don't add twice
-        if (not self.check_if_article_is_duplicate(full_link, href, text)):
-            return False
+                    article_links.remove(article)  # Remove if title is empty
+                    return False
+            return True
+        return False
     
-        
-        self.added_urls.append(full_link)
-        article_info = {"title": text, "url": full_link, "title select": potential_article[1], "link select": potential_article[0]}
-        self.article_links.append(article_info)
+    def fetch_article_urls_all_categories(self, category_list):
+        urls_all_categories = {}
+        for category, category_id in category_list.items():
+            urls_one_category = self.fetch_article_urls_one_category(category)
+            urls_all_categories[category] = urls_one_category
+        return urls_all_categories
 
     def fetch_article_urls_one_category(self, category_path):
-        soup = self.fetch_html(category_path)
-        #soup = self.fetch_saved_html("tests/cnn/cnn_category_1.html")
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+        }
+        url = f"{self.base_url}{category_path}"
+        response = requests.get(url, headers=headers)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        #custom_html = self.read_html_file("tests/cnn/cnn_category_1.html")
+        #soup = BeautifulSoup(custom_html, 'html.parser')
         
-        self.article_links = []
+        article_links = []
+        #print(len(self.article_url_css_selector))
         for potential_article in self.article_url_css_selector:
             article_info = {"title":"", "url":""}
             elements = soup.select(potential_article[0])
             #print("****************************")
             #print(potential_article[0])
             for element in elements:
-                link_tags = element.find_all('a') if element.name != 'a' else [element]
+                if element.name == 'a':
+                    link_tags = [element]
+                else:
+                    link_tags = element.find_all('a')  # find <a> tags within the selected elements
                 
                 for link_tag in link_tags:
                     if link_tag and 'href' in link_tag.attrs:
                         href = link_tag['href']
-                        
-                        #ensure the link is not blacklisted and valid
+                        #print(href)
                         full_link = self.check_article_url(href)
-                        if full_link == None:
+                        if not full_link:
                             continue
                         
-                        self.add_article_to_list(element, potential_article, full_link, href, link_tag)
+                        #get text
+                        title_tag = element.select_one(potential_article[1])
+                        text = title_tag.get_text(strip=True) if title_tag else link_tag.get_text(strip=True)
+                        
+                        
+                        #check that we have already added it so we don't add twice
+                        if self.check_if_article_is_duplicate(href, full_link, article_links, text):
+                            continue
+                        
+                        
+                        self.added_urls.append(full_link)
+                        article_info = {"title": text, "url": full_link, "title select": potential_article[1], "link select": potential_article[0]}
+                        article_links.append(article_info)
 
-        return self.article_links
+        return article_links
 
     def scrape_article(self, article_url):
         #print(article_url)
@@ -151,7 +141,6 @@ class NewsScraper:
         #getting the date of the article
         for date_class in self.date_selector[1]:
             date_tag = soup.find(self.date_selector[0], class_=date_class)
-            #print("date_tag:",date_tag)
             if(date_tag):
                 date = date_tag.get_text(separator=' ', strip=True)
             
@@ -160,14 +149,14 @@ class NewsScraper:
                     date_object = datetime.strptime(date, self.date_format)
                     return date_object
                 except ValueError as e:
-                    print("There was an error converting the date:", e)
+                    #print("There was an error converting the date:", e)
                     return None
         
         return None
     
     def scrape_image(self, soup):
         #getting the image of the article
-        image_url = None
+        image_url = 'https://www.cbsnews.com/news/northern-lights-photos-around-the-world/'
         for image_class in self.image_selector[1]:
             image_tags = soup.find_all(self.image_selector[0], class_=image_class)
             for image_tag in image_tags:

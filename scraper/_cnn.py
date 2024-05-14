@@ -90,8 +90,7 @@ class CNNNewsScraper(NewsScraper):
             for article in self.article_links:
                 if article['url'] == self.base_url + href and ( not article['title'] or len(article['title']) < len(text) ):
                     self.article_links.remove(article)  # Remove if title is empty
-                    break
-            else:
-                return False
-        return True
+                    return False
+            return True
+        return False
     
