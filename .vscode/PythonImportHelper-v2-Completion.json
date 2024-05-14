@@ -1,0 +1,1233 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "NewsScraper",
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "isExtraImport": true,
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "NewsScraper",
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "isExtraImport": true,
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "NewsScraper",
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "isExtraImport": true,
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "NewsScraper",
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "isExtraImport": true,
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "NewsScraper",
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "isExtraImport": true,
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "NewsScraper",
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "isExtraImport": true,
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "nest_asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nest_asyncio",
+        "description": "nest_asyncio",
+        "detail": "nest_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_playwright",
+        "importPath": "playwright.async_api",
+        "description": "playwright.async_api",
+        "isExtraImport": true,
+        "detail": "playwright.async_api",
+        "documentation": {}
+    },
+    {
+        "label": "pytz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytz",
+        "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "Mock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "Mock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "Mock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "Mock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "Mock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "ABCNewsScraper",
+        "importPath": "scraper._abc",
+        "description": "scraper._abc",
+        "isExtraImport": true,
+        "detail": "scraper._abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABCNewsScraper",
+        "importPath": "scraper._abc",
+        "description": "scraper._abc",
+        "isExtraImport": true,
+        "detail": "scraper._abc",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_article",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_category_url_scraper",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_html_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_article",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_category_url_scraper",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_html_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_article",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_category_url_scraper",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_html_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_article",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_category_url_scraper",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_html_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "CNBCNewsScraper",
+        "importPath": "scraper._cnbc",
+        "description": "scraper._cnbc",
+        "isExtraImport": true,
+        "detail": "scraper._cnbc",
+        "documentation": {}
+    },
+    {
+        "label": "CNNNewsScraper",
+        "importPath": "scraper._cnn",
+        "description": "scraper._cnn",
+        "isExtraImport": true,
+        "detail": "scraper._cnn",
+        "documentation": {}
+    },
+    {
+        "label": "NBCNewsScraper",
+        "importPath": "scraper._nbc",
+        "description": "scraper._nbc",
+        "isExtraImport": true,
+        "detail": "scraper._nbc",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "aiomysql",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiomysql",
+        "description": "aiomysql",
+        "detail": "aiomysql",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "as_completed",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "get_recent_news_by_corporation",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "insert_into_scraper_history",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "insert_news",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "insert_news_category",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "myvenv.Scripts.jp",
+        "description": "myvenv.Scripts.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "myvenv.Scripts.jp",
+        "documentation": {}
+    },
+    {
+        "label": "NewsScraper",
+        "kind": 6,
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "peekOfCode": "class NewsScraper:\n    def __init__(self, base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist):\n        self.base_url = base_url\n        self.article_url_css_selector = article_url_css_selector\n        self.title_selector = title_selector\n        self.date_selector = date_selector\n        self.date_format = date_format\n        self.image_selector = image_selector\n        self.content_selector = content_selector\n        self.urls_blacklist = urls_blacklist",
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "ABCNewsScraper",
+        "kind": 6,
+        "importPath": "scraper._abc",
+        "description": "scraper._abc",
+        "peekOfCode": "class ABCNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('.ContentRoll__Item', '.ContentRoll__Item > h2'), \n            ('.ContentList__Item', '.ContentList__Item > h2'), \n            ('.AnchorLink.News', 'a.AnchorLink.News'),\n            ('.CarouselSlide', '.CarouselSlide > h3'),\n            ('.block', '.block > h4, .block > .content > a'),\n            ('.band__common', '.band__common > a'),",
+        "detail": "scraper._abc",
+        "documentation": {}
+    },
+    {
+        "label": "CBSNewsScraper",
+        "kind": 6,
+        "importPath": "scraper._cbs",
+        "description": "scraper._cbs",
+        "peekOfCode": "class CBSNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('article.item a', 'article.item a h4'), \n            ('ul.item__related-links', 'ul.item__related-links')\n        ]\n        title_selector = ('h1',['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs'])\n        #date_selector = ('div',['VZTD mLASH'])\n        date_selector = ('div',['sina'])",
+        "detail": "scraper._cbs",
+        "documentation": {}
+    },
+    {
+        "label": "CNBCNewsScraper",
+        "kind": 6,
+        "importPath": "scraper._cnbc",
+        "description": "scraper._cnbc",
+        "peekOfCode": "class CNBCNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('a', 'a'),\n            ('div.TrayCard-cardContainer a', 'div.TrayCard-cardContainer .TrayCard-title')\n        ]\n        title_selector = ('h1',['ArticleHeader-headline', 'LiveBlogHeader-headline'])\n        date_selector = ('time',[''])\n        date_format = '%B %d, %Y, %I:%M %p'",
+        "detail": "scraper._cnbc",
+        "documentation": {}
+    },
+    {
+        "label": "CNNNewsScraper",
+        "kind": 6,
+        "importPath": "scraper._cnn",
+        "description": "scraper._cnn",
+        "peekOfCode": "class CNNNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('[data-link-type^=\"article\"]', '[data-link-type^=\"article\"] [class$=\"headline\"]'),\n            ('[data-link-type^=\"card\"]', '[data-link-type^=\"card\"] [class$=\"headline\"]'),\n        ]\n        title_selector = ('h1',['headline__text'])\n        date_selector = ('div',['timestamp'])\n        date_format = '%I:%M %p %B %d, %Y'",
+        "detail": "scraper._cnn",
+        "documentation": {}
+    },
+    {
+        "label": "ESPNScraper",
+        "kind": 6,
+        "importPath": "scraper._espn",
+        "description": "scraper._espn",
+        "peekOfCode": "class ESPNScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        article_url_css_selector = [\n            ('[data-id]', '[data-id]'),\n        ]\n        title_selector = ('h1', ['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs'])\n        date_selector = ('div', ['VZTD mLASH'])\n        date_format = '%B %d, %Y, %I:%M %p'\n        image_selector = ('div', ['MediaPlaceholder', 'InlineImage GpQCA lZur asrEW'], 'src')\n        content_selector = ('div', ['xvlfx ZRifP TKoO eaKKC bOdfO'])",
+        "detail": "scraper._espn",
+        "documentation": {}
+    },
+    {
+        "label": "NBCNewsScraper",
+        "kind": 6,
+        "importPath": "scraper._nbc",
+        "description": "scraper._nbc",
+        "peekOfCode": "class NBCNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('.wide-tease-item__wrapper .wide-tease-item__info-wrapper > a', '.wide-tease-item__wrapper .wide-tease-item__headline'),\n            ('[class^=\"styles_item__\"] [class^=\"styles_teaseTitle__\"] > a', '[class^=\"styles_item__\"] [class^=\"styles_teaseTitle\"]'),\n            ('[class^=\"styles_item__\"] [class^=\"styles_headline__\"] > a', '[class^=\"styles_item__\"] [class^=\"styles_headline\"]'),\n            ('[class^=\"tease-card\"] [class^=\"tease-card__headline\"]', '[class^=\"tease-card\"] [class^=\"tease-card__headline\"]'),\n            ('[class^=\"related-content\"] [class^=\"related-content\"][class$=\"__headline\"] > a', '[class^=\"related-content\"] [class^=\"related-content\"][class$=\"__headline\"]'),\n            ('[class^=\"storyline__headline\"] > a', '[class^=\"storyline__headline\"]'),",
+        "detail": "scraper._nbc",
+        "documentation": {}
+    },
+    {
+        "label": "test_scrape_article",
+        "kind": 2,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "def test_scrape_article(article_url, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/abc/abc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/\", homepage_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_homepage(category_path, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_homepage",
+        "kind": 2,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "def test_fetch_article_urls_homepage(category_path, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/abc/abc_homepage.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/category1\", category_1_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_category_1(category_path, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_category_1",
+        "kind": 2,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "def test_fetch_article_urls_category_1(category_path, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/abc/abc_category_1.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/category2\", category_2_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_category_2(category_path, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_category_2",
+        "kind": 2,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "def test_fetch_article_urls_category_2(category_path, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/abc/abc_category_2.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "base_url",
+        "kind": 5,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "base_url = \"https://abcnews.go.com\"\nblacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    \"title\": \"Russian journalist detained for posts criticizing the military, his lawyer says\", \n    \"date\": datetime(2024, 4, 26, 8, 15), \n    \"content\": \"TALLINN, Estonia -- A journalist for the Russian edition of Forbes magazine has been detained on charges of spreading false information about the Russian military, his lawyer said Friday. Sergei Mingazov is being held in the Far Eastern city of Khabarovsk, lawyer Konstantin Bubon said on Facebook . He said that Mingazov was detained because of social media posts he made about the Ukrainian city of Bucha, where more than 400 bodies of civilians were found, many bearing signs of torture, after Russian forces pulled out in April 2022. Mingazov will appear in court on Saturday on the charge of spreading false information, which could send him to prison for 10 years if convicted. Russia cracked down severely on criticism of the war soon after launching a full-scale invasion of Ukraine in February 2022, passing laws that criminalize allegedly false information about the military or statements seen as discrediting the military. Related Stories Third man is detained in a major bribery case that involves Russia's deputy defense minister Apr 25, 4:38 AM A Russian actress who called for peace was fined for hosting an 'almost naked' party Apr 25, 7:45 AM A top Russian military official reportedly linked to Ukraine's Mariupol arrested for bribe-taking Apr 23, 5:06 PM Journalists, opposition figures and regular citizens have been swept up in the crackdown, many of them sentenced to long prison terms. The longest to be imposed was against prominent activist Vladimir Kara-Murza, who was sentenced to 25 years. ___ Follow the AP’s coverage of the war at https://apnews.com/hub/russia-ukraine\", \n    \"image_url\": \"https://i.abcnewsfe.com/a/fc17fa39-aa82-443b-ab16-e91d4d923d89/west_bank_human_rights_violations_reuters_nr_240426_hpMain_16x9.jpg?w=992\", \n    \"url\": \"http://fakeurl.com/test-article\"\n}",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "blacklist_url",
+        "kind": 5,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "blacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    \"title\": \"Russian journalist detained for posts criticizing the military, his lawyer says\", \n    \"date\": datetime(2024, 4, 26, 8, 15), \n    \"content\": \"TALLINN, Estonia -- A journalist for the Russian edition of Forbes magazine has been detained on charges of spreading false information about the Russian military, his lawyer said Friday. Sergei Mingazov is being held in the Far Eastern city of Khabarovsk, lawyer Konstantin Bubon said on Facebook . He said that Mingazov was detained because of social media posts he made about the Ukrainian city of Bucha, where more than 400 bodies of civilians were found, many bearing signs of torture, after Russian forces pulled out in April 2022. Mingazov will appear in court on Saturday on the charge of spreading false information, which could send him to prison for 10 years if convicted. Russia cracked down severely on criticism of the war soon after launching a full-scale invasion of Ukraine in February 2022, passing laws that criminalize allegedly false information about the military or statements seen as discrediting the military. Related Stories Third man is detained in a major bribery case that involves Russia's deputy defense minister Apr 25, 4:38 AM A Russian actress who called for peace was fined for hosting an 'almost naked' party Apr 25, 7:45 AM A top Russian military official reportedly linked to Ukraine's Mariupol arrested for bribe-taking Apr 23, 5:06 PM Journalists, opposition figures and regular citizens have been swept up in the crackdown, many of them sentenced to long prison terms. The longest to be imposed was against prominent activist Vladimir Kara-Murza, who was sentenced to 25 years. ___ Follow the AP’s coverage of the war at https://apnews.com/hub/russia-ukraine\", \n    \"image_url\": \"https://i.abcnewsfe.com/a/fc17fa39-aa82-443b-ab16-e91d4d923d89/west_bank_human_rights_violations_reuters_nr_240426_hpMain_16x9.jpg?w=992\", \n    \"url\": \"http://fakeurl.com/test-article\"\n}\nhomepage_expected_result = read_json_file(\"tests/abc/article_homepage_result.json\")",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "expected_result",
+        "kind": 5,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "expected_result = {\n    \"title\": \"Russian journalist detained for posts criticizing the military, his lawyer says\", \n    \"date\": datetime(2024, 4, 26, 8, 15), \n    \"content\": \"TALLINN, Estonia -- A journalist for the Russian edition of Forbes magazine has been detained on charges of spreading false information about the Russian military, his lawyer said Friday. Sergei Mingazov is being held in the Far Eastern city of Khabarovsk, lawyer Konstantin Bubon said on Facebook . He said that Mingazov was detained because of social media posts he made about the Ukrainian city of Bucha, where more than 400 bodies of civilians were found, many bearing signs of torture, after Russian forces pulled out in April 2022. Mingazov will appear in court on Saturday on the charge of spreading false information, which could send him to prison for 10 years if convicted. Russia cracked down severely on criticism of the war soon after launching a full-scale invasion of Ukraine in February 2022, passing laws that criminalize allegedly false information about the military or statements seen as discrediting the military. Related Stories Third man is detained in a major bribery case that involves Russia's deputy defense minister Apr 25, 4:38 AM A Russian actress who called for peace was fined for hosting an 'almost naked' party Apr 25, 7:45 AM A top Russian military official reportedly linked to Ukraine's Mariupol arrested for bribe-taking Apr 23, 5:06 PM Journalists, opposition figures and regular citizens have been swept up in the crackdown, many of them sentenced to long prison terms. The longest to be imposed was against prominent activist Vladimir Kara-Murza, who was sentenced to 25 years. ___ Follow the AP’s coverage of the war at https://apnews.com/hub/russia-ukraine\", \n    \"image_url\": \"https://i.abcnewsfe.com/a/fc17fa39-aa82-443b-ab16-e91d4d923d89/west_bank_human_rights_violations_reuters_nr_240426_hpMain_16x9.jpg?w=992\", \n    \"url\": \"http://fakeurl.com/test-article\"\n}\nhomepage_expected_result = read_json_file(\"tests/abc/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/abc/article_category_1_result.json\")\ncategory_2_expected_result = read_json_file(\"tests/abc/article_category_2_result.json\")",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "homepage_expected_result",
+        "kind": 5,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "homepage_expected_result = read_json_file(\"tests/abc/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/abc/article_category_1_result.json\")\ncategory_2_expected_result = read_json_file(\"tests/abc/article_category_2_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://fakeurl.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/abc/abc_article.html'",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "category_1_expected_result",
+        "kind": 5,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "category_1_expected_result = read_json_file(\"tests/abc/article_category_1_result.json\")\ncategory_2_expected_result = read_json_file(\"tests/abc/article_category_2_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://fakeurl.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/abc/abc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "category_2_expected_result",
+        "kind": 5,
+        "importPath": "tests.abc._abc_test",
+        "description": "tests.abc._abc_test",
+        "peekOfCode": "category_2_expected_result = read_json_file(\"tests/abc/article_category_2_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://fakeurl.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/abc/abc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest",
+        "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_scrape_article",
+        "kind": 2,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "def test_scrape_article(article_url, expected):\n    scraper = CNBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cnbc/cnbc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/\", homepage_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_homepage(category_path, expected):\n    scraper = CNBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_homepage",
+        "kind": 2,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "def test_fetch_article_urls_homepage(category_path, expected):\n    scraper = CNBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/cnbc/cnbc_homepage.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/category1\", category_1_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_category_1(category_path, expected):\n    scraper = CNBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_category_1",
+        "kind": 2,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "def test_fetch_article_urls_category_1(category_path, expected):\n    scraper = CNBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/cnbc/cnbc_category_1.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "base_url",
+        "kind": 5,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "base_url = \"https://www.cnbc.com\"\nblacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    \"title\": \"China and India still rely heavily on coal, climate targets remain 'very difficult' to achieve\",\n    \"date\": datetime(2024, 5, 14, 0, 24, 12, tzinfo=timezone.utc),\n    \"content\": \" While India and China have ambitious plans to cut emissions, heavy reliance on coal \\u2014 the dirtiest fossil fuel \\u2014 continues to be the most reliable and affordable way of meet rising electricity demand. Global electricity generation from coal has been consistently rising for the last two decades, with the highest increases coming from China (+319 TWh) and India (+100 TWh) last year, according to a study by energy think tank Ember. China and India have not reduced coal generation for electricity, according to a new study, making it harder for Asia's largest carbon emitters to reach their climate targets. While both Asian countries have ambitious plans to cut emissions, heavy reliance on coal \\u2014 the dirtiest fossil fuel \\u2014 continues to be the most reliable and affordable way of meet rising electricity demand. Global electricity generation from coal has been consistently rising for the last two decades, nearly doubling from 5,809 terawatt-hours in 2000 to 10,434 TWh in 2023, a new study by energy think tank Ember found. The highest increases came from China (+319 TWh) and India (+100 TWh), the study showed. According to the IEA, coal remains the biggest energy source for electricity generation, supplying more than one-third of global\\u00a0electricity. It will continue to play a crucial role in industries such as iron and steel until new technologies are available. \\\"It will be very difficult to meet targets without a rapid face down in coal. It'll certainly be out of reach,\\\" said Francis Johnson, senior research fellow and climate lead at the Stockholm Environment Institute's Asia Center. \\\"We're not phasing out coal fast enough,\\\" he warned. Asia's largest economy has two big climate goals: to strive fo r\\u00a0peak carbon emissions in 2030, and reach carbon neutrality in 2060 . Still, reliance on coal has shown no signs of waning. Electricity demand in the East Asian nation has increased by sevenfold since the beginning of the decade, while coal demand has climbed by more than five times over the same period, Ember's research showed. China, the world's largest coal producer, emitted 5,491 million tonnes of carbon dioxide from electricity generation in 2023. That's at least three times more than the U.S. (1,570 MtCO2) and India (1,470 MtCO2), data from the study showed. However, the country has made notable progress in renewable energy development, leading to a slowdown in the rate of emission increase from an average of 9% annually between 2001 and 2015, to 4.4% annually between 2016 and 2023, the energy think tank said. \\\"China is very close to peak emissions and the clean energy transition is going extraordinarily fast,\\\" Dave Jones, global insights program director at Ember, told CNBC. \\\"Even with very high levels of electricity demand growth, it looks like the levels of renewables growth would be enough,\\\" Jones said. Clean electricity contributed to 35% of China's total electricity generation, the Ember report showed. Hydropower \\u2014\\u00a0 its second-largest energy source \\u2014 made up 13% of that mix, while wind and solar combined reached new highs of 16% in 2023. \\\"Had wind and solar generation not increased since 2015, and demand had instead been met by coal, emissions would have been 20% higher in 2023,\\\" the report highlighted, adding that those two sources can now generate enough electricity to power Japan. But Stockholm Environment Institute's Johnson warned China still needs to be less dependent on other forms of fossil fuels. \\\"Phasing down coal is absolutely necessary, but it's not sufficient. Just because you cut coal emissions, it doesn't mean you get away with emissions in the other sectors,\\\" he noted. When India became the world's most populous country last year, power demand grew by 5.4% compared to 2022. This was more than double the global increase. The country's leaders have been optimistic about its path to net zero , making bold claims that 50% of its power generation will come from non-fossil fuel forms of energy by 2030. Emissions from the power sector are expected to peak around 2030, while total energy-related emissions will reach their highest around 2034, Climate Action Tracker estimated. But the Ember study showed that added pressure from droughts pushed the country to generate 78% of its electricity from fossil fuels, where coal made up 75% of that mix. Like China, India has also made significant strides in other forms of renewable energy. In 2023, India overtook Japan to become the world's third largest solar power generator, according to Ember. Ember found that India's solar power generation totaled 113 terawatt-hours (TWh) last year, representing a 145% increase since 2019. This ranks behind China (584 TWh) and the U.S. (238 TWh). \\\"When it comes to the pathway to carbon neutrality for China and India, you would expect the emissions to rise when demand grows. But at some point, the GDP growth needs to decouple with emissions where we need it to first peak, then fall,\\\" Ember's Asia Programme Director Aditya Lolla told CNBC.\",\n    \"image_url\": None,\n    \"url\": \"http://fakeurl.com/test-article\"\n}",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "blacklist_url",
+        "kind": 5,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "blacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    \"title\": \"China and India still rely heavily on coal, climate targets remain 'very difficult' to achieve\",\n    \"date\": datetime(2024, 5, 14, 0, 24, 12, tzinfo=timezone.utc),\n    \"content\": \" While India and China have ambitious plans to cut emissions, heavy reliance on coal \\u2014 the dirtiest fossil fuel \\u2014 continues to be the most reliable and affordable way of meet rising electricity demand. Global electricity generation from coal has been consistently rising for the last two decades, with the highest increases coming from China (+319 TWh) and India (+100 TWh) last year, according to a study by energy think tank Ember. China and India have not reduced coal generation for electricity, according to a new study, making it harder for Asia's largest carbon emitters to reach their climate targets. While both Asian countries have ambitious plans to cut emissions, heavy reliance on coal \\u2014 the dirtiest fossil fuel \\u2014 continues to be the most reliable and affordable way of meet rising electricity demand. Global electricity generation from coal has been consistently rising for the last two decades, nearly doubling from 5,809 terawatt-hours in 2000 to 10,434 TWh in 2023, a new study by energy think tank Ember found. The highest increases came from China (+319 TWh) and India (+100 TWh), the study showed. According to the IEA, coal remains the biggest energy source for electricity generation, supplying more than one-third of global\\u00a0electricity. It will continue to play a crucial role in industries such as iron and steel until new technologies are available. \\\"It will be very difficult to meet targets without a rapid face down in coal. It'll certainly be out of reach,\\\" said Francis Johnson, senior research fellow and climate lead at the Stockholm Environment Institute's Asia Center. \\\"We're not phasing out coal fast enough,\\\" he warned. Asia's largest economy has two big climate goals: to strive fo r\\u00a0peak carbon emissions in 2030, and reach carbon neutrality in 2060 . Still, reliance on coal has shown no signs of waning. Electricity demand in the East Asian nation has increased by sevenfold since the beginning of the decade, while coal demand has climbed by more than five times over the same period, Ember's research showed. China, the world's largest coal producer, emitted 5,491 million tonnes of carbon dioxide from electricity generation in 2023. That's at least three times more than the U.S. (1,570 MtCO2) and India (1,470 MtCO2), data from the study showed. However, the country has made notable progress in renewable energy development, leading to a slowdown in the rate of emission increase from an average of 9% annually between 2001 and 2015, to 4.4% annually between 2016 and 2023, the energy think tank said. \\\"China is very close to peak emissions and the clean energy transition is going extraordinarily fast,\\\" Dave Jones, global insights program director at Ember, told CNBC. \\\"Even with very high levels of electricity demand growth, it looks like the levels of renewables growth would be enough,\\\" Jones said. Clean electricity contributed to 35% of China's total electricity generation, the Ember report showed. Hydropower \\u2014\\u00a0 its second-largest energy source \\u2014 made up 13% of that mix, while wind and solar combined reached new highs of 16% in 2023. \\\"Had wind and solar generation not increased since 2015, and demand had instead been met by coal, emissions would have been 20% higher in 2023,\\\" the report highlighted, adding that those two sources can now generate enough electricity to power Japan. But Stockholm Environment Institute's Johnson warned China still needs to be less dependent on other forms of fossil fuels. \\\"Phasing down coal is absolutely necessary, but it's not sufficient. Just because you cut coal emissions, it doesn't mean you get away with emissions in the other sectors,\\\" he noted. When India became the world's most populous country last year, power demand grew by 5.4% compared to 2022. This was more than double the global increase. The country's leaders have been optimistic about its path to net zero , making bold claims that 50% of its power generation will come from non-fossil fuel forms of energy by 2030. Emissions from the power sector are expected to peak around 2030, while total energy-related emissions will reach their highest around 2034, Climate Action Tracker estimated. But the Ember study showed that added pressure from droughts pushed the country to generate 78% of its electricity from fossil fuels, where coal made up 75% of that mix. Like China, India has also made significant strides in other forms of renewable energy. In 2023, India overtook Japan to become the world's third largest solar power generator, according to Ember. Ember found that India's solar power generation totaled 113 terawatt-hours (TWh) last year, representing a 145% increase since 2019. This ranks behind China (584 TWh) and the U.S. (238 TWh). \\\"When it comes to the pathway to carbon neutrality for China and India, you would expect the emissions to rise when demand grows. But at some point, the GDP growth needs to decouple with emissions where we need it to first peak, then fall,\\\" Ember's Asia Programme Director Aditya Lolla told CNBC.\",\n    \"image_url\": None,\n    \"url\": \"http://fakeurl.com/test-article\"\n}\nhomepage_expected_result = read_json_file(\"tests/cnbc/article_homepage_result.json\")",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "expected_result",
+        "kind": 5,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "expected_result = {\n    \"title\": \"China and India still rely heavily on coal, climate targets remain 'very difficult' to achieve\",\n    \"date\": datetime(2024, 5, 14, 0, 24, 12, tzinfo=timezone.utc),\n    \"content\": \" While India and China have ambitious plans to cut emissions, heavy reliance on coal \\u2014 the dirtiest fossil fuel \\u2014 continues to be the most reliable and affordable way of meet rising electricity demand. Global electricity generation from coal has been consistently rising for the last two decades, with the highest increases coming from China (+319 TWh) and India (+100 TWh) last year, according to a study by energy think tank Ember. China and India have not reduced coal generation for electricity, according to a new study, making it harder for Asia's largest carbon emitters to reach their climate targets. While both Asian countries have ambitious plans to cut emissions, heavy reliance on coal \\u2014 the dirtiest fossil fuel \\u2014 continues to be the most reliable and affordable way of meet rising electricity demand. Global electricity generation from coal has been consistently rising for the last two decades, nearly doubling from 5,809 terawatt-hours in 2000 to 10,434 TWh in 2023, a new study by energy think tank Ember found. The highest increases came from China (+319 TWh) and India (+100 TWh), the study showed. According to the IEA, coal remains the biggest energy source for electricity generation, supplying more than one-third of global\\u00a0electricity. It will continue to play a crucial role in industries such as iron and steel until new technologies are available. \\\"It will be very difficult to meet targets without a rapid face down in coal. It'll certainly be out of reach,\\\" said Francis Johnson, senior research fellow and climate lead at the Stockholm Environment Institute's Asia Center. \\\"We're not phasing out coal fast enough,\\\" he warned. Asia's largest economy has two big climate goals: to strive fo r\\u00a0peak carbon emissions in 2030, and reach carbon neutrality in 2060 . Still, reliance on coal has shown no signs of waning. Electricity demand in the East Asian nation has increased by sevenfold since the beginning of the decade, while coal demand has climbed by more than five times over the same period, Ember's research showed. China, the world's largest coal producer, emitted 5,491 million tonnes of carbon dioxide from electricity generation in 2023. That's at least three times more than the U.S. (1,570 MtCO2) and India (1,470 MtCO2), data from the study showed. However, the country has made notable progress in renewable energy development, leading to a slowdown in the rate of emission increase from an average of 9% annually between 2001 and 2015, to 4.4% annually between 2016 and 2023, the energy think tank said. \\\"China is very close to peak emissions and the clean energy transition is going extraordinarily fast,\\\" Dave Jones, global insights program director at Ember, told CNBC. \\\"Even with very high levels of electricity demand growth, it looks like the levels of renewables growth would be enough,\\\" Jones said. Clean electricity contributed to 35% of China's total electricity generation, the Ember report showed. Hydropower \\u2014\\u00a0 its second-largest energy source \\u2014 made up 13% of that mix, while wind and solar combined reached new highs of 16% in 2023. \\\"Had wind and solar generation not increased since 2015, and demand had instead been met by coal, emissions would have been 20% higher in 2023,\\\" the report highlighted, adding that those two sources can now generate enough electricity to power Japan. But Stockholm Environment Institute's Johnson warned China still needs to be less dependent on other forms of fossil fuels. \\\"Phasing down coal is absolutely necessary, but it's not sufficient. Just because you cut coal emissions, it doesn't mean you get away with emissions in the other sectors,\\\" he noted. When India became the world's most populous country last year, power demand grew by 5.4% compared to 2022. This was more than double the global increase. The country's leaders have been optimistic about its path to net zero , making bold claims that 50% of its power generation will come from non-fossil fuel forms of energy by 2030. Emissions from the power sector are expected to peak around 2030, while total energy-related emissions will reach their highest around 2034, Climate Action Tracker estimated. But the Ember study showed that added pressure from droughts pushed the country to generate 78% of its electricity from fossil fuels, where coal made up 75% of that mix. Like China, India has also made significant strides in other forms of renewable energy. In 2023, India overtook Japan to become the world's third largest solar power generator, according to Ember. Ember found that India's solar power generation totaled 113 terawatt-hours (TWh) last year, representing a 145% increase since 2019. This ranks behind China (584 TWh) and the U.S. (238 TWh). \\\"When it comes to the pathway to carbon neutrality for China and India, you would expect the emissions to rise when demand grows. But at some point, the GDP growth needs to decouple with emissions where we need it to first peak, then fall,\\\" Ember's Asia Programme Director Aditya Lolla told CNBC.\",\n    \"image_url\": None,\n    \"url\": \"http://fakeurl.com/test-article\"\n}\nhomepage_expected_result = read_json_file(\"tests/cnbc/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/cnbc/article_category_1_result.json\")\n# Test function using pytest",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "homepage_expected_result",
+        "kind": 5,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "homepage_expected_result = read_json_file(\"tests/cnbc/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/cnbc/article_category_1_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://fakeurl.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = CNBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cnbc/cnbc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "category_1_expected_result",
+        "kind": 5,
+        "importPath": "tests.cnbc._cnbc_test",
+        "description": "tests.cnbc._cnbc_test",
+        "peekOfCode": "category_1_expected_result = read_json_file(\"tests/cnbc/article_category_1_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://fakeurl.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = CNBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cnbc/cnbc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest",
+        "detail": "tests.cnbc._cnbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_scrape_article",
+        "kind": 2,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "def test_scrape_article(article_url, expected):\n    scraper = CNNNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cnn/cnn_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/\", homepage_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_homepage(category_path, expected):\n    scraper = CNNNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_homepage",
+        "kind": 2,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "def test_fetch_article_urls_homepage(category_path, expected):\n    scraper = CNNNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/cnn/cnn_homepage.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/category1\", category_1_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_category_1(category_path, expected):\n    scraper = CNNNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_category_1",
+        "kind": 2,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "def test_fetch_article_urls_category_1(category_path, expected):\n    scraper = CNNNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/cnn/cnn_category_1.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "base_url",
+        "kind": 5,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "base_url = \"https://www.cnn.com\"\nblacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    'title': 'Hamas to consider ceasefire-hostage release proposal that Israeli sources say could avert Rafah invasion', \n    'date': datetime(2024, 4, 29, 17, 54, tzinfo=timezone.utc), \n    'content': \" Riyadh and Jerusalem CNN — Hamas is\\xa0considering\\xa0a new\\xa0framework\\xa0proposed by Egypt\\xa0that calls for the group to release as many as 33\\xa0hostages\\xa0kidnapped from Israel\\xa0in exchange for\\xa0a\\xa0pause in hostilities\\xa0in Gaza , an Israeli source familiar with the negotiations and a foreign diplomatic source told CNN. The latest proposal, which Israel helped craft but has not fully agreed to, is laid out in two phases, the first of which calls for 20 to 33 hostages to be released over several weeks in exchange for the pause and the release of Palestinian prisoners. The second phase is what sources described as the “restoration of sustainable calm,” during which the remaining hostages, captive Israeli soldiers and the bodies of hostages would be exchanged for more Palestinian prisoners. The diplomatic source familiar with the talks said the reference to sustainable calm was “a way to agree to a permanent ceasefire without calling it that.” After months of deadlock, agreement from both sides would be a major step toward ending the war. But a failure to agree could deepen Israel’s presence in Gaza — if no deal is made, Israel is likely to launcha large-scale ground invasion into the southern Gaza city of Rafah, where more than 1 million Palestinians are sheltering. Israel’s allies, including the United States, have warned against the operation due to the potential for large-scale civilian casualties. Relatives of Palestinian victims who lost their lives following an Israeli airstrike, take their bodies from the morgue of Rafah's El-Najar Hospital for burial on April 29, 2024. Abed Rahim Khatib/Anadolu/Getty Images Related article ‘My whole family has perished:’ 20 dead after Israeli airstrike on Rafah, hospital staff say Israel is awaiting a response from Hamas, which is expected to meet\\xa0Egyptian and Qatari mediators\\xa0in Cairo on Monday, the sources said. A working-level Israeli delegation of Mossad, Shin Bet and the Israeli military officials is expected to travel to Cairo on Tuesday, the Israeli source\\xa0and another Israeli official\\xa0said. A response from Yahya Sinwar, the Hamas leader in Gaza, is expected within days — possibly within the next 24 hours. The length of the first phase of the pause in hostilities would be linked to the number of hostages released, with the latest framework calling for a one-day pause for each hostage, the Israeli source said, although this number is expected to shift during more in-depth negotiations. The release of 40 hostages for a six-week ceasefire had been the basis of negotiations for months, but Israel has agreed to accept fewer hostages in the first phase after Hamas dropped its offer to fewer than 20 people earlier this month. ‘Extraordinarily generous’ proposal US Secretary of State Antony Blinken said on Monday that Hamas\\xa0has been presented with a ceasefire proposal that is “extraordinarily generous on the part of Israel.” “In this moment the only thing standing between the people of Gaza and a ceasefire is Hamas,” he told\\xa0World Economic Forum (WEF) President Børge Brende in the Saudi capital Riyadh. “They (Hamas) have to decide and they have to decide quickly,” he said. “I’m hopeful that they will make the right decision.” US Secretary of State Antony Blinken attends the US-Arab Quint Meeting with representatives from Egypt, Jordan, Saudi Arabia, Qatar, the United Arab Emirates and the Palestinian Authority, at the Four Seasons Hotel in Riyadh, Saudi Arabia on April 29. Evelyn Hockstein/Reuters Egyptian Foreign Minister Sameh Shoukry, also speaking in Riyadh, said he was hopeful that Israel and Hamas will accept the proposal. “There is a proposal on the table, up to\\xa0the two sides to consider and accept but certainly the objective is a ceasefire, a permanent ceasefire and dealing with the humanitarian conditions,” Shoukry told a panel at the WEF in Riyadh on Monday. He said he is hopeful\\xa0that “the proposal has been taken into account” and that “we are waiting to have a final decision.” Israeli officials have expressed an openness to negotiating the “restoration of sustainable calm” as part of a comprehensive deal that would effectively end the war. An Israeli source familiar with the negotiations said Egypt has proposed the parties agree to a one-year ceasefire as part of a comprehensive deal that would see Israeli forces withdraw from Gaza and the release of all remaining hostages and the bodies of those who have died. CNN has reached out to the Egyptian government for comment. Hamas has insisted that a permanent ceasefire and a full Israeli withdrawal from Gaza should be part of the agreement. Israel has thus far maintained that its operation in Gaza will continue until Hamas is eradicated. Israel has also now agreed to the unrestricted movement of Palestinians to northern Gaza, the sources said, a key demand by Hamas which has held back negotiations in the past. Rafah operation Hanging over the negotiations is the increasingly likely prospect of an Israeli military offensive in Rafah, which Israeli officials have signposted for months but\\xa0are now holding back, saying they want to give space to the negotiations. But Israeli sources have characterized the latest Egyptian effort to broker a deal as the last chance to avert that offensive. “The only chance to stop Rafah is a deal,” the Israeli source familiar with the negotiations said. The US and other Israel allies have warned that such an operation will not have their support if adequate measures aren’t taken to ensure the safety of civilians. “Preparations for entering Rafah continue. In any deal, if there is one, Israel will not give up the goals of the war,” the Israeli official said. Blinken reiterated in Riyadh that the US wouldn’t support a major military operation in Rafah “in the absence of a plan to ensure that civilians will not be harmed”. A flotilla of aid is attempting to deliver humanitarian assistance to Gaza, in defiance of Israel who have not granted permission for them to reach the strip.  CNN's Scott McLean went aboard one of the ships and spoke to humanitarian workers about why their attempt is so risky. Clipped From Video video Related video They’re risking their lives sailing to Gaza. CNN went aboard one of the ships “We have not yet seen a plan that civilians can be effectively protected,” he said. White House National Security Council communications adviser John Kirby said Sunday that Israel has told its US counterparts that it won’t launch an invasion of\\xa0Rafah\\xa0until the Biden administration can share its concerns. “I think we have to have a better understanding from the Israelis about what they want to do as a matter of fact, we’ve had several staff talks with them, we intend to do that more,” he said on ABC. “They’ve assured us that they won’t go into Rafah until we’ve had a chance to really share our perspectives and our concerns with them.” In a call Sunday with Israeli Prime Minister Benjamin Netanyahu, US President Joe Biden addressed the need for increased humanitarian assistance and “reiterated his clear position” on a potential Israeli invasion of Rafah, according to a White House readout of the conversation. Rising death toll The death toll from Israel’s bombardment in Gaza continued to climb over the weekend. Twenty people, including at least one infant and a toddler, died following an Israeli airstrike over Rafah, Gaza, overnight into Monday, according to hospital officials. And in Gaza City, seven\\xa0Palestinians were killed and dozens injured in two separate Israeli airstrikes overnight,\\xa0Gaza\\xa0Civil Defense spokesperson Mahmmoud Basal told CNN. An Israeli airstrike struck a two-story house belonging to the Tartouri family in the port area west of\\xa0Gaza\\xa0City, killing 5 Palestinians and wounding several others, Basal said. In a separate incident, two people were killed and several others injured when an Israeli airstrike targeted a house belonging to the Hijazi family in the Sabra neighborhood in the center of\\xa0Gaza\\xa0City, according to Basal. CNN’s Amy Cassidy, Abeer Salman, Kareem Khadder, Mohammed Tawfeeq and Mostafa Salem contributed to this report.\", \n    'image_url': 'https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2149814371.jpg?c=16x9&q=h_833,w_1480,c_fill', \n    'url': '/2024/04/29/middleeast/hamas-israel-ceasefire-proposal-cairo-talks-intl/index.html'\n}",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "blacklist_url",
+        "kind": 5,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "blacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    'title': 'Hamas to consider ceasefire-hostage release proposal that Israeli sources say could avert Rafah invasion', \n    'date': datetime(2024, 4, 29, 17, 54, tzinfo=timezone.utc), \n    'content': \" Riyadh and Jerusalem CNN — Hamas is\\xa0considering\\xa0a new\\xa0framework\\xa0proposed by Egypt\\xa0that calls for the group to release as many as 33\\xa0hostages\\xa0kidnapped from Israel\\xa0in exchange for\\xa0a\\xa0pause in hostilities\\xa0in Gaza , an Israeli source familiar with the negotiations and a foreign diplomatic source told CNN. The latest proposal, which Israel helped craft but has not fully agreed to, is laid out in two phases, the first of which calls for 20 to 33 hostages to be released over several weeks in exchange for the pause and the release of Palestinian prisoners. The second phase is what sources described as the “restoration of sustainable calm,” during which the remaining hostages, captive Israeli soldiers and the bodies of hostages would be exchanged for more Palestinian prisoners. The diplomatic source familiar with the talks said the reference to sustainable calm was “a way to agree to a permanent ceasefire without calling it that.” After months of deadlock, agreement from both sides would be a major step toward ending the war. But a failure to agree could deepen Israel’s presence in Gaza — if no deal is made, Israel is likely to launcha large-scale ground invasion into the southern Gaza city of Rafah, where more than 1 million Palestinians are sheltering. Israel’s allies, including the United States, have warned against the operation due to the potential for large-scale civilian casualties. Relatives of Palestinian victims who lost their lives following an Israeli airstrike, take their bodies from the morgue of Rafah's El-Najar Hospital for burial on April 29, 2024. Abed Rahim Khatib/Anadolu/Getty Images Related article ‘My whole family has perished:’ 20 dead after Israeli airstrike on Rafah, hospital staff say Israel is awaiting a response from Hamas, which is expected to meet\\xa0Egyptian and Qatari mediators\\xa0in Cairo on Monday, the sources said. A working-level Israeli delegation of Mossad, Shin Bet and the Israeli military officials is expected to travel to Cairo on Tuesday, the Israeli source\\xa0and another Israeli official\\xa0said. A response from Yahya Sinwar, the Hamas leader in Gaza, is expected within days — possibly within the next 24 hours. The length of the first phase of the pause in hostilities would be linked to the number of hostages released, with the latest framework calling for a one-day pause for each hostage, the Israeli source said, although this number is expected to shift during more in-depth negotiations. The release of 40 hostages for a six-week ceasefire had been the basis of negotiations for months, but Israel has agreed to accept fewer hostages in the first phase after Hamas dropped its offer to fewer than 20 people earlier this month. ‘Extraordinarily generous’ proposal US Secretary of State Antony Blinken said on Monday that Hamas\\xa0has been presented with a ceasefire proposal that is “extraordinarily generous on the part of Israel.” “In this moment the only thing standing between the people of Gaza and a ceasefire is Hamas,” he told\\xa0World Economic Forum (WEF) President Børge Brende in the Saudi capital Riyadh. “They (Hamas) have to decide and they have to decide quickly,” he said. “I’m hopeful that they will make the right decision.” US Secretary of State Antony Blinken attends the US-Arab Quint Meeting with representatives from Egypt, Jordan, Saudi Arabia, Qatar, the United Arab Emirates and the Palestinian Authority, at the Four Seasons Hotel in Riyadh, Saudi Arabia on April 29. Evelyn Hockstein/Reuters Egyptian Foreign Minister Sameh Shoukry, also speaking in Riyadh, said he was hopeful that Israel and Hamas will accept the proposal. “There is a proposal on the table, up to\\xa0the two sides to consider and accept but certainly the objective is a ceasefire, a permanent ceasefire and dealing with the humanitarian conditions,” Shoukry told a panel at the WEF in Riyadh on Monday. He said he is hopeful\\xa0that “the proposal has been taken into account” and that “we are waiting to have a final decision.” Israeli officials have expressed an openness to negotiating the “restoration of sustainable calm” as part of a comprehensive deal that would effectively end the war. An Israeli source familiar with the negotiations said Egypt has proposed the parties agree to a one-year ceasefire as part of a comprehensive deal that would see Israeli forces withdraw from Gaza and the release of all remaining hostages and the bodies of those who have died. CNN has reached out to the Egyptian government for comment. Hamas has insisted that a permanent ceasefire and a full Israeli withdrawal from Gaza should be part of the agreement. Israel has thus far maintained that its operation in Gaza will continue until Hamas is eradicated. Israel has also now agreed to the unrestricted movement of Palestinians to northern Gaza, the sources said, a key demand by Hamas which has held back negotiations in the past. Rafah operation Hanging over the negotiations is the increasingly likely prospect of an Israeli military offensive in Rafah, which Israeli officials have signposted for months but\\xa0are now holding back, saying they want to give space to the negotiations. But Israeli sources have characterized the latest Egyptian effort to broker a deal as the last chance to avert that offensive. “The only chance to stop Rafah is a deal,” the Israeli source familiar with the negotiations said. The US and other Israel allies have warned that such an operation will not have their support if adequate measures aren’t taken to ensure the safety of civilians. “Preparations for entering Rafah continue. In any deal, if there is one, Israel will not give up the goals of the war,” the Israeli official said. Blinken reiterated in Riyadh that the US wouldn’t support a major military operation in Rafah “in the absence of a plan to ensure that civilians will not be harmed”. A flotilla of aid is attempting to deliver humanitarian assistance to Gaza, in defiance of Israel who have not granted permission for them to reach the strip.  CNN's Scott McLean went aboard one of the ships and spoke to humanitarian workers about why their attempt is so risky. Clipped From Video video Related video They’re risking their lives sailing to Gaza. CNN went aboard one of the ships “We have not yet seen a plan that civilians can be effectively protected,” he said. White House National Security Council communications adviser John Kirby said Sunday that Israel has told its US counterparts that it won’t launch an invasion of\\xa0Rafah\\xa0until the Biden administration can share its concerns. “I think we have to have a better understanding from the Israelis about what they want to do as a matter of fact, we’ve had several staff talks with them, we intend to do that more,” he said on ABC. “They’ve assured us that they won’t go into Rafah until we’ve had a chance to really share our perspectives and our concerns with them.” In a call Sunday with Israeli Prime Minister Benjamin Netanyahu, US President Joe Biden addressed the need for increased humanitarian assistance and “reiterated his clear position” on a potential Israeli invasion of Rafah, according to a White House readout of the conversation. Rising death toll The death toll from Israel’s bombardment in Gaza continued to climb over the weekend. Twenty people, including at least one infant and a toddler, died following an Israeli airstrike over Rafah, Gaza, overnight into Monday, according to hospital officials. And in Gaza City, seven\\xa0Palestinians were killed and dozens injured in two separate Israeli airstrikes overnight,\\xa0Gaza\\xa0Civil Defense spokesperson Mahmmoud Basal told CNN. An Israeli airstrike struck a two-story house belonging to the Tartouri family in the port area west of\\xa0Gaza\\xa0City, killing 5 Palestinians and wounding several others, Basal said. In a separate incident, two people were killed and several others injured when an Israeli airstrike targeted a house belonging to the Hijazi family in the Sabra neighborhood in the center of\\xa0Gaza\\xa0City, according to Basal. CNN’s Amy Cassidy, Abeer Salman, Kareem Khadder, Mohammed Tawfeeq and Mostafa Salem contributed to this report.\", \n    'image_url': 'https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2149814371.jpg?c=16x9&q=h_833,w_1480,c_fill', \n    'url': '/2024/04/29/middleeast/hamas-israel-ceasefire-proposal-cairo-talks-intl/index.html'\n}\nhomepage_expected_result = read_json_file(\"tests/cnn/article_homepage_result.json\")",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "expected_result",
+        "kind": 5,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "expected_result = {\n    'title': 'Hamas to consider ceasefire-hostage release proposal that Israeli sources say could avert Rafah invasion', \n    'date': datetime(2024, 4, 29, 17, 54, tzinfo=timezone.utc), \n    'content': \" Riyadh and Jerusalem CNN — Hamas is\\xa0considering\\xa0a new\\xa0framework\\xa0proposed by Egypt\\xa0that calls for the group to release as many as 33\\xa0hostages\\xa0kidnapped from Israel\\xa0in exchange for\\xa0a\\xa0pause in hostilities\\xa0in Gaza , an Israeli source familiar with the negotiations and a foreign diplomatic source told CNN. The latest proposal, which Israel helped craft but has not fully agreed to, is laid out in two phases, the first of which calls for 20 to 33 hostages to be released over several weeks in exchange for the pause and the release of Palestinian prisoners. The second phase is what sources described as the “restoration of sustainable calm,” during which the remaining hostages, captive Israeli soldiers and the bodies of hostages would be exchanged for more Palestinian prisoners. The diplomatic source familiar with the talks said the reference to sustainable calm was “a way to agree to a permanent ceasefire without calling it that.” After months of deadlock, agreement from both sides would be a major step toward ending the war. But a failure to agree could deepen Israel’s presence in Gaza — if no deal is made, Israel is likely to launcha large-scale ground invasion into the southern Gaza city of Rafah, where more than 1 million Palestinians are sheltering. Israel’s allies, including the United States, have warned against the operation due to the potential for large-scale civilian casualties. Relatives of Palestinian victims who lost their lives following an Israeli airstrike, take their bodies from the morgue of Rafah's El-Najar Hospital for burial on April 29, 2024. Abed Rahim Khatib/Anadolu/Getty Images Related article ‘My whole family has perished:’ 20 dead after Israeli airstrike on Rafah, hospital staff say Israel is awaiting a response from Hamas, which is expected to meet\\xa0Egyptian and Qatari mediators\\xa0in Cairo on Monday, the sources said. A working-level Israeli delegation of Mossad, Shin Bet and the Israeli military officials is expected to travel to Cairo on Tuesday, the Israeli source\\xa0and another Israeli official\\xa0said. A response from Yahya Sinwar, the Hamas leader in Gaza, is expected within days — possibly within the next 24 hours. The length of the first phase of the pause in hostilities would be linked to the number of hostages released, with the latest framework calling for a one-day pause for each hostage, the Israeli source said, although this number is expected to shift during more in-depth negotiations. The release of 40 hostages for a six-week ceasefire had been the basis of negotiations for months, but Israel has agreed to accept fewer hostages in the first phase after Hamas dropped its offer to fewer than 20 people earlier this month. ‘Extraordinarily generous’ proposal US Secretary of State Antony Blinken said on Monday that Hamas\\xa0has been presented with a ceasefire proposal that is “extraordinarily generous on the part of Israel.” “In this moment the only thing standing between the people of Gaza and a ceasefire is Hamas,” he told\\xa0World Economic Forum (WEF) President Børge Brende in the Saudi capital Riyadh. “They (Hamas) have to decide and they have to decide quickly,” he said. “I’m hopeful that they will make the right decision.” US Secretary of State Antony Blinken attends the US-Arab Quint Meeting with representatives from Egypt, Jordan, Saudi Arabia, Qatar, the United Arab Emirates and the Palestinian Authority, at the Four Seasons Hotel in Riyadh, Saudi Arabia on April 29. Evelyn Hockstein/Reuters Egyptian Foreign Minister Sameh Shoukry, also speaking in Riyadh, said he was hopeful that Israel and Hamas will accept the proposal. “There is a proposal on the table, up to\\xa0the two sides to consider and accept but certainly the objective is a ceasefire, a permanent ceasefire and dealing with the humanitarian conditions,” Shoukry told a panel at the WEF in Riyadh on Monday. He said he is hopeful\\xa0that “the proposal has been taken into account” and that “we are waiting to have a final decision.” Israeli officials have expressed an openness to negotiating the “restoration of sustainable calm” as part of a comprehensive deal that would effectively end the war. An Israeli source familiar with the negotiations said Egypt has proposed the parties agree to a one-year ceasefire as part of a comprehensive deal that would see Israeli forces withdraw from Gaza and the release of all remaining hostages and the bodies of those who have died. CNN has reached out to the Egyptian government for comment. Hamas has insisted that a permanent ceasefire and a full Israeli withdrawal from Gaza should be part of the agreement. Israel has thus far maintained that its operation in Gaza will continue until Hamas is eradicated. Israel has also now agreed to the unrestricted movement of Palestinians to northern Gaza, the sources said, a key demand by Hamas which has held back negotiations in the past. Rafah operation Hanging over the negotiations is the increasingly likely prospect of an Israeli military offensive in Rafah, which Israeli officials have signposted for months but\\xa0are now holding back, saying they want to give space to the negotiations. But Israeli sources have characterized the latest Egyptian effort to broker a deal as the last chance to avert that offensive. “The only chance to stop Rafah is a deal,” the Israeli source familiar with the negotiations said. The US and other Israel allies have warned that such an operation will not have their support if adequate measures aren’t taken to ensure the safety of civilians. “Preparations for entering Rafah continue. In any deal, if there is one, Israel will not give up the goals of the war,” the Israeli official said. Blinken reiterated in Riyadh that the US wouldn’t support a major military operation in Rafah “in the absence of a plan to ensure that civilians will not be harmed”. A flotilla of aid is attempting to deliver humanitarian assistance to Gaza, in defiance of Israel who have not granted permission for them to reach the strip.  CNN's Scott McLean went aboard one of the ships and spoke to humanitarian workers about why their attempt is so risky. Clipped From Video video Related video They’re risking their lives sailing to Gaza. CNN went aboard one of the ships “We have not yet seen a plan that civilians can be effectively protected,” he said. White House National Security Council communications adviser John Kirby said Sunday that Israel has told its US counterparts that it won’t launch an invasion of\\xa0Rafah\\xa0until the Biden administration can share its concerns. “I think we have to have a better understanding from the Israelis about what they want to do as a matter of fact, we’ve had several staff talks with them, we intend to do that more,” he said on ABC. “They’ve assured us that they won’t go into Rafah until we’ve had a chance to really share our perspectives and our concerns with them.” In a call Sunday with Israeli Prime Minister Benjamin Netanyahu, US President Joe Biden addressed the need for increased humanitarian assistance and “reiterated his clear position” on a potential Israeli invasion of Rafah, according to a White House readout of the conversation. Rising death toll The death toll from Israel’s bombardment in Gaza continued to climb over the weekend. Twenty people, including at least one infant and a toddler, died following an Israeli airstrike over Rafah, Gaza, overnight into Monday, according to hospital officials. And in Gaza City, seven\\xa0Palestinians were killed and dozens injured in two separate Israeli airstrikes overnight,\\xa0Gaza\\xa0Civil Defense spokesperson Mahmmoud Basal told CNN. An Israeli airstrike struck a two-story house belonging to the Tartouri family in the port area west of\\xa0Gaza\\xa0City, killing 5 Palestinians and wounding several others, Basal said. In a separate incident, two people were killed and several others injured when an Israeli airstrike targeted a house belonging to the Hijazi family in the Sabra neighborhood in the center of\\xa0Gaza\\xa0City, according to Basal. CNN’s Amy Cassidy, Abeer Salman, Kareem Khadder, Mohammed Tawfeeq and Mostafa Salem contributed to this report.\", \n    'image_url': 'https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2149814371.jpg?c=16x9&q=h_833,w_1480,c_fill', \n    'url': '/2024/04/29/middleeast/hamas-israel-ceasefire-proposal-cairo-talks-intl/index.html'\n}\nhomepage_expected_result = read_json_file(\"tests/cnn/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/cnn/article_category_1_result.json\")\n# Test function using pytest",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "homepage_expected_result",
+        "kind": 5,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "homepage_expected_result = read_json_file(\"tests/cnn/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/cnn/article_category_1_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"/2024/04/29/middleeast/hamas-israel-ceasefire-proposal-cairo-talks-intl/index.html\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = CNNNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cnn/cnn_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "category_1_expected_result",
+        "kind": 5,
+        "importPath": "tests.cnn._cnn_test",
+        "description": "tests.cnn._cnn_test",
+        "peekOfCode": "category_1_expected_result = read_json_file(\"tests/cnn/article_category_1_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"/2024/04/29/middleeast/hamas-israel-ceasefire-proposal-cairo-talks-intl/index.html\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = CNNNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cnn/cnn_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest",
+        "detail": "tests.cnn._cnn_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_scrape_article",
+        "kind": 2,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "def test_scrape_article(article_url, expected):\n    scraper = NBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/nbc/nbc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/\", homepage_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_homepage(category_path, expected):\n    scraper = NBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_homepage",
+        "kind": 2,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "def test_fetch_article_urls_homepage(category_path, expected):\n    scraper = NBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/nbc/nbc_homepage.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/category1\", category_1_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_category_1(category_path, expected):\n    scraper = NBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_category_1",
+        "kind": 2,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "def test_fetch_article_urls_category_1(category_path, expected):\n    scraper = NBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/nbc/nbc_category_1.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "base_url",
+        "kind": 5,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "base_url = \"https://www.nbcnews.com/\"\nblacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    'title': \"2024 NFL draft: Top prospects, storylines to watch ahead of Thursday's first round\", \n    'date': datetime(2024, 4, 25, 18, 41, 52, 313000), \n    'content': \" The first round of the 2024 NFL draft takes place Thursday at 8 p.m. in Detroit, a night that could alter the future of many franchises. The Chicago Bears, Washington Commanders and New England Patriots own the top three selections, and many speculate those picks going to quarterbacks, which has happened three other times, most recently in 2021. Leila Register / NBC News; Getty Images USC signal-caller Caleb Williams is all but certain to go No. 1, so the intrigue officially starts with Washington. Which quarterback will the new general manager, Adam Peters, take? That’s just one of the many storylines to watch on ABC, ESPN or the NFL Network. Is Williams guaranteed to go to Chicago? Nothing is guaranteed until NFL Commissioner Roger Goodell steps up to the podium and reads his name but, essentially, yes. Follow along for live coverage of the NFL d raft Williams, the consensus top prospect, threw for 3,633 yards, 30 touchdowns and five interceptions last season. He won the Heisman Trophy as the best player in college football the prior year after taking the Trojans from four wins to an 11-win team. Williams threw for 4,075 yards, 37 touchdowns and only four interceptions over 13 games in 2022. More Sports from NBC News Pacers' star Tyrese Haliburton says rival fan directed racist slur at his brother during playoff game After $1.5 billion was spent, the centerpiece of Paris' Olympic efforts may still be too filthy to use Simone Biles on Olympics twisties: 'I thought I was going to be banned from America' He will join a retooled Chicago team that traded for six-time Pro Bowl receiver Keenan Allen and signed running back D’Andre Swift in free agency this offseason. Williams will also be able to throw the ball to rising stars in receiver D.J. Moore and tight end Cole Kmet. What will the Commanders do at No. 2? Like the Bears, the Commanders have been desperate for a franchise quarterback for more than three decades. There was a glimmer of hope with Robert Griffin III, the 2012 NFL Offensive Rookie of the Year, but multiple injuries over the next seven seasons led to an early exit from the league. Will this finally be Washington’s chance to turn around the franchise? The Commanders have a new owner in Josh Harris and a new general manager in Peters, and both have been tight-lipped on whom they might select. But all signs point to either LSU quarterback Jayden Daniels or University of North Carolina quarterback Drake Maye. North Carolina quarterback Drake Maye during the first half of an NCAA college football game in Clemson, N.C., in November. Jacob Kupferman / AP file The 6-foot-4, 210-pound Daniels won the 2023 Heisman Trophy after one of the most electrifying seasons in college football history. He threw for 3,812 yards, 40 touchdowns and only four interceptions, while also adding 1,134 yards and 10 touchdowns on the ground. Maye, at 6-foot-4 and 230 pounds, boasts the prototypical size for the position and has drawn comparisons to Los Angeles Chargers signal-caller Justin Herbert. After being named 2022 ACC Player and Rookie of the Year as a sophomore, he threw for 3,608 yards, 24 touchdowns and nine interceptions as a junior. University of Michigan quarterback J.J. McCarthy, who led the Wolverines to their first national title since 1997, is also reportedly being considered. Patriots could look to trade down New England is still looking to find a replacement for legendary quarterback Tom Brady, who left the franchise in 2019. Mac Jones, a first-round pick in 2021, looked promising as a rookie but saw production drop off over the last two seasons. He was dealt to the Jacksonville Jaguars this offseason. The Patriots signed Jacoby Brissett, though he’s not expected to be the long-term starter. Will they instead take whoever is left among  Daniels, Maye and McCarthy? If not, a trade down with a team such as the New York Giants, Minnesota Vikings or Las Vegas Raiders could be in play. All are searching for a quarterback and would give up a multitude of picks to secure that. The Patriots, who finished 4-13 last season and has holes all over the roster, could use those extra picks to expedite a rebuild. Which wide receiver will go first? For much of the past year, Ohio State receiver Marvin Harrison Jr. has been the presumptive top wideout available. It’s still likely he is the first pass-catcher off the board, but LSU’s Malik Nabers and the University of Washington’s Rome Odunze have reportedly seen their stock rise enough this offseason to make it a competition. Harrison, the son of longtime Indianapolis Colts star receiver Marvin Harrison, is arguably the greatest receiver in Ohio State history. He won the Biletnikoff Award last season as the most outstanding receiver in college football after catching 67 passes for 1,211 yards and 14 touchdowns. Nabers will look to become the next star receiver from LSU, joining the likes of Justin Jefferson, Ja’Marr Chase and Odell Beckham Jr. The 6-foot, 199-pound Nabers catches everything in sight and will provide a team with instant playmaking ability. He hauled in 89 passes for 1,569 yards and 14 scores. LSU wide receiver Malik Nabers during a game against the Grambling State in Baton Rouge, La., on Sept. 9. Jonathan Mailhes / Cal Sport Media via AP file Odunze, at 6-foot-3, 215 pounds, possesses elite size for the position. He set a program record with 1,640 receiving yards last season, the highest total in the country and the third-most ever in the Pac-12. Defensive players expected to wait Generally speaking, this draft is known for elite offensive prospects. We could see five quarterbacks, six receivers and potentially double-digit offensive linemen picked in the first 32 selections. But let’s not forget about a few defensive studs. Pass rushers Dallas Turner (University of Alabama) and Jared Verse (Florida State) as well as defensive tackle Byron Murphy III (University of Texas) will all be in the mix to come off the board early. Sad night for Panthers fans The Carolina Panthers finished last season with a league-worst 2-15 record. Top pick and quarterback Bryce Young struggled mightily as a rookie (though he didn’t have much to work with) and the team has many areas of concern. They should have the No. 1 pick in the draft for a chance to turn around the franchise, but alas … they have zero first-round selections. Carolina surrendered Moore, 2023 first- and second-round picks, a 2024 first-round pick and a 2025 second-round pick for the chance to take Young last year. If he doesn’t improve quickly, and that’s a big if, it will go down as one of the worst trades in NFL history. Panthers fans can probably just take Thursday night off.\", \n    'image_url': 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-04/240423-nfl-draft-primer-lr-17b5fc.jpg', \n    'url': 'https://abcnews.go.com/International/wireStory/russian-journalist-detained-posts-criticizing-military-lawyer-109687612'\n}",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "blacklist_url",
+        "kind": 5,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "blacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    'title': \"2024 NFL draft: Top prospects, storylines to watch ahead of Thursday's first round\", \n    'date': datetime(2024, 4, 25, 18, 41, 52, 313000), \n    'content': \" The first round of the 2024 NFL draft takes place Thursday at 8 p.m. in Detroit, a night that could alter the future of many franchises. The Chicago Bears, Washington Commanders and New England Patriots own the top three selections, and many speculate those picks going to quarterbacks, which has happened three other times, most recently in 2021. Leila Register / NBC News; Getty Images USC signal-caller Caleb Williams is all but certain to go No. 1, so the intrigue officially starts with Washington. Which quarterback will the new general manager, Adam Peters, take? That’s just one of the many storylines to watch on ABC, ESPN or the NFL Network. Is Williams guaranteed to go to Chicago? Nothing is guaranteed until NFL Commissioner Roger Goodell steps up to the podium and reads his name but, essentially, yes. Follow along for live coverage of the NFL d raft Williams, the consensus top prospect, threw for 3,633 yards, 30 touchdowns and five interceptions last season. He won the Heisman Trophy as the best player in college football the prior year after taking the Trojans from four wins to an 11-win team. Williams threw for 4,075 yards, 37 touchdowns and only four interceptions over 13 games in 2022. More Sports from NBC News Pacers' star Tyrese Haliburton says rival fan directed racist slur at his brother during playoff game After $1.5 billion was spent, the centerpiece of Paris' Olympic efforts may still be too filthy to use Simone Biles on Olympics twisties: 'I thought I was going to be banned from America' He will join a retooled Chicago team that traded for six-time Pro Bowl receiver Keenan Allen and signed running back D’Andre Swift in free agency this offseason. Williams will also be able to throw the ball to rising stars in receiver D.J. Moore and tight end Cole Kmet. What will the Commanders do at No. 2? Like the Bears, the Commanders have been desperate for a franchise quarterback for more than three decades. There was a glimmer of hope with Robert Griffin III, the 2012 NFL Offensive Rookie of the Year, but multiple injuries over the next seven seasons led to an early exit from the league. Will this finally be Washington’s chance to turn around the franchise? The Commanders have a new owner in Josh Harris and a new general manager in Peters, and both have been tight-lipped on whom they might select. But all signs point to either LSU quarterback Jayden Daniels or University of North Carolina quarterback Drake Maye. North Carolina quarterback Drake Maye during the first half of an NCAA college football game in Clemson, N.C., in November. Jacob Kupferman / AP file The 6-foot-4, 210-pound Daniels won the 2023 Heisman Trophy after one of the most electrifying seasons in college football history. He threw for 3,812 yards, 40 touchdowns and only four interceptions, while also adding 1,134 yards and 10 touchdowns on the ground. Maye, at 6-foot-4 and 230 pounds, boasts the prototypical size for the position and has drawn comparisons to Los Angeles Chargers signal-caller Justin Herbert. After being named 2022 ACC Player and Rookie of the Year as a sophomore, he threw for 3,608 yards, 24 touchdowns and nine interceptions as a junior. University of Michigan quarterback J.J. McCarthy, who led the Wolverines to their first national title since 1997, is also reportedly being considered. Patriots could look to trade down New England is still looking to find a replacement for legendary quarterback Tom Brady, who left the franchise in 2019. Mac Jones, a first-round pick in 2021, looked promising as a rookie but saw production drop off over the last two seasons. He was dealt to the Jacksonville Jaguars this offseason. The Patriots signed Jacoby Brissett, though he’s not expected to be the long-term starter. Will they instead take whoever is left among  Daniels, Maye and McCarthy? If not, a trade down with a team such as the New York Giants, Minnesota Vikings or Las Vegas Raiders could be in play. All are searching for a quarterback and would give up a multitude of picks to secure that. The Patriots, who finished 4-13 last season and has holes all over the roster, could use those extra picks to expedite a rebuild. Which wide receiver will go first? For much of the past year, Ohio State receiver Marvin Harrison Jr. has been the presumptive top wideout available. It’s still likely he is the first pass-catcher off the board, but LSU’s Malik Nabers and the University of Washington’s Rome Odunze have reportedly seen their stock rise enough this offseason to make it a competition. Harrison, the son of longtime Indianapolis Colts star receiver Marvin Harrison, is arguably the greatest receiver in Ohio State history. He won the Biletnikoff Award last season as the most outstanding receiver in college football after catching 67 passes for 1,211 yards and 14 touchdowns. Nabers will look to become the next star receiver from LSU, joining the likes of Justin Jefferson, Ja’Marr Chase and Odell Beckham Jr. The 6-foot, 199-pound Nabers catches everything in sight and will provide a team with instant playmaking ability. He hauled in 89 passes for 1,569 yards and 14 scores. LSU wide receiver Malik Nabers during a game against the Grambling State in Baton Rouge, La., on Sept. 9. Jonathan Mailhes / Cal Sport Media via AP file Odunze, at 6-foot-3, 215 pounds, possesses elite size for the position. He set a program record with 1,640 receiving yards last season, the highest total in the country and the third-most ever in the Pac-12. Defensive players expected to wait Generally speaking, this draft is known for elite offensive prospects. We could see five quarterbacks, six receivers and potentially double-digit offensive linemen picked in the first 32 selections. But let’s not forget about a few defensive studs. Pass rushers Dallas Turner (University of Alabama) and Jared Verse (Florida State) as well as defensive tackle Byron Murphy III (University of Texas) will all be in the mix to come off the board early. Sad night for Panthers fans The Carolina Panthers finished last season with a league-worst 2-15 record. Top pick and quarterback Bryce Young struggled mightily as a rookie (though he didn’t have much to work with) and the team has many areas of concern. They should have the No. 1 pick in the draft for a chance to turn around the franchise, but alas … they have zero first-round selections. Carolina surrendered Moore, 2023 first- and second-round picks, a 2024 first-round pick and a 2025 second-round pick for the chance to take Young last year. If he doesn’t improve quickly, and that’s a big if, it will go down as one of the worst trades in NFL history. Panthers fans can probably just take Thursday night off.\", \n    'image_url': 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-04/240423-nfl-draft-primer-lr-17b5fc.jpg', \n    'url': 'https://abcnews.go.com/International/wireStory/russian-journalist-detained-posts-criticizing-military-lawyer-109687612'\n}\nhomepage_expected_result = read_json_file(\"tests/nbc/article_homepage_result.json\")",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "expected_result",
+        "kind": 5,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "expected_result = {\n    'title': \"2024 NFL draft: Top prospects, storylines to watch ahead of Thursday's first round\", \n    'date': datetime(2024, 4, 25, 18, 41, 52, 313000), \n    'content': \" The first round of the 2024 NFL draft takes place Thursday at 8 p.m. in Detroit, a night that could alter the future of many franchises. The Chicago Bears, Washington Commanders and New England Patriots own the top three selections, and many speculate those picks going to quarterbacks, which has happened three other times, most recently in 2021. Leila Register / NBC News; Getty Images USC signal-caller Caleb Williams is all but certain to go No. 1, so the intrigue officially starts with Washington. Which quarterback will the new general manager, Adam Peters, take? That’s just one of the many storylines to watch on ABC, ESPN or the NFL Network. Is Williams guaranteed to go to Chicago? Nothing is guaranteed until NFL Commissioner Roger Goodell steps up to the podium and reads his name but, essentially, yes. Follow along for live coverage of the NFL d raft Williams, the consensus top prospect, threw for 3,633 yards, 30 touchdowns and five interceptions last season. He won the Heisman Trophy as the best player in college football the prior year after taking the Trojans from four wins to an 11-win team. Williams threw for 4,075 yards, 37 touchdowns and only four interceptions over 13 games in 2022. More Sports from NBC News Pacers' star Tyrese Haliburton says rival fan directed racist slur at his brother during playoff game After $1.5 billion was spent, the centerpiece of Paris' Olympic efforts may still be too filthy to use Simone Biles on Olympics twisties: 'I thought I was going to be banned from America' He will join a retooled Chicago team that traded for six-time Pro Bowl receiver Keenan Allen and signed running back D’Andre Swift in free agency this offseason. Williams will also be able to throw the ball to rising stars in receiver D.J. Moore and tight end Cole Kmet. What will the Commanders do at No. 2? Like the Bears, the Commanders have been desperate for a franchise quarterback for more than three decades. There was a glimmer of hope with Robert Griffin III, the 2012 NFL Offensive Rookie of the Year, but multiple injuries over the next seven seasons led to an early exit from the league. Will this finally be Washington’s chance to turn around the franchise? The Commanders have a new owner in Josh Harris and a new general manager in Peters, and both have been tight-lipped on whom they might select. But all signs point to either LSU quarterback Jayden Daniels or University of North Carolina quarterback Drake Maye. North Carolina quarterback Drake Maye during the first half of an NCAA college football game in Clemson, N.C., in November. Jacob Kupferman / AP file The 6-foot-4, 210-pound Daniels won the 2023 Heisman Trophy after one of the most electrifying seasons in college football history. He threw for 3,812 yards, 40 touchdowns and only four interceptions, while also adding 1,134 yards and 10 touchdowns on the ground. Maye, at 6-foot-4 and 230 pounds, boasts the prototypical size for the position and has drawn comparisons to Los Angeles Chargers signal-caller Justin Herbert. After being named 2022 ACC Player and Rookie of the Year as a sophomore, he threw for 3,608 yards, 24 touchdowns and nine interceptions as a junior. University of Michigan quarterback J.J. McCarthy, who led the Wolverines to their first national title since 1997, is also reportedly being considered. Patriots could look to trade down New England is still looking to find a replacement for legendary quarterback Tom Brady, who left the franchise in 2019. Mac Jones, a first-round pick in 2021, looked promising as a rookie but saw production drop off over the last two seasons. He was dealt to the Jacksonville Jaguars this offseason. The Patriots signed Jacoby Brissett, though he’s not expected to be the long-term starter. Will they instead take whoever is left among  Daniels, Maye and McCarthy? If not, a trade down with a team such as the New York Giants, Minnesota Vikings or Las Vegas Raiders could be in play. All are searching for a quarterback and would give up a multitude of picks to secure that. The Patriots, who finished 4-13 last season and has holes all over the roster, could use those extra picks to expedite a rebuild. Which wide receiver will go first? For much of the past year, Ohio State receiver Marvin Harrison Jr. has been the presumptive top wideout available. It’s still likely he is the first pass-catcher off the board, but LSU’s Malik Nabers and the University of Washington’s Rome Odunze have reportedly seen their stock rise enough this offseason to make it a competition. Harrison, the son of longtime Indianapolis Colts star receiver Marvin Harrison, is arguably the greatest receiver in Ohio State history. He won the Biletnikoff Award last season as the most outstanding receiver in college football after catching 67 passes for 1,211 yards and 14 touchdowns. Nabers will look to become the next star receiver from LSU, joining the likes of Justin Jefferson, Ja’Marr Chase and Odell Beckham Jr. The 6-foot, 199-pound Nabers catches everything in sight and will provide a team with instant playmaking ability. He hauled in 89 passes for 1,569 yards and 14 scores. LSU wide receiver Malik Nabers during a game against the Grambling State in Baton Rouge, La., on Sept. 9. Jonathan Mailhes / Cal Sport Media via AP file Odunze, at 6-foot-3, 215 pounds, possesses elite size for the position. He set a program record with 1,640 receiving yards last season, the highest total in the country and the third-most ever in the Pac-12. Defensive players expected to wait Generally speaking, this draft is known for elite offensive prospects. We could see five quarterbacks, six receivers and potentially double-digit offensive linemen picked in the first 32 selections. But let’s not forget about a few defensive studs. Pass rushers Dallas Turner (University of Alabama) and Jared Verse (Florida State) as well as defensive tackle Byron Murphy III (University of Texas) will all be in the mix to come off the board early. Sad night for Panthers fans The Carolina Panthers finished last season with a league-worst 2-15 record. Top pick and quarterback Bryce Young struggled mightily as a rookie (though he didn’t have much to work with) and the team has many areas of concern. They should have the No. 1 pick in the draft for a chance to turn around the franchise, but alas … they have zero first-round selections. Carolina surrendered Moore, 2023 first- and second-round picks, a 2024 first-round pick and a 2025 second-round pick for the chance to take Young last year. If he doesn’t improve quickly, and that’s a big if, it will go down as one of the worst trades in NFL history. Panthers fans can probably just take Thursday night off.\", \n    'image_url': 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-04/240423-nfl-draft-primer-lr-17b5fc.jpg', \n    'url': 'https://abcnews.go.com/International/wireStory/russian-journalist-detained-posts-criticizing-military-lawyer-109687612'\n}\nhomepage_expected_result = read_json_file(\"tests/nbc/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/nbc/article_category_1_result.json\")\n# Test function using pytest",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "homepage_expected_result",
+        "kind": 5,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "homepage_expected_result = read_json_file(\"tests/nbc/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/nbc/article_category_1_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"https://abcnews.go.com/International/wireStory/russian-journalist-detained-posts-criticizing-military-lawyer-109687612\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = NBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/nbc/nbc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "category_1_expected_result",
+        "kind": 5,
+        "importPath": "tests.nbc._nbc_test",
+        "description": "tests.nbc._nbc_test",
+        "peekOfCode": "category_1_expected_result = read_json_file(\"tests/nbc/article_category_1_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"https://abcnews.go.com/International/wireStory/russian-journalist-detained-posts-criticizing-military-lawyer-109687612\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = NBCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/nbc/nbc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest",
+        "detail": "tests.nbc._nbc_test",
+        "documentation": {}
+    },
+    {
+        "label": "datetime_converter",
+        "kind": 2,
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "peekOfCode": "def datetime_converter(o):\n    if isinstance(o, datetime):\n        return o.__str__()\n# Sample HTML that simulates an article page\ndef read_html_file(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        return file.read()\ndef read_json_file(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        return json.load(file)",
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_html_file",
+        "kind": 2,
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "peekOfCode": "def read_html_file(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        return file.read()\ndef read_json_file(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        return json.load(file)\ndef helper_test_article(scraper, article_url, expected, path_html):\n    sample_html = read_html_file(path_html)\n    # Mock requests.get to return a mock response with the sample HTML\n    with patch('requests.get') as mocked_get:",
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "kind": 2,
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "peekOfCode": "def read_json_file(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        return json.load(file)\ndef helper_test_article(scraper, article_url, expected, path_html):\n    sample_html = read_html_file(path_html)\n    # Mock requests.get to return a mock response with the sample HTML\n    with patch('requests.get') as mocked_get:\n        mock_response = Mock()\n        mock_response.text = sample_html\n        mocked_get.return_value = mock_response",
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_article",
+        "kind": 2,
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "peekOfCode": "def helper_test_article(scraper, article_url, expected, path_html):\n    sample_html = read_html_file(path_html)\n    # Mock requests.get to return a mock response with the sample HTML\n    with patch('requests.get') as mocked_get:\n        mock_response = Mock()\n        mock_response.text = sample_html\n        mocked_get.return_value = mock_response\n        # Run the scrape_article method\n        result = scraper.scrape_article(article_url)\n        #with open('articles_article_test.json', 'w') as outfile:",
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_category_url_scraper",
+        "kind": 2,
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "peekOfCode": "def helper_test_category_url_scraper(scraper, category_path, expected, path_html):\n    sample_html = read_html_file(path_html)\n    # Mock requests.get to return a mock response with the sample HTML\n    with patch('requests.get') as mocked_get:\n        mock_response = Mock()\n        mock_response.text = sample_html\n        mocked_get.return_value = mock_response\n        # Run the scrape_article method\n        result = scraper.fetch_article_urls_one_category(category_path)\n        category_path = category_path.replace(\"/\",\"\")",
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "load_scraper",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def load_scraper(config):\n    module_name = f\"scraper.{config['module']}\"\n    class_name = config[\"class\"]\n    module = importlib.import_module(module_name)\n    scraper_class = getattr(module, class_name)\n    return scraper_class(config[\"base_url\"], config[\"urls_blacklist\"])\ndef datetime_converter(o):\n    if isinstance(o, datetime):\n        return o.__str__()\nexisted_in_db = 0",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "datetime_converter",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def datetime_converter(o):\n    if isinstance(o, datetime):\n        return o.__str__()\nexisted_in_db = 0\nnum_news_with_full_attributes = 0\nnum_news_invalidated = 0\nnum_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_and_scrape",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None\n    article_data = scraper.scrape_article(url)\n    if not article_data:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_urls_one_category_given_news_source",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def scrape_urls_one_category_given_news_source():\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[\"CNBCNews\"])\n        result = scraper.fetch_article_urls_one_category(\"/business\")\n        #print(article_data)\n        try:\n            with open('articles.json', 'w') as outfile:\n                json.dump(result, outfile, indent=4, default=datetime_converter)\n        except TypeError as e:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "conn_params_production",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "conn_params_production = {\n    \"host\": os.getenv(\"DATABASE_HOST_PRODUCTION\", \"localhost\"),\n    \"port\": int(os.getenv(\"DATABASE_PORT_PRODUCTION\", \"3306\")),  # Convert port to integer\n    \"user\": os.getenv(\"DATABASE_USERNAME_PRODUCTION\", \"root\"),\n    \"password\": os.getenv(\"DATABASE_PASSWORD_PRODUCTION\", \"password\"),\n    \"db\": os.getenv(\"DATABASE_NAME_PRODUCTION\", \"newsdb\"),\n} \ndef load_scraper(config):\n    module_name = f\"scraper.{config['module']}\"\n    class_name = config[\"class\"]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "existed_in_db",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "existed_in_db = 0\nnum_news_with_full_attributes = 0\nnum_news_invalidated = 0\nnum_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "num_news_with_full_attributes",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "num_news_with_full_attributes = 0\nnum_news_invalidated = 0\nnum_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "num_news_invalidated",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "num_news_invalidated = 0\nnum_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "num_news_scraped",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "num_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None\n    article_data = scraper.scrape_article(url)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
