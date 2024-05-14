@@ -41,7 +41,7 @@ def test_fetch_article_urls_homepage(category_path, expected):
     path_html = 'tests/abc/abc_homepage.html'
     helper_test_category_url_scraper(scraper, category_path, expected, path_html)
         
-        
+
 # Test function using pytest
 @pytest.mark.parametrize("category_path, expected", [
     ("/category1", category_1_expected_result)  # Ensure homepage_expected_result is defined

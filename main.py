@@ -84,7 +84,7 @@ async def scrape_source_given_details(source, details):
     print("getting the news ________________________________ " + source)
     scraper = load_scraper(details)
     article_urls_categorized = scraper.fetch_article_urls_all_categories(details["category_path"])
-
+    
     max_workers = 10
     for category, article_urls in article_urls_categorized.items():
         print(f"\n***{category}***")
@@ -112,6 +112,12 @@ async def scrape_source_given_details(source, details):
 
         print(f"scraping results: scraped-{number_of_articles_scraped} existed-{existed_in_db} total-{total_number_of_links}")
         # Create a list to hold all tasks
+        try:
+            with open('articles.json', 'w') as outfile:
+                json.dump(articles_categorized, outfile, indent=4, default=datetime_converter)
+        except TypeError as e:
+            print(f"Error writing JSON: {e}")
+            
         tasks = []
         for article in articles_categorized[category]:
             task = insert_article_and_category(conn_params_production, article, details['corporation_id'], details['corporation_name'], details['corporation_logo'], details['category_path'][category])
@@ -165,8 +171,8 @@ async def parallel_one_news_source(newsSource):
 def scrape_urls_one_category_given_news_source():
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CNNNews"])
-        result = scraper.fetch_article_urls_one_category("/health/life-but-better/relationships")
+        scraper = load_scraper(config["CNBCNews"])
+        result = scraper.fetch_article_urls_one_category("/business")
         #print(article_data)
         
         try:
@@ -177,15 +183,17 @@ def scrape_urls_one_category_given_news_source():
 
 
 async def scrape_article_given_url():
-    article_url = 'https://www.cnn.com/travel/kalaupapa-national-historical-park-hawaii/index.html'
+    article_url = 'https://www.cnbc.com/2024/05/14/ai-boom-to-keep-supply-of-high-end-memory-chips-tight-through-2024.html'
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CNNNews"])
+        scraper = load_scraper(config["CNBCNews"])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 
 if __name__ == '__main__':
-    asyncio.run(parallel_main())
-    #asyncio.run(parallel_one_news_source("NBCNews"))
+    #asyncio.run(parallel_main())
+    
+    
+    asyncio.run(parallel_one_news_source("CNBCNews"))
     #asyncio.run(scrape_article_given_url())
     #scrape_urls_one_category_given_news_source()

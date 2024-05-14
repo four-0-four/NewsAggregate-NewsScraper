@@ -47,3 +47,22 @@ class ABCNewsScraper(NewsScraper):
                 return content
             
         return None
+    
+    def check_article_url(self,href):
+        if(href.startswith(self.base_url)):
+            full_link = href
+        else:
+            return None
+        
+        
+        is_url_blacklisted = False
+        #check that the href not in urls_blacklist
+        for url_blacklist in self.urls_blacklist:
+            if url_blacklist in full_link:
+                is_url_blacklisted = True
+                break
+        
+        if is_url_blacklisted:
+            return None
+        
+        return full_link

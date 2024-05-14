@@ -19,6 +19,39 @@ class NewsScraper:
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read()
 
+
+    def check_article_url(self, href):
+        # Ensure the link is absolute
+        if(href.startswith(self.base_url)):
+            full_link = href
+        elif(href.startswith("/")):
+            full_link = self.base_url + href
+        else:
+            return None
+        
+        
+        is_url_blacklisted = False
+        #check that the href not in urls_blacklist
+        for url_blacklist in self.urls_blacklist:
+            if url_blacklist in full_link:
+                is_url_blacklisted = True
+                break
+        
+        if is_url_blacklisted:
+            return None
+        
+        return full_link
+    
+    def check_if_article_is_duplicate(self, href, full_link, article_links, text):
+        if (full_link in self.added_urls):
+            # Check if the URL exists in article_links and has an empty title
+            for article in article_links:
+                if article['url'] == href and ( not article['title'] or len(article['title']) < len(text) ):
+                    article_links.remove(article)  # Remove if title is empty
+                    return False
+            return True
+        return False
+    
     def fetch_article_urls_all_categories(self, category_list):
         urls_all_categories = {}
         for category, category_id in category_list.items():
@@ -27,8 +60,11 @@ class NewsScraper:
         return urls_all_categories
 
     def fetch_article_urls_one_category(self, category_path):
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+        }
         url = f"{self.base_url}{category_path}"
-        response = requests.get(url)
+        response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.text, 'html.parser')
         #custom_html = self.read_html_file("tests/cnn/cnn_category_1.html")
         #soup = BeautifulSoup(custom_html, 'html.parser')
@@ -45,25 +81,13 @@ class NewsScraper:
                     link_tags = [element]
                 else:
                     link_tags = element.find_all('a')  # find <a> tags within the selected elements
+                
                 for link_tag in link_tags:
                     if link_tag and 'href' in link_tag.attrs:
                         href = link_tag['href']
                         #print(href)
-                        # Ensure the link is absolute
-                        if(href.startswith(self.base_url)):
-                            full_link = href
-                        else:
-                            continue
-                        
-                        
-                        is_url_blacklisted = False
-                        #check that the href not in urls_blacklist
-                        for url_blacklist in self.urls_blacklist:
-                            if url_blacklist in full_link:
-                                is_url_blacklisted = True
-                                break
-                        
-                        if is_url_blacklisted:
+                        full_link = self.check_article_url(href)
+                        if not full_link:
                             continue
                         
                         #get text
@@ -72,14 +96,8 @@ class NewsScraper:
                         
                         
                         #check that we have already added it so we don't add twice
-                        if (full_link in self.added_urls):
-                            # Check if the URL exists in article_links and has an empty title
-                            for article in article_links:
-                                if article['url'] == href and not article['title']:
-                                    article_links.remove(article)  # Remove if title is empty
-                                    break
-                            else:
-                                continue
+                        if self.check_if_article_is_duplicate(href, full_link, article_links, text):
+                            continue
                         
                         
                         self.added_urls.append(full_link)
@@ -123,7 +141,6 @@ class NewsScraper:
         #getting the date of the article
         for date_class in self.date_selector[1]:
             date_tag = soup.find(self.date_selector[0], class_=date_class)
-            #print("date_tag:",date_tag)
             if(date_tag):
                 date = date_tag.get_text(separator=' ', strip=True)
             
@@ -132,14 +149,14 @@ class NewsScraper:
                     date_object = datetime.strptime(date, self.date_format)
                     return date_object
                 except ValueError as e:
-                    print("There was an error converting the date:", e)
+                    #print("There was an error converting the date:", e)
                     return None
         
         return None
     
     def scrape_image(self, soup):
         #getting the image of the article
-        image_url = None
+        image_url = 'https://www.cbsnews.com/news/northern-lights-photos-around-the-world/'
         for image_class in self.image_selector[1]:
             image_tags = soup.find_all(self.image_selector[0], class_=image_class)
             for image_tag in image_tags:
