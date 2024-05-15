@@ -191,9 +191,9 @@ async def scrape_article_given_url():
         print(article_data)
 
 if __name__ == '__main__':
-    #asyncio.run(parallel_main())
+    asyncio.run(parallel_main())
     
     
     #asyncio.run(parallel_one_news_source("CNBCNews"))
-    asyncio.run(scrape_article_given_url())
+    #asyncio.run(scrape_article_given_url())
     #scrape_urls_one_category_given_news_source()
