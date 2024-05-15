@@ -126,12 +126,6 @@
         "link select": "article.item a"
     },
     {
-        "title": "Legendary treasure of 18th-century conman unearthed",
-        "url": "https://www.cbsnews.com/news/legendary-treasure-conman-healing-powers-poland-officials/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
         "title": "Screaming leads workers to tiger footprints, victim's body",
         "url": "https://www.cbsnews.com/news/sumatran-tiger-attack-man-dies-search-critically-endangered-cat/",
         "title select": "article.item a h4",
@@ -246,20 +240,8 @@
         "link select": "article.item a"
     },
     {
-        "title": "Mercedes-Benz workers in Alabama voting on whether to join UAW",
-        "url": "https://www.cbsnews.com/news/union-alabama-mercedes-benz-uaw/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
         "title": "Looking to save money? Try shopping at bin stores.",
         "url": "https://www.cbsnews.com/news/online-returns-bin-stores-the-little-depot/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "\"Roaring Kitty\" causes GameStop stock price to jump more than 70%",
-        "url": "https://www.cbsnews.com/news/gamestop-stock-share-price-roaring-kitty/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
@@ -432,6 +414,18 @@
         "link select": "article.item a"
     },
     {
+        "title": "Mercedes faces key test as Alabama workers vote on whether to unionize",
+        "url": "https://www.cbsnews.com/news/union-alabama-mercedes-benz-uaw/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "\"Roaring Kitty\" trader returns, causing GameStop shares to jump more than 70%",
+        "url": "https://www.cbsnews.com/news/gamestop-stock-share-price-roaring-kitty/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
         "title": "Gov. Kristi Noem banned from nearly 20% of South Dakota after tribes vote",
         "url": "https://www.cbsnews.com/news/gov-kristi-noem-banned-south-dakota-tribes-now-banned-nearly-20-percent-state/",
         "title select": "article.item a h4",
@@ -458,6 +452,12 @@
     {
         "title": "Anti-abortion rights groups push abortion \"reversal.\" States say that's fraud.",
         "url": "https://www.cbsnews.com/news/abortion-pill-reversal-lawsuit-fraud-new-york-california/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Legendary treasure belonging to 18th-century conman discovered",
+        "url": "https://www.cbsnews.com/news/legendary-treasure-conman-healing-powers-poland-officials/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },

@@ -1,11 +1,5 @@
 [
     {
-        "title": "Biden to announce new 100% tariffs on EVs",
-        "url": "https://www.cbsnews.com/news/biden-to-announce-new-100-tariffs-on-chinese-evs/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
         "title": "Michael Cohen, key witness against Trump, testifies about \"hush money\" payments",
         "url": "https://www.cbsnews.com/live-updates/michael-cohen-trump-trial-testimony/",
         "title select": "article.item a h4",
@@ -56,6 +50,12 @@
     {
         "title": "Transcript: Sen. Chris Van Hollen on \"Face the Nation,\" May 12, 2024",
         "url": "https://www.cbsnews.com/news/chris-van-hollen-senator-democrat-maryland-face-the-nation-transcript-05-12-2024/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Biden to announce new 100% tariffs on Chinese EVs",
+        "url": "https://www.cbsnews.com/news/biden-to-announce-new-100-tariffs-on-chinese-evs/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
@@ -228,12 +228,6 @@
         "link select": "article.item a"
     },
     {
-        "title": "Science",
-        "url": "https://www.cbsnews.com/video/us-honey-bee-population-reaches-record-high/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
         "title": "Raging Canadian wildfires threaten thousands",
         "url": "https://www.cbsnews.com/video/raging-canadian-wildfires-threaten-thousands/",
         "title select": "article.item a h4",
@@ -326,6 +320,12 @@
     {
         "title": "Latest CBS News Videos",
         "url": "https://www.cbsnews.com/video/us-recovering-pandemic-learning-loss-gaps-remain/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "U.S. honey bee population reaches record high",
+        "url": "https://www.cbsnews.com/video/us-honey-bee-population-reaches-record-high/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },

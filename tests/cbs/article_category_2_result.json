@@ -258,12 +258,6 @@
         "link select": "article.item a"
     },
     {
-        "title": "Science",
-        "url": "https://www.cbsnews.com/video/us-honey-bee-population-reaches-record-high/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
         "title": "Raging Canadian wildfires threaten thousands",
         "url": "https://www.cbsnews.com/video/raging-canadian-wildfires-threaten-thousands/",
         "title select": "article.item a h4",
@@ -350,6 +344,12 @@
     {
         "title": "Latest CBS News Videos",
         "url": "https://www.cbsnews.com/video/us-recovering-pandemic-learning-loss-gaps-remain/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "U.S. honey bee population reaches record high",
+        "url": "https://www.cbsnews.com/video/us-honey-bee-population-reaches-record-high/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
