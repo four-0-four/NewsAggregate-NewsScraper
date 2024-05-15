@@ -117,6 +117,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "timezone",
         "importPath": "datetime",
         "description": "datetime",
@@ -142,6 +158,22 @@
     },
     {
         "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -269,6 +301,23 @@
         "documentation": {}
     },
     {
+        "label": "NewsScraper",
+        "importPath": "scraper.news_scraper",
+        "description": "scraper.news_scraper",
+        "isExtraImport": true,
+        "detail": "scraper.news_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "pytz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytz",
+        "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -301,15 +350,6 @@
         "description": "playwright.async_api",
         "isExtraImport": true,
         "detail": "playwright.async_api",
-        "documentation": {}
-    },
-    {
-        "label": "pytz",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pytz",
-        "description": "pytz",
-        "detail": "pytz",
         "documentation": {}
     },
     {
@@ -460,11 +500,19 @@
         "documentation": {}
     },
     {
-        "label": "ABCNewsScraper",
-        "importPath": "scraper._abc",
-        "description": "scraper._abc",
+        "label": "patch",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
         "isExtraImport": true,
-        "detail": "scraper._abc",
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "Mock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
         "documentation": {}
     },
     {
@@ -476,35 +524,11 @@
         "documentation": {}
     },
     {
-        "label": "helper_test_article",
-        "importPath": "tests.test_helper",
-        "description": "tests.test_helper",
+        "label": "ABCNewsScraper",
+        "importPath": "scraper._abc",
+        "description": "scraper._abc",
         "isExtraImport": true,
-        "detail": "tests.test_helper",
-        "documentation": {}
-    },
-    {
-        "label": "helper_test_category_url_scraper",
-        "importPath": "tests.test_helper",
-        "description": "tests.test_helper",
-        "isExtraImport": true,
-        "detail": "tests.test_helper",
-        "documentation": {}
-    },
-    {
-        "label": "read_html_file",
-        "importPath": "tests.test_helper",
-        "description": "tests.test_helper",
-        "isExtraImport": true,
-        "detail": "tests.test_helper",
-        "documentation": {}
-    },
-    {
-        "label": "read_json_file",
-        "importPath": "tests.test_helper",
-        "description": "tests.test_helper",
-        "isExtraImport": true,
-        "detail": "tests.test_helper",
+        "detail": "scraper._abc",
         "documentation": {}
     },
     {
@@ -601,6 +625,78 @@
         "description": "tests.test_helper",
         "isExtraImport": true,
         "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_article",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_category_url_scraper",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_html_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_article",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "helper_test_category_url_scraper",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_html_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_json_file",
+        "importPath": "tests.test_helper",
+        "description": "tests.test_helper",
+        "isExtraImport": true,
+        "detail": "tests.test_helper",
+        "documentation": {}
+    },
+    {
+        "label": "CBSNewsScraper",
+        "importPath": "scraper._cbs",
+        "description": "scraper._cbs",
+        "isExtraImport": true,
+        "detail": "scraper._cbs",
         "documentation": {}
     },
     {
@@ -758,8 +854,17 @@
         "kind": 6,
         "importPath": "scraper._cbs",
         "description": "scraper._cbs",
-        "peekOfCode": "class CBSNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('article.item a', 'article.item a h4'), \n            ('ul.item__related-links', 'ul.item__related-links')\n        ]\n        title_selector = ('h1',['vMjAx UdOCY WaKtx eHrJ mTgUP WimTs'])\n        #date_selector = ('div',['VZTD mLASH'])\n        date_selector = ('div',['sina'])",
+        "peekOfCode": "class CBSNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('article.item a', 'article.item a h4'), \n            ('ul.item__related-links', 'ul.item__related-links'),\n        ]\n        title_selector = ('h1',['content__title'])\n        date_selector = ('time',[''])\n        date_format = '%B %d, %Y %I:%M %p'",
         "detail": "scraper._cbs",
+        "documentation": {}
+    },
+    {
+        "label": "CBSSportsNewsScraper",
+        "kind": 6,
+        "importPath": "scraper._cbs_sports",
+        "description": "scraper._cbs_sports",
+        "peekOfCode": "class CBSSportsNewsScraper(NewsScraper):\n    def __init__(self, base_url, urls_blacklist):\n        #(css_to_url, css_to_title)\n        article_url_css_selector = [\n            ('main.highlander-page-container a', 'main.highlander-page-container a h3'), #h1, h2\n            ('div.container a', 'div.container h3'),\n            #('div.article-list-content-blocks-wrap a', 'div.article-list-content-blocks-wrap a h3'),\n            #('section.article-list-single-lead a', 'section.article-list-single-lead h3'),\n        ]\n        title_selector = ('h1',['Article-headline'])",
+        "detail": "scraper._cbs_sports",
         "documentation": {}
     },
     {
@@ -886,6 +991,96 @@
         "description": "tests.abc._abc_test",
         "peekOfCode": "category_2_expected_result = read_json_file(\"tests/abc/article_category_2_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://fakeurl.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = ABCNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/abc/abc_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest",
         "detail": "tests.abc._abc_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_scrape_article",
+        "kind": 2,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "def test_scrape_article(article_url, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cbs/cbs_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/\", homepage_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_homepage(category_path, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_homepage",
+        "kind": 2,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "def test_fetch_article_urls_homepage(category_path, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/cbs/cbs_homepage.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/category1\", category_1_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_category_1(category_path, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_category_1",
+        "kind": 2,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "def test_fetch_article_urls_category_1(category_path, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/cbs/cbs_category_1.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)\n# Test function using pytest\n@pytest.mark.parametrize(\"category_path, expected\", [\n    (\"/category2\", category_2_expected_result)  # Ensure homepage_expected_result is defined\n])\ndef test_fetch_article_urls_category_2(category_path, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_article_urls_category_2",
+        "kind": 2,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "def test_fetch_article_urls_category_2(category_path, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html = 'tests/cbs/cbs_category_2.html'\n    helper_test_category_url_scraper(scraper, category_path, expected, path_html)",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "base_url",
+        "kind": 5,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "base_url = \"https://www.cbsnews.com\"\nblacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    \"title\": \"Missouri man who crashed U-Haul into White House security barrier pleads guilty\",\n    \"date\": datetime(2024, 5, 13, 20, 39, 44, tzinfo=timezone.utc),\n    \"content\": \"A Missouri man has pleaded guilty to crashing a U-Haul into a White House security barrier in May 2023. Sai Kandula, 20, wearing an orange jail jumpsuit and speaking softly from the podium of a Washington, D.C., federal courtroom, acknowledged he had deliberately slammed into a security bollard in a failed attempt to seize power at the White House and install a dictatorship aligned with Nazi beliefs.Kandula pleaded guilty to a federal charge of willful depredation of federal property and will face a recommended 8 years in prison when he's sentenced on Aug. 23. CBS News was present during Kandula's plea agreement hearing Monday, during which prosecutors and the judge referenced a possible terrorism enhancement at Kandula's sentencing. The charge has a 10-year maximum prison term and a maximum $250,000 fine.The crime occurred at 16th and H Streets, Northwest, outside the White House last May.\\u00a0 Kandula had a Nazi flag with him when he was arrested, according to court documents. According to the government's statement of facts, he said his goal was to \\\"get to the White House, seize power, and be put in charge of the nation.\\\"According to the statement of facts, \\\"When agents asked how Kandula would seize power, he stated he would 'Kill the President if that's what I have to do and would hurt anyone that would stand in my way.'\\\" He told investigators he had been \\\"planning for six months.\\\"During court proceedings Monday, Kandula said he had recently begun taking medication for schizophrenia while he's been incarcerated in pretrial detention. A psychiatric witness is expected to speak about Kandula's health during the August sentencing hearing, according to a defense attorney.The Justice Department said the damage incurred at the White House was approximately $4,322 as a result of Kandula's crashing of the U-Haul into the barrier.Scott MacFarlane is a congressional correspondent. He has covered Washington for two decades, earning 20 Emmy and Edward R. Murrow awards. His reporting has resulted directly in the passage of five new laws.\",\n    \"image_url\": \"https://assets2.cbsnewsstatic.com/hub/i/r/2023/05/24/46b1c6f0-eb88-4d08-a2e2-970a8cac0a39/thumbnail/1280x720/42ceea5abeb0b7f605f74b1ce6b334b7/0524-en-truck-1996086-640x360.jpg?v=da1edae61593776e0985328155219700\",\n    \"url\": \"http://cbsnews.com/test-article\"\n}",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "blacklist_url",
+        "kind": 5,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "blacklist_url = []\n# Expected result based on the sample HTML\nexpected_result = {\n    \"title\": \"Missouri man who crashed U-Haul into White House security barrier pleads guilty\",\n    \"date\": datetime(2024, 5, 13, 20, 39, 44, tzinfo=timezone.utc),\n    \"content\": \"A Missouri man has pleaded guilty to crashing a U-Haul into a White House security barrier in May 2023. Sai Kandula, 20, wearing an orange jail jumpsuit and speaking softly from the podium of a Washington, D.C., federal courtroom, acknowledged he had deliberately slammed into a security bollard in a failed attempt to seize power at the White House and install a dictatorship aligned with Nazi beliefs.Kandula pleaded guilty to a federal charge of willful depredation of federal property and will face a recommended 8 years in prison when he's sentenced on Aug. 23. CBS News was present during Kandula's plea agreement hearing Monday, during which prosecutors and the judge referenced a possible terrorism enhancement at Kandula's sentencing. The charge has a 10-year maximum prison term and a maximum $250,000 fine.The crime occurred at 16th and H Streets, Northwest, outside the White House last May.\\u00a0 Kandula had a Nazi flag with him when he was arrested, according to court documents. According to the government's statement of facts, he said his goal was to \\\"get to the White House, seize power, and be put in charge of the nation.\\\"According to the statement of facts, \\\"When agents asked how Kandula would seize power, he stated he would 'Kill the President if that's what I have to do and would hurt anyone that would stand in my way.'\\\" He told investigators he had been \\\"planning for six months.\\\"During court proceedings Monday, Kandula said he had recently begun taking medication for schizophrenia while he's been incarcerated in pretrial detention. A psychiatric witness is expected to speak about Kandula's health during the August sentencing hearing, according to a defense attorney.The Justice Department said the damage incurred at the White House was approximately $4,322 as a result of Kandula's crashing of the U-Haul into the barrier.Scott MacFarlane is a congressional correspondent. He has covered Washington for two decades, earning 20 Emmy and Edward R. Murrow awards. His reporting has resulted directly in the passage of five new laws.\",\n    \"image_url\": \"https://assets2.cbsnewsstatic.com/hub/i/r/2023/05/24/46b1c6f0-eb88-4d08-a2e2-970a8cac0a39/thumbnail/1280x720/42ceea5abeb0b7f605f74b1ce6b334b7/0524-en-truck-1996086-640x360.jpg?v=da1edae61593776e0985328155219700\",\n    \"url\": \"http://cbsnews.com/test-article\"\n}\nhomepage_expected_result = read_json_file(\"tests/cbs/article_homepage_result.json\")",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "expected_result",
+        "kind": 5,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "expected_result = {\n    \"title\": \"Missouri man who crashed U-Haul into White House security barrier pleads guilty\",\n    \"date\": datetime(2024, 5, 13, 20, 39, 44, tzinfo=timezone.utc),\n    \"content\": \"A Missouri man has pleaded guilty to crashing a U-Haul into a White House security barrier in May 2023. Sai Kandula, 20, wearing an orange jail jumpsuit and speaking softly from the podium of a Washington, D.C., federal courtroom, acknowledged he had deliberately slammed into a security bollard in a failed attempt to seize power at the White House and install a dictatorship aligned with Nazi beliefs.Kandula pleaded guilty to a federal charge of willful depredation of federal property and will face a recommended 8 years in prison when he's sentenced on Aug. 23. CBS News was present during Kandula's plea agreement hearing Monday, during which prosecutors and the judge referenced a possible terrorism enhancement at Kandula's sentencing. The charge has a 10-year maximum prison term and a maximum $250,000 fine.The crime occurred at 16th and H Streets, Northwest, outside the White House last May.\\u00a0 Kandula had a Nazi flag with him when he was arrested, according to court documents. According to the government's statement of facts, he said his goal was to \\\"get to the White House, seize power, and be put in charge of the nation.\\\"According to the statement of facts, \\\"When agents asked how Kandula would seize power, he stated he would 'Kill the President if that's what I have to do and would hurt anyone that would stand in my way.'\\\" He told investigators he had been \\\"planning for six months.\\\"During court proceedings Monday, Kandula said he had recently begun taking medication for schizophrenia while he's been incarcerated in pretrial detention. A psychiatric witness is expected to speak about Kandula's health during the August sentencing hearing, according to a defense attorney.The Justice Department said the damage incurred at the White House was approximately $4,322 as a result of Kandula's crashing of the U-Haul into the barrier.Scott MacFarlane is a congressional correspondent. He has covered Washington for two decades, earning 20 Emmy and Edward R. Murrow awards. His reporting has resulted directly in the passage of five new laws.\",\n    \"image_url\": \"https://assets2.cbsnewsstatic.com/hub/i/r/2023/05/24/46b1c6f0-eb88-4d08-a2e2-970a8cac0a39/thumbnail/1280x720/42ceea5abeb0b7f605f74b1ce6b334b7/0524-en-truck-1996086-640x360.jpg?v=da1edae61593776e0985328155219700\",\n    \"url\": \"http://cbsnews.com/test-article\"\n}\nhomepage_expected_result = read_json_file(\"tests/cbs/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/cbs/article_category_1_result.json\")\ncategory_2_expected_result = read_json_file(\"tests/cbs/article_category_2_result.json\")",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "homepage_expected_result",
+        "kind": 5,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "homepage_expected_result = read_json_file(\"tests/cbs/article_homepage_result.json\")\ncategory_1_expected_result = read_json_file(\"tests/cbs/article_category_1_result.json\")\ncategory_2_expected_result = read_json_file(\"tests/cbs/article_category_2_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://cbsnews.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cbs/cbs_article.html'",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "category_1_expected_result",
+        "kind": 5,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "category_1_expected_result = read_json_file(\"tests/cbs/article_category_1_result.json\")\ncategory_2_expected_result = read_json_file(\"tests/cbs/article_category_2_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://cbsnews.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cbs/cbs_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)",
+        "detail": "tests.cbs._cbs_test",
+        "documentation": {}
+    },
+    {
+        "label": "category_2_expected_result",
+        "kind": 5,
+        "importPath": "tests.cbs._cbs_test",
+        "description": "tests.cbs._cbs_test",
+        "peekOfCode": "category_2_expected_result = read_json_file(\"tests/cbs/article_category_2_result.json\")\n# Test function using pytest\n@pytest.mark.parametrize(\"article_url, expected\", [\n    (\"http://cbsnews.com/test-article\", expected_result)\n])\ndef test_scrape_article(article_url, expected):\n    scraper = CBSNewsScraper(base_url=base_url, urls_blacklist=blacklist_url)\n    path_html='tests/cbs/cbs_article.html'\n    helper_test_article(scraper, article_url, expected, path_html)\n# Test function using pytest",
+        "detail": "tests.cbs._cbs_test",
         "documentation": {}
     },
     {
@@ -1181,7 +1376,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def scrape_urls_one_category_given_news_source():\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[\"CNBCNews\"])\n        result = scraper.fetch_article_urls_one_category(\"/business\")\n        #print(article_data)\n        try:\n            with open('articles.json', 'w') as outfile:\n                json.dump(result, outfile, indent=4, default=datetime_converter)\n        except TypeError as e:",
+        "peekOfCode": "def scrape_urls_one_category_given_news_source():\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[\"CBSSportsNews\"])\n        result = scraper.fetch_article_urls_one_category(\"/\")\n        #print(article_data)\n        try:\n            with open('articles.json', 'w') as outfile:\n                json.dump(result, outfile, indent=4, default=datetime_converter)\n        except TypeError as e:",
         "detail": "main",
         "documentation": {}
     },
