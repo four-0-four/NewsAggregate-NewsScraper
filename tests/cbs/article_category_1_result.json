@@ -1,67 +1,43 @@
 [
     {
-        "title": "Legendary treasure belonging to 18th-century conman discovered",
-        "url": "https://www.cbsnews.com/news/legendary-treasure-conman-healing-powers-poland-officials/",
+        "title": "Michael Cohen, key witness against Trump, testifies about \"hush money\" payments",
+        "url": "https://www.cbsnews.com/live-updates/michael-cohen-trump-trial-testimony/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "Hundreds of thousands forced to flee again as Israel pushes into Rafah",
-        "url": "https://www.cbsnews.com/news/israel-hamas-war-rafah-gaza-offensive-netanyahu-under-us-pressure/",
+        "title": "Missouri man who crashed U-Haul into White House security barrier pleads guilty",
+        "url": "https://www.cbsnews.com/news/missouri-man-sai-kandula-crashed-u-haul-white-house-security-barrier-pleads-guilty/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "Harry and Meghan wrap up a very royal looking tour of Nigeria",
-        "url": "https://www.cbsnews.com/news/prince-harry-meghan-nigeria-tour-warm-welcome-invictus-games/",
+        "title": "Harris drops \"F-bomb\" while encouraging Asian Americans to break barriers",
+        "url": "https://www.cbsnews.com/news/kamala-harris-f-bomb-asian-americans-jimmy-o-yang/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "Screaming leads workers to tiger footprints, victim's body",
-        "url": "https://www.cbsnews.com/news/sumatran-tiger-attack-man-dies-search-critically-endangered-cat/",
+        "title": "Gov. Kristi Noem banned from nearly 20% of South Dakota after tribes vote",
+        "url": "https://www.cbsnews.com/news/gov-kristi-noem-banned-south-dakota-tribes-now-banned-nearly-20-percent-state/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "2 Americans among 20 arrested at protest over nation of Georgia's future",
-        "url": "https://www.cbsnews.com/news/georgia-protests-americans-arrested-eu-russia-foreign-agents-law/",
+        "title": "Bob Menendez's corruption trial begins. Here's what to know.",
+        "url": "https://www.cbsnews.com/news/bob-menendez-trial-new-jersey-senator-corruption-case/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "Canadian town bracing for out-of-control wildfire",
-        "url": "https://www.cbsnews.com/news/canadian-town-british-columbia-bracing-out-of-control-13000-acre-wildfire/",
+        "title": "How a group of veterans helped a U.S. service member's mother get out of war-torn Gaza",
+        "url": "https://www.cbsnews.com/news/gaza-zahra-skaik-escape-israel-son-american-army-specialist/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "NYC museum curator allegedly tried to smuggle scorpion, spider samples",
-        "url": "https://www.cbsnews.com/news/spider-scorpion-smuggling-turkey-curator-american-museum-of-natural-history-accused/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "More geomagnetic storms likely to continue today",
-        "url": "https://www.cbsnews.com/news/more-geomagnetic-storms-remain-likely-monday-sun-continues-erupt-x-class-flares/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "8 people killed in mass shooting near resort town in Mexico",
-        "url": "https://www.cbsnews.com/news/8-people-killed-mass-shooting-huitzilac-mexico/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Danish butter magnate's coin collection up for sale 100 years after he died",
-        "url": "https://www.cbsnews.com/news/danish-butter-magnate-lars-emil-bruuns-huge-coin-collection-hitting-auction-block-100-years-after-he-died/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Putin replaces long-time defense chief as Russia takes ground in Ukraine",
-        "url": "https://www.cbsnews.com/news/vladimir-putin-replaces-sergei-shoigu-defense-minister-andrei-belousov/",
+        "title": "Full transcript of \"Face the Nation,\" May 12, 2024",
+        "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-05-12-2024/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
@@ -72,26 +48,8 @@
         "link select": "article.item a"
     },
     {
-        "title": "Thousands flee as Russia presses border assault in northeast Ukraine",
-        "url": "https://www.cbsnews.com/news/russia-ukraine-war-border-military-action-kharkiv/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Spectacular photos show the northern lights around the world",
-        "url": "https://www.cbsnews.com/news/northern-lights-photos-around-the-world/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Cannes set to unfurl against backdrop of war, protests and films",
-        "url": "https://www.cbsnews.com/news/combustible-cannes-set-unfurl-furiosa-megalopolis-metoo-reckoning/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Michael Cohen, key witness against Trump, testifies about \"hush money\" payments",
-        "url": "https://www.cbsnews.com/live-updates/michael-cohen-trump-trial-testimony/",
+        "title": "Transcript: Sen. Chris Van Hollen on \"Face the Nation,\" May 12, 2024",
+        "url": "https://www.cbsnews.com/news/chris-van-hollen-senator-democrat-maryland-face-the-nation-transcript-05-12-2024/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
@@ -114,14 +72,14 @@
         "link select": "article.item a"
     },
     {
-        "title": "FDA said it \"never\" inspected dental lab that made controversial AGGA device",
-        "url": "https://www.cbsnews.com/news/fda-johns-dental-agga-inspection/",
+        "title": "Hundreds of thousands forced to flee again as Israel pushes into Rafah",
+        "url": "https://www.cbsnews.com/news/israel-hamas-war-rafah-gaza-offensive-netanyahu-under-us-pressure/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "Missouri man who crashed U-Haul into White House security barrier pleads guilty",
-        "url": "https://www.cbsnews.com/news/missouri-man-sai-kandula-crashed-u-haul-white-house-security-barrier-pleads-guilty/",
+        "title": "FDA said it \"never\" inspected dental lab that made controversial AGGA device",
+        "url": "https://www.cbsnews.com/news/fda-johns-dental-agga-inspection/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
@@ -168,18 +126,6 @@
         "link select": "article.item a"
     },
     {
-        "title": "Harris drops \"F-bomb\" while encouraging Asian Americans to break barriers",
-        "url": "https://www.cbsnews.com/news/kamala-harris-f-bomb-asian-americans-jimmy-o-yang/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Gov. Kristi Noem banned from nearly 20% of South Dakota after tribes vote",
-        "url": "https://www.cbsnews.com/news/gov-kristi-noem-banned-south-dakota-tribes-now-banned-nearly-20-percent-state/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
         "title": "Influencers promote raw milk despite warnings as bird flu raises risk",
         "url": "https://www.cbsnews.com/news/bird-flu-raw-milk-influencers-fda-warning/",
         "title select": "article.item a h4",
@@ -200,6 +146,30 @@
     {
         "title": "Anti-abortion rights groups push abortion \"reversal.\" States say that's fraud.",
         "url": "https://www.cbsnews.com/news/abortion-pill-reversal-lawsuit-fraud-new-york-california/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Legendary treasure belonging to 18th-century conman discovered",
+        "url": "https://www.cbsnews.com/news/legendary-treasure-conman-healing-powers-poland-officials/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Harry and Meghan wrap up a very royal looking tour of Nigeria",
+        "url": "https://www.cbsnews.com/news/prince-harry-meghan-nigeria-tour-warm-welcome-invictus-games/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "Screaming leads workers to tiger footprints, victim's body",
+        "url": "https://www.cbsnews.com/news/sumatran-tiger-attack-man-dies-search-critically-endangered-cat/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "2 Americans among 20 arrested at protest over nation of Georgia's future",
+        "url": "https://www.cbsnews.com/news/georgia-protests-americans-arrested-eu-russia-foreign-agents-law/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
@@ -296,6 +266,12 @@
     {
         "title": "Assistant school principal among 4 arrested in cold case triple murder",
         "url": "https://www.cbsnews.com/news/cold-case-triple-murder-mystery-georgia-alabama-assistant-school-principal-arrested/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
+        "title": "More geomagnetic storms likely to continue today",
+        "url": "https://www.cbsnews.com/news/more-geomagnetic-storms-remain-likely-monday-sun-continues-erupt-x-class-flares/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },

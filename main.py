@@ -171,8 +171,8 @@ async def parallel_one_news_source(newsSource):
 def scrape_urls_one_category_given_news_source():
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CNBCNews"])
-        result = scraper.fetch_article_urls_one_category("/business")
+        scraper = load_scraper(config["CBSSportsNews"])
+        result = scraper.fetch_article_urls_one_category("/")
         #print(article_data)
         
         try:
@@ -183,10 +183,10 @@ def scrape_urls_one_category_given_news_source():
 
 
 async def scrape_article_given_url():
-    article_url = 'https://www.nbcnews.com/news/michael-cohen-trump-trial-caitlin-clark-indiana-fever-morning-rundown-rcna152110'
+    article_url = 'https://www.cbssports.com/golf/news/2024-pga-championship-picks-odds-field-surprising-predictions-from-golf-model-that-nailed-11-majors/'
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["NBCNews"])
+        scraper = load_scraper(config["CBSSportsNews"])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 
