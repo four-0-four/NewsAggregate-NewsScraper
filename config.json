@@ -103,7 +103,7 @@
             "/healthwatch": -1,
             "/": -1
         },
-        "urls_blacklist": ["/video/","/pictures/"],
+        "urls_blacklist": ["/video/","/pictures/","/live-updates/"],
         "NOTES": ""
     },
     "CNBCNews": {
@@ -163,6 +163,41 @@
             "/tech-guide": -1
         },
         "urls_blacklist": ["/video/","live-updates"],
+        "NOTES": ""
+    },
+        "CBSSportsNews": {
+        "corporation_id": 1,
+        "corporation_name": "CBSSportsNews",
+        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/cbssports.jpg",
+        "class": "CBSSportsNewsScraper",
+        "module": "_cbs_sports",
+        "base_url": "https://www.cbssports.com",
+        "category_path": {
+            "/fantasy": 0,
+            "/nfl": 3,
+            "/mlb": -1,
+            "/nba": -1,
+            "/golf": -1,
+            "/nhl": -1,
+            "/college-football":4, 
+            "/womens-college-basketball": 5,
+            "/soccer": 5,
+            "/motor-sports": -1,
+            "/olympics": -1,
+            "/wnba": -1,
+            "/college-basketball": -1,
+            "/mma": -1,
+            "/wwe": -1,
+            "/nascar": -1,
+            "/ufl": -1,
+            "/big3": -1,
+            "/high-school": -1,
+            "/wsop": -1,
+            "/promotions": -1,
+            "/essentials": -1,
+            "/": -1
+        },
+        "urls_blacklist": ["/video/","/pictures/","/live-updates/"],
         "NOTES": ""
     }
 }
