@@ -55,8 +55,12 @@ jobs:
           username: sina
           password: dop_v1_9154f42d658214290717b926fe8e188c96f69b5357d435fd7f6e34bca8d8f894
 
+      - name: Verify local Docker images
+        run: docker images
+
       - name: Push Docker image
         run: |
+          docker tag registry.digitalocean.com/farabix/newsfetcher:latest
           docker push registry.digitalocean.com/farabix/newsfetcher:latest
 
   deploy-to-vps:
