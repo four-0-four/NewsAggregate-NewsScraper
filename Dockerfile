@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.11
+FROM python:3.12-bookworm
 
 # Set environment variables to prevent Python from writing .pyc files
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -12,22 +12,11 @@ WORKDIR /usr/src/app
 # Copy the current directory contents into the container at /usr/src/app
 COPY . .
 
-# Install system dependencies
-RUN apt-get update && \
-    apt-get install -y \
-    libicu66 \
-    libevent-2.1-7 \
-    libjpeg8 \
-    libenchant-2-2 \
-    libsecret-1-0 \
-    libffi7 \
-    libgles2 || apt-get install -y libicu-dev
+RUN pip install playwright==@1.43.0 && \
+    playwright install --with-deps
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-
-# Install Playwright browsers
-RUN playwright install
 
 # Expose port 8000 to the world outside this container
 EXPOSE 8000
