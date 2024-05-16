@@ -1,0 +1,9 @@
+#build docker image
+docker build -t newsfetcher .
+
+#tag the docker image
+docker tag newsfetcher registry.digitalocean.com/farabix/newsfetcher:latest
+
+
+#push the docker image
+docker push registry.digitalocean.com/farabix/newsfetcher:latest
