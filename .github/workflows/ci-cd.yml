@@ -60,7 +60,6 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker tag newsfetcher registry.digitalocean.com/farabix/newsfetcher:latest
           docker push registry.digitalocean.com/farabix/newsfetcher:latest
 
   deploy-to-vps:
