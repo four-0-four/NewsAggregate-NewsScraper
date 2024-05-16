@@ -59,11 +59,11 @@ jobs:
 
     steps:
       - name: Deploy to VPS
-        uses: appleboy/ssh-action@v0.1.8
+        uses: appleboy/ssh-action@master
         with:
           host: 165.232.143.110
           username: root
-          key: 5!1!n!@!Tofighi
+          password: 5!1!n!@!Tofighi
           script: |
             docker pull registry.digitalocean.com/farabix/newsfetcher:latest
             docker stop newsfetcher || true
