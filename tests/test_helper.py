@@ -29,8 +29,8 @@ def helper_test_article(scraper, article_url, expected, path_html):
         
         # Run the scrape_article method
         result = scraper.scrape_article(article_url)
-        #with open('articles_article_test.json', 'w') as outfile:
-        #        json.dump(result, outfile, indent=4, default=datetime_converter)
+#        with open('articles_article_test.json', 'w') as outfile:
+#                json.dump(result, outfile, indent=4, default=datetime_converter)
         
         # Assert to check if the actual result matches the expected result
         assert result == expected, f"Expected {expected}, but got {result}"
@@ -48,8 +48,8 @@ def helper_test_category_url_scraper(scraper, category_path, expected, path_html
         # Run the scrape_article method
         result = scraper.fetch_article_urls_one_category(category_path)
         category_path = category_path.replace("/","")
-        #with open(f'articles_cbs_test.json', 'w') as outfile:
-        #        json.dump(result, outfile, indent=4, default=datetime_converter)
+#        with open(f'articles_cbssports_test.json', 'w') as outfile:
+#                json.dump(result, outfile, indent=4, default=datetime_converter)
         
         # Assert to check if the actual result matches the expected result
         assert result == expected, f"Expected {expected}, but got {result}"

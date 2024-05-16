@@ -1,16 +1,18 @@
 from datetime import datetime
 from scraper.news_scraper import NewsScraper
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 
 class CBSSportsNewsScraper(NewsScraper):
     def __init__(self, base_url, urls_blacklist):
         
         #(css_to_url, css_to_title)
         article_url_css_selector = [
-            ('main.highlander-page-container a', 'main.highlander-page-container a h3'), #h1, h2
-            ('div.container a', 'div.container h3'),
-            ('div.container a', 'div.container h5'),
+            [('main.highlander-page-container a', f'main.highlander-page-container a h{i}') for i in range(1, 4)],
+            [('div.container a', f'div.container h{i}') for i in [3, 5]],
+            #('main.highlander-page-container a', 'main.highlander-page-container a h1'),
+            #('main.highlander-page-container a', 'main.highlander-page-container a h2'),
+            #('main.highlander-page-container a', 'main.highlander-page-container a h3'),
+            #('div.container a', 'div.container h3'),
+            #('div.container a', 'div.container h5'),   
         ]
         
         title_selector = ('h1',['Article-headline'])
@@ -24,7 +26,8 @@ class CBSSportsNewsScraper(NewsScraper):
     def scrape_date(self, soup):
         datetime_value = soup.find('time')['datetime']
         return datetime_value
-
+    
+    # Get the image
     def scrape_image(self, soup):
         figure_tag = soup.find('img', class_='Article-featuredImageImg is-lazy-image')
         if figure_tag:

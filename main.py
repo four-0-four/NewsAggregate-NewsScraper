@@ -183,7 +183,7 @@ def scrape_urls_one_category_given_news_source():
 
 
 async def scrape_article_given_url():
-    article_url = 'https://www.cbssports.com/tennis/news/2024-australian-open-odds-props-mens-final-prediction-sinner-vs-medvedev-picks-from-tennis-expert/'
+    article_url = None
     with open('config.json') as file:
         config = json.load(file)
         scraper = load_scraper(config["CBSSportsNews"])
