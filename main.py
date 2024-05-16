@@ -168,10 +168,10 @@ async def parallel_one_news_source(newsSource):
         details = config[source]
         await scrape_source_given_details(source, details)
  
-def scrape_urls_one_category_given_news_source():
+def scrape_urls_one_category_given_news_source(news_source):
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CBSSportsNews"])
+        scraper = load_scraper(config[news_source])
         result = scraper.fetch_article_urls_one_category("/")
         #print(article_data)
         
@@ -182,11 +182,10 @@ def scrape_urls_one_category_given_news_source():
             print(f"Error writing JSON: {e}")
 
 
-async def scrape_article_given_url():
-    article_url = 'https://www.cbssports.com/golf/news/2024-pga-championship-picks-odds-field-surprising-predictions-from-golf-model-that-nailed-11-majors/'
+async def scrape_article_given_url(news_source, article_url):
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CBSSportsNews"])
+        scraper = load_scraper(config[news_source])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 
@@ -194,6 +193,6 @@ if __name__ == '__main__':
     asyncio.run(parallel_main())
     
     
-    #asyncio.run(parallel_one_news_source("CNBCNews"))
+    #asyncio.run(parallel_one_news_source())
     #asyncio.run(scrape_article_given_url())
     #scrape_urls_one_category_given_news_source()
