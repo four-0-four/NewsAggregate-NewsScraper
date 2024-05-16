@@ -40,7 +40,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t registry.digitalocean.com/farabix/newsfetcher:latest .
+          docker build -t newsfetcher .
 
   upload-image:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -60,7 +60,7 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker tag registry.digitalocean.com/farabix/newsfetcher:latest
+          docker tag newsfetcher registry.digitalocean.com/farabix/newsfetcher:latest
           docker push registry.digitalocean.com/farabix/newsfetcher:latest
 
   deploy-to-vps:
