@@ -724,12 +724,109 @@
         "documentation": {}
     },
     {
-        "label": "os",
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBasic",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBasicCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "parallel_main",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "parallel_one_news_source",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_article_given_url",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_urls_one_category_given_news_source",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -746,6 +843,15 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -1345,6 +1451,51 @@
         "documentation": {}
     },
     {
+        "label": "authenticate",
+        "kind": 2,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "def authenticate(credentials: Annotated[HTTPBasicCredentials, Depends(security)]):\n    correct_username = \"newsfetcher\"\n    correct_password = \"s1i1n1a1\"\n    if credentials.username != correct_username or credentials.password != correct_password:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Basic\"},\n        )\n@app.post(\"/scrape/all\")",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_category",
+        "kind": 2,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "def scrape_category(news_source: str, credentials: Annotated[HTTPBasicCredentials, Depends(authenticate)]):\n    try:\n        scrape_urls_one_category_given_news_source(news_source)\n        return {\"message\": f\"Scraping one category for source {news_source} completed successfully\"}\n    except Exception as e:\n        raise HTTPException(status_code=500, detail=str(e))\n@app.post(\"/run-tests\")\ndef run_tests(credentials: Annotated[HTTPBasicCredentials, Depends(authenticate)]):\n    try:\n        result = subprocess.run([\"pytest\"], capture_output=True, text=True)",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "run_tests",
+        "kind": 2,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "def run_tests(credentials: Annotated[HTTPBasicCredentials, Depends(authenticate)]):\n    try:\n        result = subprocess.run([\"pytest\"], capture_output=True, text=True)\n        return {\n            \"returncode\": result.returncode,\n            \"stdout\": result.stdout,\n            \"stderr\": result.stderr\n        }\n    except Exception as e:\n        raise HTTPException(status_code=500, detail=str(e))",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "app = FastAPI()\nsecurity = HTTPBasic()\ndef authenticate(credentials: Annotated[HTTPBasicCredentials, Depends(security)]):\n    correct_username = \"newsfetcher\"\n    correct_password = \"s1i1n1a1\"\n    if credentials.username != correct_username or credentials.password != correct_password:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Basic\"},",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "security = HTTPBasic()\ndef authenticate(credentials: Annotated[HTTPBasicCredentials, Depends(security)]):\n    correct_username = \"newsfetcher\"\n    correct_password = \"s1i1n1a1\"\n    if credentials.username != correct_username or credentials.password != correct_password:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Basic\"},\n        )",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
         "label": "load_scraper",
         "kind": 2,
         "importPath": "main",
@@ -1376,7 +1527,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def scrape_urls_one_category_given_news_source():\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[\"CBSSportsNews\"])\n        result = scraper.fetch_article_urls_one_category(\"/\")\n        #print(article_data)\n        try:\n            with open('articles.json', 'w') as outfile:\n                json.dump(result, outfile, indent=4, default=datetime_converter)\n        except TypeError as e:",
+        "peekOfCode": "def scrape_urls_one_category_given_news_source(news_source):\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[news_source])\n        result = scraper.fetch_article_urls_one_category(\"/\")\n        #print(article_data)\n        try:\n            with open('articles.json', 'w') as outfile:\n                json.dump(result, outfile, indent=4, default=datetime_converter)\n        except TypeError as e:",
         "detail": "main",
         "documentation": {}
     },
