@@ -115,17 +115,17 @@ class NewsScraper:
         #soup = BeautifulSoup(custom_html, 'html.parser')
         
         title = self.scrape_title(soup)
-        #print("Title:", title)
+        print("Title:", title)
         date = self.scrape_date(soup)
-        #print("Date:", date)
+        print("Date:", date)
         content = self.scrape_description(soup)
-        #print("Content:", content)
+        print("Content:", content)
         
         if not title or not date or not content or len(content) < 100:
             return None
         
         image_url = self.scrape_image(soup)
-        #print("Image:", image_url)
+        print("Image:", image_url)
 
         return {"title": title, "date": date, "content": content, "image_url": image_url, "url": article_url}
 
@@ -157,7 +157,7 @@ class NewsScraper:
     
     def scrape_image(self, soup):
         #getting the image of the article
-        image_url = None
+        image_url = 'https://www.cbssports.com/tennis/news/2024-australian-open-odds-props-mens-final-prediction-sinner-vs-medvedev-picks-from-tennis-expert/'
         for image_class in self.image_selector[1]:
             image_tags = soup.find_all(self.image_selector[0], class_=image_class)
             for image_tag in image_tags:
