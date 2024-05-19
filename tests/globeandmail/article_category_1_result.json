@@ -1,0 +1,248 @@
+[
+    {
+        "title": "Air strike kills 27 in central Gaza and fighting rages as Israel\u2019s leaders air wartime divisions",
+        "url": "https://www.theglobeandmail.com/world/article-an-airstrike-kills-20-in-central-gaza-and-fighting-rages-as-israels/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Two dead, five missing after boat collision on Danube in Hungary",
+        "url": "https://www.theglobeandmail.com/world/article-two-dead-five-missing-after-boat-collision-on-danube-in-hungary/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Who is Ebrahim Raisi, Iran\u2019s president whose helicopter crashed in foggy weather?",
+        "url": "https://www.theglobeandmail.com/world/article-who-is-ebrahim-raisi-irans-president-whose-helicopter-crashed-in-foggy/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Slovak PM Fico out of danger but his condition remains serious, deputy says",
+        "url": "https://www.theglobeandmail.com/world/article-slovak-pm-fico-out-of-danger-but-his-condition-remains-serious-deputy/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Congolese army says it foiled a coup, as DRC opposition leader threatens president",
+        "url": "https://www.theglobeandmail.com/world/article-congolese-army-says-it-foiled-a-coup-as-drc-opposition-leader/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Eruption of Indonesia\u2019s Mount Ibu forces seven villages to evacuate",
+        "url": "https://www.theglobeandmail.com/world/article-eruption-of-indonesias-mount-ibu-forces-seven-villages-to-evacuate/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "From Trump deserters to ex-Democrats, RFK Jr. supporters are hungry for change2 hours ago",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-from-trump-deserters-to-ex-democrats-rfk-jr-supporters-are-hungry-for/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Hundreds of Tunisian president\u2019s supporters protest against \u2018foreign interference\u20192 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-hundreds-of-tunisian-presidents-supporters-protest-against-foreign/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Taiwan\u2019s new president inherits a strong foreign policy position but political gridlock at home2 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-taiwans-new-president-inherits-a-strong-foreign-policy-position-but/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Helicopter carrying Iran\u2019s president and foreign minister crashes in mountains, official says2 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-helicopter-carrying-irans-president-suffers-a-hard-landing-state-tv/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "What we\u2019ve learned so far in the Trump hush money trial and what to watch for as it ends3 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-what-weve-learned-so-far-in-the-trump-hush-money-trial-and-what-to/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "WikiLeaks founder Julian Assange faces U.S. extradition judgment day3 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-wikileaks-founder-julian-assange-faces-us-extradition-judgment-day/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "French security forces work to regain control of airport highway in violence-scorched New Caledonia3 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-french-security-forces-work-to-regain-control-of-airport-highway-in/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Dominicans vote in general elections with eyes on crisis in neighboring Haiti4 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-dominicans-vote-in-general-elections-with-eyes-on-crisis-in/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "At least 11 killed as Russia presses forward with its offensive in northeastern Ukraine4 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-ukraine-and-russia-exchange-drone-attacks-while-russia-continues-its/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Dive team finds bodies of 2 men dead inside plane found upside down in Alaska lake15 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-dive-team-finds-bodies-of-2-men-dead-inside-plane-found-upside-down-in/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Trump receives NRA endorsement as he vows to protect gun rights16 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-trump-receives-nra-endorsement-as-he-vows-to-protect-gun-rights/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "706 people named Kyle got together in Kyle, Texas. It wasn\u2019t enough for a world record16 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-706-people-named-kyle-got-together-in-kyle-texas-it-wasnt-enough-for-a/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Ukraine's divisive mobilization law comes into force as a new Russian push strains front-line troops17 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-ukraines-divisive-mobilization-law-comes-into-force-as-a-new-russian/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Irish business tycoon and rugby record breaker Tony O\u2019Reilly dies at 8818 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-irish-business-tycoon-and-rugby-record-breaker-tony-oreilly-dies-at-88/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Giuliani becomes final defendant served indictment among 18 accused in Arizona fake electors case20 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-giuliani-becomes-final-defendant-served-indictment-among-17-accused-in/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "As ethnic armed group claims to have captured a town in western Myanmar, Muslim Rohingyas flee again20 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-as-ethnic-armed-group-claims-to-have-captured-a-town-in-western/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Six University of Pennsylvania students among 19 pro-Palestinian protesters arrested during attempt to occupy school building20 hours ago",
+        "url": "https://www.theglobeandmail.com/world/article-six-university-of-pennsylvania-students-among-19-pro-palestinian/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Member of Israel\u2019s War Cabinet says he\u2019ll quit the government June 8 unless there\u2019s a new war planYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-member-of-israels-war-cabinet-says-hell-quit-the-government-june-8/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Flash floods due to unusually heavy seasonal rains kill at least 68 people in AfghanistanYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-flash-floods-due-to-unusually-heavy-seasonal-rains-kill-at-least-68/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Israel pushes into new parts of northern Gaza, recovers another slain hostageYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-dozens-killed-and-wounded-as-israeli-forces-thrust-deeper-in-gazas/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Ukraine struggles to hold eastern front as Russians advance on citiesYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-ukraine-struggles-to-hold-eastern-front-as-russians-advance-on-cities/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "France reports a sixth fatality amid violent unrest in South Pacific territory of New CaledoniaYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-frances-reports-a-sixth-fatality-amid-violent-unrest-in-south-pacific/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Slovak Prime Minister Robert Fico stable in hospital as shooting suspect ordered to remain behind barsYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-slovak-prime-minister-robert-fico-is-stable-in-hospital-as-shooting/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Too tough on homeless? Top U.S. court to ruleYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-too-tough-on-homeless-top-us-court-to-rule/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "After decisive loss at Alabama Mercedes plants, powerful auto union vows to return and winYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-after-decisive-loss-at-alabama-mercedes-plants-powerful-auto-union/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Boeing Starliner\u2019s debut crewed flight delayed again to check helium leakYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-boeing-starliners-debut-crewed-flight-delayed-again-to-check-helium/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Trump campaigns in Minnesota, predicting he will win the traditionally Democratic state in NovemberYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-trump-campaigns-in-minnesota-predicting-he-will-win-the-traditionally/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Incoming Taiwan president Lai to pledge steady approach to relationship with ChinaYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-incoming-taiwan-president-lai-to-pledge-steady-approach-to/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "An unusual autumn freeze grips parts of South America, giving Chile its coldest May in 74 yearsYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-an-unusual-autumn-freeze-grips-parts-of-south-america-giving-chile-its/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "As Japan\u2019s yakuza weakens, police focus shifts to unorganized crime hired via social mediaYesterday",
+        "url": "https://www.theglobeandmail.com/world/article-as-japans-yakuza-weakens-police-focus-shifts-to-unorganized-crime/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "driving concernsCan I get a ticket just because my phone is in the cupholder?",
+        "url": "https://www.theglobeandmail.com/drive/culture/article-can-i-get-a-ticket-just-because-my-phone-is-in-the-cupholder/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Out with a bang: The long weekend tradition of fireworks could be coming to an end",
+        "url": "https://www.theglobeandmail.com/canada/article-fireworks-canada-ban-long-weekend/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Richard Gere on avoiding conscription, activism and why \u2018Oh Canada\u2019 was not shot in Canada",
+        "url": "https://www.theglobeandmail.com/arts/article-richard-gere-on-avoiding-conscription-activism-and-why-oh-canada-was/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Hidden Canada 2024: Ten corners of the country to explore this summer",
+        "url": "https://www.theglobeandmail.com/life/travel/article-canada-travel-destinations-places-locations-2024/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Things are changing in cottage country: Nine Canadians share the financial pros and cons of ownership",
+        "url": "https://www.theglobeandmail.com/business/article-canada-cottage-ownership-finances/",
+        "title select": "div.c-card__hed h3",
+        "link select": "div.c-card a"
+    }
+]

@@ -7,11 +7,13 @@ class GlobeandMailScraper(NewsScraper):
         
         #(css_to_url, css_to_title)
         article_url_css_selector = [
-            ('div.LayoutTopPackageCard a', 'div.LayoutTopPackageCard p'), 
-            #('div.Container__StyledContainer a', 'div.Container__StyledContainer h3', 'div.Container__StyledContainer h4'),
-            ('div.marketing-container-driver__content>a', 'div.marketing-container-driver__content>h2'),
-            ('div.c-card a', 'div.c-card h3'),
-            [('div.Container__StyledContainer a', f'div.Container__StyledContainer h{i}') for i in [3, 4]],
+            ('div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a', 'div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p'), 
+            ('div.Container__StyledContainer-sc-15gjlsr-0 a', 'div.Container__StyledContainer-sc-15gjlsr-0 h2'),
+            ('div.Container__StyledContainer-sc-15gjlsr-0 a', 'div.Container__StyledContainer-sc-15gjlsr-0 h3'), 
+            ('div.Container__StyledContainer-sc-15gjlsr-0 a', 'div.Container__StyledContainer-sc-15gjlsr-0 h4'),
+            ('div.marketing-container-driver a', 'div.marketing-container-driver h2'),
+            ('div.c-card a', 'div.c-card__hed h3'),
+            #[('div.Container__StyledContainer-sc-15gjlsr-0 a', f'div.Container__StyledContainer-sc-15gjlsr-0 h{i}') for i in [2, 4]],
         ]
     
         title_selector = ('h1',['c-primary-title'])
