@@ -112,11 +112,11 @@ async def scrape_source_given_details(source, details):
 
         print(f"scraping results: scraped-{number_of_articles_scraped} existed-{existed_in_db} total-{total_number_of_links}")
         # Create a list to hold all tasks
-        try:
-            with open('articles.json', 'w') as outfile:
-                json.dump(articles_categorized, outfile, indent=4, default=datetime_converter)
-        except TypeError as e:
-            print(f"Error writing JSON: {e}")
+        #try:
+        #    with open('articles.json', 'w') as outfile:
+        #        json.dump(articles_categorized, outfile, indent=4, default=datetime_converter)
+        #except TypeError as e:
+        #    print(f"Error writing JSON: {e}")
             
         tasks = []
         for article in articles_categorized[category]:
