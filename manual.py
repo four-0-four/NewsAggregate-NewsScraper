@@ -27,9 +27,11 @@ def main():
     elif args.command == "parallel_one_news_source":
         asyncio.run(parallel_one_news_source(args.newsSource))
     elif args.command == "scrape_urls_one_category_given_news_source":
-        scrape_urls_one_category_given_news_source(args.newsSource)
+        result = scrape_urls_one_category_given_news_source(args.newsSource)
+        print(result)
     elif args.command == "scrape_article_given_url":
-        asyncio.run(scrape_article_given_url(args.newsSource, args.articleURL))
+        result = asyncio.run(scrape_article_given_url(args.newsSource, args.articleURL))
+        print(result)
 
 if __name__ == "__main__":
     main()
