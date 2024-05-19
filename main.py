@@ -171,7 +171,7 @@ async def parallel_one_news_source(newsSource):
 def scrape_urls_one_category_given_news_source():
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CBSSportsNews"])
+        scraper = load_scraper(config["GlobeandMail"])
         result = scraper.fetch_article_urls_one_category("/")
         #print(article_data)
         
@@ -186,7 +186,7 @@ async def scrape_article_given_url():
     article_url = None
     with open('config.json') as file:
         config = json.load(file)
-        scraper = load_scraper(config["CBSSportsNews"])
+        scraper = load_scraper(config["GlobeandMail"])
         article_data = scraper.scrape_article(article_url)
         print(article_data)
 

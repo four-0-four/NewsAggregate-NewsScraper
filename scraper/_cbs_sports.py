@@ -1,4 +1,3 @@
-from datetime import datetime
 from scraper.news_scraper import NewsScraper
 
 class CBSSportsNewsScraper(NewsScraper):

@@ -134,7 +134,7 @@
             "/industrials": -1,
             "/retail": -1,
             "/wealth": 1,
-            "/sports": -1,
+            "/sports": 7,
             "/life": -1,
             "/small-business": 1,
             "/investing": 1,
@@ -173,7 +173,7 @@
         "module": "_cbs_sports",
         "base_url": "https://www.cbssports.com",
         "category_path": {
-            "/fantasy": -1,
+            "/fantasy": 3,
             "/nfl": 7,
             "/mlb": 7,
             "/nba": 7,
@@ -200,6 +200,31 @@
             "/": -1
         },
         "urls_blacklist": ["/video/","/pictures/","/live-updates/"],
+        "NOTES": ""
+    },
+        "GlobeandMail": {
+        "corporation_id": 0,
+        "corporation_name": "GlobeandMail",
+        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/",
+        "class": "GlobeandMailScraper",
+        "module": "_globeandmail",
+        "base_url": "https://www.theglobeandmail.com",
+        "category_path": {
+            "/canada": -1,
+            "/world": -1,
+            "/business": 1,
+            "/investing": -1,
+            "/investing/personal-finance": -1,
+            "/opinion": 7,
+            "/politics": 0, 
+            "/sports": 7,
+            "/life": -1,
+            "/arts": -1,
+            "/drive": -1,
+            "/real-estate": -1,
+            "/": -1
+        },
+        "urls_blacklist": [""],
         "NOTES": ""
     }
 }
