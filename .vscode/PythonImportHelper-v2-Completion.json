@@ -822,6 +822,38 @@
         "documentation": {}
     },
     {
+        "label": "parallel_main",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "parallel_one_news_source",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_article_given_url",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_urls_one_category_given_news_source",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
         "label": "Annotated",
         "importPath": "typing",
         "description": "typing",
@@ -1527,7 +1559,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def scrape_urls_one_category_given_news_source(news_source):\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[news_source])\n        result = scraper.fetch_article_urls_one_category(\"/\")\n        #print(article_data)\n        try:\n            with open('articles.json', 'w') as outfile:\n                json.dump(result, outfile, indent=4, default=datetime_converter)\n        except TypeError as e:",
+        "peekOfCode": "def scrape_urls_one_category_given_news_source(news_source, write_to_file=False):\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[news_source])\n        result = scraper.fetch_article_urls_one_category(\"/\")\n        #print(article_data)\n        if write_to_file:\n            try:\n                with open('articles.json', 'w') as outfile:\n                    json.dump(result, outfile, indent=4, default=datetime_converter)",
         "detail": "main",
         "documentation": {}
     },
@@ -1574,6 +1606,15 @@
         "description": "main",
         "peekOfCode": "num_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None\n    article_data = scraper.scrape_article(url)",
         "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manual",
+        "description": "manual",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Run scraping functions with provided arguments.\")\n    subparsers = parser.add_subparsers(dest=\"command\", required=True)\n    subparsers.add_parser(\"parallel_main\", help=\"Run the parallel main function to scrape all sources.\")\n    parser_one_news = subparsers.add_parser(\"parallel_one_news_source\", help=\"Scrape a single news source.\")\n    parser_one_news.add_argument(\"newsSource\", help=\"The news source to scrape.\")\n    parser_one_category = subparsers.add_parser(\"scrape_urls_one_category_given_news_source\", help=\"Scrape URLs of one category given a news source.\")\n    parser_one_category.add_argument(\"newsSource\", help=\"The news source to scrape.\")\n    parser_article_url = subparsers.add_parser(\"scrape_article_given_url\", help=\"Scrape an article given its URL.\")\n    parser_article_url.add_argument(\"newsSource\", help=\"The news source of the article.\")",
+        "detail": "manual",
         "documentation": {}
     }
 ]

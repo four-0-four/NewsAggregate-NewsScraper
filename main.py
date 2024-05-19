@@ -158,7 +158,7 @@ async def parallel_main():
         config = json.load(file)
         for source, details in config.items():
             await scrape_source_given_details(source, details)
-            
+        print("All scraping done.")
     
  
 async def parallel_one_news_source(newsSource):
@@ -167,19 +167,23 @@ async def parallel_one_news_source(newsSource):
         source = newsSource
         details = config[source]
         await scrape_source_given_details(source, details)
+        print(f"Scraping {source} done.")
  
-def scrape_urls_one_category_given_news_source(news_source):
+def scrape_urls_one_category_given_news_source(news_source, write_to_file=False):
     with open('config.json') as file:
         config = json.load(file)
         scraper = load_scraper(config[news_source])
         result = scraper.fetch_article_urls_one_category("/")
         #print(article_data)
         
-        try:
-            with open('articles.json', 'w') as outfile:
-                json.dump(result, outfile, indent=4, default=datetime_converter)
-        except TypeError as e:
-            print(f"Error writing JSON: {e}")
+        if write_to_file:
+            try:
+                with open('articles.json', 'w') as outfile:
+                    json.dump(result, outfile, indent=4, default=datetime_converter)
+            except TypeError as e:
+                print(f"Error writing JSON: {e}")
+                
+        return result
 
 
 async def scrape_article_given_url(news_source, article_url):
@@ -187,7 +191,7 @@ async def scrape_article_given_url(news_source, article_url):
         config = json.load(file)
         scraper = load_scraper(config[news_source])
         article_data = scraper.scrape_article(article_url)
-        print(article_data)
+        return article_data
 
 if __name__ == '__main__':
     asyncio.run(parallel_main())

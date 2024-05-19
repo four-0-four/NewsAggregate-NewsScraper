@@ -1,0 +1,8 @@
+# Log in to Docker Hub
+docker login
+
+# Tag the Docker image
+docker tag newsfetcher galaxy404/newsfetcher:latest
+
+# Push the Docker image to Docker Hub
+docker push galaxy404/newsfetcher:latest
