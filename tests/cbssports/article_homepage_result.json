@@ -2,319 +2,259 @@
     {
         "title": "TakeawaysLuka leads Mavericks to Game 5 victoryLuka Doncic decided to 'focus on basketball' as he led Dallas to a 104-92 win over Oklahoma City and a 3-2 series lead.",
         "url": "https://www.cbssports.com/nba/news/mavericks-vs-thunder-score-luka-doncic-stops-complaining-puts-on-a-smile-and-carries-dallas-to-game-5-win/live/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "div.article-list-marquee-item a h1",
+        "link select": "div.article-list-marquee-item a"
     },
     {
         "title": "Kyle PorterOne of these will win PGA Championship",
         "url": "https://www.cbssports.com/golf/news/2024-pga-championship-predictions-picks-favorites-one-of-these-nine-golfers-will-win-at-valhalla/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "NFL's Thanksgiving Day tripleheader revealednfl",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-thanksgiving-schedule-teams-kickoff-times-where-to-watch-tv-streaming-for-holiday-tripleheader/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "NFL team-by-team season schedules: Dates, times, TVnfl",
-        "url": "https://www.cbssports.com/nfl/news/nfl-2024-team-by-team-schedules-dates-times-tv-for-the-entire-season-for-all-32-franchises/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Trae Young trade rumors: Spurs have 'little interest'nba",
-        "url": "https://www.cbssports.com/nba/news/trae-young-trade-rumors-spurs-have-little-interest-in-acquiring-hawks-star/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "What's next for Cavaliers, Mitchell after playoff exit?nba",
-        "url": "https://www.cbssports.com/nba/news/donovan-mitchells-cavaliers-tenure-could-end-soon-but-cleveland-must-embrace-the-lesson-of-his-acquisition/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Eagles-Cowboys showdown highlights CBS gamesnfl",
-        "url": "https://www.cbssports.com/nfl/news/nfl-schedule-2024-complete-list-of-games-broadcast-on-cbs-including-eagles-cowboys-showdown-in-week-10/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "PGA tee times: Tiger among early starters in first roundgolf",
-        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-tee-times-pairings-complete-schedule-on-tv-groups-in-round-1-on-thursday-at-valhalla/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "NFL Week 1 odds, picks: Rodgers keeps it closeThe NFL schedule was released Wednesday and Tyler Sullivan takes an early look at Week 1.",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-release-week-1-odds-picks-aaron-rodgers-jets-keep-it-close-vs-49ers-in-primetime/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "NBA combine takeaways: Bronny bounces back",
-        "url": "https://www.cbssports.com/nba/news/2024-nba-draft-combine-takeaways-bronny-james-bounces-back-as-lebron-watches-adem-bona-stars-in-scrimmages/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Schedule guru explains why certain teams are featured",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-leagues-2024-schedule-guru-explains-why-chiefs-texans-jets-are-featured-more/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "WATCH: Every NFL team's 2024 schedule release video",
-        "url": "https://www.cbssports.com/nfl/news/watch-2024-nfl-schedule-release-videos-for-all-32-teams-include-celebrities-spoofs-shots-at-opponents/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Netflix announces Adam Sandler to star in Happy Gilmore 2",
-        "url": "https://www.cbssports.com/golf/news/adam-sandler-to-reprise-role-as-happy-gilmore-nearly-30-years-later-as-netflix-confirms-sequel-in-works/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Aaron Judge matches Yankees record with 4 extra-base hits",
-        "url": "https://www.cbssports.com/mlb/news/aaron-judge-ties-yankees-single-game-franchise-record-with-big-night-vs-twins/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Report: Lakers get OK to talk to Cassell, other candidates",
-        "url": "https://www.cbssports.com/nba/news/lakers-coaching-search-l-a-gets-permission-to-interview-sam-cassell-micah-nori-and-others-per-report/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Angel Reese posts solid second half in Sky debutAfter slow start, Reese tallied 11 points and seven boards after halftime in loss to Wings.",
-        "url": "https://www.cbssports.com/wnba/news/angel-reese-shows-promising-second-half-for-chicago-sky-in-wnba-debut/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "PGA Championship picks from model that nailed 11 majors",
-        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-picks-odds-field-surprising-predictions-from-same-golf-model-that-nailed-11-majors/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Preakness picks from expert who nailed last year's superfecta",
-        "url": "https://www.cbssports.com/general/news/2024-preakness-stakes-horses-futures-odds-date-expert-who-hit-last-years-superfecta-lists-picks/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "PGA Championship Tiger Woods projection revealed",
-        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-odds-predictions-golf-picks-tiger-woods-projection-by-model-that-nailed-the-masters/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Preakness picks from insider who hit last 2 exactas",
-        "url": "https://www.cbssports.com/general/news/2024-preakness-stakes-predictions-horses-contenders-odds-expert-who-nailed-last-2-exactas-gives-out-picks/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Fantasy Football: Bills wide receiver corps after Marquez Valdez-Scantling signing, more",
-        "url": "https://www.cbssports.com/fantasy/football/news/fantasy-football-making-sense-of-the-bills-wide-receivers-after-they-signed-marquez-valdez-scantling/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "2024 NFL Draft Top 5 Fantasy Fits: Expectations for Jonathon Brooks, more",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-draft-top-5-fantasy-fits-expectations-for-jonathon-brooks-keon-colemans-role-with-the-bills-more/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Fantasy Football: #AskFFT Fan Mock Draft sees Amon-Ra St. Brown rise, more",
-        "url": "https://www.cbssports.com/fantasy/football/news/2024-fantasy-football-askfft-fan-mock-draft-sees-amon-ra-st-brown-and-derrick-henry-rise-while-qbs-tumble/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Fantasy Football: Dave's list includes seven busts, featuring De'Von Achane, more",
-        "url": "https://www.cbssports.com/fantasy/football/news/2024-fantasy-football-daves-list-includes-seven-busts-featuring-devon-achane-zay-flowers-and-more/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More fantasy",
-        "url": "https://www.cbssports.com/fantasy/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "2024 NFL preseason schedule",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-preseason-schedule-opponents-dates-times-matchups-for-entire-slate/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More nfl",
-        "url": "https://www.cbssports.com/nfl/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "UFC returns to Paris; Namajunas set for return",
-        "url": "https://www.cbssports.com/mma/news/ufc-news-rumors-ufc-returns-to-paris-rose-namajunas-reportedly-headlines-denver-card-vs-maycee-barber/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Updating UFC schedule for 2024",
-        "url": "https://www.cbssports.com/mma/news/2024-ufc-event-schedule-edson-barboza-vs-lerone-murphy-islam-makhachev-vs-dustin-poirier-on-tap/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Lewis KOs Nascimento, goes wild in celebration",
-        "url": "https://www.cbssports.com/mma/news/ufc-fight-night-results-highlights-derrick-lewis-celebrates-knockout-win-by-removing-shorts-mooning-crowd/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More mma",
-        "url": "https://www.cbssports.com/mma/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Despite ranking, top-10 coaches face pressure in 2024",
-        "url": "https://www.cbssports.com/college-football/news/dabo-swinney-lincoln-riley-ryan-day-among-top-25-college-football-coaches-facing-pressure-in-2024-season/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "2024 Colorado football news: CU Transfer Portal updates",
-        "url": "https://www.cbssports.com/college-football/news/colorado-football-recruiting-transfer-portal-news-2024-roster-recruits-best-deion-sanders-cfb-targets/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Huma leads fight for rights of college athletes",
-        "url": "https://www.cbssports.com/college-football/news/meet-ramogi-huma-whose-decades-long-crusade-for-fairness-in-college-athletics-is-finally-coming-to-fruition/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More college football",
-        "url": "https://www.cbssports.com/college-football/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Updated NBA playoff bracket: Results, schedule and more",
-        "url": "https://www.cbssports.com/nba/news/2024-nba-playoffs-bracket-schedule-scores-results-celtics-oust-cavs-advance-to-eastern-conference-finals/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More nba",
-        "url": "https://www.cbssports.com/nba/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Padres 'fully deserving' of boos after Rockies sweep",
-        "url": "https://www.cbssports.com/mlb/news/rockies-extend-mlbs-longest-active-winning-streak-while-padres-were-fully-deserving-of-boos-after-sweep/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Astros' Ronel Blanco suspended over sticky stuff",
-        "url": "https://www.cbssports.com/mlb/news/astros-pitcher-ronel-blanco-suspended-for-10-games-after-being-ejected-over-foreign-substance-check-vs-as/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More mlb",
-        "url": "https://www.cbssports.com/mlb/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "The best running shoes of 2024: Nike, Hoka, more",
-        "url": "https://www.cbssports.com/essentials/news/best-running-shoes/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Best NordicTrack deals from the Memorial Day Sale 2024",
-        "url": "https://www.cbssports.com/essentials/news/best-deals-on-nordictrack-exercise-machines/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "This bestselling weight bench is 44% off",
-        "url": "https://www.cbssports.com/essentials/news/bestselling-weight-bench-deal-flybird/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More essentials",
-        "url": "https://www.cbssports.com/essentials/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "2024 PGA Championship expert picks, predictions, odds",
-        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-picks-odds-expert-predictions-favorites-to-win-from-betting-field-at-valhalla/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Where to watch 2024 PGA Championship on Thursday",
-        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-live-stream-where-to-watch-tv-coverage-channel-tiger-woods-in-round-1-schedule/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More golf",
-        "url": "https://www.cbssports.com/golf/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "What to know about Almeria vs. Barca",
-        "url": "https://www.cbssports.com/soccer/news/how-to-watch-almeria-vs-barcelona-la-liga-live-stream-online-tv-channel-prediction-and-odds/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "What to know about the Championship playoff semifinals",
-        "url": "https://www.cbssports.com/soccer/news/championship-playoffs-live-stream-where-to-watch-leeds-vs-norwich-southampton-vs-west-brom-how-to-watch/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Real Madrid vs. BVB: Who has the advantage?",
-        "url": "https://www.cbssports.com/soccer/news/uefa-champions-league-final-who-has-the-advantage-out-of-real-madrid-and-borussia-dortmund/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "More soccer",
-        "url": "https://www.cbssports.com/soccer/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "See All Newsletters",
-        "url": "https://www.cbssports.com/newsletters/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "div.article-list-marquee-item a h1",
+        "link select": "div.article-list-marquee-item a"
     },
     {
         "title": "John BreechNFL releases complete schedule for 2024 seasonIf you're looking for all the 2024 NFL schedule insight and analysis, you've come to the right place.",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-thanksgiving-and-christmas-matchups-thursday-and-monday-primetime-games-analysis-and-more/live/",
-        "title select": "main.highlander-page-container a h2",
-        "link select": "main.highlander-page-container a"
+        "title select": "div.article-list-marquee-col a h2",
+        "link select": "div.article-list-marquee-col a"
+    },
+    {
+        "title": "NFL's Thanksgiving Day tripleheader revealed",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-thanksgiving-schedule-teams-kickoff-times-where-to-watch-tv-streaming-for-holiday-tripleheader/",
+        "title select": "li.article-list-stack-item a h3",
+        "link select": "li.article-list-stack-item a"
+    },
+    {
+        "title": "NFL team-by-team season schedules: Dates, times, TV",
+        "url": "https://www.cbssports.com/nfl/news/nfl-2024-team-by-team-schedules-dates-times-tv-for-the-entire-season-for-all-32-franchises/",
+        "title select": "li.article-list-stack-item a h3",
+        "link select": "li.article-list-stack-item a"
+    },
+    {
+        "title": "Trae Young trade rumors: Spurs have 'little interest'",
+        "url": "https://www.cbssports.com/nba/news/trae-young-trade-rumors-spurs-have-little-interest-in-acquiring-hawks-star/",
+        "title select": "li.article-list-stack-item a h3",
+        "link select": "li.article-list-stack-item a"
+    },
+    {
+        "title": "What's next for Cavaliers, Mitchell after playoff exit?",
+        "url": "https://www.cbssports.com/nba/news/donovan-mitchells-cavaliers-tenure-could-end-soon-but-cleveland-must-embrace-the-lesson-of-his-acquisition/",
+        "title select": "li.article-list-stack-item a h3",
+        "link select": "li.article-list-stack-item a"
+    },
+    {
+        "title": "Eagles-Cowboys showdown highlights CBS games",
+        "url": "https://www.cbssports.com/nfl/news/nfl-schedule-2024-complete-list-of-games-broadcast-on-cbs-including-eagles-cowboys-showdown-in-week-10/",
+        "title select": "li.article-list-stack-item a h3",
+        "link select": "li.article-list-stack-item a"
+    },
+    {
+        "title": "PGA tee times: Tiger among early starters in first round",
+        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-tee-times-pairings-complete-schedule-on-tv-groups-in-round-1-on-thursday-at-valhalla/",
+        "title select": "li.article-list-stack-item a h3",
+        "link select": "li.article-list-stack-item a"
+    },
+    {
+        "title": "Schedule guru explains why certain teams are featured",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-leagues-2024-schedule-guru-explains-why-chiefs-texans-jets-are-featured-more/",
+        "title select": "h3.article-list-content-block-subtitle a",
+        "link select": "h3.article-list-content-block-subtitle a"
+    },
+    {
+        "title": "WATCH: Every NFL team's 2024 schedule release video",
+        "url": "https://www.cbssports.com/nfl/news/watch-2024-nfl-schedule-release-videos-for-all-32-teams-include-celebrities-spoofs-shots-at-opponents/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Netflix announces Adam Sandler to star in Happy Gilmore 2",
+        "url": "https://www.cbssports.com/golf/news/adam-sandler-to-reprise-role-as-happy-gilmore-nearly-30-years-later-as-netflix-confirms-sequel-in-works/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Aaron Judge matches Yankees record with 4 extra-base hits",
+        "url": "https://www.cbssports.com/mlb/news/aaron-judge-ties-yankees-single-game-franchise-record-with-big-night-vs-twins/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Report: Lakers get OK to talk to Cassell, other candidates",
+        "url": "https://www.cbssports.com/nba/news/lakers-coaching-search-l-a-gets-permission-to-interview-sam-cassell-micah-nori-and-others-per-report/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "PGA Championship picks from model that nailed 11 majors",
+        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-picks-odds-field-surprising-predictions-from-same-golf-model-that-nailed-11-majors/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Preakness picks from expert who nailed last year's superfecta",
+        "url": "https://www.cbssports.com/general/news/2024-preakness-stakes-horses-futures-odds-date-expert-who-hit-last-years-superfecta-lists-picks/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "PGA Championship Tiger Woods projection revealed",
+        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-odds-predictions-golf-picks-tiger-woods-projection-by-model-that-nailed-the-masters/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Preakness picks from insider who hit last 2 exactas",
+        "url": "https://www.cbssports.com/general/news/2024-preakness-stakes-predictions-horses-contenders-odds-expert-who-nailed-last-2-exactas-gives-out-picks/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Fantasy Football: Bills wide receiver corps after Marquez Valdez-Scantling signing, more",
+        "url": "https://www.cbssports.com/fantasy/football/news/fantasy-football-making-sense-of-the-bills-wide-receivers-after-they-signed-marquez-valdez-scantling/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "2024 NFL Draft Top 5 Fantasy Fits: Expectations for Jonathon Brooks, more",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-draft-top-5-fantasy-fits-expectations-for-jonathon-brooks-keon-colemans-role-with-the-bills-more/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Fantasy Football: #AskFFT Fan Mock Draft sees Amon-Ra St. Brown rise, more",
+        "url": "https://www.cbssports.com/fantasy/football/news/2024-fantasy-football-askfft-fan-mock-draft-sees-amon-ra-st-brown-and-derrick-henry-rise-while-qbs-tumble/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Fantasy Football: Dave's list includes seven busts, featuring De'Von Achane, more",
+        "url": "https://www.cbssports.com/fantasy/football/news/2024-fantasy-football-daves-list-includes-seven-busts-featuring-devon-achane-zay-flowers-and-more/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "2024 NFL preseason schedule",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-preseason-schedule-opponents-dates-times-matchups-for-entire-slate/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "UFC returns to Paris; Namajunas set for return",
+        "url": "https://www.cbssports.com/mma/news/ufc-news-rumors-ufc-returns-to-paris-rose-namajunas-reportedly-headlines-denver-card-vs-maycee-barber/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Updating UFC schedule for 2024",
+        "url": "https://www.cbssports.com/mma/news/2024-ufc-event-schedule-edson-barboza-vs-lerone-murphy-islam-makhachev-vs-dustin-poirier-on-tap/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Lewis KOs Nascimento, goes wild in celebration",
+        "url": "https://www.cbssports.com/mma/news/ufc-fight-night-results-highlights-derrick-lewis-celebrates-knockout-win-by-removing-shorts-mooning-crowd/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Despite ranking, top-10 coaches face pressure in 2024",
+        "url": "https://www.cbssports.com/college-football/news/dabo-swinney-lincoln-riley-ryan-day-among-top-25-college-football-coaches-facing-pressure-in-2024-season/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "2024 Colorado football news: CU Transfer Portal updates",
+        "url": "https://www.cbssports.com/college-football/news/colorado-football-recruiting-transfer-portal-news-2024-roster-recruits-best-deion-sanders-cfb-targets/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Huma leads fight for rights of college athletes",
+        "url": "https://www.cbssports.com/college-football/news/meet-ramogi-huma-whose-decades-long-crusade-for-fairness-in-college-athletics-is-finally-coming-to-fruition/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Updated NBA playoff bracket: Results, schedule and more",
+        "url": "https://www.cbssports.com/nba/news/2024-nba-playoffs-bracket-schedule-scores-results-celtics-oust-cavs-advance-to-eastern-conference-finals/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Padres 'fully deserving' of boos after Rockies sweep",
+        "url": "https://www.cbssports.com/mlb/news/rockies-extend-mlbs-longest-active-winning-streak-while-padres-were-fully-deserving-of-boos-after-sweep/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Astros' Ronel Blanco suspended over sticky stuff",
+        "url": "https://www.cbssports.com/mlb/news/astros-pitcher-ronel-blanco-suspended-for-10-games-after-being-ejected-over-foreign-substance-check-vs-as/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "The best running shoes of 2024: Nike, Hoka, more",
+        "url": "https://www.cbssports.com/essentials/news/best-running-shoes/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Best NordicTrack deals from the Memorial Day Sale 2024",
+        "url": "https://www.cbssports.com/essentials/news/best-deals-on-nordictrack-exercise-machines/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "This bestselling weight bench is 44% off",
+        "url": "https://www.cbssports.com/essentials/news/bestselling-weight-bench-deal-flybird/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "2024 PGA Championship expert picks, predictions, odds",
+        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-picks-odds-expert-predictions-favorites-to-win-from-betting-field-at-valhalla/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Where to watch 2024 PGA Championship on Thursday",
+        "url": "https://www.cbssports.com/golf/news/2024-pga-championship-live-stream-where-to-watch-tv-coverage-channel-tiger-woods-in-round-1-schedule/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "What to know about Almeria vs. Barca",
+        "url": "https://www.cbssports.com/soccer/news/how-to-watch-almeria-vs-barcelona-la-liga-live-stream-online-tv-channel-prediction-and-odds/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "What to know about the Championship playoff semifinals",
+        "url": "https://www.cbssports.com/soccer/news/championship-playoffs-live-stream-where-to-watch-leeds-vs-norwich-southampton-vs-west-brom-how-to-watch/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "Real Madrid vs. BVB: Who has the advantage?",
+        "url": "https://www.cbssports.com/soccer/news/uefa-champions-league-final-who-has-the-advantage-out-of-real-madrid-and-borussia-dortmund/",
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
+    },
+    {
+        "title": "NFL Week 1 odds, picks: Rodgers keeps it close",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-release-week-1-odds-picks-aaron-rodgers-jets-keep-it-close-vs-49ers-in-primetime/",
+        "title select": "li.article-list-content-block h3",
+        "link select": "li.article-list-content-block a"
+    },
+    {
+        "title": "NBA combine takeaways: Bronny bounces back",
+        "url": "https://www.cbssports.com/nba/news/2024-nba-draft-combine-takeaways-bronny-james-bounces-back-as-lebron-watches-adem-bona-stars-in-scrimmages/",
+        "title select": "li.article-list-content-block h3",
+        "link select": "li.article-list-content-block a"
+    },
+    {
+        "title": "Angel Reese posts solid second half in Sky debut",
+        "url": "https://www.cbssports.com/wnba/news/angel-reese-shows-promising-second-half-for-chicago-sky-in-wnba-debut/",
+        "title select": "li.article-list-content-block h3",
+        "link select": "li.article-list-content-block a"
     }
 ]

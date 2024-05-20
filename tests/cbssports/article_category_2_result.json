@@ -2,277 +2,205 @@
     {
         "title": "NFL releases complete schedule for 2024 season",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-release-live-updates-nfl-schedule-leaks-news-analysis-thanksgiving-and-christmas-games/live/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "div.article-list-marquee-item a h1",
+        "link select": "div.article-list-marquee-item a"
     },
     {
         "title": "jonathan jonesNFL executive breaks down season schedule",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-leagues-2024-schedule-guru-explains-why-chiefs-texans-jets-are-featured-more/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "div.article-list-marquee-item a h1",
+        "link select": "div.article-list-marquee-item a"
     },
     {
-        "title": "2024 schedule: Full slate of international matchupsCody Benjamin",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-international-games-unveiled-dates-times-matchups-where-to-watch-stream-every-matchup/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Matchups revealed for NFL Christmas doubleheaderCody Benjamin",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-christmas-schedule-chiefs-steelers-ravens-texans-highlight-holiday-doubleheader-where-to-watch/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Giants to appear on new 'Offseason Hard Knocks'Cody Benjamin",
+        "title": "Giants to appear on new 'Offseason Hard Knocks'",
         "url": "https://www.cbssports.com/nfl/news/giants-to-be-featured-on-new-offseason-edition-of-hbos-hard-knocks-starting-this-july/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Full 2024 'SNF' schedule: Ranking every matchupJordan Dajani",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-sunday-night-football-schedule-ranking-every-matchup-lions-two-prime-time-games-sit-atop-list/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Report: No progress made on new Prescott dealBryan DeArdo",
-        "url": "https://www.cbssports.com/nfl/news/dak-prescott-contract-rumors-cowboys-quarterback-have-made-no-progress-on-new-deal/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Jaguars, Jacksonville agree on stadium renovationsJeff Kerr",
-        "url": "https://www.cbssports.com/nfl/news/jaguars-city-of-jacksonville-agree-on-1-4-billion-stadium-of-the-future/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Agent's Take18-game schedule a big test for NFLPA chiefThe NFLPA should focus on these areas before agreeing to an expanded schedule.",
-        "url": "https://www.cbssports.com/nfl/news/agents-take-four-meaningful-concessions-players-should-seek-from-nfl-before-accepting-18-game-regular-season/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "NFL schedule release: Full list of 'TNF' games in 2024",
-        "url": "https://www.cbssports.com/nfl/news/2024-nfl-thursday-night-football-schedule-dates-times-matchups-streaming/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "li.article-list-stack-item a h3",
+        "link select": "li.article-list-stack-item a"
     },
     {
         "title": "2024 NFL schedule: Full list of games broadcast on CBS",
         "url": "https://www.cbssports.com/nfl/news/nfl-schedule-2024-complete-list-of-games-broadcast-on-cbs-including-eagles-cowboys-showdown-in-week-10/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h3.article-list-content-block-subtitle a",
+        "link select": "h3.article-list-content-block-subtitle a"
     },
     {
         "title": "2024 NFL schedule release: Week 1 odds, picks",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-release-week-1-odds-picks-aaron-rodgers-jets-keep-it-close-vs-49ers-in-primetime/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
     },
     {
         "title": "2024 NFL schedule: Chiefs hosting Raiders in 'Black Friday' game",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-release-black-friday-game-where-to-watch-as-chiefs-host-raiders-in-afc-west-showdown/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
     },
     {
         "title": "Regrading 2021 NFL Draft: Lions haul even looks greater",
         "url": "https://www.cbssports.com/nfl/news/regrading-2021-nfl-draft-lions-broncos-hauls-look-even-greater-jets-bears-miss-big-on-franchise-qbs/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
     },
     {
         "title": "Which QBs are next to be paid? Pros and cons",
         "url": "https://www.cbssports.com/nfl/news/nfl-quarterbacks-next-in-line-to-get-paid-top-candidates-for-new-deals-in-2024-plus-pros-and-cons-for-each/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h3.article-list-item-title a",
+        "link select": "h3.article-list-item-title a"
     },
     {
-        "title": "NFL unveils three-game Thanksgiving scheduleThe Bears-Lions, Giants-Cowboys and Dolphins-Packers highlight the action on Thanksgiving.",
+        "title": "NFL schedule release: Full list of 'TNF' games in 2024",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-thursday-night-football-schedule-dates-times-matchups-streaming/",
+        "title select": "li.article-list-content-block h3",
+        "link select": "li.article-list-content-block a"
+    },
+    {
+        "title": "NFL unveils three-game Thanksgiving schedule",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-thanksgiving-schedule-teams-kickoff-times-where-to-watch-tv-streaming-for-holiday-tripleheader/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "li.article-list-content-block h3",
+        "link select": "li.article-list-content-block a"
     },
     {
         "title": "2024 NFL preseason schedule",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-preseason-schedule-opponents-dates-times-matchups-for-entire-slate/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Jeff Kerr",
-        "url": "https://www.cbssports.com/writers/jeff-kerr/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "WATCH: Every NFL team's 2024 schedule release video",
         "url": "https://www.cbssports.com/nfl/news/watch-2024-nfl-schedule-release-videos-for-all-32-teams-include-celebrities-spoofs-shots-at-opponents/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
-        "title": "Austin Nivison",
-        "url": "https://www.cbssports.com/writers/austin-nivison/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title": "2024 NFL Christmas schedule: Full details for two games",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-christmas-schedule-chiefs-steelers-ravens-texans-highlight-holiday-doubleheader-where-to-watch/",
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
-        "title": "Jordan Dajani",
-        "url": "https://www.cbssports.com/writers/jordan-dajani/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Cody Benjamin",
-        "url": "https://www.cbssports.com/writers/cody-benjamin/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Tyler Sullivan",
-        "url": "https://www.cbssports.com/writers/tyler-sullivan/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title": "Ranking every 'SNF' matchup in 2024: Rams-Lions No. 1",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-sunday-night-football-schedule-ranking-every-matchup-lions-two-prime-time-games-sit-atop-list/",
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Most interesting Week 18 matchups: Division foes clash",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-most-interesting-week-18-matchups-potential-games-with-playoff-implications/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
-        "title": "Shanna McCarriston",
-        "url": "https://www.cbssports.com/writers/shanna-mccarriston/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title": "2024 NFL schedule: Full slate of international matchups",
+        "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-international-games-unveiled-dates-times-matchups-where-to-watch-stream-every-matchup/",
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "NFL schedule: Possible rookie vs. rookie QB battles",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-release-which-games-could-feature-two-rookie-quarterbacks-this-season/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "NFL schedule 2024: Dates, times, TV for all 18 weeks",
         "url": "https://www.cbssports.com/nfl/news/nfl-schedule-2024-dates-times-tv-where-to-watch-streaming-matchups-for-all-272-games/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "2024 NFL schedule: Biggest revenge games on the slate",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-biggest-revenge-games-on-slate-including-russ-wilson-vs-sean-payton-super-bowl-rematch/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Will Brinson",
-        "url": "https://www.cbssports.com/writers/will-brinson/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Every NFL team's 2024 NFL regular-season schedule",
         "url": "https://www.cbssports.com/nfl/news/nfl-2024-team-by-team-schedules-dates-times-tv-for-the-entire-season-for-all-32-franchises/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Bryan DeArdo",
-        "url": "https://www.cbssports.com/writers/bryan-deardo/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Cowboys 2024 NFL schedule: Matchups, dates, time, TV",
         "url": "https://www.cbssports.com/nfl/news/cowboys-2024-nfl-schedule-full-regular-season-slate-features-opener-vs-2023-dpoy-myles-garrett/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "Garrett Podell",
-        "url": "https://www.cbssports.com/writers/garrett-podell/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "NFL schedule: Every 'Monday Night Football' matchup",
         "url": "https://www.cbssports.com/nfl/news/2024-nfl-schedule-entire-monday-night-football-slate-including-ranking-each-matchup/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Steelers' entire 2024 regular-season schedule revealed",
         "url": "https://www.cbssports.com/nfl/news/steelers-2024-nfl-schedule-full-regular-season-slate-features-three-home-games-on-prime-time/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Eagles 2024 schedule: Ranking 5 best games, predictions",
         "url": "https://www.cbssports.com/nfl/news/2024-eagles-schedule-breakdown-ranking-five-must-see-games-week-by-week-predictions/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Patriots 2024 regular season schedule",
         "url": "https://www.cbssports.com/nfl/news/patriots-2024-nfl-schedule-full-regular-season-slate-features-trip-to-london-vs-jaguars-late-season-bye/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
-        "title": "Jonathan Jones",
-        "url": "https://www.cbssports.com/writers/jonathan-jones/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title": "Jaguars, Jacksonville agree on $1.4 billion renovations",
+        "url": "https://www.cbssports.com/nfl/news/jaguars-city-of-jacksonville-agree-on-1-4-billion-stadium-of-the-future/",
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Zimmer lays out next steps for Parsons, Cowboys 'D'",
         "url": "https://www.cbssports.com/nfl/news/cowboys-dc-mike-zimmer-details-how-hell-deploy-micah-parsons-discusses-dallas-defenses-next-steps/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Report: Steelers' Heyward to skip OTA's over contract",
         "url": "https://www.cbssports.com/nfl/news/steelers-cam-heyward-does-not-plan-to-attend-otas-as-he-seeks-a-new-contract-per-report/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
+    },
+    {
+        "title": "Report: No progress made on Dak Prescott's contract",
+        "url": "https://www.cbssports.com/nfl/news/dak-prescott-contract-rumors-cowboys-quarterback-have-made-no-progress-on-new-deal/",
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "OBJ embracing role with Dolphins, saw an 'opportunity'",
         "url": "https://www.cbssports.com/nfl/news/odell-beckham-jr-on-joining-dolphins-i-saw-an-opportunity-after-watching-tape-on-tua-tagovailoa/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Full list of total miles each team will travel in 2024",
         "url": "https://www.cbssports.com/nfl/news/nfl-schedule-2024-full-list-of-how-many-miles-each-team-will-travel-and-time-zones-they-will-cross/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "Netflix announces 10-part Jerry Jones docuseries",
         "url": "https://www.cbssports.com/nfl/news/netflix-announces-10-part-jerry-jones-documentary-series-promising-definitive-story-of-cowboys-owner/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
-        "title": "Joel Corry",
-        "url": "https://www.cbssports.com/writers/joel-corry/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title": "Agent's Take: What players should seek for an 18th game",
+        "url": "https://www.cbssports.com/nfl/news/agents-take-four-meaningful-concessions-players-should-seek-from-nfl-before-accepting-18-game-regular-season/",
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     },
     {
         "title": "How to watch NFL schedule release",
         "url": "https://www.cbssports.com/nfl/news/nfl-schedule-release-2024-where-to-watch-schedule-reveal-show-what-we-know-heading-into-schedule-release/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
-    },
-    {
-        "title": "See All Newsletters",
-        "url": "https://www.cbssports.com/newsletters/",
-        "title select": "main.highlander-page-container a h1",
-        "link select": "main.highlander-page-container a"
+        "title select": "h5.article-list-pack-title a",
+        "link select": "h5.article-list-pack-title a"
     }
 ]

@@ -18,7 +18,7 @@ class GlobeandMailScraper(NewsScraper):
     
         title_selector = ('h1',['c-primary-title'])
         date_selector = ('time',['c-timestamp u-no-wrap text-gmr-5 font-gmsans'])
-        date_format = '%Y-%m-%d, %H:%M:%S %p'
+        date_format = '%Y-%m-%dT%H:%M:%S.%fZ'
         image_selector = ('div',['Image__StyledImageWrapper-sc-2118b8-0 YFlni c-image-wrapper l-media'])
         content_selector = ('article', 'default__StyledArticle-ivh5si-0 kggiAl l-article')
         super().__init__(base_url, article_url_css_selector, title_selector, date_selector, date_format, image_selector, content_selector, urls_blacklist)
@@ -30,8 +30,8 @@ class GlobeandMailScraper(NewsScraper):
         
         # Convert str into datetime_obj
         datetime_object = datetime.strptime(datetime_value, '%Y-%m-%dT%H:%M:%S.%fZ')
-        datetime_format = datetime_object.strftime('%Y-%m-%d, %H:%M:%S %p')
-        return datetime_format
+        #datetime_format = datetime_object.strftime('%Y-%m-%d, %H:%M:%S %p')
+        return datetime_object
 
     # Getting the image
     def scrape_image(self, soup):

@@ -166,7 +166,7 @@
         "NOTES": ""
     },
         "CBSSportsNews": {
-        "corporation_id": 1,
+        "corporation_id": 3,
         "corporation_name": "CBSSportsNews",
         "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/cbsSports.png",
         "class": "CBSSportsNewsScraper",
@@ -199,13 +199,13 @@
             "/boxing": 7,
             "/": -1
         },
-        "urls_blacklist": ["/video/","/pictures/","/live-updates/"],
+        "urls_blacklist": [""],
         "NOTES": ""
     },
         "GlobeandMail": {
-        "corporation_id": 0,
+        "corporation_id": 4,
         "corporation_name": "GlobeandMail",
-        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/",
+        "corporation_logo": "https://farabix-resources.nyc3.cdn.digitaloceanspaces.com/newsSources/the-globe-and-mail.png",
         "class": "GlobeandMailScraper",
         "module": "_globeandmail",
         "base_url": "https://www.theglobeandmail.com",

@@ -5,13 +5,13 @@ class CBSSportsNewsScraper(NewsScraper):
         
         #(css_to_url, css_to_title)
         article_url_css_selector = [
-            ('main.highlander-page-container a', 'main.highlander-page-container a h1'),
-            ('main.highlander-page-container a', 'main.highlander-page-container a h2'),
-            ('main.highlander-page-container a', 'main.highlander-page-container a h3'),
-            ('div.container a', 'div.container h3'),
-            ('div.container a', 'div.container h5'),
-            #[('main.highlander-page-container a', f'main.highlander-page-container a h{i}') for i in range(1, 4)],
-            #[('div.container a', f'div.container h{i}') for i in [3, 5]],   
+            ('div.article-list-marquee-item a', 'div.article-list-marquee-item a h1'),
+            ('div.article-list-marquee-col a', 'div.article-list-marquee-col a h2'),
+            ('li.article-list-stack-item a', 'li.article-list-stack-item a h3'),
+            ('h3.article-list-content-block-subtitle a', 'h3.article-list-content-block-subtitle a'),
+            ('h3.article-list-item-title a', 'h3.article-list-item-title a'),
+            ('li.article-list-content-block a', 'li.article-list-content-block h3'),
+            ('h5.article-list-pack-title a', 'h5.article-list-pack-title a'),
         ]
         
         title_selector = ('h1',['Article-headline'])
