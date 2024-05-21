@@ -1,248 +1,338 @@
 [
     {
-        "title": "Air strike kills 27 in central Gaza and fighting rages as Israel\u2019s leaders air wartime divisions",
-        "url": "https://www.theglobeandmail.com/world/article-an-airstrike-kills-20-in-central-gaza-and-fighting-rages-as-israels/",
-        "title select": "div.c-card__hed h3",
+        "title": "Toronto",
+        "url": "https://www.theglobeandmail.com/canada/toronto/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Federal byelection announced for June 24 in Toronto St. Paul\u2019s riding",
+        "url": "https://www.theglobeandmail.com/canada/toronto/article-federal-byelection-announced-for-june-24-in-toronto-st-pauls-riding/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionToronto\u2019s waterfront needs an anchorMarcus Gee",
+        "url": "https://www.theglobeandmail.com/canada/toronto/article-torontos-waterfront-needs-an-anchor/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Toronto city councillor Jaye Robinson has died, her office says",
+        "url": "https://www.theglobeandmail.com/canada/toronto/article-toronto-city-councillor-jaye-robinson-has-died-her-office-says/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Ontario",
+        "url": "https://www.theglobeandmail.com/canada/ontario/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Vancouver Whitecaps look to finish off Cavalry FC, continue quest for cup three-peat",
+        "url": "https://www.theglobeandmail.com/sports/soccer/article-vancouver-whitecaps-look-to-finish-off-cavalry-fc-continue-quest-for/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionFordeau: The Ford and Trudeau governments share an affection for spending and taxesBen Eisen",
+        "url": "https://www.theglobeandmail.com/business/commentary/article-fordeau-the-ford-and-trudeau-governments-share-an-affection-for/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Ottawa under fire over not compelling companies to ask unions before hiring temporary foreign workers",
+        "url": "https://www.theglobeandmail.com/politics/article-temporary-foreign-workers-unions-jobs/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Vancouver",
+        "url": "https://www.theglobeandmail.com/canada/vancouver/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Oilers advance to Western Conference final with 3-2 win over Canucks",
+        "url": "https://www.theglobeandmail.com/sports/hockey/article-oilers-advance-to-western-conference-final-with-3-2-win-over-canucks/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Oilers take Game 7 against Canucks to move on to conference final",
+        "url": "https://www.theglobeandmail.com/sports/hockey/article-oilers-take-game-7-against-canucks-to-move-on-to-conference-final/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Canada\u2019s Gabriel Diallo advances to second round in French Open qualifying",
+        "url": "https://www.theglobeandmail.com/sports/tennis/article-canadas-gabriel-diallo-advances-to-second-round-in-french-open/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "British Columbia",
+        "url": "https://www.theglobeandmail.com/canada/british-columbia/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Northern Rockies Regional Municipality says four homes lost in B.C. wildfire",
+        "url": "https://www.theglobeandmail.com/canada/british-columbia/article-northern-rockies-regional-municipality-says-four-homes-lost-in-bc-2/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Northern Rockies Regional Municipality says four homes lost in B.C. wildfire",
+        "url": "https://www.theglobeandmail.com/canada/british-columbia/article-northern-rockies-regional-municipality-says-four-homes-lost-in-bc/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Economists to have a close eye on April inflation report as BoC rate decision nears",
+        "url": "https://www.theglobeandmail.com/canada/british-columbia/article-economists-to-have-a-close-eye-on-april-inflation-report-as-boc-rate/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Quebec",
+        "url": "https://www.theglobeandmail.com/canada/quebec/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionCanada suffocates our teams, then blames them when they come up shortCathal Kelly",
+        "url": "https://www.theglobeandmail.com/sports/article-canada-suffocates-our-teams-then-blames-them-when-they-come-up-short/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Ex-partner charged with first-degree murder after death of 55-year-old Montreal woman",
+        "url": "https://www.theglobeandmail.com/canada/article-ex-partner-charged-with-first-degree-murder-after-death-of-55-year-old/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Led by John Herdman, resurgent Toronto FC putting recent dismal past behind it",
+        "url": "https://www.theglobeandmail.com/canada/article-led-by-john-herdman-resurgent-toronto-fc-putting-recent-dismal-past/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Atlantic",
+        "url": "https://www.theglobeandmail.com/canada/atlantic/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionThe Liberals lob their last-minute weapon 17 months from an electionCampbell Clark",
+        "url": "https://www.theglobeandmail.com/politics/opinion/article-the-liberals-lob-their-last-minute-weapon-17-months-from-an-election/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "New Brunswick man, 35, dead after ATV crash in Rollingdam, RCMP say",
+        "url": "https://www.theglobeandmail.com/canada/article-new-brunswick-man-35-dead-after-atv-crash-in-rollingdam-rcmp-say/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Trudeau calls New Brunswick\u2019s Conservative government \u2018a disgrace\u2019 on women\u2019s rights",
+        "url": "https://www.theglobeandmail.com/canada/article-trudeau-calls-new-brunswicks-conservative-government-a-disgrace-on/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Alberta",
+        "url": "https://www.theglobeandmail.com/canada/alberta/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Status of wildfire that threatened Fort McMurray changed to 'being held'",
+        "url": "https://www.theglobeandmail.com/canada/alberta/article-status-of-wildfire-that-threatened-fort-mcmurray-changed-to-being-held/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Alberta mall locked down, search yields knife with a handle resembling a handgun",
+        "url": "https://www.theglobeandmail.com/canada/alberta/article-alberta-mall-locked-down-search-yields-knife-with-a-handle-resembling/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Fort McMurray fire moved more quickly than expected, official says",
+        "url": "https://www.theglobeandmail.com/canada/alberta/article-fort-mcmurray-wildfire-remains-out-of-control-as-authorities-lift/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Prairies",
+        "url": "https://www.theglobeandmail.com/canada/prairies/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionBHP\u2019s pitches competence at Anglo, starting from Saskatchewan farmlandsAndrew Willis",
+        "url": "https://www.theglobeandmail.com/business/commentary/article-bhps-pitches-competence-at-anglo-starting-from-saskatchewan-farmlands/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Toothpaste tube helps narrow investigation into remains found near Saskatchewan campsite",
+        "url": "https://www.theglobeandmail.com/canada/article-toothpaste-tube-helps-narrow-investigation-into-remains-found-near/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Premier Scott Moe says allegation Saskatchewan Party member brought gun into legislature is false",
+        "url": "https://www.theglobeandmail.com/politics/article-premier-scott-moe-says-allegation-saskatchewan-party-member-brought/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Liberals release national action plan on auto theft including proposed amendments to Criminal Code",
+        "url": "https://www.theglobeandmail.com/canada/article-liberals-release-national-action-plan-on-auto-theft-including-proposed/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Two dead, five missing after boat collision on Danube in Hungary",
-        "url": "https://www.theglobeandmail.com/world/article-two-dead-five-missing-after-boat-collision-on-danube-in-hungary/",
-        "title select": "div.c-card__hed h3",
+        "title": "New Brunswick election hangs in the balance as government faces challenge over gender-identity rules",
+        "url": "https://www.theglobeandmail.com/canada/article-new-brunswick-election-hangs-in-the-balance-as-government-faces/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Who is Ebrahim Raisi, Iran\u2019s president whose helicopter crashed in foggy weather?",
-        "url": "https://www.theglobeandmail.com/world/article-who-is-ebrahim-raisi-irans-president-whose-helicopter-crashed-in-foggy/",
-        "title select": "div.c-card__hed h3",
+        "title": "obituaryConservation biologist J. Bruce Falls studied the hidden rhythms of the natural world",
+        "url": "https://www.theglobeandmail.com/canada/article-conservation-biologist-j-bruce-falls-studied-the-hidden-rhythms-of-the/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Slovak PM Fico out of danger but his condition remains serious, deputy says",
-        "url": "https://www.theglobeandmail.com/world/article-slovak-pm-fico-out-of-danger-but-his-condition-remains-serious-deputy/",
-        "title select": "div.c-card__hed h3",
+        "title": "a nation's paperTo The Globe\u2019s letter writers and their editors, every delivery is a special one",
+        "url": "https://www.theglobeandmail.com/canada/article-to-the-globes-letter-writers-and-their-editors-every-delivery-is-a/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Congolese army says it foiled a coup, as DRC opposition leader threatens president",
-        "url": "https://www.theglobeandmail.com/world/article-congolese-army-says-it-foiled-a-coup-as-drc-opposition-leader/",
-        "title select": "div.c-card__hed h3",
+        "title": "Ottawa unveils national plan to tackle auto theft, including Criminal Code changes",
+        "url": "https://www.theglobeandmail.com/canada/article-feds-unveil-national-plan-to-tackle-auto-theft-including-criminal-code/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Eruption of Indonesia\u2019s Mount Ibu forces seven villages to evacuate",
-        "url": "https://www.theglobeandmail.com/world/article-eruption-of-indonesias-mount-ibu-forces-seven-villages-to-evacuate/",
-        "title select": "div.c-card__hed h3",
+        "title": "Canada\u2019s legalization of cannabis associated with higher rates of ER visits for pot poisoning among older adults",
+        "url": "https://www.theglobeandmail.com/canada/article-canadas-legalization-of-cannabis-associated-with-higher-rates-of-er/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "From Trump deserters to ex-Democrats, RFK Jr. supporters are hungry for change2 hours ago",
-        "url": "https://www.theglobeandmail.com/world/us-politics/article-from-trump-deserters-to-ex-democrats-rfk-jr-supporters-are-hungry-for/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaNew Brunswick non-profit 12 Neighbours expanding micro-home ventureYesterday",
+        "url": "https://www.theglobeandmail.com/canada/article-new-brunswick-non-profit-expanding-micro-home-venture/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Hundreds of Tunisian president\u2019s supporters protest against \u2018foreign interference\u20192 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-hundreds-of-tunisian-presidents-supporters-protest-against-foreign/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaB.C.\u2019s new protocols for illicit drug use in hospitals runs up against resource challengesYesterday",
+        "url": "https://www.theglobeandmail.com/canada/article-bcs-new-protocols-for-illicit-drug-use-in-hospitals-runs-up-against/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Taiwan\u2019s new president inherits a strong foreign policy position but political gridlock at home2 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-taiwans-new-president-inherits-a-strong-foreign-policy-position-but/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaSuspect seriously injured in York, Ont. after ammunition detonates in fire, OPP sayYesterday",
+        "url": "https://www.theglobeandmail.com/canada/article-suspect-seriously-injured-in-york-ont-after-ammunition-detonates-in/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Helicopter carrying Iran\u2019s president and foreign minister crashes in mountains, official says2 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-helicopter-carrying-irans-president-suffers-a-hard-landing-state-tv/",
-        "title select": "div.c-card__hed h3",
+        "title": "obituaryBeloved Maple Leafs player Ron Ellis helped his team win their last Stanley CupYesterday",
+        "url": "https://www.theglobeandmail.com/canada/article-beloved-maple-leafs-player-ron-ellis-helped-his-team-win-their-last/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "What we\u2019ve learned so far in the Trump hush money trial and what to watch for as it ends3 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-what-weve-learned-so-far-in-the-trump-hush-money-trial-and-what-to/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaFire evacuees face eviction from already-booked hotelsMay 19, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-fire-evacuees-face-eviction-from-already-booked-hotels/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "WikiLeaks founder Julian Assange faces U.S. extradition judgment day3 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-wikileaks-founder-julian-assange-faces-us-extradition-judgment-day/",
-        "title select": "div.c-card__hed h3",
+        "title": "taxesOn social media, language trumps facts in debate over Canada\u2019s new tax policyPreet BanerjeeMay 19, 2024",
+        "url": "https://www.theglobeandmail.com/investing/personal-finance/taxes/article-on-social-media-language-trumps-facts-in-debate-over-canadas-new-tax/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "French security forces work to regain control of airport highway in violence-scorched New Caledonia3 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-french-security-forces-work-to-regain-control-of-airport-highway-in/",
-        "title select": "div.c-card__hed h3",
+        "title": "albertaRick Tocchet says Canucks must \u2018want that big moment\u2019 heading into decisive Game 7May 19, 2024",
+        "url": "https://www.theglobeandmail.com/canada/alberta/article-rick-tocchet-says-canucks-must-want-that-big-moment-heading-into/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Dominicans vote in general elections with eyes on crisis in neighboring Haiti4 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-dominicans-vote-in-general-elections-with-eyes-on-crisis-in/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaEx-partner charged with first-degree murder after death of 55-year-old Montreal womanMay 19, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-ex-partner-to-face-charges-after-55-year-old-woman-killed-in-montreal/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "At least 11 killed as Russia presses forward with its offensive in northeastern Ukraine4 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-ukraine-and-russia-exchange-drone-attacks-while-russia-continues-its/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaThree dead, five injured after boat collision near Kingston, Ont.May 19, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-three-dead-five-injured-after-boat-collision-near-kingston-ont/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Dive team finds bodies of 2 men dead inside plane found upside down in Alaska lake15 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-dive-team-finds-bodies-of-2-men-dead-inside-plane-found-upside-down-in/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaHow do we preserve our mental health in the fight for planetary health?May 19, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-how-do-we-preserve-our-mental-health-in-the-fight-for-planetary-health/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Trump receives NRA endorsement as he vows to protect gun rights16 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-trump-receives-nra-endorsement-as-he-vows-to-protect-gun-rights/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaAs Canada renews strategy for Rohingya crisis, advocates urge rethinkMay 19, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-as-canada-renews-strategy-for-rohingya-crisis-advocates-urge-rethink/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "706 people named Kyle got together in Kyle, Texas. It wasn\u2019t enough for a world record16 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-706-people-named-kyle-got-together-in-kyle-texas-it-wasnt-enough-for-a/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaCanadian immigration asks medical worker fleeing Gaza if he treated Hamas fightersMay 19, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-canadian-immigration-asks-medical-worker-fleeing-gaza-if-he-treated/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Ukraine's divisive mobilization law comes into force as a new Russian push strains front-line troops17 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-ukraines-divisive-mobilization-law-comes-into-force-as-a-new-russian/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaBernardeschi scores three goals as rampant Toronto FC thumps CF Montreal 5-1May 18, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-bernardeschi-scores-three-goals-as-rampant-toronto-fc-thumps-cf/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Irish business tycoon and rugby record breaker Tony O\u2019Reilly dies at 8818 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-irish-business-tycoon-and-rugby-record-breaker-tony-oreilly-dies-at-88/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaOntario's police watchdog investigating death of 28-year-old woman arrested in BarrieMay 18, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-ontarios-police-watchdog-investigating-death-of-28-year-old-woman/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Giuliani becomes final defendant served indictment among 18 accused in Arizona fake electors case20 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-giuliani-becomes-final-defendant-served-indictment-among-17-accused-in/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaPassenger rail service suspended for at least 6 weeks between Montreal and NYC after CN-Amtrak dealMay 18, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-passenger-rail-service-suspended-for-at-least-6-weeks-between-montreal/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "As ethnic armed group claims to have captured a town in western Myanmar, Muslim Rohingyas flee again20 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-as-ethnic-armed-group-claims-to-have-captured-a-town-in-western/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaMan, 27, dies in alleged stabbing in Montreal, police sayMay 18, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-man-27-dies-in-alleged-stabbing-in-montreal-police-say/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Six University of Pennsylvania students among 19 pro-Palestinian protesters arrested during attempt to occupy school building20 hours ago",
-        "url": "https://www.theglobeandmail.com/world/article-six-university-of-pennsylvania-students-among-19-pro-palestinian/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaFort McMurray residents can return home after wildfire evacuationMay 18, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-fort-mcmurray-residents-can-return-home-after-wildfire-evacuation/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     },
     {
-        "title": "Member of Israel\u2019s War Cabinet says he\u2019ll quit the government June 8 unless there\u2019s a new war planYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-member-of-israels-war-cabinet-says-hell-quit-the-government-june-8/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Flash floods due to unusually heavy seasonal rains kill at least 68 people in AfghanistanYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-flash-floods-due-to-unusually-heavy-seasonal-rains-kill-at-least-68/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Israel pushes into new parts of northern Gaza, recovers another slain hostageYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-dozens-killed-and-wounded-as-israeli-forces-thrust-deeper-in-gazas/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Ukraine struggles to hold eastern front as Russians advance on citiesYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-ukraine-struggles-to-hold-eastern-front-as-russians-advance-on-cities/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "France reports a sixth fatality amid violent unrest in South Pacific territory of New CaledoniaYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-frances-reports-a-sixth-fatality-amid-violent-unrest-in-south-pacific/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Slovak Prime Minister Robert Fico stable in hospital as shooting suspect ordered to remain behind barsYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-slovak-prime-minister-robert-fico-is-stable-in-hospital-as-shooting/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Too tough on homeless? Top U.S. court to ruleYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-too-tough-on-homeless-top-us-court-to-rule/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "After decisive loss at Alabama Mercedes plants, powerful auto union vows to return and winYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-after-decisive-loss-at-alabama-mercedes-plants-powerful-auto-union/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Boeing Starliner\u2019s debut crewed flight delayed again to check helium leakYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-boeing-starliners-debut-crewed-flight-delayed-again-to-check-helium/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Trump campaigns in Minnesota, predicting he will win the traditionally Democratic state in NovemberYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-trump-campaigns-in-minnesota-predicting-he-will-win-the-traditionally/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Incoming Taiwan president Lai to pledge steady approach to relationship with ChinaYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-incoming-taiwan-president-lai-to-pledge-steady-approach-to/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "An unusual autumn freeze grips parts of South America, giving Chile its coldest May in 74 yearsYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-an-unusual-autumn-freeze-grips-parts-of-south-america-giving-chile-its/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "As Japan\u2019s yakuza weakens, police focus shifts to unorganized crime hired via social mediaYesterday",
-        "url": "https://www.theglobeandmail.com/world/article-as-japans-yakuza-weakens-police-focus-shifts-to-unorganized-crime/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "driving concernsCan I get a ticket just because my phone is in the cupholder?",
-        "url": "https://www.theglobeandmail.com/drive/culture/article-can-i-get-a-ticket-just-because-my-phone-is-in-the-cupholder/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Out with a bang: The long weekend tradition of fireworks could be coming to an end",
-        "url": "https://www.theglobeandmail.com/canada/article-fireworks-canada-ban-long-weekend/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Richard Gere on avoiding conscription, activism and why \u2018Oh Canada\u2019 was not shot in Canada",
-        "url": "https://www.theglobeandmail.com/arts/article-richard-gere-on-avoiding-conscription-activism-and-why-oh-canada-was/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Hidden Canada 2024: Ten corners of the country to explore this summer",
-        "url": "https://www.theglobeandmail.com/life/travel/article-canada-travel-destinations-places-locations-2024/",
-        "title select": "div.c-card__hed h3",
-        "link select": "div.c-card a"
-    },
-    {
-        "title": "Things are changing in cottage country: Nine Canadians share the financial pros and cons of ownership",
-        "url": "https://www.theglobeandmail.com/business/article-canada-cottage-ownership-finances/",
-        "title select": "div.c-card__hed h3",
+        "title": "canadaTenants won\u2019t have to pay non-resident landlords\u2019 taxes, Ottawa saysMay 18, 2024",
+        "url": "https://www.theglobeandmail.com/canada/article-tenants-wont-have-to-pay-non-resident-landlords-taxes-ottawa-says/",
+        "title select": "div.c-card h3",
         "link select": "div.c-card a"
     }
 ]

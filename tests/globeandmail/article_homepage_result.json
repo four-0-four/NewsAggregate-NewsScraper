@@ -1,1 +1,734 @@
-{}
+[
+    {
+        "title": "Helicopter carrying Iran\u2019s president and foreign minister crashes in mountains, official says",
+        "url": "https://www.theglobeandmail.com/world/article-helicopter-carrying-irans-president-suffers-a-hard-landing-state-tv/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "Who is Ebrahim Raisi, Iran\u2019s president whose helicopter crashed in foggy weather?",
+        "url": "https://www.theglobeandmail.com/world/article-who-is-ebrahim-raisi-irans-president-whose-helicopter-crashed-in-foggy/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "Out with a bang: The long weekend tradition of fireworks could be coming to an end",
+        "url": "https://www.theglobeandmail.com/canada/article-fireworks-canada-ban-long-weekend/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "As McIntosh wins at the Canadian Olympic trials, the noise around her grows louder",
+        "url": "https://www.theglobeandmail.com/sports/olympics/article-as-summer-mcintosh-wins-at-the-canadian-olympic-trials-the-noise/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "Air strike kills 27 in central Gaza and fighting rages as Israel\u2019s leaders air wartime divisions",
+        "url": "https://www.theglobeandmail.com/world/article-an-airstrike-kills-20-in-central-gaza-and-fighting-rages-as-israels/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "Canadian immigration asks medical worker fleeing Gaza if he treated Hamas fighters",
+        "url": "https://www.theglobeandmail.com/canada/article-canadian-immigration-asks-medical-worker-fleeing-gaza-if-he-treated/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "Hidden Canada 2024: Ten corners of the country to explore this summer",
+        "url": "https://www.theglobeandmail.com/life/travel/article-canada-travel-destinations-places-locations-2024/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "Five affordable Canadian places worth exploring this summer",
+        "url": "https://www.theglobeandmail.com/life/travel/article-canada-budget-cheap-travel-ideas-2024/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "How to plan - and survive - a trip with friends",
+        "url": "https://www.theglobeandmail.com/life/travel/article-how-to-plan-and-survive-a-trip-with-friends/",
+        "title select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 p",
+        "link select": "div.LayoutTopPackageCard__StyledContainer-sc-11dx1zb-0 a"
+    },
+    {
+        "title": "Schauffele and Morikawa are tied at the PGA Championship with a lot of company, except for Scheffler",
+        "url": "https://www.theglobeandmail.com/sports/golf/article-schauffele-and-morikawa-are-tied-at-the-pga-championship-with-a-lot-of/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Federal byelection announced for June 24 in Toronto St. Paul\u2019s riding",
+        "url": "https://www.theglobeandmail.com/canada/toronto/article-federal-byelection-announced-for-june-24-in-toronto-st-pauls-riding/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "From Trump deserters to ex-Democrats, RFK Jr. supporters are hungry for change",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-from-trump-deserters-to-ex-democrats-rfk-jr-supporters-are-hungry-for/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Hundreds of Tunisian president\u2019s supporters protest against \u2018foreign interference\u2019",
+        "url": "https://www.theglobeandmail.com/world/article-hundreds-of-tunisian-presidents-supporters-protest-against-foreign/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Loblaw to support grocery code of conduct, cottage finances and Saskatchewan\u2019s soaring rents: Must-read business and investing stories",
+        "url": "https://www.theglobeandmail.com/business/article-loblaw-code-of-conduct-saskatchewan-rents-cottages-may-19/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Vietnam Communist party names police minister as state president",
+        "url": "https://www.theglobeandmail.com/business/article-vietnam-communist-party-names-police-minister-as-state-president/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "New Brunswick man, 35, dead after ATV crash in Rollingdam, RCMP say",
+        "url": "https://www.theglobeandmail.com/canada/article-new-brunswick-man-35-dead-after-atv-crash-in-rollingdam-rcmp-say/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Bernardeschi scores three goals as rampant Toronto FC thumps CF Montreal 5-1",
+        "url": "https://www.theglobeandmail.com/canada/article-bernardeschi-scores-three-goals-as-rampant-toronto-fc-thumps-cf/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Things are changing in cottage country: Nine Canadians share the financial pros and cons of ownership",
+        "url": "https://www.theglobeandmail.com/business/article-canada-cottage-ownership-finances/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Opinion",
+        "url": "https://www.theglobeandmail.com/opinion/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "The elite want their own racetrack in Alberta\u2019s badlands. These local farmers are pushing backKelly Cryderman",
+        "url": "https://www.theglobeandmail.com/canada/alberta/article-the-elite-want-their-own-racetrack-in-albertas-badlands-these-local/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Pierre Poilievre is pretending he doesn\u2019t know how his job works because it makes it easierShannon Proudfoot",
+        "url": "https://www.theglobeandmail.com/politics/opinion/article-pierre-poilievre-is-pretending-he-doesnt-know-how-his-job-works/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "You don\u2019t have to go far to be \u2018in nature\u2019 - just step outsideCaitlin Stall-Paquet",
+        "url": "https://www.theglobeandmail.com/opinion/article-you-dont-have-to-go-far-to-be-in-nature-just-step-outside/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Beverley McLachlin\u2019s continued tenure on Hong Kong\u2019s court is an ongoing disgraceRobyn Urback",
+        "url": "https://www.theglobeandmail.com/opinion/article-beverley-mclachlins-continued-tenure-on-hong-kongs-court-is-an-ongoing/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "If Canada wants to respect and recognize treaty rights, it must kill Bill C-53Tanya Talaga",
+        "url": "https://www.theglobeandmail.com/opinion/article-if-canada-wants-to-respect-and-recognize-treaty-rights-it-must-kill/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "newsletterFrom rage applying to quiet firing, the trends to watch as an employer\u2019s job market returns",
+        "url": "https://www.theglobeandmail.com/business/careers/article-from-rage-applying-to-quiet-firing-the-trends-to-watch-as-an-employers/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "done dealTwo offers for infill townhouse near Marda Loop",
+        "url": "https://www.theglobeandmail.com/real-estate/calgary-and-edmonton/article-two-offers-for-infill-townhouse-near-marda-loop/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Great Reads: Inside cottage country, T-shirt drama and small-town bars",
+        "url": "https://www.theglobeandmail.com/canada/article-great-reads-inside-cottage-country-t-shirt-drama-and-small-town-bars/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "reviewSeven Methods of Killing Kylie Jenner gets a combustible Canadian premiere",
+        "url": "https://www.theglobeandmail.com/arts/theatre-and-performance/reviews/article-seven-methods-of-killing-kylie-jenner-gets-a-combustible-canadian/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "The stuff that Francis Ford Coppola\u2019s dreams are made of: The director on building \u2018Megalopolis\u2019",
+        "url": "https://www.theglobeandmail.com/arts/article-the-stuff-that-francis-ford-coppolas-dreams-are-made-of-the-director/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Richard Gere on avoiding conscription, activism and why \u2018Oh Canada\u2019 was not shot in Canada",
+        "url": "https://www.theglobeandmail.com/arts/article-richard-gere-on-avoiding-conscription-activism-and-why-oh-canada-was/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "driving concernsCan I get a ticket just because my phone is in the cupholder?",
+        "url": "https://www.theglobeandmail.com/drive/culture/article-can-i-get-a-ticket-just-because-my-phone-is-in-the-cupholder/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Canadian James Thompson is independent watchmaking\u2019s inside man",
+        "url": "https://www.theglobeandmail.com/life/home-and-design/article-james-thompson-watchmaker-black-badger/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Canada\u2019s Summer McIntosh dominant in 200m butterfly, locks in fourth entry in Paris OlympicsMcIntosh won the 200-metre butterfly at the Canadian Olympic trials in Toronto on Saturday night with a time of 2:04.33",
+        "url": "https://www.theglobeandmail.com/sports/olympics/article-canadas-summer-mcintosh-dominant-in-200m-butterfly-locks-down-fourth/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionOn the rocks: The death and life of Canada\u2019s little bars on the PrairieKyler ZelenyandIan Canon",
+        "url": "https://www.theglobeandmail.com/opinion/article-on-the-rocks-the-death-and-life-of-canadas-little-bars-on-the-prairie/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "letters\u2018Why not give all income to government and let it hand back what it thinks we need?\u2019 Tax and deficits, plus other letters to the editor for May 18",
+        "url": "https://www.theglobeandmail.com/opinion/letters/article-tax-deficits-pierre-poilievre-boomers/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionIn Scottie Scheffler, golf gets its new Johnny CashCathal Kelly",
+        "url": "https://www.theglobeandmail.com/sports/article-scotty-scheffler-gets-its-new-johnny-cash/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionIs the Jewish moment in North America over?Noah Richler",
+        "url": "https://www.theglobeandmail.com/opinion/article-is-the-jewish-moment-in-north-america-over/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "How do we preserve our mental health in the fight for planetary health?",
+        "url": "https://www.theglobeandmail.com/canada/article-how-do-we-preserve-our-mental-health-in-the-fight-for-planetary-health/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionThe reality of Canada\u2019s new season of fireThe Editorial Board",
+        "url": "https://www.theglobeandmail.com/opinion/editorials/article-the-reality-of-canadas-new-season-of-fire/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "An unusual autumn freeze grips parts of South America, giving Chile its coldest May in 74 years",
+        "url": "https://www.theglobeandmail.com/world/article-an-unusual-autumn-freeze-grips-parts-of-south-america-giving-chile-its/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Alice Munro, rememberedPodcast",
+        "url": "https://www.theglobeandmail.com/podcasts/the-decibel/article-alice-munro-remembered/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "How Ottawa is preparing for a possible second Trump termPodcast",
+        "url": "https://www.theglobeandmail.com/podcasts/the-decibel/article-how-ottawa-is-preparing-for-a-possible-second-trump-term/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "High salary, high expectations, hightail it out of therePodcast",
+        "url": "https://www.theglobeandmail.com/podcasts/lately/article-high-salary-high-expectations-hightail-it-out-of-there/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Boycotting the LoblawpolyPodcast",
+        "url": "https://www.theglobeandmail.com/podcasts/lately/article-boycotting-the-loblawpoly/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Maria Ressa saw the dangers of social media. AI might be worsePodcast",
+        "url": "https://www.theglobeandmail.com/podcasts/machines-like-us/article-maria-ressa-saw-the-dangers-of-social-media-ai-might-be-worse/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Can AI companions cure loneliness?Podcast",
+        "url": "https://www.theglobeandmail.com/podcasts/machines-like-us/article-can-ai-companions-cure-loneliness/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Thirteen Saskatchewan ministries refuse to comply with information commissioner\u2019s decision",
+        "url": "https://www.theglobeandmail.com/canada/article-saskatchewan-information-commissioner-foi/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Ottawa not sufficiently addressing flood of access requests for immigration records, watchdog says",
+        "url": "https://www.theglobeandmail.com/canada/article-immigration-cbsa-access-to-information/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Bank of Canada warns of steep jump in mortgage payments",
+        "url": "https://www.theglobeandmail.com/business/article-bank-of-canada-warns-of-steep-jump-in-mortgage-payments/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "weekends withDanny Jansen\u2019s heart is with family, but his head is in space",
+        "url": "https://www.theglobeandmail.com/sports/article-danny-jansens-heart-is-with-family-but-his-head-is-in-space/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Tenants won\u2019t have to pay non-resident landlords\u2019 taxes, Ottawa says",
+        "url": "https://www.theglobeandmail.com/canada/article-tenants-wont-have-to-pay-non-resident-landlords-taxes-ottawa-says/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Passenger rail service suspended for at least 6 weeks between Montreal and NYC after CN-Amtrak deal",
+        "url": "https://www.theglobeandmail.com/canada/article-passenger-rail-service-suspended-for-at-least-6-weeks-between-montreal/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Auction house to sell collection of Torben Kristiansen, a fighter pilot turned art dealer",
+        "url": "https://www.theglobeandmail.com/arts/art-and-architecture/article-auction-house-to-sell-collection-of-torben-kristiansen-a-fighter-pilot/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "obituaryDabney Coleman, actor who specialized in curmudgeons, dies at 92",
+        "url": "https://www.theglobeandmail.com/arts/film/article-dabney-coleman-actor-who-specialized-in-curmudgeons-dies-at-92/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Reverend Billy & The Church of Stop Shopping are the activist opening act for Neil Young\u2019s Love Earth Tour",
+        "url": "https://www.theglobeandmail.com/arts/music/article-reverend-billy-the-church-of-stop-shopping-are-the-activist-opening/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Francis Ford Coppola\u2019s Megalopolis draws mixed reviews after Cannes debut",
+        "url": "https://www.theglobeandmail.com/arts/film/article-francis-ford-coppolas-megalopolis-draws-mixed-reviews-after-cannes/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Spotify sued over millions in allegedly unpaid music royalties",
+        "url": "https://www.theglobeandmail.com/business/international-business/article-spotify-sued-over-millions-in-allegedly-unpaid-music-royalties/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Health professionals take climate action to care for patients and the planet",
+        "url": "https://www.theglobeandmail.com/life/article-health-professionals-take-climate-action-to-care-for-patients-and-the/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "In Champagne, a better approach to sustainability is bubbling up",
+        "url": "https://www.theglobeandmail.com/life/style-advisor/article-in-champagne-a-better-approach-to-sustainability-is-bubbling-up/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "I searched my closet and found my fashion identity (for now)",
+        "url": "https://www.theglobeandmail.com/life/style-advisor/article-i-searched-my-closet-and-found-my-fashion-identity-for-now/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "What\u2019s new in accessories, fragrance, automotives and more",
+        "url": "https://www.theglobeandmail.com/life/style-advisor/article-whats-new-in-accessories-fragrance-automotives-and-more/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Check your horoscope to learn how the stars align for you today.",
+        "url": "https://www.theglobeandmail.com/life/horoscopes/article-your-lookahead-horoscope-for-the-week-may-19-2024/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Switch gears. Give your brain a workout and do today's Daily Cryptic Crossword.",
+        "url": "https://www.theglobeandmail.com/puzzles-and-crosswords/cryptic-crossword/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Scoop a new vibe in the numbers and do today's Daily Sudoku.",
+        "url": "https://www.theglobeandmail.com/puzzles-and-crosswords/sudoku-classic/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Kick back with the Daily Universal Crossword.",
+        "url": "https://www.theglobeandmail.com/puzzles-and-crosswords/universal-crossword/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Aid trucks begin moving through Gaza pierVideo1:18",
+        "url": "https://www.theglobeandmail.com/world/video-aid-trucks-begin-moving-through-gaza-pier/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Taiwan lawmakers brawl over parliamentary reformsVideo1:04",
+        "url": "https://www.theglobeandmail.com/world/video-taiwan-lawmakers-brawl-over-parliamentary-reforms/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Francis Ford Coppola compares modern America to ancient RomeVideo0:58",
+        "url": "https://www.theglobeandmail.com/world/video-francis-ford-coppola-compares-modern-america-to-ancient-rome/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "South Africa asks World Court to stop Israel's Rafah offensiveVideo2:08",
+        "url": "https://www.theglobeandmail.com/world/video-south-africa-asks-world-court-to-stop-israels-rafah-offensive/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "How satellite trackers are helping endangered sea turtlesVideo2:23",
+        "url": "https://www.theglobeandmail.com/world/video-how-satellite-trackers-are-helping-endangered-sea-turtles/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Canucks push Oilers to the brink with Game 5 winVideo1:57",
+        "url": "https://www.theglobeandmail.com/sports/hockey/video-canucks-push-oilers-to-the-brink-with-game-5-win/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "'Ghoulish' portrait of King Charles divides opinionVideo0:46",
+        "url": "https://www.theglobeandmail.com/world/video-ghoulish-portrait-of-king-charles-divides-opinion/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Xi and Putin pledge closer ties, condemn U.S.Video2:38",
+        "url": "https://www.theglobeandmail.com/world/video-xi-and-putin-pledge-closer-ties-condemn-us/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "done dealUpdated home close to transit scores quick over-asking offer",
+        "url": "https://www.theglobeandmail.com/real-estate/toronto/article-updated-home-close-to-transit-scores-quick-over-asking-offer/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionBeneath the bloodshed, a new path to Mideast peace emergesDoug Saunders",
+        "url": "https://www.theglobeandmail.com/opinion/article-beneath-the-bloodshed-a-new-path-to-mideast-peace-emerges/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "film reviewThe Strangers: Chapter 1 is just a horror-prequel friend you haven\u2019t met",
+        "url": "https://www.theglobeandmail.com/arts/film/reviews/article-the-strangers-chapter-1-is-just-a-horror-prequel-friend-you-havent-met/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Bargaining talks between CPKC, Teamsters to resume Friday as threat of work stoppage delayed",
+        "url": "https://www.theglobeandmail.com/business/article-bargaining-talks-between-cpkc-teamsters-to-resume-friday-as-threat-of/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Canada",
+        "url": "https://www.theglobeandmail.com/canada/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Fort McMurray residents can return home after wildfire evacuation",
+        "url": "https://www.theglobeandmail.com/canada/article-fort-mcmurray-residents-can-return-home-after-wildfire-evacuation/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Officials seize around $500,000 worth of elvers from Toronto Pearson Airport",
+        "url": "https://www.theglobeandmail.com/canada/article-officials-seize-around-500000-worth-of-elvers-from-toronto-pearson/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Man, 27, dies in alleged stabbing in Montreal, police say",
+        "url": "https://www.theglobeandmail.com/canada/article-man-27-dies-in-alleged-stabbing-in-montreal-police-say/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "World",
+        "url": "https://www.theglobeandmail.com/world/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Slovak PM Fico out of danger but his condition remains serious, deputy says",
+        "url": "https://www.theglobeandmail.com/world/article-slovak-pm-fico-out-of-danger-but-his-condition-remains-serious-deputy/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Congolese army says it foiled a coup, as DRC opposition leader threatens president",
+        "url": "https://www.theglobeandmail.com/world/article-congolese-army-says-it-foiled-a-coup-as-drc-opposition-leader/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Eruption of Indonesia\u2019s Mount Ibu forces seven villages to evacuate",
+        "url": "https://www.theglobeandmail.com/world/article-eruption-of-indonesias-mount-ibu-forces-seven-villages-to-evacuate/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Politics",
+        "url": "https://www.theglobeandmail.com/politics/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Premier Scott Moe says allegation Saskatchewan Party member brought gun into legislature is false",
+        "url": "https://www.theglobeandmail.com/politics/article-premier-scott-moe-says-allegation-saskatchewan-party-member-brought/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Relief greets federal order to fix benzene leaks after plastics plant pollution",
+        "url": "https://www.theglobeandmail.com/politics/article-ottawa-orders-fixes-for-benzene-leaks-after-pollution-at-sarnia-ont/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Politics Briefing: Ford calls on Ottawa to stop approving safe supply sites, review current ones",
+        "url": "https://www.theglobeandmail.com/politics/article-politics-briefing-ford-calls-on-ottawa-to-stop-approving-safe-supply/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Sports",
+        "url": "https://www.theglobeandmail.com/sports/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "DeLuca's two-run homer lifts Rays over Blue Jays 5-4; Toronto blows 4-0 lead",
+        "url": "https://www.theglobeandmail.com/sports/baseball/article-delucas-two-run-homer-lifts-rays-over-blue-jays-5-4-toronto-blows-4-0/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Caitlin Clark helps Liberty become first WNBA team to have $2-million in one-game ticket revenue, source says",
+        "url": "https://www.theglobeandmail.com/sports/basketball/article-caitlin-clark-helps-liberty-become-first-wnba-team-to-have-2-million/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Nelly Korda seizes 2-shot lead at Mizuho Americas Open, inches closer to 6th win in 7 events",
+        "url": "https://www.theglobeandmail.com/sports/golf/article-nelly-korda-seizes-2-shot-lead-at-mizuho-americas-open-inches-closer/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Arts",
+        "url": "https://www.theglobeandmail.com/arts/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "The Globe and Mail Bestsellers for the week of May 18, 2024",
+        "url": "https://www.theglobeandmail.com/arts/books/bestsellers/article-the-globe-and-mail-bestsellers-for-the-week-of-may-18-2024/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Richard Gere drew on father\u2019s death for role in Cannes entry \u2018Oh, Canada\u2019",
+        "url": "https://www.theglobeandmail.com/arts/article-richard-gere-drew-on-fathers-death-for-role-in-cannes-entry-oh-canada/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "What did Queen Camilla say about the new King Charles III portrait? Take our arts and culture quiz",
+        "url": "https://www.theglobeandmail.com/arts/article-what-did-queen-camilla-say-about-the-new-king-charles-iii-portrait/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Life",
+        "url": "https://www.theglobeandmail.com/life/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Wildfires cast smoky shadow over tourism industry ahead of unofficial start of summer",
+        "url": "https://www.theglobeandmail.com/life/travel/article-wildfires-cast-smoky-shadow-over-tourism-industry-ahead-of-unofficial/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "first personI skip the dishwasher because washing by hand calms my mind",
+        "url": "https://www.theglobeandmail.com/life/first-person/article-i-skip-the-dishwasher-because-washing-by-hand-calms-my-mind/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Health & Fitness",
+        "url": "https://www.theglobeandmail.com/life/health-and-fitness/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "food for thoughtNeed more fibre? Add these six high-fibre foods to your dietLeslie Beck",
+        "url": "https://www.theglobeandmail.com/life/health-and-fitness/article-high-fibre-foods-diet/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "food for thoughtDon\u2019t eat dairy? Add these five calcium-rich foods to your dietLeslie Beck",
+        "url": "https://www.theglobeandmail.com/life/health-and-fitness/article-dairy-free-calcium-rich-foods/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "To become a better runner, start strength training",
+        "url": "https://www.theglobeandmail.com/life/health-and-fitness/article-running-strength-training/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Real estate",
+        "url": "https://www.theglobeandmail.com/real-estate/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "opinionLandlord-use now most frequently used tool to evict B.C. rentersKerry Gold",
+        "url": "https://www.theglobeandmail.com/real-estate/vancouver/article-landlord-use-now-most-frequently-used-tool-to-evict-bc-renters/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "done dealFive offers for dated one bedroom Richmond condo",
+        "url": "https://www.theglobeandmail.com/real-estate/vancouver/article-five-offers-for-dated-one-bedroom-richmond-condo/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "home of the weekA penthouse for downtime on Humber Bay",
+        "url": "https://www.theglobeandmail.com/real-estate/toronto/article-a-penthouse-for-downtime-on-humber-bay/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Drive",
+        "url": "https://www.theglobeandmail.com/drive/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "car reviewIt\u2019s loads of fun, but will BMW\u2019s mini-motorbike move in Canada?",
+        "url": "https://www.theglobeandmail.com/drive/reviews/article-its-loads-of-fun-but-will-bmws-mini-motorbike-move-in-canada/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "road sageWhy do we stop for ducks when driving and not other small animals? It\u2019s dangerousAndrew Clark",
+        "url": "https://www.theglobeandmail.com/drive/culture/article-why-do-we-stop-for-ducks-when-driving-and-not-other-small-animals-its/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "lou's garageMy mechanic suggests replacing the clutch, but it feels fine to me. Is this an upsell or serious problem?",
+        "url": "https://www.theglobeandmail.com/drive/culture/article-my-mechanic-suggests-replacing-the-clutch-but-it-feels-fine-to-me-is/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Economists to have a close eye on April inflation report as BoC rate decision nears",
+        "url": "https://www.theglobeandmail.com/canada/british-columbia/article-economists-to-have-a-close-eye-on-april-inflation-report-as-boc-rate/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Taiwan\u2019s new president inherits a strong foreign policy position but political gridlock at home",
+        "url": "https://www.theglobeandmail.com/world/article-taiwans-new-president-inherits-a-strong-foreign-policy-position-but/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "What we\u2019ve learned so far in the Trump hush money trial and what to watch for as it ends",
+        "url": "https://www.theglobeandmail.com/world/article-what-weve-learned-so-far-in-the-trump-hush-money-trial-and-what-to/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "As Canada renews strategy for Rohingya crisis, advocates urge rethink",
+        "url": "https://www.theglobeandmail.com/canada/article-as-canada-renews-strategy-for-rohingya-crisis-advocates-urge-rethink/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "WikiLeaks founder Julian Assange faces U.S. extradition judgment day",
+        "url": "https://www.theglobeandmail.com/world/article-wikileaks-founder-julian-assange-faces-us-extradition-judgment-day/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "French security forces work to regain control of airport highway in violence-scorched New Caledonia",
+        "url": "https://www.theglobeandmail.com/world/article-french-security-forces-work-to-regain-control-of-airport-highway-in/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "Dominicans vote in general elections with eyes on crisis in neighboring Haiti",
+        "url": "https://www.theglobeandmail.com/world/article-dominicans-vote-in-general-elections-with-eyes-on-crisis-in/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "At least 11 killed as Russia presses forward with its offensive in northeastern Ukraine",
+        "url": "https://www.theglobeandmail.com/world/article-ukraine-and-russia-exchange-drone-attacks-while-russia-continues-its/",
+        "title select": "div.Container__StyledContainer-sc-15gjlsr-0 a",
+        "link select": "div.Container__StyledContainer-sc-15gjlsr-0 a"
+    },
+    {
+        "title": "What is the grocery code of conduct, and how could it impact food prices for Canadians?",
+        "url": "https://www.theglobeandmail.com/business/article-grocery-code-of-conduct-canada/",
+        "title select": "div.c-card h3",
+        "link select": "div.c-card a"
+    },
+    {
+        "title": "Kate has two kids: One is good with money, one is not. How should she structure her estate?",
+        "url": "https://www.theglobeandmail.com/investing/personal-finance/financial-facelift/article-kate-has-two-kids-one-is-good-with-money-one-is-not-how-should-she/",
+        "title select": "div.c-card h3",
+        "link select": "div.c-card a"
+    }
+]
