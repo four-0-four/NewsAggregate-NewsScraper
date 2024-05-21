@@ -198,7 +198,7 @@ def scrape_urls_one_category_given_news_source(news_source, category, write_to_f
         config = json.load(file)
         scraper = load_scraper(config[news_source])
         result = scraper.fetch_article_urls_one_category(category)
-        #print(article_data)
+        print(len(result))
         
         if write_to_file:
             try:
@@ -223,4 +223,4 @@ if __name__ == '__main__':
     
     asyncio.run(parallel_one_news_source("CBSNews"))
     #asyncio.run(scrape_article_given_url())
-    #scrape_urls_one_category_given_news_source("CBSNews", "/us/", True)
+    #scrape_urls_one_category_given_news_source("CBSNews", "/us", True)

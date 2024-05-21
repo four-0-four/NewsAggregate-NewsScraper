@@ -1,18 +1,24 @@
 [
     {
+        "title": "Town blocks view of Mt. Fuji to deter tourists",
+        "url": "https://www.cbsnews.com/news/mt-fuji-view-blocked-to-deter-tourists-fuji-kawaguchiko-overcrowding/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
         "title": "Fulton County D.A. Fani Willis fights for her job in Georgia primary reelection",
         "url": "https://www.cbsnews.com/news/fulton-county-d-a-fani-willis-georgia-primary-reelection/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "Rudy Giuliani and other Trump allies arraigned in Arizona",
+        "title": "Giuliani pleads not guilty in Arizona 2020 election case",
         "url": "https://www.cbsnews.com/news/rudy-giuliani-arraignment-arizona-elector-scheme-2020-election/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
     {
-        "title": "Wendy's offers $3 breakfast combo as fast-food customers recoil from high prices",
+        "title": "Wendy's offers $3 breakfast combo to appease budget-conscious consumers",
         "url": "https://www.cbsnews.com/news/wendys-3-dollar-deal-fast-food-cut-prices/",
         "title select": "article.item a h4",
         "link select": "article.item a"
@@ -74,12 +80,6 @@
     {
         "title": "Generative AI poses threat to election security, intelligence agencies warn",
         "url": "https://www.cbsnews.com/news/generative-ai-threat-to-election-security-federal-intelligence-agencies-warn/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Pope Francis: \"Climate change at this moment is a road to death\"",
-        "url": "https://www.cbsnews.com/news/pope-francis-urges-action-on-climate-change-its-a-road-to-death/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     },
@@ -204,6 +204,12 @@
         "link select": "article.item a"
     },
     {
+        "title": "Webb telescope helps solve longstanding mystery of \"puffy\" planets",
+        "url": "https://www.cbsnews.com/news/webb-telescope-puffy-planet-mystery-nasa/",
+        "title select": "article.item a h4",
+        "link select": "article.item a"
+    },
+    {
         "title": "Blue Origin launches first Black astronaut candidate 60 years after rejection",
         "url": "https://www.cbsnews.com/news/first-black-astronaut-candidate-now-90-finally-reaches-space/",
         "title select": "article.item a h4",
@@ -212,12 +218,6 @@
     {
         "title": "Launch of Boeing's hard-luck Starliner delayed yet again",
         "url": "https://www.cbsnews.com/news/persistent-helium-leak-triggers-additional-delay-boeing-hard-luck-starliner-spacecraft/",
-        "title select": "article.item a h4",
-        "link select": "article.item a"
-    },
-    {
-        "title": "Sun emits its largest X-class flare of the solar cycle",
-        "url": "https://www.cbsnews.com/news/solar-cycle-largest-flare-bursts-not-over-may-2024/",
         "title select": "article.item a h4",
         "link select": "article.item a"
     }

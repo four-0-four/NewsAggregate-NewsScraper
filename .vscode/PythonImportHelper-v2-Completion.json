@@ -1559,7 +1559,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def scrape_urls_one_category_given_news_source(news_source, category, write_to_file=False):\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[news_source])\n        result = scraper.fetch_article_urls_one_category(category)\n        #print(article_data)\n        if write_to_file:\n            try:\n                with open('articles.json', 'w') as outfile:\n                    json.dump(result, outfile, indent=4, default=datetime_converter)",
+        "peekOfCode": "def scrape_urls_one_category_given_news_source(news_source, category, write_to_file=False):\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[news_source])\n        result = scraper.fetch_article_urls_one_category(category)\n        print(len(result))\n        if write_to_file:\n            try:\n                with open('articles.json', 'w') as outfile:\n                    json.dump(result, outfile, indent=4, default=datetime_converter)",
         "detail": "main",
         "documentation": {}
     },
