@@ -7,6 +7,9 @@ import time
 from database import get_recent_news_by_corporation, insert_into_scraper_history, insert_news, insert_news_category
 import os
 from dotenv import load_dotenv
+import aiomysql
+
+pool = None
 
 load_dotenv()
 
@@ -55,9 +58,9 @@ def fetch_and_scrape(scraper, url, recent_news):
         
     return article_data
 
-async def insert_article_and_category(conn_params, article, corporation_id, corporation_name, corporation_logo, category_id):
+async def insert_article_and_category(pool, article, corporation_id, corporation_name, corporation_logo, category_id):
     news = await insert_news(
-        conn_params,
+        pool,
         title=article['title'],
         content=article['content'],
         publishedDate=article['date'],
@@ -69,9 +72,10 @@ async def insert_article_and_category(conn_params, article, corporation_id, corp
     )
     #print(f"inserted {news.get("id")}")
     if category_id != -1 and news.get("id"):
-        await insert_news_category(conn_params, news.get("id"), category_id)
+        await insert_news_category(pool, news.get("id"), category_id)
 
 async def scrape_source_given_details(source, details):
+    global pool
     global num_news_with_full_attributes
     global num_news_invalidated
     global num_news_scraped
@@ -80,7 +84,7 @@ async def scrape_source_given_details(source, details):
     start_time = time.time()  # Start timing for overall execution
     articles_categorized = {}
     article_urls_categorized = {}
-    recent_news = await get_recent_news_by_corporation(conn_params_production, details['corporation_id'])
+    recent_news = await get_recent_news_by_corporation(pool, details['corporation_id'])
     print("getting the news ________________________________ " + source)
     scraper = load_scraper(details)
     article_urls_categorized = scraper.fetch_article_urls_all_categories(details["category_path"])
@@ -120,7 +124,7 @@ async def scrape_source_given_details(source, details):
             
         tasks = []
         for article in articles_categorized[category]:
-            task = insert_article_and_category(conn_params_production, article, details['corporation_id'], details['corporation_name'], details['corporation_logo'], details['category_path'][category])
+            task = insert_article_and_category(pool, article, details['corporation_id'], details['corporation_name'], details['corporation_logo'], details['category_path'][category])
             tasks.append(task)
 
         # Wait for all tasks to complete
@@ -144,7 +148,7 @@ async def scrape_source_given_details(source, details):
             'newspage_test': True
         }
         
-        await insert_into_scraper_history(conn_params_production, data)
+        await insert_into_scraper_history(pool, data)
         
     total_elapsed = time.time() - start_time
     print(f"Total execution time: {total_elapsed:.2f} seconds.")
@@ -154,20 +158,32 @@ async def scrape_source_given_details(source, details):
 
 
 async def parallel_main():
-    with open('config.json') as file:
-        config = json.load(file)
-        for source, details in config.items():
-            await scrape_source_given_details(source, details)
-        print("All scraping done.")
+    global pool
+    pool = await aiomysql.create_pool(**conn_params_production)
+    try:
+        with open('config.json') as file:
+            config = json.load(file)
+            for source, details in config.items():
+                await scrape_source_given_details(source, details)
+            print("All scraping done.")
+    finally:
+        pool.close()
+        await pool.wait_closed()
     
  
 async def parallel_one_news_source(newsSource):
-    with open('config.json') as file:
-        config = json.load(file)
-        source = newsSource
-        details = config[source]
-        await scrape_source_given_details(source, details)
-        print(f"Scraping {source} done.")
+    global pool
+    pool = await aiomysql.create_pool(**conn_params_production)
+    try:
+        with open('config.json') as file:
+            config = json.load(file)
+            source = newsSource
+            details = config[source]
+            await scrape_source_given_details(source, details)
+            print(f"Scraping {source} done.")
+    finally:
+        pool.close()
+        await pool.wait_closed()
  
 def scrape_urls_one_category_given_news_source(news_source, write_to_file=False):
     with open('config.json') as file:

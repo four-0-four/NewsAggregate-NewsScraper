@@ -1564,6 +1564,15 @@
         "documentation": {}
     },
     {
+        "label": "pool",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "pool = None\nload_dotenv()\nconn_params_production = {\n    \"host\": os.getenv(\"DATABASE_HOST_PRODUCTION\", \"localhost\"),\n    \"port\": int(os.getenv(\"DATABASE_PORT_PRODUCTION\", \"3306\")),  # Convert port to integer\n    \"user\": os.getenv(\"DATABASE_USERNAME_PRODUCTION\", \"root\"),\n    \"password\": os.getenv(\"DATABASE_PASSWORD_PRODUCTION\", \"password\"),\n    \"db\": os.getenv(\"DATABASE_NAME_PRODUCTION\", \"newsdb\"),\n} \ndef load_scraper(config):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
         "label": "conn_params_production",
         "kind": 5,
         "importPath": "main",
