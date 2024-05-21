@@ -1550,7 +1550,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None\n    article_data = scraper.scrape_article(url)\n    if not article_data:",
+        "peekOfCode": "def fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None\n    article_data = None\n    try:",
         "detail": "main",
         "documentation": {}
     },
@@ -1559,7 +1559,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def scrape_urls_one_category_given_news_source(news_source, write_to_file=False):\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[news_source])\n        result = scraper.fetch_article_urls_one_category(\"/\")\n        #print(article_data)\n        if write_to_file:\n            try:\n                with open('articles.json', 'w') as outfile:\n                    json.dump(result, outfile, indent=4, default=datetime_converter)",
+        "peekOfCode": "def scrape_urls_one_category_given_news_source(news_source, category, write_to_file=False):\n    with open('config.json') as file:\n        config = json.load(file)\n        scraper = load_scraper(config[news_source])\n        result = scraper.fetch_article_urls_one_category(category)\n        #print(article_data)\n        if write_to_file:\n            try:\n                with open('articles.json', 'w') as outfile:\n                    json.dump(result, outfile, indent=4, default=datetime_converter)",
         "detail": "main",
         "documentation": {}
     },
@@ -1613,7 +1613,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "num_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None\n    article_data = scraper.scrape_article(url)",
+        "peekOfCode": "num_news_scraped = 0\ndef fetch_and_scrape(scraper, url, recent_news):\n    global existed_in_db\n    global num_news_invalidated\n    global num_news_scraped\n    global num_news_with_full_attributes\n    if url in recent_news:\n        existed_in_db += 1\n        return None\n    article_data = None",
         "detail": "main",
         "documentation": {}
     },

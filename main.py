@@ -48,7 +48,13 @@ def fetch_and_scrape(scraper, url, recent_news):
         existed_in_db += 1
         return None
     
-    article_data = scraper.scrape_article(url)
+    article_data = None
+    try:
+        article_data = scraper.scrape_article(url)
+    except Exception as e:
+        print(f"[ERROR] failed scraping {url}: {e}")
+        article_data = None
+        
     if not article_data:
         num_news_invalidated += 1
     else:
@@ -114,7 +120,9 @@ async def scrape_source_given_details(source, details):
                     number_of_articles_scraped += 1
                     articles_categorized[category].append(article_data)
 
+        print(f"total number of urls: {len(article_urls)}")
         print(f"scraping results: scraped-{number_of_articles_scraped} existed-{existed_in_db} total-{total_number_of_links}")
+        print(f"invalidated results: {num_news_invalidated}")
         # Create a list to hold all tasks
         #try:
         #    with open('articles.json', 'w') as outfile:
@@ -185,11 +193,11 @@ async def parallel_one_news_source(newsSource):
         pool.close()
         await pool.wait_closed()
  
-def scrape_urls_one_category_given_news_source(news_source, write_to_file=False):
+def scrape_urls_one_category_given_news_source(news_source, category, write_to_file=False):
     with open('config.json') as file:
         config = json.load(file)
         scraper = load_scraper(config[news_source])
-        result = scraper.fetch_article_urls_one_category("/")
+        result = scraper.fetch_article_urls_one_category(category)
         #print(article_data)
         
         if write_to_file:
@@ -210,9 +218,9 @@ async def scrape_article_given_url(news_source, article_url):
         return article_data
 
 if __name__ == '__main__':
-    asyncio.run(parallel_main())
+    #asyncio.run(parallel_main())
     
     
-    #asyncio.run(parallel_one_news_source())
+    asyncio.run(parallel_one_news_source("CBSNews"))
     #asyncio.run(scrape_article_given_url())
-    #scrape_urls_one_category_given_news_source()
+    #scrape_urls_one_category_given_news_source("CBSNews", "/us/", True)
