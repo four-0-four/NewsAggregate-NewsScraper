@@ -1,5 +1,5 @@
 # Use a smaller base image
-FROM python:3.11-slim
+FROM python:3.12
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
@@ -13,17 +13,15 @@ RUN apt-get update \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Install virtualenv
+
 RUN python -m pip install --no-cache-dir virtualenv
 
-# Create and activate a virtual environment
 RUN python -m virtualenv myvenv
 
-# Activate virtual environment and install Python dependencies
 RUN . myvenv/bin/activate \
     && pip install --no-cache-dir -r requirements.txt
 
-# Install Playwright and its dependencies
+#### NOTE: we need to activate the virtual environment before each important command
 RUN . myvenv/bin/activate \
     && pip install playwright \
     && playwright install-deps \
