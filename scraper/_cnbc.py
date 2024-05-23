@@ -6,6 +6,7 @@ import nest_asyncio
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 import requests
+import json
 
 nest_asyncio.apply()
 class CNBCNewsScraper(NewsScraper):
@@ -83,6 +84,7 @@ class CNBCNewsScraper(NewsScraper):
     def scrape_article(self, article_url):
         #print(article_url)
         response = requests.get(article_url)
+        #print(response.text)
         soup = BeautifulSoup(response.text, 'html.parser')
         #custom_html = self.read_html_file("tests/cnn/cnn_article.html")
         #soup = BeautifulSoup(custom_html, 'html.parser')
@@ -97,7 +99,7 @@ class CNBCNewsScraper(NewsScraper):
         if not title or not date or not content or len(content) < 100:
             return None
         
-        image_url = self.scrape_image(article_url)
+        image_url = self.scrape_image(soup)
 
         return {"title": title, "date": date, "content": content, "image_url": image_url, "url": article_url}
 
@@ -146,6 +148,54 @@ class CNBCNewsScraper(NewsScraper):
         result = loop.run_until_complete(self.scrape_image_with_pyppeteer(url))
         return result
 
-    # Example usage within your class
-    def scrape_image(self, article_url):
-        return self.scrape_image_sync(article_url)
+    def extract_json_data(self, script_content):
+        # Use regular expression to find the JSON data within the script content
+        match = re.search(r'var __CNBC_META_DATA\s*=\s*({.*?});', script_content)
+        string_json = match.group(1)
+        uncoded_string = string_json.encode('utf-8').decode('unicode_escape')
+        json_data = json.loads(uncoded_string)
+        return json_data
+
+    def scrape_image(self, soup):
+        # Find the script tag containing __CNBC_META_DATA
+        script_tag = soup.find('script', text=re.compile(r'var __CNBC_META_DATA'))
+        if not script_tag:
+            print("Could not find the script tag containing __CNBC_META_DATA")
+            return None
+
+        # Extract the script content
+        script_content = script_tag.string
+        if not script_content:
+            print("Script content is empty")
+            return None
+
+        # Extract JSON data from the script content
+        json_data = self.extract_json_data(script_content)
+        if not json_data:
+            print("Could not extract JSON data from the script content")
+            return None
+
+        
+        # Access the promoImage field
+        promo_image = json_data.get('promoImage')
+        if not promo_image:
+            print("promoImage not found in JSON data")
+            return None
+
+        image_url = promo_image.get('url')
+        if image_url: 
+            return image_url
+        
+        # Iterate through potential image classes to find an image URL
+        for image_class in self.image_selector[1]:
+            image_tags = soup.find_all(self.image_selector[0], class_=image_class)
+            for image_tag in image_tags:
+                if image_tag and image_tag.find('img') and self.image_selector[2] in image_tag.find('img').attrs:
+                    temp_url = image_tag.find('img')[self.image_selector[2]]
+                    if temp_url.startswith('http'):
+                        image_url = temp_url
+                        break
+            if image_url:
+                break
+        
+        return image_url

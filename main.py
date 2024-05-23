@@ -221,6 +221,6 @@ if __name__ == '__main__':
     #asyncio.run(parallel_main())
     
     
-    asyncio.run(parallel_one_news_source("CBSNews"))
-    #asyncio.run(scrape_article_given_url())
+    #asyncio.run(parallel_one_news_source("CBSNews"))
+    result = asyncio.run(scrape_article_given_url("CNBCNews","https://www.cnbc.com/2024/05/22/nvidia-nvda-earnings-report-q1-2025-.html"))
     #scrape_urls_one_category_given_news_source("CBSNews", "/us", True)
