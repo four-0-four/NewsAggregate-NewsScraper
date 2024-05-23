@@ -1,0 +1,4 @@
+python manual.py parallel_main
+python manual.py parallel_one_news_source <newsSource>
+python manual.py scrape_urls_one_category_given_news_source <newsSource>
+python manual.py scrape_article_given_url <newsSource> <articleURL>

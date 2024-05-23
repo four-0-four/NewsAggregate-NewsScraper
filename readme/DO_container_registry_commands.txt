@@ -1,5 +1,6 @@
 #build docker image
 docker build -t newsfetcher .
+#run locally: docker run -p 8000:8000 newsfetcher
 
 #tag the docker image
 docker tag newsfetcher registry.digitalocean.com/farabix/newsfetcher:latest

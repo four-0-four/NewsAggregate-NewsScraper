@@ -15,6 +15,11 @@ class NewsScraper:
         self.urls_blacklist = urls_blacklist
         self.added_urls = []
         self.article_links = []
+        
+        self.number_of_urls_found_per_category = 0
+        self.number_of_overlapped_urls_in_category = 0
+        self.number_of_invalidated_urls_in_category = 0
+
 
     def read_html_file(self, file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -69,6 +74,9 @@ class NewsScraper:
         soup = BeautifulSoup(response.text, 'html.parser')
         #custom_html = self.read_html_file("tests/cnn/cnn_category_1.html")
         #soup = BeautifulSoup(custom_html, 'html.parser')
+        self.number_of_urls_found_per_category = 0
+        self.number_of_overlapped_urls_in_category = 0
+        self.number_of_invalidated_urls_in_category = 0
         
         self.article_links = []
         #print(len(self.article_url_css_selector))
@@ -86,9 +94,12 @@ class NewsScraper:
                 for link_tag in link_tags:
                     if link_tag and 'href' in link_tag.attrs:
                         href = link_tag['href']
+                        self.number_of_urls_found_per_category += 1
+                        
                         #print(href)
                         full_link = self.check_article_url(href)
                         if not full_link:
+                            self.number_of_invalidated_urls_in_category += 1
                             continue
                         
                         #get text
@@ -98,13 +109,14 @@ class NewsScraper:
                         
                         #check that we have already added it so we don't add twice
                         if self.check_if_article_is_duplicate(href, full_link, text):
+                            self.number_of_overlapped_urls_in_category += 1
                             continue
-                        
                         
                         self.added_urls.append(full_link)
                         article_info = {"title": text, "url": full_link, "title select": potential_article[1], "link select": potential_article[0]}
                         self.article_links.append(article_info)
 
+        print(f"url scraping results for {category_path}: total-{self.number_of_urls_found_per_category} overlapped-{self.number_of_overlapped_urls_in_category} invalidated-{self.number_of_invalidated_urls_in_category} remaining-{self.number_of_urls_found_per_category-self.number_of_overlapped_urls_in_category-self.number_of_invalidated_urls_in_category}")
         return self.article_links
 
     def scrape_article(self, article_url):
